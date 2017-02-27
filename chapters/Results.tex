@@ -1,0 +1,187 @@
+\chapter{Results}
+\label{chap:Results}
+
+The observed number of events in the various control regions are
+included in a fit that uses the profile likelihood ratio method to determine the SM background
+estimates in each signal region. This procedure takes common
+systematic uncertainties (discussed in Section~\ref{sec:Systematics}) between the
+control and signal regions and their correlations into account; they are treated as nuisance
+parameters in the fit and are modelled by Gaussian probability density
+functions.
+
+In general control regions are designed for as many of the SRs as possible. However, due to statistical limitation three CRs are used for all SRs: CRW, CRST, CRTTGamma. For these regions a choice needs to be made for which of the specially designed CRTop and CRZ regions should be used in the fits. Below is a summary:
+\begin{itemize}
+  \item CRW: Due to the top mass veto the only CRs without an ISR or top mass requirement are used in CRW. These are CRZD and CRTopD. 
+  \item CRST: it was found that this CR was mainly populated with events that fall in the T0 category (66\%). For this reason, CRZAB-T0 is used for the Z fit. The \met\ requirements of CRTopB are closer to CRST and thus CRTopB is used for the top background fit. 
+  \item \ttbar+V: For CRTop, CRTopBT0 was chosen again because the T0 made up a large part of the events (40\%) in CRTTGamma.
+For similar reasons, CRZAB-T0 is used for the Z background.
+\end{itemize}
+
+Three different likelihood fits are performed to extract the results. \\
+{\bf Background-only fit}: Only the control regions are used to constrain
+the fit parameters. Potential signal contamination is neglected and
+the number of observed events in the signal regions is not taken into
+account in the fit. \\
+{\bf Exclusion fit:} Both control and signal regions are used to
+constrain the fit parameters. The signal contribution as predicted by
+the tested model is taken into account in both regions using an
+additional free parameter for the non-SM signal strength in the
+likelihood fit that is constrained to be non-negative. Since the
+observed event yield in the signal region is used, the background
+prediction can differ from the prediction on the background-only fit. The exclusion fit configuration is used to produce all the model-dependent limits.\\
+{\bf Discovery fit:} Both control and signal regions are used to constrain the fit parameters. A potential signal contribution is considered in the signal regions but neglected in the control regions. This background prediction is conservative since any signal contribution in the control regions is attributed to background and thus yields a possible overestimate of the background in the signal regions. The discovery fit configuration is used to produce upper limits on the visible cross-sections.
+
+% The fit configuration is described in Section~\ref{sec:StatAnalysis} 
+The \verb+HistFitter+
+results with data samples are
+described in
+Section~\ref{sec:bkgOnlyFit}. 
+
+\clearpage
+\input{chapters/unblindedResults.tex}
+
+
+%%%%%
+%comment out ichep results starts here @@
+
+\clearpage
+\subsection{Background-only fit}
+\label{sec:bkgOnlyFit}
+The background-only fit 
+has been performed taking the dominant experimental systematics and
+the theoretical systematics for $W/Z$+jets and \ttbar~(RadLoHi and PowhegHerwigpp only) 
+into account ({\bf to be updated}).
+The yields in the control regions, normalized to \intlumi\ \ifb are shown
+in Tables \ref{table.bkgonly.CRTopA}, \ref{table.bkgonly.CRTopB},
+\ref{table.bkgonly.CRTopCDE}, \ref{table.bkgonly.CRTTgamma},
+\ref{table.bkgonly.CRZ} and \ref{table.bkgonly.CRother}. 
+The resulting scale factors for the backgrounds are summarized in Table
+\ref{table.scale.factors}. The yields in the validation regions
+are shown in Tables \ref{table.bkgonly.VRTopA},
+\ref{table.bkgonly.VRTopB}, \ref{table.bkgonly.VRTop},
+\ref{table.bkgonly.VRW}
+and \ref{table.bkgonly.VRZ}.
+The background yields in the signal regions, normalized to
+\intlumi\ \ifb, are shown in Tables
+\ref{table.bkgonly.SRA},\ref{table.bkgonly.SRB},\ref{table.bkgonly.SRC1to3},\ref{table.bkgonly.SRC4to5},\ref{table.bkgonly.SRD},and
+\ref{table.bkgonly.SRE}; the signal regions are now unblinded and the
+number of events seen in the data are also shown.
+
+The
+breakdown of the post-fit systematic uncertainties, summed over the
+backgrounds, is shown in Tables
+\ref{table.results.bkgestimate.uncertainties.SRA_TT_SRA_TW_SRA_T0},
+\ref{table.results.bkgestimate.uncertainties.SRB_TT_SRB_TW_SRB_T0},
+\ref{table.results.bkgestimate.uncertainties.SRC1_SRC2_SRC3},
+\ref{table.results.bkgestimate.uncertainties.SRC4_SRC5},
+\ref{table.results.bkgestimate.uncertainties.SRD_low_SRD_high} and
+\ref{table.results.bkgestimate.uncertainties.SRE}.
+The breakdown of the post-fit systematic uncertainties, summed over
+the backgrounds, but separated by signal region (so that the ordering
+is clearer in each signal region) can be found in Appendix
+\ref{sec:bkgonly_fit_details}. 
+% An
+% even-more detailed breakdown of the systematic uncertainties,
+% separated by background source, can be found in Appendix
+% \ref{sec:HistFitter.20.7}.  The breakdown of pre-fit systematic
+% uncertainties for benchmark signal samples can also be found in the Appendix.
+
+A plot of the correlation between fit parameters of interest and the
+nuisance parameters is shown in Fig. \ref{figure.corrMatrix} and the
+post-fit pull plot for the background-only fit is shown in
+Fig. \ref{figure.pullPlot}.
+% while Table~\ref{table.pulls}
+% shows the post-fit pulls for the exclusion fit for T800\_L1 for
+% SRA. The pull table shows that there is no profiling or pulling of the
+% nuisance parameters.
+
+% A selection of post-fit plots in validation and signal regions,
+% following the background-only fit can be found in Appendix
+% \ref{sec:afterFitPlots.20.7}.
+
+\begin{table}
+  \begin{center}
+    \input{sfs.tex}
+  \end{center}
+  \caption{Fitted scale factors for the MC background samples based on
+    \intlumi\ \ifb of data.}
+  \label{table.scale.factors}
+\end{table}
+
+\input {HistFitterStuff/YieldsTable.CRTopCDE}
+
+\input {HistFitterStuff/YieldsTable.VRTopCDE}
+
+\clearpage
+
+\input {HistFitterStuff/YieldsTable.SRC1to3}
+\input {HistFitterStuff/YieldsTable.SRC4to5}
+
+\clearpage
+
+\input {HistFitterStuff/SysTable.SRC1to3}
+\input {HistFitterStuff/SysTable.SRC4to5}
+
+\clearpage
+
+\begin{sidewaysfigure}[htbp]
+	\begin{center}
+		\includegraphics[width=\textwidth]{HistFitterStuff/corrMatrix.pdf}
+		\caption{Correlation matrix between parameters of
+      interest and nuisance parameters.}
+		\label{figure.corrMatrix}
+	\end{center}
+\end{sidewaysfigure}
+
+\clearpage
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.85\textwidth]{HistFitterStuff/pullPlot.pdf}
+		\caption{Post-fit pull plot for the background-only fit.}
+		\label{figure.pullPlot}
+	\end{center}
+\end{figure}
+
+
+
+\subsection{Exclusion-fit results}
+
+\subsubsection{Results in the $m(\ninoone)$ vs $m(\stop)$ grid}
+
+The results of the exclusion fit for SRA, SRB and SRC are shown in 
+Figures \ref{figure.exclusion.SRA}, \ref{figure.exclusion.SRB} and
+\ref{figure.exclusion.SRC} respectively. The signal regions are still
+blinded so that the ``observed limit'' comes from setting the
+observation equal to the background expectation from the Monte Carlo
+(pre-fit).
+The SRA (SRB) (SRC) results are
+obtained by statistically combining the results from 
+SRA\_TT, SRA\_TW and SRA\_T0 (SRB\_TT, SRB\_TW and SRB\_T0) (SRC1-5).
+SRA, SRB and SRC are then combined by  taking the result with the best expected
+$CL_s$; this combination is shown in Figure
+\ref{figure.exclusion.SRABC}.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.85\textwidth]{HistFitterStuff/SRC_exclusion.pdf}
+		\caption{Results of the exclusion fits in the tN1 grid from the
+      combination of SRC1-5.  The numbers centered on the grid points
+      indicate the expected CLs values.}
+		\label{figure.exclusion.SRC}
+	\end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.85\textwidth]{HistFitterStuff/SRABC_exclusion.pdf}
+		\caption{Results of the exclusion fits in the tN1 grid from the
+      combination of SRA, SRB and SRC, based on the best
+      expected $CL_s$. The numbers centered on the grid points
+      indicate which of the signal regions gave the best
+      expected $CL_s$ (with 1,2,3 corresponding to SRA,B,C
+      respectively).}
+		\label{figure.exclusion.SRABC}
+	\end{center}
+\end{figure}
+
+

@@ -1,0 +1,40 @@
+\chapter{Event Selections and Collision Data Samples}
+\label{chap:selections}
+\section{Data Periods and Good Run List}
+\label{EventSel:GRL}
+The dataset analysed in this search corresponds to the data collected by the ATLAS experiment in 2015 and 2016 from the LHC $pp$ collisions at a centre-of-mass energy, $\sqrt{s}$=13 TeV. This dataset corresponds to an integrated luminosity of $36.46\pm 0.07$ \ifb\ of good-quality data as given by the final good run list (GRL)\\
+ {\tt \scriptsize data15\_13TeV.periodAllYear\_DetStatus-v79-repro20-02\_DQDefects-00-02-02\_PHYS\_StandardGRL\_All\_Good\_25ns.xml}.\\
+The newest GRL for 2016 data,\\ {\tt \scriptsize data16\_13TeV.periodAllYear\_DetStatus-v83-pro20-15\_DQDefects-00-02-04\_PHYS\_StandardGRL\_All\_Good\_25ns.xml},\\ 
+
+The baseline trigger used for the signal selection is a \met-only trigger. For the data recorded in 2015 the lowest unprescaled trigger with best turn-on curve {\tt HLT\_xe70\_tc\_lcw} was chosen; for the 2016 data the \verb+HLT_xe90_mht_L1XE50+ (period A-D3), \verb+HLT_xe100_mht_L1XE50+ (period D4-F1), \verb+HLT_xe110_mht_L1XE50+ (period F2 and onward) are used.\\
+
+\section{Event Preselection}
+\label{sec:Selection_EventPreselection}
+
+In addition to the trigger requirements, several event cleaning and basic selection cuts must be passed for events to be considered for the signal region.
+
+\begin{description}
+\item[Cut 1] For data samples only, events must be in the Good Runs List (GRL). The GRL for data 2015 is {\scriptsize data15\_13TeV.periodAllYear\_DetStatus-v79-repro20-02\_DQDefects-00-02-02\_PHYS\_StandardGRL\_All\_Good\_25ns.xmlx}. The GRL for data 2016 is {\scriptsize data16\_13TeV.periodAllYear\_DetStatus-v83-pro20-15\_DQDefects-00-02-04\_PHYS\_StandardGRL\_All\_Good\_25ns.xml}. 
+The total luminosity that corresponds to these GRLs is 36.46$\rm{fb^{-1}}$.
+\item[Cut 2] For data samples only, cleaning from noise bursts and possible incomplete events. Events must have larError $== 0$, tileError $== 0$, SCT error $==0$, and coreFlags $\&0x4000 == 0$ to reject incomplete events due to the TTC reset procedure.
+\item[Cut 3] The event must pass the (lowest unprescaled) \met\ trigger. For the 2015 data the \verb+HLT_xe70_mht_L1XE50+ is used. For the 2016 data the \verb+HLT_xe90_mht_L1XE50+ (period A-D3), \verb+HLT_xe100_mht_L1XE50+ (period D4-F1), \verb+HLT_xe110_mht_L1XE50+ (period F2 and onward) are used.
+\item[Cut 4] A reconstructed primary vertex must exist.
+\item[Cut 5] Events must not contain any ``Bad Jets'' with $\pT > 20 \gev$ (at any \eta\ range).  Details are given in~\cite{ATLAS:jetCalib}.
+\item[Cut 6] The event must not contain any cosmic muons.
+\item[Cut 7] The event must not contain any bad muons.
+\item[Cut 8] Lepton veto. The event must contain exactly 0 baseline electron candidates and 0 baseline muon candidates with $\pt>7$~GeV and $\pt>6$~GeV, respectively.
+\item[Cut 9] The leading two jets must have $\pt>80\gev$, and the third- and fourth-leading jets must have $\pt>40\gev$.
+\item[Cut 10] The event must have $\met > 250 \gev$.  
+\item[Cut 11] The event must contain at least four jets.
+  % \item[Cut 12] The \dphi\ between the leading three jets and the \met, \mindphijetthreemet, must be greater than $\pi/5$.
+\item[Cut 12] The \dphi\ between the leading two jets and the \met, \dphijettwomet, must be greater than 0.4.
+\item[Cut 13] The \mettrk\ must be greater than 30 GeV.
+\item[Cut 14] The \dphi, between the calo \met\ and the \mettrk, \dphimettrk, must be smaller than $\pi/3$.
+\item[Cut 15] At least one b-tagged jet at the 77\% working point is required.
+  % \item[Cut 16] A ``$\tau$ candidate'' is formed by selecting a non $b$-tagged jet with $\leq 4$ tracks and the smallest $\dphijetmet$ (within $\dphijetmet < 0.2$). Events that have a $\tau$ candidate are rejected.
+  % \item[Cut 17] The transverse mass between the \met\ and the b-jet closest to the \met\ (\mtbmin) must be greater than 175 GeV.
+\end{description}
+
+Requirements $8-15$ above are also summarized in Table~\ref{tab:SRcommon} for convenience. A cutflow comparison on simulated events (for various SUSY1 xAOD signal and background samples) has been performed using independent code bases; many groups have achieved exact agreement. This serves as a technical validation.
+
+

@@ -1,0 +1,200 @@
+\subsection{Standard Model QCD Multijet and all Hadronic \ttbar}
+\label{sec:Bkg:QCD}
+
+The background from the production of multijet events and all-hadronic \ttbar~ events is estimated with the jet smearing method. The latest version of the software package ({\bf  JetSmearing-00-01-26}) is used and the recommendations of the jet smearing group are followed to extract the results. The jet response function is derived by the jet smearing group and used for the QCD estimate in this analysis. \\
+
+%.  This tag of the package  includes
+%a smearing in the jet $\phi$ angle. We will not describe the
+%derivation of the jet response functions, which come from Monte Carlo
+%and are validated against the data in a number of ways; these functions are taken straight
+%from the JetSmearing package. A brief
+%overview can be found in the Moriond support note \cite{Moriond2013_INT}.
+%A journal publication describing the method in some detail (albeit in
+%abridged form) can be found in \cite{Aad:2012fqa}.
+%The most complete writeup of the method can be found in
+%\cite{Owen:1374670}.  An extensive consideration of  systematic
+%uncertainties in the method as applied to an analysis involving
+%$b$-tagged jets is \cite{ATL-PHYS-INT-2012-043}.
+
+\subsubsection{Overview of the method}
+
+This method is based on a technique developed by the SUSY working group~\cite{jetSmearing} and used by several analyses during Run-I and Run-II of the LHC. This
+method is to repeatedly smear the Lorentz vector of jets in well measured data events with small \met\ creating ``pseudo-data'' with potentially large \met. \\
+The different stages of the method are as follows: \\
+
+\begin{itemize}
+\item Data events containing $\geq$ 4 jets of which two are b-tagged are
+  used to select well measured ``Seed Events'' by defining:
+  $$\met\rm{sig.}=\frac{ \met-M } {\sum E_\mathrm{T} } $$
+
+ Where the value of M was derived by the jet smearing group to be M = 8 GeV. The motivation for this was to remove any
+bias in the leading \pT\ jet distribution of the pseudo-data. 
+
+\item The JetSmearing tool is then used to smear the momentum of jets
+  in the seed events. For each jet the Lorentz vector is multiplied by
+  a random number derived from pre-determined jet response maps, which
+  are provided by the JetSmearing tool.
+  
+\item The operation described in the second item is repeated 5000 times for each jet in the seed event to
+randomly generate configurations where the \met\ comes from multiple fluctuating jets.
+
+\end{itemize}
+
+ \subsubsection{Seed event selection}
+
+ For the seed event selection, we use the derived SUSY11-datasets (jet smearing derivation)
+ of the recorded 2015 ATLAS data and of period A and B from 2016. The events have to be recorded by any of the \verb|HLT_j*| triggers. 
+ Each seach event is weighted based on online leading \pt (\verb|HLT_xAOD__JetContainer_a4tcemsubjesFS|) and which trigger fired.\\
+ 
+ %% \begin{table}[htp]
+ %% \caption{Triggers used for the selection of seed events and the associated leading HLT-jet \pt\ threshold.}
+ %% \begin{center}
+ %% \begin{tabular}{c|c|c} \hline
+ %%   Trigger & Offline \pt\ threshold (GeV) & Avg. prescale factor (2015 only)\\ \hline
+ %%   HLT\_j400 & \pt\ $>$ 400 & 1\\
+ %%   HLT\_j380 & $380 < \pt <= 400$ & 1\\
+ %%   HLT\_j360 & $360 < \pt <= 380$ & 1\\
+ %%   HLT\_j320 & $320 < \pt <= 360$ & 9.683\\
+ %%   HLT\_j300 & $300 < \pt <= 320$ & \\
+ %%   HLT\_j260 & $260 < \pt <= 300$ & 27.015\\
+ %%   HLT\_j200 & $220 < \pt <= 220$ & 94.238\\
+ %%   HLT\_j175 & $175 < \pt <= 200$ & 174.393\\
+ %%   HLT\_j150 & $150 < \pt <= 175$ & 348.575\\
+ %%   HLT\_j110 & $110 < \pt <= 150$ & 1295.556\\
+ %%   HLT\_j85 & $85 < \pt <= 110$ & \\
+ %%   HLT\_j60 & $60 < \pt <= 85$  & 15072.486\\
+ %%   HLT\_j55 & $55 < \pt <= 60$  & \\ 
+ %%   HLT\_j25 & $25 < \pt <= 55$  & 1539774.537\\ 
+ %%   HLT\_j15 & $20 < \pt <= 25$  & 5639252.758\\\hline 
+ %% \end{tabular}
+ %% \end{center}
+ %% \label{tb:seed_event_trigger}
+ %% \end{table}
+
+ The usual cleaning cuts and a lepton veto are applied to the seed event sample
+ (list of cuts in \ref{tb:seed_events_presel}). Additionally, we require at least four reconstructed jets and two $b$-tags.
+
+ \begin{table}[htp]
+ \caption{Seed event preselection}
+ \begin{center}
+ \begin{tabular}{c} \hline
+   Cut\\ \hline
+   $n_\mathrm{prim. vertices} > 0$\\
+   Jet trigger\\
+   Bad jet veto\\
+   Cosmic muon veto\\
+   Bad muon veto\\
+   Baseline lepton veto\\
+   $\geq 4$ jets\\
+   $\geq 1$ $b$-jets\\
+   $\met\rm{sig.}$ cut\\ \hline
+ \end{tabular}
+ \end{center}
+ \label{tb:seed_events_presel}
+ \end{table}
+
+ As recommended by the jet smearing group, we use the following definition
+ for the $\met$-significance: $$\met\rm{sig.}=\frac{ \met-8\rm{\,GeV} } {\sum E_\mathrm{T} } $$\\
+ The cut value on this quantity depends on the number of $b$-tagged jets in the event:
+$$\met\rm{sig.} < 0.3 + 0.1\cdot n_{\textup{n-bjets}}$$
+
+
+ \subsubsection{Smearing procedure}
+
+ The smearing is done by the JetSmearing package. When a seed event is selected,
+ the jet container is passed to the tool, which then returns a predefined number
+ of smeared jet containers. For each pseudo-event, the $\met$ is rebuilt with
+ the smeared jets.\newline
+ The package is used with the default properties, but $\Delta\phi$ smearing of the jets is activated.
+
+ The systematic uncertainty is obtained by varying the selection of seed events. For an upward error we select all events passing $\met\rm{sig.} <  0.6 + 0.2\cdot n_{\textup{n-bjets}}$ and for the downward error $\met\rm{sig.} < 0.2 + 0.05\cdot n_{\textup{n-bjets}}$. The total systematic uncertainty is calculated from the maximum of the up/down variations with respect to the nominal. This is then added in quadrature with a flat 30\% systematic uncertainty.
+
+The 30\% uncertainty is assumed from Run-I low-side-tail modifications of the jet response. {\color{red} CM: these are coming soon!}\\
+
+% Since almost all jet triggers used for the selection of the seed events are prescaled in data, the leading jet \pt\ of the seed event is saved for each pseudo-
+% event. With this information it is possible to take correctly into account the prescale factor of the data.
+
+% The seed events are selected from the JetEtmiss stream, applying the
+% pre-selection cuts described in Table \ref{tb:preselection} except for
+% the \met~requirements (trigger and offline).  Four or more jets with \pt $> 35$ \GeV\ are
+% required. A suite of (mostly prescaled)
+% single-jet triggers is used for the seed event selection.  The list of
+% triggers and the offline requirement on the \pt\ of
+% the leading jet for each trigger are
+% shown in Table \ref{tb:seed_event_trigger}.  Finally, the $\metsig$
+% is required to be less than $0.6\sqrt{\rm{GeV}}$.
+
+% \begin{table}[htp]
+% \caption{Triggers used for the selection of seed events and the
+%   associated offline threshold applied to the \pt\ of the leading jet}
+% \begin{center}
+% \begin{tabular}{c|c} \hline
+%   Trigger & Offline \pt\ threshold (GeV)\\ \hline
+%   EF\_j460\_a4tchad & \pt\ $>$ 510 \\
+%   EF\_j360\_a4tchad & $410 < \pt < 510$ \\
+%   EF\_j280\_a4tchad & $330 < \pt < 410$ \\
+%   EF\_j220\_a4tchad & $270 < \pt < 330$ \\
+%   EF\_j180\_a4tchad & $230 < \pt < 270$ \\
+%   EF\_j110\_a4tchad & $160 < \pt < 230$ \\
+%   EF\_j80\_a4tchad & $130 < \pt < 160$ \\
+%   EF\_j55\_a4tchad & $90 < \pt < 130$   
+% \end{tabular}
+% \end{center}
+% \label{tb:seed_event_trigger}
+% \end{table}
+
+
+ \subsubsection{Preselection}
+ \label{sec:QCDCR}
+
+To estimate the multi-jet contribution, we stick close to the signal region cuts, loosen the \met\ requirement and invert the cut on \mindphijettwomet. A detailed list of cuts is shown in \ref{tb:qcdcr_cuts}.
+ A selection of distributions in the CRQCD is shown in Fig.~\ref{fig:CRQCD_1}, Fig.~\ref{fig:CRQCD_2}, Fig.~\ref{fig:CRQCD_3} and Fig.~\ref{fig:CRQCD_4}.\\
+ %{\color{red} results will be updated with latest recommendations and SR Dphi selections.}\\
+
+ \begin{table}[htp]
+ \caption{QCD control region cuts}
+ \begin{center}
+ \begin{tabular}{c} \hline
+   Cut\\ \hline
+   Trigger: HLT\_xe70\_tc\_lcw (2015) and HLT\_xe90\_mht\_L1XE50\\
+   $n_\mathrm{prim. vertices} > 0$\\
+   Bad jet veto\\
+   Cosmic muon veto\\
+   Bad muon veto\\
+   Baseline lepton veto\\
+   $\geq 4$ jets\\
+   $\geq 2$ $b$-jets\\
+   $\met\ > 200\GeV$\\
+   $\mindphijettwomet\ < 0.4$\\
+   \hline
+ \end{tabular}
+ \end{center}
+ \label{tb:qcdcr_cuts}
+ \end{table}
+
+
+A common CR and VR for each SRC are defined before any selection on \rISR. The QCD control region is defined in a region with  $0.2$>\mindphijettwomet$>0.05$ due to contamination from the targeted signals and from possible sources of \met not modelled well by the \verb|JetSmearing| technique (\met from jets that fail tight-jet cleaning). To further increase the statistics and the QCD purity, an inverted selection on \rISR$<0.3$ is applied. The \dPhiISRMET$>3.00$ cut is reduced to $>2.00$, \pTISR $>400$ GeV is reduced to \pTISR $>150$ GeV and the selection of \mS $>300\gev$ is removed. For the validation region the interval [0.1,0.2] is used for the selection on \mindphijettwomet, \dPhiISRMET$ >2.00$ and \rISR$<0.3$ are both used to increase statistics and reduce signal contamination.
+
+An overview of the selections can be found in Table~\ref{tab:QCDRegionC}.
+
+\begin{table}[htpb]
+  \caption{QCD C definitions, in addition to the requirements presented in Table~\ref{tab:SRcommon}. }
+   \label{tab:QCDReionC}
+  \begin{center}
+    \def\arraystretch{1.4}%
+    \begin{tabular}{c||c|c|} \hline\hline
+      {\bf Variable} &  CR & VR  \\ \hline \hline
+      \mindphijettwomet  & [0.05,0.1]   & [0.1,0.2]           \\  \cline{2-3}
+      \nBJetS & \multicolumn{2}{c|}{$\ge1$} \\\cline{2-3}
+      \nJetS & \multicolumn{2}{c|}{$\ge5$}  \\\cline{2-3}
+      \pTSBZero & \multicolumn{2}{c|}{$>40\gev$}  \\ \cline{2-3}
+      \mS & - & $>300\gev$  \\ \cline{2-3}
+      \dPhiISRMET &  $>2.00$ & $>3.00$  \\ \cline{2-3}
+      \pTISR & $>150$ GeV &  $>400$ GeV \\ \cline{2-3}
+      \rISR  & \multicolumn{2}{c|}{$<0.4$} \\\cline{2-3}
+      \pTSFour & \multicolumn{2}{c|}{$>50$ GeV}   \\ \hline
+       b-tagged jets & \multicolumn{2}{c|}{$\ge1$} \\ \hline \hline
+    \end{tabular}
+  \end{center}
+\end{table}%
+

@@ -1,0 +1,80 @@
+\subsection{Experimental Uncertainties}
+\label{sec:ExpSystematics}
+\begin{description}
+\item[Jet Energy Scale (JES) and Jet Energy Resolution (JER)] The two
+  main uncertainties for jets are uncertainties affecting the JES
+  calibration and the JER. The final jet
+  energy calibration generally referred as JES is a correction
+  relating the calorimeter's response to the true jet energy. The JES
+  uncertainty is derived in bins of $p_{\rm T}$ and $\eta$ from different in-situ techniques~\cite{JESnew} by the
+Jet/ETmiss group, updated plots can be found in Ref.~\cite{JES2015plots}. These variations, up and down, are estimated via the {\tt JETUncertainties} tool. Also uncertainties related to flavour composition and pile-up are included. Following the recommendation from Jet/ETmiss group, split-JES
+components are employed in order to reduce the total JES by the
+proper correlations of the components. It is possible to use the full list of nuisance parameters (77 components), a reduced set where the components are combined to give a total of 19 or 25 parameters, or a strongly reduced set where only 4 nuisance parameters (5 for AF-II samples) are left after the combination. In appendix~\ref{sec:jetSyst} it is shown that the differences in the distributions between jets calibrated with nominal and varied JES do not depend on the choice of the reduced nuisance-parameters set, therefore the {\tt JES2015\_SR\_Scenario1} list of strongly reduced parameters will be used to determine the JES uncertainties affecting this search.\\
+The JER uncertainty is derived as one-side variation by comparing data to MC simulation via
+the di-jet balance and bi-sectors techniques~\cite{JER} and the
+variation in this analysis is estimated by smearing all jets momenta in simulation events with the
+{\tt JetResolution} tool.
+%% This uncertainty is denoted by {\bf JER} in the fit of this analysis.
+\item[$b$-tagging] The $b$-tagging uncertainty has large contribution
+  to both signal and backgrounds because of the two
+  $b$-tagged jets requirement. Scale factor uncertainties in $b$-tagging are
+  derived by the flavor-tagging working group, depending on the
+  kinematics of the jet and also on the jet flavor. Three kinds of uncertainties on the $b$-jet
+weight, up and down, are calculated, propagating the estimated uncertainties on the scale factors for $b$-jets as well as a mis-tagging correction to $c$-jets and light-flavor jets.  
+%% These are denoted by {\bf $b$JET, $c$JET, $b$MISS} in the fit, respectively.
+\item{{\boldmath \met} {\bf Soft-term Resolution and Scale}} The scale
+  and resolution uncertainties of individual objects need to be
+  propagated to $\met$ via the {\tt METUtilities} tool. Specific
+  systematic uncertainties on the scale and resolution of the $\met$
+  soft term have been derived by two different in-situ methods using
+  $Z \rightarrow \mu\mu$ events~\cite{Aad:2012re} and considered in
+  this analysis. % These are denoted by {\bf RESOST} and {\bf SCALEST} in the fit, respectively.
+
+\item{\bf Lepton efficiencies} Lepton reconstruction and identification efficiencies have contributions to the backgrounds. For electrons, the uncertainties originate from the e/gamma resolution and scale and from the electron reconstruction efficiency. Similarly, for muons the uncertainties originate from the muon resolution and reconstruction efficiency, the isolation and the momentume scale. The lepton trigger scale factors are also taken into consideration.  
+
+\item{\bf Pileup} The uncertainty due to pileup re-weighting is
+  considered as two-sided variation in the event weights. %This is denoted by {\bf PILEUP} in the fit.
+
+  % The detector systematic uncertainties above are calculated as the variations in the shapes of the original normalized histograms using ${\tt overallNormHistoSys}$ inside ${\tt HistFitter}$.
+% \item{\bf Luminosity}
+%The uncertainty of 2.8 $\%$ is assigned for the integrated luminosity and is denoted by {\bf Lumi} in the fit.
+
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% Commented out for the time being since the est, method are not fully defined yet
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% \item{\bf Z fit method for $Z+jets$ background}
+%% Following the detailed study in Section~\ref{section:Z_Results}, the uncertainty of 17
+%% $\%$ is assigned to $Z+jets$ background for the $Z+jets$ fit-method estimation and is denoted by {\bf methodSysZ} in the fit.
+
+%% \item{\bf Jet-smearing estimation method for multi-jet background}
+%% The uncertainty of 100 $\%$ to is conservatively assigned to the
+%% multi-jet yields for the jet-smearing estimation method and is denoted by
+%% {\bf theoSysQCD} in the fit.
+
+%% \item{\bf \dphimettrk\ and tau veto}
+%%   No additional uncertainty is assigned for the requirements on
+%%   \dphimettrk\ and on the tau veto. Both were discussed extensively for
+%%   the 7 \TeV\ analysis \cite{7TeVSupportNote} where no additional
+%%   systematic was assigned.  There are currently no official
+%%   recommendations from the jet/etmiss group for \mettrk.  For the 7
+%%   \TeV\ analysis, Fig 42 in Appendix C showed good agreement between
+%%   data and MC for \dphimettrk\ in the tau-veto-inverted validation
+%%   region.  For the current analysis, Fig. \ref{fig:SRA_dataMC} shows
+%%   good agreement for the \mettrk\ variables in a \ttbar\ dominated
+%%   region.  Tau veto systematics are documented in Appendix D of the 7
+%%   \TeV\ note.  Data/MC comparisons were made for several variables in
+%%   the 1-lepton control region and in the tau-veto-inverted validation
+%%   region.  The tau fake rate was determined in a $Z\nu\nu$+jets
+%%   dominated sample to be around 12\%. The systematic on this fake rate
+%%   was determined with a study of the track multiplicity in jets; the
+%%   track multiplicity for ($n_{trk} \le 4$) showed agreement within 5\%
+%%   between data and MC.
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+\end{description}
+
+
+  
