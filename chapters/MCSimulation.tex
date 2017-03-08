@@ -54,7 +54,7 @@
 \section{SM Background Monte Carlo Generation}
 \label{sec:MC:Bkg}
 
-\subsection{Standard Model \ttbar Monte Carlo Generation}
+\subsection{Standard Model $\ttbar$ Monte Carlo Generation}
 
 \indent The nominal ttbar samples are generated using \textsc{Powheg-Box}v.2.  The matrix element calculation is computed to NLO accuracy and includes the $pp \rightarrow \ttbar + j$ process where the $j$ is an one additional emitted parton.  The top quark mass is set to $172.5 \gev$ and the proton substructure is modeled by the NLO CT10 PDF set \cite{CT10} for the hard scattering process.  The hard scattering renormalization and factorization scales are set to the generator default of $\sqrt{(m_{\top})^2 + (p_{T \top})^2}$.  \\
 
@@ -108,4 +108,12 @@
 \section{Detector Simulation}
 \label{sec:MC:DET}
 
-The detector simulation is performed using either \geant 4 or a fast simulation framework where the showers in the electromagnetic and hadronic calorimeters are simulated with a parameterized description and the rest of the detector is simulated with \geant 4. The fast simulation was validated against full \geant 4 simulation for several selected signal samples. All MC samples are produced with a varying number of simulated minimum-bias interactions overlaid on the hard-scattering event to account for multiple $pp$ interactions in the same or nearby bunch crossing (pileup). The simulated events are reweighted to match the distribution in data. Corrections are applied to the simulated events to correct for differences between data and simulation for the lepton trigger and reconstruction efficiencies, momentum scale, energy resolution, isolation, and for the efficiency of identifying jets originating from the fragmentation of $b$-quarks, together with the probability for mis-tagging light-flavor and charm quarks.
+\indent Two types of detector simulations were used.  \geant 4 is used to perform the detector simulation for all background samples including ttbar, \Wjets, \Zjets, single top, $\ttbar+V$, $\ttbar+\gamma$, and dibosons.  For signal MC, a fast simulation framework is used in the interest of computing time.  In fast simulation the majority of the detector are still simulated with \geant 4 with the exception of jets in the electromagnetic and hadronic calorimeter.  Instead of simulating individual particle showers in the calorimeters, a predetermined parameterized description of the showers are used instead.  The fast simulation framework was validated against full \geant 4 simulation for several selected signal samples and found to agree in observed kinematics.  \\
+
+\indent Groups within ATLAS that measure the detector and reconstruction performance may recommend reweighing of different MC depending on better or worse then expected performance of different reconstruction algorithms. Corrections are applied through reweighing to correct for known differences between data and simulation for the lepton trigger and reconstruction efficiencies, momentum scale, energy resolution, isolation, and for the efficiency of identifying jets originating from the fragmentation of $b$-quarks, together with the probability for mis-tagging light-flavor and charm quarks as recommended by ATLAS performance groups. \\
+
+\section{Pile-Up Simulation}
+\label{sec:MC:PileUp}
+
+\indent Because the LHC is operating at such high instantaneous luminosities, there are a on average 23 proton-proton interactions per bunch crossing.  Most of these interactions have low amounts of momentum transfer between the protons and are called minimum-bias interactions.  These interactions are also called pile-up interactions.  In addition to the hard scattering interaction of interest, all MC samples are produced with a varying number of simulated minimum-bias interactions.  The distribution of the number of additional overlaid minimum bias interactions is reweighed so that the distribution of the number of reconstructed of vertexes matches between data and MC.  \\
+

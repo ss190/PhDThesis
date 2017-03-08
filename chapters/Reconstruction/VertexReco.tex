@@ -1,0 +1,26 @@
+\section{Vertex Reconstruction}
+\label{sec:reco:vtx}
+
+\indent On average around 25 proton-proton interactions occur in every beam crossing in Run 2.  There different proton proton interactions are spread out $Z$ coordinate in the detector because the finite bunch length at the LHC.  We can reconstruct the charged particle tracks that originate from the different p-p interactions.  By tracing back multiple charged particle tracks to the beam line we are able to reconstruct the original interaction position.  We are able to separate objects that originate from the interesting hard scattering p-p interaction from other pileup interactions by reconstructing all the interaction vertexes in the same event. \\
+
+\indent A subset of reconstructed ID tracks are first selected and used to reconstruct the vertexes.  In Run 2 tracks must satisfy:
+
+\begin{itemize}
+\item[] $\pt > 400 \mev$
+\item[] $|\eta| < 2.5$
+\item[] number of silicon hits $ \ge 9$ if $|\eta| \le 1.65$ or $\ge 11$ if $|\eta| > 1.65$
+\item[] IBL hits + B Layer hits $\ge 1$
+\item[] maximum $1$ shared module ($1$ shared pixel hit or $2$ shared SCT hit)
+\item[] pixel holes $= 0$
+\item[] SCT holes $\le 1$
+\end{itemize}
+
+\indent A vertex seed is found by searching for the global maximum in the $Z$ coordinate of reconstructed tracks.  The vertex position is found by using a fitting algorithm called the {\it adaptive vertex fitting} algorithm \cite{VertexReco,adaptiveFitting} that is robust to having additional noise and outlier tracks.  Adaptive fitting determines the vertex position using a least squared fitting method, but gives the outlier tracks lower weights in the fit.  \\
+
+\indent  The central position is fitted iteratively with each new fit a new vertex center is found and new set of weights is found.  The weighting function changes every iteration according to a predeterminate way ultimately approaching a step function where a track has either 0 or 1 weight.  The final set of tracks selected is fitted to determine the final position and uncertainty of the vertex. \\
+
+\indent This method of lowering the weight of outlier tracks in each fit and decrease the weight in iteration after iteration is called {\it determinist annealing}. \cite{adaptiveFitting}  The procedure is analogous to repeatedly heating and cooling metal in a forge to make the crystal lattice in the metal more regular.  At each iteration the heated temperature is lower then the last finally arriving at the final product.  \\
+
+\indent  After determining the vertex position, all tracks within $7\sigma$ of the vertex is considered to be associated with the vertex.  The conservative estimate of $7\sigma$ is used to avoid one energetic vertex being split into two during reconstruction.  Tracks incompatible with the vertex are then used to form a new vertex seed.  This process is repeated until all tracks are clustered into vertexes or no additional vertexes can be found.  Vertexes are required to have at least two associated tracks. \\
+
+\indent The vertex with the highest total momenta summed over all associated tracks is labeled the primary vertex and is identified as the vertex of the hard scattering interaction.  All other vertexes are referred to as pileup vertexes.

@@ -1,0 +1,14 @@
+\section{Inner Detector Track Reconstruction}
+\label{sec:reco:IDtrack}
+
+\indent  Many reconstructed physics objects depend on tracking information in the inner detector (ID).  ID track information is combined with the EM calorimeter and Muon spectrometer to identify and measure the momenta of electrons and muons.  Hadronic jets use ID tracks to determine if the jet originated from a heavy flavored hadron with b-quarks or only light flavored hadrons.  ID tracks are also crucial to identify whether objects originate from the interesting hard scattering interaction or a less interesting pileup interaction.\\
+
+\indent Two types of inner detector tracks are reconstructed, primary tracks and secondary tracks.  Primary tracks originate from the interaction point (IP) and are meant to reconstruct the trajectories of charged particles originating directly from the proton proton collisions.  Secondary tracks target charged particles originating in the ID from secondary decays and interactions such as $\gamma \rightarrow e^{+}e_{-}$ conversions.  \\
+
+\indent Primary tracks are reconstructed in inside out fashion using the {\it NEWT} algorithm.\cite{NEWT}  First seed segments are created from triple space points in the silicon layers.  Each pixel cluster correspond to a single 3D space point.  Two SCT clusters on the same layer must be combined to form a 3D space point because each SCT cluster only provide 2D position information.  \\
+
+\indent The space point seeds can come from all pixel (PPP), all SCT (SSS) or two Pixel and two SCT (PPS) space points.  PSS space points are rejected due to high fake rates.  \\
+
+\indent Starting from the original seed, track reconstruction is performed layer by layer through the inner detector. Hits are added to the track one layer at a time from the inside out.  Any ambiguities for shared hits are resolved using a strategy that penalizes less precise tracks.  Merged clusters in the pixel are split using a set of trained neural networks. \\
+
+\indent  Secondary tracks are reconstructed from the outside in.  Segments in the TRT are reconstructed and then extended inwards by adding silicon hits. \\
