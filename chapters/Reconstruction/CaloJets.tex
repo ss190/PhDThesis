@@ -94,6 +94,75 @@ p_T^{corr} = p_T - \rho \times A - \alpha~\times (N_{PV} - 1 ) - \beta~\times <\
 
 \indent The JVT discriminate constructs a 2D likelihood based on these variables.   The JVT discriminate determines the probability that a jet will be a hard scattering jet using the k-nearest neighbor (kNN) multivariate technique \cite{TMVA} trained on a $20<\pt<50 \gev$ and $|\eta|<2.4$ MC sample of hard scattering and pileup jets.  The k-nearest neighbor (kNN) algorithm is robust relative to local fluctuations in sparsely populated regions.  \\
 
+\subsection{Jet Quality and Jet Cleaning}
+\label{sec:jet:quality}
+
+\indent Several variables are useful in discriminating between real hadronic jets and fake jets not coming from proton-proton interactions.  The sources of fake jets include noise in the LAr and Tile calorimeters, beam induced backgrounds and cosmic raw showers.  These variables can be divided into three broad categories: variables quantifying the EM and hadronic calorimeter energy ratio, ID track based variable sand variables based on the pulse shape of the LAr calorimeters.  Detailed descriptions of the variables used can be found in \cite{JetCleaning} a brief summary will be given here.\\
+
+\indent Energy ratio variables can reject calorimeter noise and beam induced backgrounds and energy deposited from cosmic rays.  Jets originating from beam induced backgrounds tend to concentrate more energy in a few longitudinal layers compared to jets from proton-proton collisions.  Multiple variables corresponding to the fraction of jets energy deposition in any one section along the expected direction of the shower relative to the total energy deposition are useful in discriminating against fake jets. \\
+
+\indent Energy ratio variables include: \\
+
+\begin{itemize}
+\item[] $f_{EM}$: ratio of EM calorimeter energy to total jet energy
+\item[] $f_{HEC}$: ratio of HEC calorimeter energy to total jet energy
+\item[] $f_{max}$: maximum energy fraction in any single calorimeter layer
+\end{itemize}
+
+\indent ID track based variables are useful because tracks can be matched to the primary vertexes in good jets.  Fake jets have low fraction of tracks which can be matched to primary vertexes.  \\
+
+\indent list of track based variables include: \\
+
+\begin{itemize}
+\item[] $f_{ch}$: ratio of the scalar sum of ID track $\pt$ where ID track must originate from the primary vertex to jet $\pt$.  approximately the fraction of jet energy carried by charged particles.  
+\item[] $f_{ch}/f_{max}$: ratio of $f_{ch}$ and $f_{max}$, the maximum energy fraction in any single calorimeter layer
+\end{itemize}
+
+\indent Pulse shape in the LAr should be consistent with those of a particle shower in good jets.  A quality variable $Q^{LAr}_{cell}$ measures the quadratic difference between expected and actual pulse shapes in each LAr cell.  Quality variables based on the fraction of cells in a jet with poor quality and the average quality is found to provide discrimination power against LAr noise. \\
+
+\indent LAr pulse shape variables include: \\
+
+\begin{itemize}
+\item[] $\braket{Q}$: weighted average of pulse quality of LAr cells ($Q^{LAr}_{cell}$) in a jet.  Normalized to $0 < \braket{Q} < 1$.
+\item[] $f^{LAr}_{Q}$: Fraction of energy in cells with poor quality pulse shapes in EM LAr Calorimeter
+\item[] $f^{HEC}_{Q}$: Fraction of energy in cells with poor quality pulse shapes in hadronic endcap calorimeters (HEC) which also use LAr technology.
+\item[] $E_{neg}$: total energy of all cells with negative energy
+\end{itemize}
+
+\indent A jet satifying any one of the following criteria is considered a {\tt BadLoose} jet.  If any baseline jet in the event is found to be {\tt BadLoose} then the entire event is rejected.  This procedure is called jet cleaning and ensures that the $\met$ reconstruction is not done with a noisy calorimeter or any bad quality jets.  \\
+
+\indent A jet is considered a {\tt Loose} jet if is not identified as a {\tt BadLoose} jet.  This is the jet quality tag used for signal jets in most ATLAS analysis including this analysis. \\
+
+\begin{enumerate}
+\item[] $f_{EM} > 0.5$ and $|f^{HEC}_{Q}| > 0.5$ and $\braket{Q} > 0.8$
+\item[] $E_{neg} > 60 \gev$
+\item[] $f_{EM} > 0.95$ and $f^{LAr}_{Q} > 0.8$ and $\braket{Q}>0.8$ and $|\eta|<2.8$
+\item[] $f_{max}>0.99$ and $|\eta|<2.0$
+\item[] $f_{EM}<0.05$ and $f_{ch}<0.05$ and $|\eta|<2$
+\item[] $f_{EM}<0.05$ and $|\eta|\ge2$
+\end{enumerate}
+
 \subsection{Identifying Jets Originating from Heavy Flavor Hadrons}
 \label{sec:jet:btagging}
 
+\indent Hadrons containing b-quarks have long lifetimes, around 1.5 ps or a $c\tau$ of around 450 $\mu$m.  The long flight distance allows use to reconstruct tracks that are inconsistent with originating from the primary vertex and perhaps reconstruct secondary vertexes characteristic of b-hadron decays.  The typical b-hadron decay consist of at least one vertex displaced from the point of initial hard scattering.  \\
+
+\indent Three separate algorithms have been setup to distinguish jets origination from b-hadrons (b-jets) from light quark and c-hadron (c-jets).  A brief description will be given on the logic of each algorithm.  The details can be found in \cite{btagging2016}  and \cite{btagging2015}.  \\
+
+\indent The first algorithm is based on track impact parameters for high quality tracks that are associated with jets.  The discriminate is computed as a sum of the log likelihood ratio of each accepted track in the vertex or $\sum_i \ln(\frac{p_b}{p_{light}})$, where i sums over all accepted tracks in the jet and $p_b$ is the PDF for a b-jet and $p_{light}$ is the PDF for a light jet.  The PDF uses transverse and longitudinal impact parameters $d_0$ and $z_0$ as observables and are derived from MC.  \\
+
+\indent The second algorithm seeks to reconstruct the secondary vertex associated with the b-hadron decay.  This algorithm has the advantage that if a secondary vertex is consistent with the decays of long lived hadrons that do not contain b-jets such as $K_s$ or $\Lambda$ or photon conversions then the vertex maybe rejected.  For example, secondary vertexes with a mass greater then $6 \gev$ are inconsistent with b decays and are rejected. Variables based on the secondary location and the total energy of the secondary vertex and the mass of the secondary vertex can all be used to discriminate b-jets from light-jets and c-jets.  \\
+
+\indent The third algorithm attempt to reconstruct the full b-hadron decay chain and is called the decay chain multi-vertex reconstruction algorithm.  The algorithm uses a Kalman filter to determine the common line on which the primary vertex and the bottom and charm vertexes lie.  \\
+
+\indent The output of the three algorithms are all combined into a multivariate discriminate called MV2.  MV2 uses a boosted decision tree (BDT) algorithm \cite{TMVA} to gain better separation power for different jet flavors then any one single algorithm is able to achieve. This analysis uses the MV20c10 discriminate to tag b-jets. MV20c10 is selected as it gives the best balance between light jets and c-jet rejection the given b-tagging efficiency.  \\
+
+\indent The distribution of the MV20c10 discriminate for light, charm and b-hadrons can be seen in figure \ref{MV20c10}. We make a selection at MV2c10 $ > 0.6459$ which corresponds to approximately 77\% b-tagging efficiency with a factor of 134 reject rate for light jets.  The b-tagging efficiencies and mis-tag rates have been calibrated by the ATLAS flavor tagging group.\\
+
+\begin{figure}[htb]
+  \begin{center}
+    \includegraphics[width=0.85\textwidth]{figures/JetCalib/MV20c10.eps}\hspace{0.05\textwidth}
+\end{center}
+\caption{Distribution of the MV20c10 multivariate discriminate used for tagging b-jets.  }
+\label{fig:jetCalibFlow} 
+\end{figure}

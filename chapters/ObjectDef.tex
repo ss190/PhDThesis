@@ -1,18 +1,31 @@
-\chapter{Definitions of Reconstructed Physics Objects}
+\chapter{Physics Object Definitions}
 \label{chap:objects}
 
-The object definitions used follow the ATLAS recommendations and SUSY group standards for MC15c samples ({\tt SUSYTools-00-08-33} and AnalysisBase-2.4.23), details of which are given below. %Currently the MET TST cleaning is not applied since we are using p2666 samples (following the recommendation).
+\indent We require a certain set of quality cuts for all reconstructed physics objects used in this analysis.  In general, we have a looser set of cuts on {\it baseline} objects and a tighter set of cuts on {\it signal} objects.  The object selection is inclusive meaning that the tighter signal objects must also pass the looser baseline object selection.  \\
+
+\indent Baseline objects are used to reconstruct the $\met$ and are also used to veto events.  These applications benefit the most from having a higher reconstruction efficiency.  The quality of lepton momenta resolution are less important in this case since we are not performing any measurements on the lepton except only tagging their presence.  The same is true for the $\met$ calculation where we want to perform the calculation on calibrated hard objects instead of relying on the soft term calculation.  \\
+
+\indent In general, signal objects are used in the analysis in places where we need to ensure robust energy/momenta reconstruction or just the presence of well reconstructed objects.  \\
+
+\indent For example signal electrons and muons are used in the $1$ lepton control regions where the leptons are used to calculate things like the transverse mass of the $W$ boson but baseline electrons and muons are used to veto events for the $0$ lepton control region. \\
+
+\indent Signal jets are used in the 0 lepton signal and validation regions and 1 lepton control regions.  Signal photons are used in the single photon control region used to estimate the ttV background. \\
+
+\indent Overlapping objects are resolved at the baseline level using the algorithm described in section \ref{sec:Selection_overlap}.  The $\met$ is reconstructed using baseline objects that passed overlap removal according to the algorithm described in section \ref{sec:reco:MET}. \\
+
+\indent All object definitions used follow the ATLAS performance group recommendations and SUSY group standards for MC15c samples ({\tt SUSYTools-00-08-54} and AnalysisBase-2.4.28).  Details on each object is given below. \\
 
 \section{Electron Definition}  \label{sec:EleDef}
 
-Electron candidates are selected using the {\tt VeryLooseLH} definition and are required to have $\et = E_{\mathrm{cl}} / \cosh{\eta} > 7 \gev$ and to fall within $|\eta_{\mathrm{cl}}| < 2.47$, where $E_{\mathrm{cl}}$ and $\eta_{\mathrm{cl}}$ are the energy and pseudorapidity of the electron candidate cluster, respectively~\cite{EgammaRun2Analyseswiki}. Currently, electrons falling in the so-called ``crack" region ($1.37 < |\eta| < 1.52$) and satisfying the {\tt VeryLooseLH} criteria are considered electron candidates.
+\indent Baseline electron candidates are selected using the {\tt VeryLooseLH} quality definition. The energy clusters associated with the electron are required to have an $\et = E_{\mathrm{cl}} / \cosh{\eta} > 7 \gev$ and be within an $\eta$ range of $|\eta_{\mathrm{cl}}| < 2.47$. Electrons in the transition region between EM barrel and endcap calorimeters ($1.37 < |\eta| < 1.52$) also called the crack region are accepted as long as they satisfy the {\tt VeryLooseLH} criteria. \\
 
+\indent We use the gradient loose criteria for electron isolations. The isolation parameter changes depending on the lepton $\pt$ in gradient isolation, ensuring a balance between efficiency and fake rate at all lepton $\pt$ values. \\
 
-Table~\ref{tb:electrons} summarizes the electron definition criteria and specifies the angular distance for which an electron overlapping with a jet is rejected (see section ~\ref{sec:Selection_overlap}).   
+\indent Table~\ref{tb:electrons:baseline} summarizes the baseline electron definition criteria.   
 
 
 \begin{table}[htp]
-  \caption{Electron selection criteria. The overlap removal is described in more detail in section \ref{sec:Selection_overlap}.}
+  \caption{Baseline Electron selection criteria. The overlap removal is described in more detail in section \ref{sec:Selection_overlap}.}
   \begin{center}
     \begin{tabular}{c|c} \hline \hline
       Cut & Value \\ \hline \hline
@@ -23,76 +36,137 @@ Table~\ref{tb:electrons} summarizes the electron definition criteria and specifi
       \hline
     \end{tabular}
   \end{center}
+  \label{tb:electrons:baseline}
+\end{table}%
+
+\indent Signal electrons require the tight likelihood {\tt TightLH} quality requirement.  The minimum $\pt$ is also increased to $20 \gev$.  Table \ref{tb:electrons:sig} summarizes the signal electron definition. \\
+
+\begin{table}[htp]
+  \caption{Signal Electron selection criteria. The overlap removal is described in more detail in section \ref{sec:Selection_overlap}.}
+  \begin{center}
+    \begin{tabular}{c|c} \hline \hline
+      Cut & Value \\ \hline \hline
+      Acceptance & $\pT > 20 \gev$, $|\eta_{\mathrm{clust}}| < 2.47$ \\ \hline
+      Quality & {\tt TightLH} \\ \hline
+      Isolation & {\tt Gradient Loose} \\ \hline
+      Overlap: $e$ rejected if &  $0.2 < \Delta R(e,jet) < 0.4$\\ \hline%, $\Delta R(e,jet)<0.2$ and jet is b-tagged \\ \hline
+      \hline
+    \end{tabular}
+  \end{center}
   \label{tb:electrons}
 \end{table}%
 
-
 \section{Muon Definition}  \label{sec:MuonDef}
-In order to be accepted, muon candidates must pass the {\tt Loose} selection criteria, have  $\pT > 6 \gev$, and fall within $\eta < 2.7$.
-% , and pass the tracking quality cuts shown in Table~\ref{tb:muons}.  %Additionally, the \pT\ of muons in the MC are smeared. 
 
-Table~\ref{tb:muons} summarizes the muon definition criteria and specify the angular distance for which a muon overlapping with a jet is rejected (see section ~\ref{sec:Selection_overlap}).\\     
+\indent Baseline muon candidates must pass the {\tt Loose} quality criteria.  Baseline muons must also have a $\pT > 6 \gev$, and be within $\eta < 2.7$.  Baseline muon selections are summarized in table~\ref{tb:muons:baseline}. \\  
+
+\indent We use the gradient loose criteria for muon isolations. The isolation parameter changes depending on the lepton $\pt$ in gradient isolation, ensuring a balance between efficiency and fake rate at all lepton $\pt$ values. \\
 
 \begin{table}[htp]
-  \caption{Muon selection criteria. The overlap removal is described in more detail in section \ref{sec:Selection_overlap}.} 
+  \caption{Selection criteria for baseline muons. The overlap removal is described in more detail in section \ref{sec:Selection_overlap}.} 
   \begin{center}
     \begin{tabular}{c|c} \hline \hline
       Cut & Value \\ \hline \hline
       Acceptance & $\pT > 6\gev$, $|\eta| < 2.7$ \\ \hline
       Quality & Loose \\ \hline
+      Isolation & {\tt Gradient Loose} \\ \hline
       Overlap: $\mu$ is rejected if &  $ \Delta R(\mu,jet) < 0.4 $ \\ \hline
       \hline
     \end{tabular}
   \end{center}
-  \label{tb:muons}
+  \label{tb:muons:baseline}
+\end{table}%
+
+\indent Signal muon candidates must pass the {\tt Medium} quality criteria.  Signal muons must have a $\pT > 20 \gev$, and be within $\eta < 2.7$.  Signal muon selections are summarized in table~\ref{tb:muons:signal}. \\  
+
+\begin{table}[htp]
+  \caption{Selection criteria for signal muons.} 
+  \begin{center}
+    \begin{tabular}{c|c} \hline \hline
+      Cut & Value \\ \hline \hline
+      Acceptance & $\pT > 20\gev$, $|\eta| < 2.7$ \\ \hline
+      Quality & Medium \\ \hline
+      Isolation & {\tt Gradient Loose} \\ \hline
+      Overlap: $\mu$ is rejected if &  $ \Delta R(\mu,jet) < 0.4 $ \\ \hline
+      \hline
+    \end{tabular}
+  \end{center}
+  \label{tb:muons:signal}
 \end{table}%
 
 \section{Jet Definitions}
-
 \subsection{Calorimeter Jets}
 
-Jets are reconstructed from topological clusters using the \antikt\ jet algorithm~\cite{antikt} with a distance parameter of $R = 0.4$ and full four-momentum recombination. The {\tt AntiKt4EMTopo} jet collection is used, and global sequential calibration is enabled. Area-based corrections are also applied. % and are calibrated using an area-based pileup subtraction with a local cluster weighting (LCW) algorithm ({\rm AntiKt4LCTopoJets}). The LCW algorithm identifies if a topological cluster in the calorimeter is of hadronic or electromagnetic origin and applies either the hadronic or electromagnetic energy correction as appropriate which relates the measured energy in the calorimeter to the actual amount of deposited energy.  The jet response is also dependent on the pileup conditions and this is accounted for using the jet area subtraction method provided by the JetEtMiss group~\cite{ATLAS:JetEtmissDataAnalysisRecommendationwiki}.  
-All jets must have $\pT > 20\gev$ with no $\eta$ requirement to be considered in the analysis. Jets that pass this loose selection are considered when resolving overlapping objects and determining if the event should be vetoed due to bad quality jets.  After the overlap removal and jet quality cuts, jets are required to have $\pt > 20\gev$ and $|\eta|<2.8$ to be considered in the analysis. In addition to the $\eta$ and \pt\ requirement a jet vertex tagger~\cite{jvtTwiki} value greater than 0.59 is required, corresponding to a 92\% efficiency for jets originating from the hard scatter event and a 2\% fake rate from pileup jets, if the jet has $|\eta|<2.4$ and $\pt<60$ GeV. This requirement helps to reduce sensitivity to pileup jets.
+\indent Jets are reconstructed from topological clusters using the $\antikt$ jet algorithm~\cite{antikt} with a distance parameter of $R = 0.4$.  The jets are calibrated use the EM+JES calibration scheme and global sequential calibration is enabled. Area-based pileup corrections are also applied. More details on jet reconstruction and calibration can be found in section \ref{sec:reco:jets}. \\
+  
+\indent Baseline jets must have $\pT > 20\gev$ with no $\eta$ requirement. Jets that pass this loose selection are considered when resolving overlapping objects and building $\met$.  A jet vertex tagger value greater than 0.59 is also required to reject pileup jets not originating from the hard scattering interaction for jets with $|\eta|<2.4$ and $\pt < 60 \gev$.  The 0.59 JVT working point corresponds to a 92\% efficiency for jets originating from the hard scattering interaction and a 2\% fake rate from pileup, if the jet has $|\eta|<2.4$ and $\pt<60$ GeV. \\
 
-% \subsection{Track Jets}
+\indent After overlap removal, if any baseline jets are tagged as being {\tt BadLoose} quality jets then the entire event is vetoed.  This is because the presence of a bad quality jet probably also means poor $\met$ reconstruction for the event.  Details on jet quality can be found in section \ref{sec:jet:quality} \\
 
-% Jets are reconstructed from charged tracks using the \antikt\ jet algorithm~\cite{antikt} with a distance parameter of $R = 0.4$ and full four-momentum recombination. The details of the track selection are under study for the 2015 analysis. {\color{red} Jets built from charged tracks are not currently available in the derived samples.}
+\indent Baseline jets are summarized in table \ref{tb:jets:baseline}. \\
+
+\begin{table}[htp]
+  \caption{Selection criteria for baseline jets.} 
+  \begin{center}
+    \begin{tabular}{c|c} \hline \hline
+      Cut & Value \\ \hline \hline
+      Acceptance & $\pT > 20\gev$, no $\eta$ requirement \\ \hline
+      JVT & $> 0.59$ if $\pt < 60 \gev$ and $|\eta| < 2.4$, no requirement if $\pt > 60 \gev$ or $|\eta| > 2.4$ \\ \hline
+      Quality & if any jet is {\tt BadLoose} then veto whole event  \\ \hline
+      Overlap & See section \ref{sec:Selection_overlap} \\ \hline
+      \hline
+    \end{tabular}
+  \end{center}
+  \label{tb:jets:baseline}
+\end{table}%
+
+\indent Signal jets are required to have $\pt > 20\gev$ and $|\eta|<2.8$ plus all selections applied to the baseline jets. Jet quality must satisfy the {\tt Loose} criteria defined in section \ref{sec:jet:quality}. \\
+
+\indent Signal jets are summarized in table \ref{tb:jets:signal}. \\
+
+\begin{table}[htp]
+  \caption{Selection criteria for signal jets.} 
+  \begin{center}
+    \begin{tabular}{c|c} \hline \hline
+      Cut & Value \\ \hline \hline
+      Acceptance & $\pT > 20\gev$, $|\eta| < 2.8$ \\ \hline
+      JVT & $> 0.59$ if $\pt < 60 \gev$ and $|\eta| < 2.4$, no requirement if $\pt > 60 \gev$ or $|\eta| > 2.4$ \\ \hline
+      Quality & {\tt Loose} \\ \hline
+      Overlap & See section \ref{sec:Selection_overlap} \\ \hline
+      \hline
+    \end{tabular}
+  \end{center}
+  \label{tb:jets:signal}
+\end{table}%
 
 \subsection{\boldmath $b$-tagged Jets}
 
-A subset of the baseline jets in the event are identified as originating from the decay of a $b$-quark by requiring they pass the MV2c10 jet tagger and are within the tracker acceptance with $|\eta| < 2.5$.  The (MV2c10 $> 0.6459$) operating point is used, which corresponds to a $\sim77\%$ $b$-tagging efficiency. %~\cite{ATLAS-COM-CONF-2012-021}.
-Events in the signal region must contain at least one $b$-tagged jet.  The $b$-tagging efficiencies and mistag rates have been measured by the Flavour Tagging group.  A correction scale factor, parameterized in  $\eta$, \pT\, and jet flavor, has been calculated by this group and applied to all jets in Monte Carlo samples~\cite{BtaggingCalibrationToolwiki}. 
-
-
-\section{\met\ Definitions} 
-\label{sec:Selection_MET}
-
-\subsection{\boldmath Calorimeter-based \met}
-
-The calorimeter-based \met\ is calculated from an object-based algorithm. The \met\ is recalculated with the object definitions above. Baseline muons, electrons, and jets after overlap removal are used in the \met\ recalculation performed within SUSYTools. An extra term is added to account for soft energy in the event that is not associated to any of the selected objects. This soft term is calculated from inner detector tracks with $\pT > 400 \MeV$ matched to the primary vertex to make it more resilient to pileup contaminations.
-
-%Currently {\tt MET\_RefFinalFix} is used (but is not recalculated for the specific object definitions described above). 
-
-% {\tt MET\_Egamma10NoTau\_RefFinal}~\cite{Aad:2012re}:
-% \begin{equation}
-%   {\met}^{\mathrm{RefFinal}} = {\met}^{\mathrm{RefEle}} + {\met}^{\mathrm{RefJet}} + {\met}^{\mathrm{RefMuon}} + {\met}^{\mathrm{CellOut}} + {\met}^{\mathrm{RefGamma}}.
-%   \label{eqn:met}
-% \end{equation}
-% Muons passing the selection criteria and with $\pT > 10 \gev$ are included in the $ {\met}^{\mathrm{RefMuon}} $ term.  Topoclusters not assigned to reconstructed objects are included in the ${\met}^{\mathrm{CellOut}}$ term.
-
-% The \met\ is then corrected for small differences between object definitions used in {\tt MET\_Egamma10NoTau\_RefFinal} and the SUSY group standard definitions outlined above (e.g. the smearing of the lepton \pT\ in the MC). This is done using the {\tt METUtility} tool.
-
-\subsection{\boldmath Track-based \MET}
-
-The \MET\ derived from the sum of the transverse momenta of the tracks in the event ($\mettrk = -\sum_i^{\mathrm{tracks}}\pT^i$). In the 2012 analysis, the azimuthal angle between this and the calorimeter-based \MET\ was an effective discriminant against events with fake \MET. The \mettrk\ is rebuilt using the muons, electrons, and jets, similar to the \met.
+\indent A subset of jets are identified as originating from a b-hadron using the MV2c10 b-tagging algorithm described in section \ref{sec:jet:btagging}.  b-jet candidates must be within ID coverage with $|\eta|<2.5$.  Any jet with MV2c10 $ > 0.6459$ is a b-tagged jet.  The selection chosen corresponds to approximately 77\% b-tagging efficiency with a factor of 134 reject rate for light jets and a factor of 6 rejection of c-jets.\\
 
 \section{Photon Definition}
 \label{sec:PhoDef}
-The photon reconstruction is only considered in the photon control region. Photon candidates are obtained and calibrated using {\tt GetPhoton} function in {\tt SUSYTools}. A signal photon must pass the selection requirements that are described in Table~\ref{tb:photons}.
 
+\indent Baseline photons are used only for $\met$ calculation.  Baseline photons must have $\pt > 25 \gev$ and $|\eta| < 2.37$ and pass the {\tt Tight} quality selection.  Photon reconstruction and calibrated are summarized in section \ref{sec:reco:EM}. \\
+
+\indent The photon definition is summarized in table \ref{tb:photons:baseline} \\
 
 \begin{table}[htp]
-  \caption{Photon selection criteria.} 
+  \caption{Baseline photon selection criteria.} 
+  \begin{center}
+    \begin{tabular}{c|c} \hline \hline
+      Cut & Value \\ \hline \hline
+      Acceptance & $\pT > 25 \gev$, $|\eta| < 2.37$ \\ \hline
+      Quality & {\tt Tight} \\ \hline
+      \hline
+    \end{tabular}
+  \end{center}
+  \label{tb:photons:baseline}
+\end{table}%
+
+\indent Signal photons are used only in the tt$\gamma$ control region used to model the ttV background.  Signal photons must pass the requirements in Table~\ref{tb:photons}.  The high $\pt > 130 GeV$ requirement is to ensure that the event has near 100 percent trigger efficiency for the photon trigger {\tt HLT\_g120\_loose}.\\
+
+\begin{table}[htp]
+  \caption{Signal photon selection criteria.} 
   \begin{center}
     \begin{tabular}{c|c} \hline \hline
       Cut & Value \\ \hline \hline
@@ -105,23 +179,28 @@ The photon reconstruction is only considered in the photon control region. Photo
   \label{tb:photons}
 \end{table}%
 
-The \pt\ requirement is to ensure that the event is on the plateau of the photon trigger {\tt HLT\_g120\_loose}.
+\section{\met\ Definitions} 
+\label{sec:Selection_MET}
+
+\subsection{\boldmath Calorimeter-based \met}
+
+\indent The $\met$ is calculated as the negative vector sum of the $E_T$ of all fully calibrated baseline objects including baseline muons, electrons, photons and jets after overlap removal.   An extra term is added to the $\met$ to account for energy in the event that is too soft to be associated to any of the selected objects. This soft term is calculated using inner detector tracks that are matched to the primary vertex and is relatively robust against pileup interactions.  Details on the $\met$ reconstruction can be found in section \ref{sec:reco:MET}. \\ 
+
+\subsection{\boldmath Track-based \MET}
+
+\indent An complementary method of determining the $\met$ using only tracking information is used to discriminate against events with fake $\met$ resulting from mis-reconstructed calorimeter jets.  The track based $\met$ or $\mettrk$ is the negative vector sum of all ID track $\pt$.  $\mettrk$ is very robust against pileup but does not include the contribution to $E_T$ from neutral particles.  None the less, a loose agreement in direction between $\mettrk$ and calorimeter-based $\met$ was found to be an effective discriminate against multijet QCD background.  Details on $\mettrk$ reconstruction can be found in section \ref{sec:reco:trkMET}. \\
 
 \section{Resolving overlapping objects}
 \label{sec:Selection_overlap}
 
-In the case of candidate objects overlapping with each other, all but one object must be removed from the event. The distance metric used to define overlapping objects is $\Delta R = \sqrt{\Delta \phi^2 + \Delta \eta^2}$. The baseline SUSYTools overlap removal provided by the SUSY group is applied with an additional overlap removal applied to objects that survive the baseline. The SUSYTools baseline overlap removal is: \\
+\indent Overlap removal between accepted physics objects must be performed in order to avoid double counting of objects such as the same calorimeter energy being assigned to a jet and an electron.  The distance metric  $\Delta R = \sqrt{\Delta \phi^2 + \Delta \eta^2}$ is used to define overlapping objects.  Objects too close in $\Delta R$ are considered overlapping and all except one object will be removed.  The following guidelines are used for removing overlapping objects. \\
 
 \begin{itemize}
-\item If an electron and jet are located with $\Delta R < 0.2$ consider the object an electron and remove the jet unless the jet is b-tagged (using the 85\% working point rather than the 77\% working point used in the signal regions) in which case the jet is kept and the electron is removed. 
-\item If a muon and jet are located with $\Delta R < 0.4$, consider the object a jet and remove the muon. Unless the object has less than three tracks (with $\pt>500$ MeV), then the jet is removed while the muon is kept. 
-\item If an electron and jet are located with $0.2 \leq\ \Delta R < 0.4$, consider the object a jet and remove the electron.
+\item If an electron and jet are located with $\Delta R < 0.2$ then the object is considered an electron and  the jet is removed; unless the jet is b-tagged using the 85\% working point rather than the 77\% working point used in the signal regions in which case the jet is kept and the electron is removed. 
+\item If a muon and jet are located with $\Delta R < 0.4$, then the object is considered a jet and the muon is removed; unless the jet has less than three tracks (with $\pt>500$ MeV), in which case the jet is removed while the muon is kept. 
+\item If an electron and jet are located with $0.2 \leq\ \Delta R < 0.4$, then the object is considered a jet and the electron is removed.
 \end{itemize}
 
-% Objects that pass the above requirements are tested for additional overlap requirements:
-% \begin{description}
-% \item [$\boldsymbol{e/\mu}$:] If a calo-tagged muon is within $\Delta R < 0.01$ of an electron, the muon is removed and the electron is kept
-% \item [$\boldsymbol{e}$/jet:] If a jet is not b-tagged and is within $\Delta R<0.2$, the jet is removed and the electron is kept. 
-% \item [$\boldsymbol{\mu}$/jet:] If a non-btagged jet is within $\Delta R < 0.2$ of a muon and either has less than three tracks (with $\pt>500$ MeV) or $\pt^{\mu} / \pt^{\textnormal{jet}}>0.7$, the jet is removed while the muon is kept. 
-% \item [lepton/jet:] For lepton/jet overlap a variable $\Delta R$ requirement is used with a minimum and maximum truncation of 0.1 and 0.4, respectively. The variable $\Delta R$ requirement is a function of the lepton $\pt$: $\Delta R<0.04+10 GeV/\pt^{\ell}$. If a lepton is within the variable/truncated $\Delta R$ the lepton is removed and the jet is kept. 
-% \end{description}
+\indent Overlap removal is performed on baseline objects before the $\met$ is reconstructed. \\
+
+

@@ -78,7 +78,7 @@
 %\usepackage[update]{epstopdf}
 \usepackage{subcaption}
 \usepackage{longtable}
-\usepackage{enumerate}
+%\usepackage{enumerate}
 \usepackage{rotating} %GR added
 \usepackage{mdwlist}
 \usepackage{multirow}
@@ -99,7 +99,8 @@
 \usepackage{adjustbox}
 \usepackage{dcolumn}
 \RequirePackage{graphicx}
-\usepackage{enumerate}
+%\usepackage{enumerate}
+\usepackage{braket}
 
 % Fonts.
 \RequirePackage{color}
