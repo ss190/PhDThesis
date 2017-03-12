@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  10 MAR 2017 17:25
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  12 MAR 2017 15:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1311,9 +1311,6 @@ LaTeX Warning: Label `eqn:PileupDensity' multiply defined.
 
 LaTeX Warning: Label `fig:jetCalibFlow' multiply defined.
 
-
-LaTeX Warning: Label `fig:jetCalibFlow' multiply defined.
-
 ) (./chapters/Trigger.aux
 
 LaTeX Warning: Label `fig:trigScheme' multiply defined.
@@ -2073,9 +2070,6 @@ ine 150.
 Package natbib Warning: Citation `TMVA' on page 34 undefined on input line 158.
 
 
-
-LaTeX Warning: Reference `MV20c10' on page 34 undefined on input line 160.
-
 File: figures/JetCalib/MV20c10.eps Graphic file (type eps)
 <figures/JetCalib/MV20c10.eps>) (./chapters/Reconstruction/EMReco.tex [34]
 [35]
@@ -2571,51 +2565,51 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
 [61]
 
 Package natbib Warning: Citation `antikt' on page 62 undefined on input line 10
-0.
+1.
 
 [62] [63]
-Overfull \hbox (37.1404pt too wide) in paragraph at lines 111--119
+Overfull \hbox (37.1404pt too wide) in paragraph at lines 112--120
  [] 
  []
 
 
-Overfull \hbox (37.1404pt too wide) in paragraph at lines 130--138
+Overfull \hbox (37.1404pt too wide) in paragraph at lines 131--139
  [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 142.
+(hyperref)                removing `math shift' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 142.
+(hyperref)                removing `math shift' on input line 143.
 
 [64]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 182.
+(hyperref)                removing `subscript' on input line 183.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 182.
+(hyperref)                removing `superscript' on input line 183.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 185.
+(hyperref)                removing `subscript' on input line 186.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 185.
+(hyperref)                removing `superscript' on input line 186.
 
 [65]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 189.
+(hyperref)                removing `subscript' on input line 190.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 189.
+(hyperref)                removing `superscript' on input line 190.
 
 [66]) [67]
 \openout2 = `chapters/MCSimulation.aux'.
@@ -3033,74 +3027,63 @@ Chapter 9.
 
 
 ]
-Overfull \hbox (27.70561pt too wide) in paragraph at lines 6--6
-[]\EU1/SourceCodePro(0)/m/it/8 data15_13TeV.periodAllYear_DetStatus-v79-repro20
--02_DQDefects-00-02-02_PHYS_StandardGRL_All_Good_25ns.xml\EU1/EBGaramond(2)/bx/
-n/10.95 .  
+Overfull \hbox (5.93956pt too wide) in paragraph at lines 10--10
+[]\EU1/EBGaramond(2)/bx/n/10.95 The GRLs used for the 2015 dataset is \EU1/Sour
+ceCodePro(0)/m/it/8 data15_13TeV.periodAllYear_DetStatus-v79-repro20-02_DQDefec
+ts- 
+ []
+
+File: figures/Data/IntLumi2015.png Graphic file (type QTm)
+<use  "figures/Data/IntLumi2015.png" >
+File: figures/Data/IntLumi2016.png Graphic file (type QTm)
+ <use  "figures/Data/IntLumi2016.png" >
+File: figures/Data/mu_2015_2016_LHCC.png Graphic file (type QTm)
+
+<use  "figures/Data/mu_2015_2016_LHCC.png" > [93]
+Overfull \hbox (45.7572pt too wide) in paragraph at lines 36--36
+\EU1/EBGaramond(2)/bx/n/10.95 each data taking period. This trigger is \EU1/Sou
+rceCodePro(0)/m/it/10.95 HLT_xe70_tc_lcw \EU1/EBGaramond(2)/bx/n/10.95 for all 
+of 2015 data taking, []\EU1/SourceCodePro(0)/m/it/10.95 HLT_xe90_mht_L1XE50 
  []
 
 
-Overfull \hbox (19.99829pt too wide) in paragraph at lines 7--7
-[]\EU1/SourceCodePro(0)/m/it/8 data16_13TeV.periodAllYear_DetStatus-v83-pro20-1
-5_DQDefects-00-02-04_PHYS_StandardGRL_All_Good_25ns.xml\EU1/EBGaramond(2)/bx/n/
-10.95 ,  
+Overfull \hbox (16.29459pt too wide) in paragraph at lines 36--36
+\EU1/EBGaramond(2)/bx/n/10.95 for 2016 period A-D3, []\EU1/SourceCodePro(0)/m/i
+t/10.95 HLT_xe100_mht_L1XE50 \EU1/EBGaramond(2)/bx/n/10.95 for 2016 period D4-F
+1, and []\EU1/SourceCodePro(0)/m/it/10.95 HLT_xe110_mht_L1XE50 
  []
-
-
-Overfull \hbox (4.44334pt too wide) in paragraph at lines 17--19
-\EU1/EBGaramond(2)/bx/n/10.95 is \EU1/EBGaramond(2)/bx/n/8 data15_13TeV.periodA
-llYear_DetStatus-v79-repro20-02_DQDefects-00-02-02_PHYS_StandardGRL_All_Good_25
-ns.xmlx\EU1/EBGaramond(2)/bx/n/10.95 . 
- []
-
-
-Overfull \hbox (91.45396pt too wide) in paragraph at lines 17--19
-\EU1/EBGaramond(2)/bx/n/10.95 The GRL for data 2016 is \EU1/EBGaramond(2)/bx/n/
-8 data16_13TeV.periodAllYear_DetStatus-v83-pro20-15_DQDefects-00-02-04_PHYS_Sta
-ndardGRL_All_Good_25ns.xml\EU1/EBGaramond(2)/bx/n/10.95 . 
- []
-
-
-Overfull \hbox (51.87119pt too wide) in paragraph at lines 20--21
-[]\EU1/EBGaramond(2)/bx/n/10.95 The event must pass the (lowest unprescaled) $[
-][]$ trigger. For the 2015 data the []\EU1/SourceCodePro(0)/m/it/10.95 HLT_xe70
-_mht_L1XE50 
- []
-
-
-Overfull \hbox (20.15755pt too wide) in paragraph at lines 20--21
-\EU1/EBGaramond(2)/bx/n/10.95 is used. For the 2016 data the []\EU1/SourceCodeP
-ro(0)/m/it/10.95 HLT_xe90_mht_L1XE50 \EU1/EBGaramond(2)/bx/n/10.95 (period A-D3
-), []\EU1/SourceCodePro(0)/m/it/10.95 HLT_xe100_mht_L1XE50 
- []
-
-[93]
-
-Package natbib Warning: Citation `ATLAS:jetCalib' on page 94 undefined on input
- line 22.
 
 [94]
+Chapter 10.
+[95
 
-LaTeX Warning: Reference `tab:SRcommon' on page 95 undefined on input line 38.
+] [96]
 
-) [95]
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 73.
+
+
+Overfull \hbox (13.26143pt too wide) in paragraph at lines 63--85
+ [] 
+ []
+
+[97] [98]) [99]
 \openout2 = `chapters/SignalRegion.aux'.
 
  (./chapters/SignalRegion.tex
-Chapter 10.
+Chapter 11.
 
-Overfull \hbox (31.98746pt too wide) in paragraph at lines 6--6
+Overfull \hbox (29.37146pt too wide) in paragraph at lines 6--6
 |[]\EU1/EBGaramond(2)/m/sc/12 Physical Intuition on how Signal Region Selection
 s Reject SM Background| 
  []
 
-[96
+[100
 
 
 
 ]
 File: ./figures/MET_ISR.png Graphic file (type QTm)
- <use  "./figures/MET_ISR.png" > [97] [98] [99]
+ <use  "./figures/MET_ISR.png" > [101] [102] [103]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 45.
 
@@ -3127,14 +3110,6 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 45.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 45.
-
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 53.
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 53.
-
-LaTeX Warning: Reference `tab:SRcommon' on page 100 undefined on input line 53.
-
 
 
 Overfull \hbox (7.68568pt too wide) in paragraph at lines 74--74
@@ -3142,7 +3117,7 @@ Overfull \hbox (7.68568pt too wide) in paragraph at lines 74--74
  pass this selection as both the leptonic and hadronic 
  []
 
-[100]
+[104]
 File: figures/ttbar/postfit/CA_RISR_CRTopC.eps Graphic file (type eps)
  <figures/ttbar/postfit/CA_RISR_CRTopC.eps>
 File: figures/ttbar/postfit/CA_pTISR_CRTopC.eps Graphic file (type eps)
@@ -3159,7 +3134,12 @@ File: figures/ttbar/postfit/CA_pTbV1_CRTopC_log.eps Graphic file (type eps)
 <figures/ttbar/postfit/CA_pTbV1_CRTopC_log.eps>
 File: figures/ttbar/postfit/CA_dphiISRI_CRTopC_log.eps Graphic file (type eps)
 
-<figures/ttbar/postfit/CA_dphiISRI_CRTopC_log.eps> [101] [102]
+<figures/ttbar/postfit/CA_dphiISRI_CRTopC_log.eps>
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 87.
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 87.
+ [105] [106]
 File: figures/ttbar/postfit/CA_RISR_CRTopC.eps Graphic file (type eps)
 
 <figures/ttbar/postfit/CA_RISR_CRTopC.eps>
@@ -3181,7 +3161,7 @@ File: figures/ttbar/postfit/CA_dphiISRI_CRTopC_log.eps Graphic file (type eps)
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 120.
 
-[103] [104]
+[107] [108]
 File: figures/ttbar/postfit/CA_RISR_CRTopC_log.eps Graphic file (type eps)
  <figures/ttbar/postfit/CA_RISR_CRTopC_log.eps>
 
@@ -3202,7 +3182,7 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 132.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 132.
 
-[105] (./tables/SRYields/SRC1Yields.tex) (./tables/SRYields/SRC2Yields.tex)
+[109] (./tables/SRYields/SRC1Yields.tex) (./tables/SRYields/SRC2Yields.tex)
 (./tables/SRYields/SRC3Yields.tex) (./tables/SRYields/SRC4Yields.tex)
 (./tables/SRYields/SRC5Yields.tex)
 File: figures/ttbar/postfit/CA_RISR_CRTopC.eps Graphic file (type eps)
@@ -3220,10 +3200,10 @@ File: figures/ttbar/postfit/CA_pTbV1_CRTopC_log.eps Graphic file (type eps)
 
 <figures/ttbar/postfit/CA_pTbV1_CRTopC_log.eps>
 
-LaTeX Warning: Reference `tab:SRBkg' on page 106 undefined on input line 169.
+LaTeX Warning: Reference `tab:SRBkg' on page 110 undefined on input line 169.
 
 
-LaTeX Warning: Reference `tab:SRBkg' on page 106 undefined on input line 172.
+LaTeX Warning: Reference `tab:SRBkg' on page 110 undefined on input line 172.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 176.
@@ -3236,12 +3216,12 @@ Overfull \hbox (104.23143pt too wide) in paragraph at lines 175--182
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 186.
 
-) [106] [107] [108]
+) [110] [111] [112]
 \openout2 = `chapters/Background.aux'.
 
  (./chapters/Background.tex
-Chapter 11.
-[109
+Chapter 12.
+[113
 
 
 
@@ -3249,7 +3229,7 @@ Chapter 11.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 18.
 
-[110] (./chapters/Background/ttbar.tex
+[114] (./chapters/Background/ttbar.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
@@ -3259,10 +3239,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
 
-LaTeX Warning: Reference `sec:Bkg:ttbar:Sel' on page 111 undefined on input lin
+LaTeX Warning: Reference `sec:Bkg:ttbar:Sel' on page 115 undefined on input lin
 e 5.
 
-[111]
+[115]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 9.
@@ -3271,7 +3251,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 9.
 
-[112]
+[116]
 File: ./figures/MET_ISR.png Graphic file (type QTm)
  <use  "./figures/MET_ISR.png" >
 
@@ -3282,10 +3262,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 22.
 
-[113]
+[117]
 File: ./figures/MET_ISR.png Graphic file (type QTm)
- <use  "./figures/MET_ISR.png" > [114]
-Overfull \hbox (0.49944pt too wide) in paragraph at lines 37--37
+ <use  "./figures/MET_ISR.png" > [118]
+Overfull \hbox (2.09544pt too wide) in paragraph at lines 37--37
 |[]\EU1/EBGaramond(2)/m/sc/12 Predicting the amount of $[][]$ in Signal Region 
 using a One Lepton Con-
  []
@@ -3299,12 +3279,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 37.
 
 
-LaTeX Warning: Reference `sec:Bkg:ttbar:Sel' on page 115 undefined on input lin
+LaTeX Warning: Reference `sec:Bkg:ttbar:Sel' on page 119 undefined on input lin
 e 40.
 
-[115]
+[119]
 
-LaTeX Warning: Reference `tab:SRcommon' on page 116 undefined on input line 44.
+LaTeX Warning: Reference `tab:SRcommon' on page 120 undefined on input line 44.
 
 
 
@@ -3334,7 +3314,7 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
 
-[116]
+[120]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
 
@@ -3380,7 +3360,7 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
 
-[117]
+[121]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 66.
 
@@ -3414,10 +3394,10 @@ File: ./figures/MET_ISR.png Graphic file (type QTm)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `sec:sys' on page 118 undefined on input line 91.
+LaTeX Warning: Reference `sec:sys' on page 122 undefined on input line 91.
 
-[118] [119]
-Overfull \hbox (4.43544pt too wide) in paragraph at lines 93--93
+[122] [123]
+Overfull \hbox (6.03145pt too wide) in paragraph at lines 93--93
 |[]\EU1/EBGaramond(2)/m/sc/12 Validating $[][]$ Predictions in Signal Region us
 ing a Zero Lepton Valida-
  []
@@ -3463,7 +3443,7 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
 
-[120]
+[124]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 98.
 
@@ -3477,7 +3457,7 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 98.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 98.
 
 
-LaTeX Warning: Reference `tab:SRcommon' on page 121 undefined on input line 102
+LaTeX Warning: Reference `tab:SRcommon' on page 125 undefined on input line 102
 .
 
 
@@ -3536,7 +3516,7 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 134.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 134.
 
-[121] [122]) (./chapters/Background/WJet.tex
+[125] [126]) (./chapters/Background/WJet.tex
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
@@ -3547,13 +3527,13 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
 
-LaTeX Warning: Reference `tab:singleTop1LepCR_def' on page 123 undefined on inp
+LaTeX Warning: Reference `tab:singleTop1LepCR_def' on page 127 undefined on inp
 ut line 5.
 
 
-LaTeX Warning: Reference `sec:WVR' on page 123 undefined on input line 5.
+LaTeX Warning: Reference `sec:WVR' on page 127 undefined on input line 5.
 
-[123] [124] (./chapters/Background/yields/CRWYields.tex)
+[127] [128] (./chapters/Background/yields/CRWYields.tex)
 File: figures/wJets/postfit/JetPt_1__CRW_log.eps Graphic file (type eps)
 
 <figures/wJets/postfit/JetPt_1__CRW_log.eps>
@@ -3601,9 +3581,9 @@ File: figures/wJets/postfit/AntiKt8M_0__CRW.eps Graphic file (type eps)
 <figures/wJets/postfit/AntiKt8M_0__CRW.eps>
 File: figures/wJets/postfit/AntiKt8M_1__CRW.eps Graphic file (type eps)
 
-<figures/wJets/postfit/AntiKt8M_1__CRW.eps> [125] [126] [127] [128]
+<figures/wJets/postfit/AntiKt8M_1__CRW.eps> [129] [130] [131] [132]
 
-LaTeX Warning: Reference `tab:SRcommon' on page 129 undefined on input line 90.
+LaTeX Warning: Reference `tab:SRcommon' on page 133 undefined on input line 90.
 
 
 (./chapters/Background/yields/VRWYields.tex)
@@ -3658,14 +3638,14 @@ File: figures/wJets/postfit/AntiKt8M_0__VRW.eps Graphic file (type eps)
 <figures/wJets/postfit/AntiKt8M_0__VRW.eps>
 File: figures/wJets/postfit/AntiKt8M_1__VRW.eps Graphic file (type eps)
 
-<figures/wJets/postfit/AntiKt8M_1__VRW.eps> [129
+<figures/wJets/postfit/AntiKt8M_1__VRW.eps> [133
 
-] [130] [131] [132] [133])
+] [134] [135] [136] [137])
 (./chapters/Background/SingleTop.tex
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
-[134
+[138
 
 ] (./chapters/Background/yields/CRSTYields.tex)
 File: figures/singleTop/postfit/Met_CRST_log.eps Graphic file (type eps)
@@ -3721,29 +3701,29 @@ File: figures/singleTop/postfit/AntiKt8M_0__CRST.eps Graphic file (type eps)
 <figures/singleTop/postfit/AntiKt8M_0__CRST.eps>
 File: figures/singleTop/postfit/AntiKt8M_1__CRST.eps Graphic file (type eps)
 
-<figures/singleTop/postfit/AntiKt8M_1__CRST.eps> [135] [136] [137] [138])
+<figures/singleTop/postfit/AntiKt8M_1__CRST.eps> [139] [140] [141] [142])
 (./chapters/Background/ttV.tex
 
-LaTeX Warning: Reference `sec:Selection' on page 139 undefined on input line 7.
+LaTeX Warning: Reference `sec:Selection' on page 143 undefined on input line 7.
 
 
 
-LaTeX Warning: Reference `tb:lepTriggers' on page 139 undefined on input line 7
+LaTeX Warning: Reference `tb:lepTriggers' on page 143 undefined on input line 7
 .
 
 
-LaTeX Warning: Reference `tb:lepTriggers' on page 139 undefined on input line 1
+LaTeX Warning: Reference `tb:lepTriggers' on page 143 undefined on input line 1
 4.
 
 
-LaTeX Warning: Reference `tb:electronsSignal' on page 139 undefined on input li
+LaTeX Warning: Reference `tb:electronsSignal' on page 143 undefined on input li
 ne 14.
 
 
-LaTeX Warning: Reference `tb:muonsSignal' on page 139 undefined on input line 1
+LaTeX Warning: Reference `tb:muonsSignal' on page 143 undefined on input line 1
 4.
 
-[139
+[143
 
 ] (./chapters/Background/yields/CRTTGammaYields.tex)
 File: figures/ttGamma/Met_CRTTGamma_withRatio_log.eps Graphic file (type eps)
@@ -3821,8 +3801,8 @@ File: figures/ttGamma/postfit/AntiKt8M_1__CRTTGamma.eps Graphic file (type eps)
 <figures/ttGamma/postfit/AntiKt8M_1__CRTTGamma.eps>
 File: figures/ttGamma/TruthStudies/Pt150.pdf Graphic file (type QTm)
 
-<use  "figures/ttGamma/TruthStudies/Pt150.pdf" > [140] [141] [142] [143]
-[144] [145]) (./chapters/Background/ZJet.tex
+<use  "figures/ttGamma/TruthStudies/Pt150.pdf" > [144] [145] [146] [147]
+[148] [149]) (./chapters/Background/ZJet.tex
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 5.
 
@@ -3835,10 +3815,10 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
 ) (./chapters/Background/QCD.tex
 
-Package natbib Warning: Citation `jetSmearing' on page 146 undefined on input l
+Package natbib Warning: Citation `jetSmearing' on page 150 undefined on input l
 ine 21.
 
-[146
+[150
 
 ]
 Overfull \hbox (126.09398pt too wide) in paragraph at lines 45--47
@@ -3848,48 +3828,48 @@ nline leading $[][]$([]\EU1/SourceCodePro(0)/m/it/10.95 HLT_xAOD__JetContainer_
 a4tcemsubjesFS\EU1/EBGaramond(2)/bx/n/10.95 ) 
  []
 
-[147]
+[151]
 Overfull \hbox (15.47508pt too wide) in paragraph at lines 96--97
 []\EU1/EBGaramond(2)/bx/n/10.95 As recommended by the jet smearing group, we us
 e the following definition for the $[][]$-significance:  
  []
 
-[148]
+[152]
 
-LaTeX Warning: Reference `fig:CRQCD_1' on page 149 undefined on input line 151.
-
-
-
-LaTeX Warning: Reference `fig:CRQCD_2' on page 149 undefined on input line 151.
+LaTeX Warning: Reference `fig:CRQCD_1' on page 153 undefined on input line 151.
 
 
 
-LaTeX Warning: Reference `fig:CRQCD_3' on page 149 undefined on input line 151.
+LaTeX Warning: Reference `fig:CRQCD_2' on page 153 undefined on input line 151.
 
 
 
-LaTeX Warning: Reference `fig:CRQCD_4' on page 149 undefined on input line 151.
+LaTeX Warning: Reference `fig:CRQCD_3' on page 153 undefined on input line 151.
 
 
-[149]
 
-LaTeX Warning: Reference `tab:QCDRegionC' on page 150 undefined on input line 1
+LaTeX Warning: Reference `fig:CRQCD_4' on page 153 undefined on input line 151.
+
+
+[153]
+
+LaTeX Warning: Reference `tab:QCDRegionC' on page 154 undefined on input line 1
 78.
 
 
-LaTeX Warning: Reference `tab:SRcommon' on page 150 undefined on input line 181
+LaTeX Warning: Reference `tab:SRcommon' on page 154 undefined on input line 181
 .
 
-)) [150] [151]
+)) [154] [155]
 \openout2 = `chapters/Systematics.aux'.
 
  (./chapters/Systematics.tex
-Chapter 12.
+Chapter 13.
 
-LaTeX Warning: Reference `sec:sizeSystematics' on page 152 undefined on input l
+LaTeX Warning: Reference `sec:sizeSystematics' on page 156 undefined on input l
 ine 7.
 
-[152
+[156
 
 
 
@@ -3899,39 +3879,39 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 1.
 
 
-Package natbib Warning: Citation `JESnew' on page 153 undefined on input line 9
+Package natbib Warning: Citation `JESnew' on page 157 undefined on input line 9
 .
 
 
-Package natbib Warning: Citation `JES2015plots' on page 153 undefined on input 
+Package natbib Warning: Citation `JES2015plots' on page 157 undefined on input 
 line 10.
 
 
-LaTeX Warning: Reference `sec:jetSyst' on page 153 undefined on input line 12.
+LaTeX Warning: Reference `sec:jetSyst' on page 157 undefined on input line 12.
 
 
-Package natbib Warning: Citation `JER' on page 153 undefined on input line 14.
-
-[153]
-
-Package natbib Warning: Citation `Aad:2012re' on page 154 undefined on input li
-ne 30.
-
-) (./chapters/theorySystematics.tex [154] [155] (./zSysts.tex) [156]
-(./wSysts.tex)
-
-LaTeX Warning: Reference `sec:truthAna' on page 157 undefined on input line 53.
-
+Package natbib Warning: Citation `JER' on page 157 undefined on input line 14.
 
 [157]
 
-Package natbib Warning: Citation `ATLAS:ttbarTheoryUnc' on page 158 undefined o
+Package natbib Warning: Citation `Aad:2012re' on page 158 undefined on input li
+ne 30.
+
+) (./chapters/theorySystematics.tex [158] [159] (./zSysts.tex) [160]
+(./wSysts.tex)
+
+LaTeX Warning: Reference `sec:truthAna' on page 161 undefined on input line 53.
+
+
+[161]
+
+Package natbib Warning: Citation `ATLAS:ttbarTheoryUnc' on page 162 undefined o
 n input line 55.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 61.
 
-[158]
+[162]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3961,11 +3941,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[159] [160] (./ttVSyst.tex)
+[163] [164] (./ttVSyst.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[161] [162]
+[165] [166]
 Overfull \hbox (141.55841pt too wide) in paragraph at lines 473--490
  [] 
  []
@@ -3995,12 +3975,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[163])) [164] [165] [166]
+[167])) [168] [169] [170]
 \openout2 = `chapters/Statistics.aux'.
 
  (./chapters/Statistics.tex
-Chapter 13.
-[167
+Chapter 14.
+[171
 
 
 
@@ -4008,162 +3988,156 @@ Chapter 13.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 30.
 
-[168] [169] [170]
+[172] [173] [174]
 File: ./figures/statistics/CR_VR_SR.pdf Graphic file (type QTm)
  <use  "./figures/statistics/CR_VR_SR.pdf" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[171]
+[175]
 
-Package natbib Warning: Citation `HistFitter' on page 172 undefined on input li
+Package natbib Warning: Citation `HistFitter' on page 176 undefined on input li
 ne 93.
 
 
-Package natbib Warning: Citation `RooFit' on page 172 undefined on input line 9
+Package natbib Warning: Citation `RooFit' on page 176 undefined on input line 9
 3.
 
-[172] [173]
+[176] [177]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 113.
 
-[174]
+[178]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 127.
 
-[175] [176]
+[179] [180]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 144.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 144.
 
-) [177]
+) [181]
 \openout2 = `chapters/Results.aux'.
 
  (./chapters/Results.tex
-Chapter 14.
+Chapter 15.
 
-LaTeX Warning: Reference `sec:Systematics' on page 178 undefined on input line 
+LaTeX Warning: Reference `sec:Systematics' on page 182 undefined on input line 
 7.
 
-[178
+[182
 
 
 
-] [179] [180] (./chapters/unblindedResults.tex
+] [183] [184] (./chapters/unblindedResults.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
 
-LaTeX Warning: Reference `fig:SRAUnblined' on page 181 undefined on input line 
+LaTeX Warning: Reference `fig:SRAUnblined' on page 185 undefined on input line 
 7.
 
 
-LaTeX Warning: Reference `fig:SRBUnblined' on page 181 undefined on input line 
+LaTeX Warning: Reference `fig:SRBUnblined' on page 185 undefined on input line 
 7.
 
 
-LaTeX Warning: Reference `fig:SRDUnblined' on page 181 undefined on input line 
+LaTeX Warning: Reference `fig:SRDUnblined' on page 185 undefined on input line 
 7.
 
 
-LaTeX Warning: Reference `fig:SREUnblined' on page 181 undefined on input line 
+LaTeX Warning: Reference `fig:SREUnblined' on page 185 undefined on input line 
 7.
 
-) [181
+) [185
 
 ]
 
-LaTeX Warning: Reference `table.bkgonly.CRTopA' on page 182 undefined on input 
+LaTeX Warning: Reference `table.bkgonly.CRTopA' on page 186 undefined on input 
 line 55.
 
 
-LaTeX Warning: Reference `table.bkgonly.CRTopB' on page 182 undefined on input 
+LaTeX Warning: Reference `table.bkgonly.CRTopB' on page 186 undefined on input 
 line 55.
 
 
-LaTeX Warning: Reference `table.bkgonly.CRTTgamma' on page 182 undefined on inp
+LaTeX Warning: Reference `table.bkgonly.CRTTgamma' on page 186 undefined on inp
 ut line 56.
 
 
-LaTeX Warning: Reference `table.bkgonly.CRZ' on page 182 undefined on input lin
+LaTeX Warning: Reference `table.bkgonly.CRZ' on page 186 undefined on input lin
 e 57.
 
 
-LaTeX Warning: Reference `table.bkgonly.CRother' on page 182 undefined on input
+LaTeX Warning: Reference `table.bkgonly.CRother' on page 186 undefined on input
  line 57.
 
 
-LaTeX Warning: Reference `table.bkgonly.VRTopA' on page 182 undefined on input 
+LaTeX Warning: Reference `table.bkgonly.VRTopA' on page 186 undefined on input 
 line 60.
 
 
-LaTeX Warning: Reference `table.bkgonly.VRTopB' on page 182 undefined on input 
+LaTeX Warning: Reference `table.bkgonly.VRTopB' on page 186 undefined on input 
 line 61.
 
 
-LaTeX Warning: Reference `table.bkgonly.VRW' on page 182 undefined on input lin
+LaTeX Warning: Reference `table.bkgonly.VRW' on page 186 undefined on input lin
 e 62.
 
 
-LaTeX Warning: Reference `table.bkgonly.VRZ' on page 182 undefined on input lin
+LaTeX Warning: Reference `table.bkgonly.VRZ' on page 186 undefined on input lin
 e 63.
 
 
-LaTeX Warning: Reference `table.bkgonly.SRA' on page 182 undefined on input lin
+LaTeX Warning: Reference `table.bkgonly.SRA' on page 186 undefined on input lin
 e 66.
 
 
-LaTeX Warning: Reference `table.bkgonly.SRB' on page 182 undefined on input lin
+LaTeX Warning: Reference `table.bkgonly.SRB' on page 186 undefined on input lin
 e 66.
 
 
-LaTeX Warning: Reference `table.bkgonly.SRD' on page 182 undefined on input lin
+LaTeX Warning: Reference `table.bkgonly.SRD' on page 186 undefined on input lin
 e 66.
 
 
-LaTeX Warning: Reference `table.bkgonly.SRE' on page 182 undefined on input lin
+LaTeX Warning: Reference `table.bkgonly.SRE' on page 186 undefined on input lin
 e 67.
 
 
 LaTeX Warning: Reference `table.results.bkgestimate.uncertainties.SRA_TT_SRA_TW
-_SRA_T0' on page 182 undefined on input line 73.
+_SRA_T0' on page 186 undefined on input line 73.
 
 
 LaTeX Warning: Reference `table.results.bkgestimate.uncertainties.SRB_TT_SRB_TW
-_SRB_T0' on page 182 undefined on input line 74.
+_SRB_T0' on page 186 undefined on input line 74.
 
 
 LaTeX Warning: Reference `table.results.bkgestimate.uncertainties.SRD_low_SRD_h
-igh' on page 182 undefined on input line 77.
+igh' on page 186 undefined on input line 77.
 
 
 LaTeX Warning: Reference `table.results.bkgestimate.uncertainties.SRE' on page 
-182 undefined on input line 78.
+186 undefined on input line 78.
 
 
-LaTeX Warning: Reference `sec:bkgonly_fit_details' on page 182 undefined on inp
+LaTeX Warning: Reference `sec:bkgonly_fit_details' on page 186 undefined on inp
 ut line 82.
 
-
-Overfull \hbox (1.83589pt too wide) in paragraph at lines 70--88
-\EU1/EBGaramond(2)/bx/n/10.95 in Tables [], [], [][]14.6[][], [][]14.7[][], [] 
-and []. The breakdown of the post-fit systematic uncertainties, summed 
- []
-
 (./sfs.tex) (./HistFitterStuff/YieldsTable.CRTopCDE.tex)
-(./HistFitterStuff/YieldsTable.VRTopCDE.tex) [182
+(./HistFitterStuff/YieldsTable.VRTopCDE.tex) [186
 
-] [183] [184] [185]
+] [187] [188] [189]
 (./HistFitterStuff/YieldsTable.SRC1to3.tex)
-(./HistFitterStuff/YieldsTable.SRC4to5.tex) [186] [187]
+(./HistFitterStuff/YieldsTable.SRC4to5.tex) [190] [191]
 (./HistFitterStuff/SysTable.SRC1to3.tex)
-(./HistFitterStuff/SysTable.SRC4to5.tex) [188] [189]
+(./HistFitterStuff/SysTable.SRC4to5.tex) [192] [193]
 File: HistFitterStuff/corrMatrix.pdf Graphic file (type QTm)
 
-<use  "HistFitterStuff/corrMatrix.pdf" > [190]
+<use  "HistFitterStuff/corrMatrix.pdf" > [194]
 File: HistFitterStuff/pullPlot.pdf Graphic file (type QTm)
 
 <use  "HistFitterStuff/pullPlot.pdf" >
@@ -4171,11 +4145,11 @@ File: HistFitterStuff/pullPlot.pdf Graphic file (type QTm)
 LaTeX Warning: Float too large for page by 217.58849pt on input line 143.
 
 
-LaTeX Warning: Reference `figure.exclusion.SRA' on page 191 undefined on input 
+LaTeX Warning: Reference `figure.exclusion.SRA' on page 195 undefined on input 
 line 152.
 
 
-LaTeX Warning: Reference `figure.exclusion.SRB' on page 191 undefined on input 
+LaTeX Warning: Reference `figure.exclusion.SRB' on page 195 undefined on input 
 line 152.
 
 File: HistFitterStuff/SRC_exclusion.pdf Graphic file (type QTm)
@@ -4188,17 +4162,17 @@ File: HistFitterStuff/SRABC_exclusion.pdf Graphic file (type QTm)
 
 LaTeX Warning: Float too large for page by 24.07645pt on input line 185.
 
-) [191
+) [195
 
 
 
 
-] [192] [193] [194]
+] [196] [197] [198]
 \openout2 = `chapters/Interpretation.aux'.
 
  (./chapters/Interpretation.tex
-Chapter 15.
-) [195
+Chapter 16.
+) [199
 
 
 
@@ -4206,8 +4180,8 @@ Chapter 15.
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
-Chapter 16.
-) [196
+Chapter 17.
+) [200
 
 
 
@@ -4216,7 +4190,7 @@ Chapter 16.
 
  (./chapters/appendixA.tex
 Appendix A.
-) [197
+) [201
 
 
 
@@ -4302,7 +4276,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--16
 \EU1/EBGaramond(2)/bx/n/10.95 from its lead author, Jordan Suchow, at [][]su-
  []
 
-) [198
+) [202
 
 
 
@@ -4336,12 +4310,12 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 30725 strings out of 493591
- 545489 string characters out of 6143546
- 672213 words of memory out of 5000000
- 33176 multiletter control sequences out of 15000+600000
+ 30736 strings out of 493591
+ 545696 string characters out of 6143546
+ 671859 words of memory out of 5000000
+ 33183 multiletter control sequences out of 15000+600000
  18696 words of font info for 156 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  51i,18n,107p,10474b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (208 pages).
+Output written on dissertation.pdf (212 pages).
