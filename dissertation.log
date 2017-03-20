@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  12 MAR 2017 15:05
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  19 MAR 2017 23:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1304,7 +1304,11 @@ Package: quotchap 2012/10/20 v1.1 Decorative Chapter Headings with Quotes
 Package hyperref Info: Option `colorlinks' set `true' on input line 239.
 )
 (./dissertation.aux (./chapters/Introduction.aux) (./chapters/Motivation.aux)
-(./chapters/LHC.aux) (./chapters/Reconstruction.aux
+(./chapters/LHC.aux
+
+LaTeX Warning: Label `LHC:fig:MDT' multiply defined.
+
+) (./chapters/Reconstruction.aux
 
 LaTeX Warning: Label `eqn:PileupDensity' multiply defined.
 
@@ -1613,12 +1617,6 @@ Package microtype Info: Character `™' is missing
 Package microtype Info: Character `−' is missing
 (microtype)             in font `\EU1/EBGaramond(2)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
-
-Overfull \hbox (18.762pt too wide) in paragraph at lines 62--62
- [][] [][][]\EU1/EBGaramond(2)/m/sc/12 Recursive Jigsaw Reconstruction for Even
-ts with Missing Energy and 
- []
-
 [6]
 Overfull \hbox (1.21799pt too wide) in paragraph at lines 81--81
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Predicting the amount of $[][]$ in Si
@@ -1663,26 +1661,27 @@ Chapter 1.
 
  (./chapters/LHC.tex
 Chapter 2.
-File: figures/DET/AccComplex0700829.pdf Graphic file (type QTm)
-<use  "figures/DET/AccComplex0700829.pdf" >
-Overfull \hbox (41.56383pt too wide) in paragraph at lines 9--10
- [][] 
- []
+[3
 
+
+
+] [4]
+File: figures/LHC_ATLAS/AccComplex0700829.pdf Graphic file (type QTm)
+ <use  "figures/LHC_ATLAS/AccComplex0700829.pdf" >
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 10.
+(Font)              scaled to size 12.0pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 9.5907pt on input line 10.
+(Font)              scaled to size 9.5907pt on input line 22.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LatoRegular' (encoding: EU1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 7.99225pt on input line 10.
+(Font)              scaled to size 7.99225pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 9.71375pt on input line 10.
+(Font)              scaled to size 9.71375pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 8.09479pt on input line 10.
+(Font)              scaled to size 8.09479pt on input line 22.
 Package microtype Info: Character `•' is missing
 (microtype)             in font `\EU1/EBGaramond(0)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1738,9 +1737,9 @@ Package microtype Info: Character `−' is missing
 (microtype)             in font `\EU1/EBGaramond(1)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 5.66635pt on input line 10.
+(Font)              scaled to size 5.66635pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 10.
+(Font)              scaled to size 7.0pt on input line 22.
 Package microtype Info: Character `•' is missing
 (microtype)             in font `\EU1/EBGaramond(2)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1754,7 +1753,7 @@ Package microtype Info: Character `−' is missing
 (microtype)             in font `\EU1/EBGaramond(2)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 7.0pt on input line 10.
+(Font)              scaled to size 7.0pt on input line 22.
 Package microtype Info: Character `•' is missing
 (microtype)             in font `\EU1/EBGaramond(2)/bx/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1768,233 +1767,239 @@ Package microtype Info: Character `−' is missing
 (microtype)             in font `\EU1/EBGaramond(2)/bx/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Package natbib Warning: Citation `biblio:LHCpublic' on page 3 undefined on inpu
-t line 10.
 
-[3
-
-
-
-] [4]
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 8.0pt on input line 20.
-Package microtype Info: Character `•' is missing
-(microtype)             in font `\EU1/EBGaramond(2)/bx/n/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `℃' is missing
-(microtype)             in font `\EU1/EBGaramond(2)/bx/n/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `™' is missing
-(microtype)             in font `\EU1/EBGaramond(2)/bx/n/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `−' is missing
-(microtype)             in font `\EU1/EBGaramond(2)/bx/n/8'.
-(microtype)             Ignoring protrusion settings for this character.
-
-
-Package natbib Warning: Citation `biblio:JINST' on page 5 undefined on input li
-ne 20.
-
-File: figures/DET/ATLAS_detector_alles_mittel_EN.PNG Graphic file (type QTm)
-<use  "figures/DET/ATLAS_detector_alles_mittel_EN.PNG" >
-
-Package natbib Warning: Citation `biblio:JINST' on page 5 undefined on input li
-ne 25.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package natbib Warning: Citation `LHC' on page 5 undefined on input line 22.
 
 [5]
-File: figures/DET/ATLAS_Particle_Diagram.PNG Graphic file (type QTm)
- <use  "figures/DET/ATLAS_Particle_Diagram.PNG" >
+File: figures/LHC_ATLAS/LHCCrossSection.pdf Graphic file (type QTm)
+ <use  "figures/LHC_ATLAS/LHCCrossSection.pdf" >
 
-Package natbib Warning: Citation `biblio:SMcourse' on page 6 undefined on input
- line 34.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package natbib Warning: Citation `LHC' on page 6 undefined on input line 32.
 
 [6]
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
+(Font)              scaled to size 8.0pt on input line 41.
+Package microtype Info: Character `•' is missing
+(microtype)             in font `\EU1/EBGaramond(2)/bx/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `℃' is missing
+(microtype)             in font `\EU1/EBGaramond(2)/bx/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `™' is missing
+(microtype)             in font `\EU1/EBGaramond(2)/bx/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `−' is missing
+(microtype)             in font `\EU1/EBGaramond(2)/bx/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
 
-Package natbib Warning: Citation `biblio:JINST' on page 7 undefined on input li
-ne 40.
+
+Package natbib Warning: Citation `Phase1' on page 7 undefined on input line 41.
 
 
-LaTeX Warning: Reference `LHC:MuonTrigger' on page 7 undefined on input line 40
-.
 
-[7]
-File: figures/DET/ATLAS_ID_Detector.PNG Graphic file (type QTm)
- <use  "figures/DET/ATLAS_ID_Detector.PNG" >
+Package natbib Warning: Citation `ATLAS_JINST' on page 7 undefined on input lin
+e 46.
 
-Package natbib Warning: Citation `biblio:JINST' on page 8 undefined on input li
-ne 49.
+File: figures/LHC_ATLAS/ATLAS_SE_Corrected7.eps Graphic file (type eps)
+<figures/LHC_ATLAS/ATLAS_SE_Corrected7.eps>
+
+Package natbib Warning: Citation `ATLAS_JINST' on page 7 undefined on input lin
+e 52.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/LHC_ATLAS/ATLAS_Signature.jpg Graphic file (type QTm)
+<use  "figures/LHC_ATLAS/ATLAS_Signature.jpg" >
+
+Package natbib Warning: Citation `ATLASSig' on page 7 undefined on input line 6
+2.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `biblio:JINST' on page 8 undefined on input li
-ne 53.
+LaTeX Warning: Reference `chap:reco' on page 7 undefined on input line 66.
 
-[8]
+[7] [8]
+Overfull \hbox (5.10147pt too wide) in paragraph at lines 74--74
+[]\EU1/EBGaramond(2)/bx/n/10.95 Muons are the only charged SM particle that are
+ expected to be able to fully penetrate the calorime- 
+ []
 
-Package natbib Warning: Citation `biblio:JINST' on page 9 undefined on input li
-ne 55.
+[9] [10]
 
-[9]
+LaTeX Warning: Reference `' on page 11 undefined on input line 85.
 
-Package natbib Warning: Citation `biblio:JINST' on page 10 undefined on input l
-ine 56.
+File: figures/LHC_ATLAS/FigID11blast.eps Graphic file (type eps)
+<figures/LHC_ATLAS/FigID11blast.eps>
+File: figures/LHC_ATLAS/FigID26-mod-011107.eps Graphic file (type eps)
+
+<figures/LHC_ATLAS/FigID26-mod-011107.eps>
+
+Package natbib Warning: Citation `ATLAS_JINST' on page 11 undefined on input li
+ne 93.
+
+[11]
+
+Package natbib Warning: Citation `IBLOverview' on page 12 undefined on input li
+ne 107.
 
 
-Package natbib Warning: Citation `biblio:JINST' on page 10 undefined on input l
-ine 57.
+Package natbib Warning: Citation `IBL_TDR' on page 12 undefined on input line 1
+07.
 
-File: figures/DET/ATLAS_Staw_Tube_Fig.PNG Graphic file (type QTm)
-<use  "figures/DET/ATLAS_Staw_Tube_Fig.PNG" >
+File: figures/LHC_ATLAS/fig_ibl_layout_rev.png Graphic file (type QTm)
+<use  "figures/LHC_ATLAS/fig_ibl_layout_rev.png" >
 
-Package natbib Warning: Citation `biblio:JINST' on page 10 undefined on input l
-ine 64.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10] [11]
-
-Package natbib Warning: Citation `biblio:JINST' on page 12 undefined on input l
-ine 73.
-
-File: figures/DET/ATLAS_Calo.PNG Graphic file (type QTm)
-<use  "figures/DET/ATLAS_Calo.PNG" >
-
-Package natbib Warning: Citation `biblio:JINST' on page 12 undefined on input l
-ine 78.
-
-[12] [13]
-
-LaTeX Warning: Reference `LHC:MuonTrigger' on page 14 undefined on input line 8
-6.
-
-File: figures/DET/ATLAS_MuonSpec.PNG Graphic file (type QTm)
-<use  "figures/DET/ATLAS_MuonSpec.PNG" >
-
-Package natbib Warning: Citation `biblio:JINST' on page 14 undefined on input l
-ine 91.
+Package natbib Warning: Citation `IBLOverview' on page 12 undefined on input li
+ne 115.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14]
-File: figures/DET/ATLAS_ToroidMag.PNG Graphic file (type QTm)
- <use  "figures/DET/ATLAS_ToroidMag.PNG" >
+[12] [13] [14]
 
-Package natbib Warning: Citation `biblio:JINST' on page 15 undefined on input l
-ine 100.
+LaTeX Warning: Reference `' on page 15 undefined on input line 142.
 
+File: figures/LHC_ATLAS/Calorimeter_d3.eps Graphic file (type eps)
+<figures/LHC_ATLAS/Calorimeter_d3.eps>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package natbib Warning: Citation `biblio:JINST' on page 15 undefined on input l
-ine 105.
+Package natbib Warning: Citation `ATLAS_JINST' on page 15 undefined on input li
+ne 148.
 
 [15]
+File: figures/LHC_ATLAS/LARG3-TDR-barrelM.eps Graphic file (type eps)
+ <figures/LHC_ATLAS/LARG3-TDR-barrelM.eps>
+File: figures/LHC_ATLAS/LARG3-abcdM.eps Graphic file (type eps)
 
-Package natbib Warning: Citation `biblio:JINST' on page 16 undefined on input l
-ine 107.
+<figures/LHC_ATLAS/LARG3-abcdM.eps>
+
+Package natbib Warning: Citation `ATLAS_JINST' on page 16 undefined on input li
+ne 169.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [16]
+File: figures/LHC_ATLAS/TileCal_Module3.eps Graphic file (type eps)
+ <figures/LHC_ATLAS/TileCal_Module3.eps>
 
-Package natbib Warning: Citation `biblio:JINST' on page 17 undefined on input l
-ine 108.
+Package natbib Warning: Citation `ATLAS_JINST' on page 17 undefined on input li
+ne 187.
 
-File: figures/DET/ATLAS_CSC.PNG Graphic file (type QTm)
-<use  "figures/DET/ATLAS_CSC.PNG" >
+[17] [18]
+File: figures/LHC_ATLAS/Muon_rz_large_sect_6.eps Graphic file (type eps)
+ <figures/LHC_ATLAS/Muon_rz_large_sect_6.eps>
 
-Package natbib Warning: Citation `biblio:JINST' on page 17 undefined on input l
-ine 113.
-
-
-Package natbib Warning: Citation `biblio:JINST' on page 17 undefined on input l
-ine 117.
-
-[17]
-
-LaTeX Warning: Reference `LHC:MuonTrigger' on page 18 undefined on input line 1
-18.
+Package natbib Warning: Citation `ATLAS_JINST' on page 19 undefined on input li
+ne 207.
 
 
-Package natbib Warning: Citation `biblio:JINST' on page 18 undefined on input l
-ine 119.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/LHC_ATLAS/ATLcoilGeom.eps Graphic file (type eps)
+<figures/LHC_ATLAS/ATLcoilGeom.eps>
+
+Package natbib Warning: Citation `ATLAS_JINST' on page 19 undefined on input li
+ne 217.
 
 
-Package natbib Warning: Citation `biblio:JINST' on page 18 undefined on input l
-ine 119.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18]) [19]
+[19]
+
+LaTeX Warning: Text page 20 contains only floats.
+
+[20]
+File: figures/LHC_ATLAS/MDT_tube_cross_section.eps Graphic file (type eps)
+ <figures/LHC_ATLAS/MDT_tube_cross_section.eps>
+
+Package natbib Warning: Citation `ATLAS_JINST' on page 21 undefined on input li
+ne 237.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/LHC_ATLAS/CSC_structure.eps Graphic file (type eps)
+<figures/LHC_ATLAS/CSC_structure.eps>
+
+Package natbib Warning: Citation `ATLAS_JINST' on page 21 undefined on input li
+ne 245.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21] [22]
+File: figures/LHC_ATLAS/RPC_TGC_schematics_5.eps Graphic file (type eps)
+ <figures/LHC_ATLAS/RPC_TGC_schematics_5.eps>
+
+Package natbib Warning: Citation `ATLAS_JINST' on page 23 undefined on input li
+ne 261.
+
+) [23]
 \openout2 = `chapters/Reconstruction.aux'.
 
  (./chapters/Reconstruction.tex
 Chapter 3.
-(./chapters/Reconstruction/IDTracks.tex [20
+(./chapters/Reconstruction/IDTracks.tex [24
 
 
 
 ]
 
-Package natbib Warning: Citation `NEWT' on page 21 undefined on input line 8.
+Package natbib Warning: Citation `NEWT' on page 25 undefined on input line 8.
 
-) (./chapters/Reconstruction/VertexReco.tex [21]
+) (./chapters/Reconstruction/VertexReco.tex [25]
 
-Package natbib Warning: Citation `VertexReco' on page 22 undefined on input lin
+Package natbib Warning: Citation `VertexReco' on page 26 undefined on input lin
 e 18.
 
 
-Package natbib Warning: Citation `adaptiveFitting' on page 22 undefined on inpu
+Package natbib Warning: Citation `adaptiveFitting' on page 26 undefined on inpu
 t line 18.
 
-[22]
+[26]
 
-Package natbib Warning: Citation `adaptiveFitting' on page 23 undefined on inpu
+Package natbib Warning: Citation `adaptiveFitting' on page 27 undefined on inpu
 t line 22.
 
-) (./chapters/Reconstruction/CaloJets.tex [23]
+) (./chapters/Reconstruction/CaloJets.tex [27]
 
-LaTeX Warning: Reference `sec:jet:btag' on page 24 undefined on input line 6.
+LaTeX Warning: Reference `sec:jet:btag' on page 28 undefined on input line 6.
 
 
-Package natbib Warning: Citation `jetReco7TeV' on page 24 undefined on input li
+Package natbib Warning: Citation `jetReco7TeV' on page 28 undefined on input li
 ne 12.
 
 
-Package natbib Warning: Citation `jetReco13TeV' on page 24 undefined on input l
+Package natbib Warning: Citation `jetReco13TeV' on page 28 undefined on input l
 ine 12.
 
-[24]
+[28]
 
-LaTeX Warning: Reference `eqn:antikt' on page 25 undefined on input line 14.
+LaTeX Warning: Reference `eqn:antikt' on page 29 undefined on input line 14.
 
-[25]
+[29]
 
-Package natbib Warning: Citation `JetAreaGhostAssociate' on page 26 undefined o
+Package natbib Warning: Citation `JetAreaGhostAssociate' on page 30 undefined o
 n input line 25.
 
 
-Package natbib Warning: Citation `Calibartion13TeV' on page 26 undefined on inp
+Package natbib Warning: Citation `Calibartion13TeV' on page 30 undefined on inp
 ut line 32.
 
 File: figures/JetCalib/JetCalibFlow.png Graphic file (type QTm)
 <use  "figures/JetCalib/JetCalibFlow.png" >
 
-Package natbib Warning: Citation `topoCalib' on page 26 undefined on input line
+Package natbib Warning: Citation `topoCalib' on page 30 undefined on input line
  42.
 
 
-Package natbib Warning: Citation `pileupsub' on page 26 undefined on input line
+Package natbib Warning: Citation `pileupsub' on page 30 undefined on input line
  44.
 
-[26]
+[30]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 47.
 
@@ -2002,14 +2007,14 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 47.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 47.
 
 
-Package natbib Warning: Citation `JetCalibartion13TeV' on page 27 undefined on 
+Package natbib Warning: Citation `JetCalibartion13TeV' on page 31 undefined on 
 input line 51.
 
 
-LaTeX Warning: Reference `pilupCorrection' on page 27 undefined on input line 5
+LaTeX Warning: Reference `pilupCorrection' on page 31 undefined on input line 5
 3.
 
-[27]
+[31]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 56.
 
@@ -2017,37 +2022,37 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 56.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 56.
 
 
-Package natbib Warning: Citation `JetCalibartion13TeV' on page 28 undefined on 
+Package natbib Warning: Citation `JetCalibartion13TeV' on page 32 undefined on 
 input line 62.
 
 
-Package natbib Warning: Citation `jet_GSC' on page 28 undefined on input line 6
+Package natbib Warning: Citation `jet_GSC' on page 32 undefined on input line 6
 2.
 
 
-Package natbib Warning: Citation `JES_ZGamma' on page 28 undefined on input lin
+Package natbib Warning: Citation `JES_ZGamma' on page 32 undefined on input lin
 e 64.
 
 
-Package natbib Warning: Citation `JES_dijet' on page 28 undefined on input line
+Package natbib Warning: Citation `JES_dijet' on page 32 undefined on input line
  64.
 
 
-LaTeX Warning: Reference `jet_insitu' on page 28 undefined on input line 64.
+LaTeX Warning: Reference `jet_insitu' on page 32 undefined on input line 64.
 
-[28]
+[32]
 
-Package natbib Warning: Citation `JVT' on page 29 undefined on input line 75.
-
-
-LaTeX Warning: Reference `eqn:corrJVF' on page 29 undefined on input line 79.
-
-[29]
-
-Package natbib Warning: Citation `TMVA' on page 30 undefined on input line 95.
+Package natbib Warning: Citation `JVT' on page 33 undefined on input line 75.
 
 
-Package natbib Warning: Citation `JetCleaning' on page 30 undefined on input li
+LaTeX Warning: Reference `eqn:corrJVF' on page 33 undefined on input line 79.
+
+[33]
+
+Package natbib Warning: Citation `TMVA' on page 34 undefined on input line 95.
+
+
+Package natbib Warning: Citation `JetCleaning' on page 34 undefined on input li
 ne 100.
 
 
@@ -2056,70 +2061,70 @@ Overfull \hbox (1.04752pt too wide) in paragraph at lines 100--100
 ake jets include noise in the LAr and Tile calorime- 
  []
 
-[30] [31] [32]
+[34] [35] [36]
 
-Package natbib Warning: Citation `btagging2016' on page 33 undefined on input l
+Package natbib Warning: Citation `btagging2016' on page 37 undefined on input l
 ine 150.
 
 
-Package natbib Warning: Citation `btagging2015' on page 33 undefined on input l
+Package natbib Warning: Citation `btagging2015' on page 37 undefined on input l
 ine 150.
-
-[33]
-
-Package natbib Warning: Citation `TMVA' on page 34 undefined on input line 158.
-
-
-File: figures/JetCalib/MV20c10.eps Graphic file (type eps)
-<figures/JetCalib/MV20c10.eps>) (./chapters/Reconstruction/EMReco.tex [34]
-[35]
-
-Package natbib Warning: Citation `EMReco13TeV' on page 36 undefined on input li
-ne 9.
-
-
-Package natbib Warning: Citation `EMReco8TeV' on page 36 undefined on input lin
-e 9.
-
-
-Package natbib Warning: Citation `EMReco13TeV' on page 36 undefined on input li
-ne 9.
-
-
-Package natbib Warning: Citation `EMReco13TeV' on page 36 undefined on input li
-ne 9.
-
-
-LaTeX Warning: Reference `sec:reco:phoQuality' on page 36 undefined on input li
-ne 13.
-
-[36]
-
-Package natbib Warning: Citation `EleID' on page 37 undefined on input line 18.
-
-
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-
-Package natbib Warning: Citation `EleID' on page 37 undefined on input line 22.
-
-
-
-Package natbib Warning: Citation `EleID' on page 37 undefined on input line 24.
-
-
-
-Package natbib Warning: Citation `photonID' on page 37 undefined on input line 
-29.
 
 [37]
 
-Package natbib Warning: Citation `TMVA' on page 38 undefined on input line 31.
+Package natbib Warning: Citation `TMVA' on page 38 undefined on input line 158.
+
+
+File: figures/JetCalib/MV20c10.eps Graphic file (type eps)
+<figures/JetCalib/MV20c10.eps>) (./chapters/Reconstruction/EMReco.tex [38]
+[39]
+
+Package natbib Warning: Citation `EMReco13TeV' on page 40 undefined on input li
+ne 9.
+
+
+Package natbib Warning: Citation `EMReco8TeV' on page 40 undefined on input lin
+e 9.
+
+
+Package natbib Warning: Citation `EMReco13TeV' on page 40 undefined on input li
+ne 9.
+
+
+Package natbib Warning: Citation `EMReco13TeV' on page 40 undefined on input li
+ne 9.
+
+
+LaTeX Warning: Reference `sec:reco:phoQuality' on page 40 undefined on input li
+ne 13.
+
+[40]
+
+Package natbib Warning: Citation `EleID' on page 41 undefined on input line 18.
+
+
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
+
+Package natbib Warning: Citation `EleID' on page 41 undefined on input line 22.
+
+
+
+Package natbib Warning: Citation `EleID' on page 41 undefined on input line 24.
+
+
+
+Package natbib Warning: Citation `photonID' on page 41 undefined on input line 
+29.
+
+[41]
+
+Package natbib Warning: Citation `TMVA' on page 42 undefined on input line 31.
 
 Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
@@ -2128,42 +2133,42 @@ Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
 
-Package natbib Warning: Citation `EMReco13TeV' on page 38 undefined on input li
+Package natbib Warning: Citation `EMReco13TeV' on page 42 undefined on input li
 ne 41.
 
-[38]
+[42]
 File: figures/EMCalib/ElecCalib.png Graphic file (type QTm)
  <use  "figures/EMCalib/ElecCalib.png" >
 
-Package natbib Warning: Citation `EMReco8TeV' on page 39 undefined on input lin
+Package natbib Warning: Citation `EMReco8TeV' on page 43 undefined on input lin
 e 47.
 
 
-Package natbib Warning: Citation `TMVA' on page 39 undefined on input line 51.
+Package natbib Warning: Citation `TMVA' on page 43 undefined on input line 51.
 
 
-Package natbib Warning: Citation `EMReco13TeV' on page 39 undefined on input li
+Package natbib Warning: Citation `EMReco13TeV' on page 43 undefined on input li
 ne 51.
 
 
-Package natbib Warning: Citation `EMReco8TeV' on page 39 undefined on input lin
+Package natbib Warning: Citation `EMReco8TeV' on page 43 undefined on input lin
 e 51.
 
-[39]) (./chapters/Reconstruction/MuonReco.tex
+[43]) (./chapters/Reconstruction/MuonReco.tex
 Overfull \hbox (4.5915pt too wide) in paragraph at lines 4--4
 |[]\EU1/EBGaramond(2)/m/sc/12 Muon Inner Detector and Muon Spectrometer Track R
 econstruction| 
  []
 
 
-Package natbib Warning: Citation `MuonReco' on page 40 undefined on input line 
+Package natbib Warning: Citation `MuonReco' on page 44 undefined on input line 
 7.
 
 
-Package natbib Warning: Citation `HoughTrans' on page 40 undefined on input lin
+Package natbib Warning: Citation `HoughTrans' on page 44 undefined on input lin
 e 11.
 
-[40] [41] [42]
+[44] [45] [46]
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/bx/n' will be
 (Font)              scaled to size 9.35316pt on input line 42.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
@@ -2180,12 +2185,12 @@ Package microtype Info: Character `™' is missing
 Package microtype Info: Character `−' is missing
 (microtype)             in font `\EU1/EBGaramond(2)/bx/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
- [43] [44]
+ [47] [48]
 
-Package natbib Warning: Citation `MuonReco' on page 45 undefined on input line 
+Package natbib Warning: Citation `MuonReco' on page 49 undefined on input line 
 61.
 
-[45]
+[49]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 68.
 
@@ -2207,7 +2212,7 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 68.
 File: figures/MuonReco/MuonEff.eps Graphic file (type eps)
 <figures/MuonReco/MuonEff.eps>
 
-Package natbib Warning: Citation `MuonReco' on page 46 undefined on input line 
+Package natbib Warning: Citation `MuonReco' on page 50 undefined on input line 
 80.
 
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
@@ -2237,7 +2242,7 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 89.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 89.
 
-[46]
+[50]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 93.
 
@@ -2252,10 +2257,10 @@ File: figures/MuonReco/JPsiMass.eps Graphic file (type eps)
 File: figures/MuonReco/ZMass.eps Graphic file (type eps)
  <figures/MuonReco/ZMass.eps>
 
-Package natbib Warning: Citation `MuonReco' on page 47 undefined on input line 
+Package natbib Warning: Citation `MuonReco' on page 51 undefined on input line 
 102.
 
-) (./chapters/Reconstruction/METReco.tex [47]
+) (./chapters/Reconstruction/METReco.tex [51]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 8.
@@ -2272,22 +2277,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 8.
 
-[48]
+[52]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 14.
 
 
-LaTeX Warning: Reference `' on page 49 undefined on input line 18.
+LaTeX Warning: Reference `' on page 53 undefined on input line 18.
 
 
-Package natbib Warning: Citation `METReco' on page 49 undefined on input line 2
+Package natbib Warning: Citation `METReco' on page 53 undefined on input line 2
 0.
 
 
-Package natbib Warning: Citation `METReco' on page 49 undefined on input line 2
+Package natbib Warning: Citation `METReco' on page 53 undefined on input line 2
 4.
 
-[49]
+[53]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 28.
@@ -2304,7 +2309,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 28.
 
-[50]
+[54]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 35.
@@ -2322,38 +2327,38 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 35.
 
 
-Package natbib Warning: Citation `METReco' on page 51 undefined on input line 4
+Package natbib Warning: Citation `METReco' on page 55 undefined on input line 4
 0.
 
 
-Package natbib Warning: Citation `METReco' on page 51 undefined on input line 4
+Package natbib Warning: Citation `METReco' on page 55 undefined on input line 4
 0.
 
 
-LaTeX Warning: Reference `' on page 51 undefined on input line 45.
+LaTeX Warning: Reference `' on page 55 undefined on input line 45.
 
 File: figures/METCalib/METReso_Et.eps Graphic file (type eps)
 <figures/METCalib/METReso_Et.eps>
 File: figures/METCalib/METReso_nVtx.eps Graphic file (type eps)
  <figures/METCalib/METReso_nVtx.eps>))
-[51] [52]
+[55] [56]
 \openout2 = `chapters/Trigger.aux'.
 
  (./chapters/Trigger.tex
 Chapter 4.
-[53
+[57
 
 
 
 ]
 
-Package natbib Warning: Citation `Trigger2015' on page 54 undefined on input li
+Package natbib Warning: Citation `Trigger2015' on page 58 undefined on input li
 ne 9.
 
 File: figures/trigger/tdaq-schematic.png Graphic file (type QTm)
 <use  "figures/trigger/tdaq-schematic.png" >
 
-Package natbib Warning: Citation `Trigger2015' on page 54 undefined on input li
+Package natbib Warning: Citation `Trigger2015' on page 58 undefined on input li
 ne 15.
 
 
@@ -2370,9 +2375,9 @@ T_xe90_mht_L1XE50 \EU1/EBGaramond(2)/bx/n/10.95 for 2016 data taking period A-D
 3, \EU1/EBGaramond(2)/m/sc/10.95 HLT_xe100_mht_L1XE50 
  []
 
-[54]
+[58]
 
-LaTeX Warning: Reference `sec:trig:metHLT' on page 55 undefined on input line 2
+LaTeX Warning: Reference `sec:trig:metHLT' on page 59 undefined on input line 2
 1.
 
 
@@ -2392,7 +2397,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 23.
 
 
-Package natbib Warning: Citation `L1Calo' on page 55 undefined on input line 26
+Package natbib Warning: Citation `L1Calo' on page 59 undefined on input line 26
 .
 
 
@@ -2435,9 +2440,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 30.
 
-[55]
+[59]
 
-Package natbib Warning: Citation `Trigger2016' on page 56 undefined on input li
+Package natbib Warning: Citation `Trigger2016' on page 60 undefined on input li
 ne 35.
 
 File: figures/trigger/2016-05-16-UpdatedTurnOns.png Graphic file (type QTm)
@@ -2459,34 +2464,34 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 49.
 
 
-Package natbib Warning: Citation `Trigger2015' on page 56 undefined on input li
+Package natbib Warning: Citation `Trigger2015' on page 60 undefined on input li
 ne 52.
 
-[56]
+[60]
 
-LaTeX Warning: Reference `fig:L1METImprove' on page 57 undefined on input line 
+LaTeX Warning: Reference `fig:L1METImprove' on page 61 undefined on input line 
 54.
 
 File: figures/trigger/L1_XE50.png Graphic file (type QTm)
 <use  "figures/trigger/L1_XE50.png" >
 
-Package natbib Warning: Citation `Trigger2015' on page 57 undefined on input li
+Package natbib Warning: Citation `Trigger2015' on page 61 undefined on input li
 ne 60.
 
 
-Package natbib Warning: Citation `Trigger2016' on page 57 undefined on input li
+Package natbib Warning: Citation `Trigger2016' on page 61 undefined on input li
 ne 64.
 
-[57]) [58]
+[61]) [62]
 \openout2 = `chapters/ObjectDef.aux'.
 
  (./chapters/ObjectDef.tex
 Chapter 5.
-[59
+[63
 
 
 
-] [60]
+] [64]
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2555,19 +2560,19 @@ LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
 (Font)              scaled to size 10.25006pt on input line 33.
 
 
-LaTeX Warning: Reference `tb:electrons:sig' on page 61 undefined on input line 
+LaTeX Warning: Reference `tb:electrons:sig' on page 65 undefined on input line 
 42.
 
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 61.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 61.
-[61]
+[65]
 
-Package natbib Warning: Citation `antikt' on page 62 undefined on input line 10
+Package natbib Warning: Citation `antikt' on page 66 undefined on input line 10
 1.
 
-[62] [63]
+[66] [67]
 Overfull \hbox (37.1404pt too wide) in paragraph at lines 112--120
  [] 
  []
@@ -2585,7 +2590,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 143.
 
-[64]
+[68]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 183.
@@ -2602,7 +2607,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 186.
 
-[65]
+[69]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 190.
@@ -2611,13 +2616,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 190.
 
-[66]) [67]
+[70]) [71]
 \openout2 = `chapters/MCSimulation.aux'.
 
  (./chapters/MCSimulation.tex
 Chapter 6.
 
-LaTeX Warning: Reference `App:DatasetList' on page 68 undefined on input line 4
+LaTeX Warning: Reference `App:DatasetList' on page 72 undefined on input line 4
 .
 
 
@@ -2625,7 +2630,7 @@ Overfull \hbox (123.86884pt too wide) in paragraph at lines 9--22
  [][] 
  []
 
-[68
+[72
 
 
 
@@ -2639,18 +2644,18 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 38.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 38.
- [69]
+ [73]
 
-Package natbib Warning: Citation `NNPDF3.0' on page 70 undefined on input line 
+Package natbib Warning: Citation `NNPDF3.0' on page 74 undefined on input line 
 48.
 
 
-Package natbib Warning: Citation `Pythia8tunes' on page 70 undefined on input l
+Package natbib Warning: Citation `Pythia8tunes' on page 74 undefined on input l
 ine 48.
 
-[70]
+[74]
 
-Package natbib Warning: Citation `stopXsec' on page 71 undefined on input line 
+Package natbib Warning: Citation `stopXsec' on page 75 undefined on input line 
 50.
 
 
@@ -2668,19 +2673,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 57.
 
 
-Package natbib Warning: Citation `CT10' on page 71 undefined on input line 59.
+Package natbib Warning: Citation `CT10' on page 75 undefined on input line 59.
 
-[71]
+[75]
 
-Package natbib Warning: Citation `Perugia2012' on page 72 undefined on input li
+Package natbib Warning: Citation `Perugia2012' on page 76 undefined on input li
 ne 61.
 
 
-Package natbib Warning: Citation `CTEQ6L1' on page 72 undefined on input line 6
+Package natbib Warning: Citation `CTEQ6L1' on page 76 undefined on input line 6
 1.
 
 
-Package natbib Warning: Citation `topXsec' on page 72 undefined on input line 6
+Package natbib Warning: Citation `topXsec' on page 76 undefined on input line 6
 3.
 
 
@@ -2690,21 +2695,21 @@ or different PDF sets including MSTW2008NNLO,
  []
 
 
-Package natbib Warning: Citation `CTEQ6L1' on page 72 undefined on input line 6
+Package natbib Warning: Citation `CTEQ6L1' on page 76 undefined on input line 6
 8.
 
-[72]
+[76]
 
-Package natbib Warning: Citation `sherpa' on page 73 undefined on input line 70
+Package natbib Warning: Citation `sherpa' on page 77 undefined on input line 70
 .
 
 
-Package natbib Warning: Citation `Perugia2012' on page 73 undefined on input li
+Package natbib Warning: Citation `Perugia2012' on page 77 undefined on input li
 ne 76.
 
-[73]
+[77]
 
-Package natbib Warning: Citation `CTEQ6L1' on page 74 undefined on input line 8
+Package natbib Warning: Citation `CTEQ6L1' on page 78 undefined on input line 8
 4.
 
 
@@ -2743,7 +2748,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 86.
 
-[74] [75]
+[78] [79]
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 100.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/itsc' will be
@@ -2788,16 +2793,16 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 100.
 
-[76]) [77]
+[80]) [81]
 \openout2 = `chapters/AnaStrategy.aux'.
 
  (./chapters/AnaStrategy.tex
 Chapter 7.
-[78
+[82
 
 
 
-] [79]
+] [83]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 10.
 
@@ -2867,21 +2872,21 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 20.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 20.
 
-[80]
+[84]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 25.
 
 
-LaTeX Warning: Reference `ig:stop_400_227_ISR_MET_truth' on page 81 undefined o
+LaTeX Warning: Reference `ig:stop_400_227_ISR_MET_truth' on page 85 undefined o
 n input line 25.
 
-[81]
+[85]
 File: ./figures/MET_ISR.png Graphic file (type QTm)
  <use  "./figures/MET_ISR.png" >
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 33.
 
-) [82]
+) [86]
 \openout2 = `chapters/Jigsaw.aux'.
 
  (./chapters/Jigsaw.tex
@@ -2894,11 +2899,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 4.
 
-[83
+[87
 
 
 
-] [84]
+]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 13.
 
@@ -2931,27 +2936,20 @@ Package microtype Info: Character `™' is missing
 Package microtype Info: Character `−' is missing
 (microtype)             in font `\EU1/EBGaramond(1)/bx/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[85] [86]
+ [88] [89]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 32.
 
-[87]
+[90] [91]
 File: ./figures/DecayTree.eps Graphic file (type eps)
- <./figures/DecayTree.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[88] [89]
+ <./figures/DecayTree.eps> [92]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 70.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 71.
 
+[93]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 73.
 
@@ -2983,7 +2981,6 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 77.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 77.
 
-[90]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 80.
 
@@ -3015,14 +3012,14 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 80.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 80.
 
 
-LaTeX Warning: Reference `chap:SR' on page 91 undefined on input line 80.
+LaTeX Warning: Reference `chap:SR' on page 94 undefined on input line 80.
 
-) [91]
+) [94]
 \openout2 = `chapters/EventSelection.aux'.
 
  (./chapters/EventSelection.tex
 Chapter 9.
-[92
+[95
 
 
 
@@ -3039,7 +3036,7 @@ File: figures/Data/IntLumi2016.png Graphic file (type QTm)
  <use  "figures/Data/IntLumi2016.png" >
 File: figures/Data/mu_2015_2016_LHCC.png Graphic file (type QTm)
 
-<use  "figures/Data/mu_2015_2016_LHCC.png" > [93]
+<use  "figures/Data/mu_2015_2016_LHCC.png" > [96]
 Overfull \hbox (45.7572pt too wide) in paragraph at lines 36--36
 \EU1/EBGaramond(2)/bx/n/10.95 each data taking period. This trigger is \EU1/Sou
 rceCodePro(0)/m/it/10.95 HLT_xe70_tc_lcw \EU1/EBGaramond(2)/bx/n/10.95 for all 
@@ -3053,11 +3050,11 @@ t/10.95 HLT_xe100_mht_L1XE50 \EU1/EBGaramond(2)/bx/n/10.95 for 2016 period D4-F
 1, and []\EU1/SourceCodePro(0)/m/it/10.95 HLT_xe110_mht_L1XE50 
  []
 
-[94]
+[97]
 Chapter 10.
-[95
+[98
 
-] [96]
+] [99]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 73.
 
@@ -3066,7 +3063,7 @@ Overfull \hbox (13.26143pt too wide) in paragraph at lines 63--85
  [] 
  []
 
-[97] [98]) [99]
+[100] [101]) [102]
 \openout2 = `chapters/SignalRegion.aux'.
 
  (./chapters/SignalRegion.tex
@@ -3077,13 +3074,13 @@ Overfull \hbox (29.37146pt too wide) in paragraph at lines 6--6
 s Reject SM Background| 
  []
 
-[100
+[103
 
 
 
 ]
 File: ./figures/MET_ISR.png Graphic file (type QTm)
- <use  "./figures/MET_ISR.png" > [101] [102] [103]
+ <use  "./figures/MET_ISR.png" > [104] [105] [106]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 45.
 
@@ -3112,12 +3109,12 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 45.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 45.
 
 
-Overfull \hbox (7.68568pt too wide) in paragraph at lines 74--74
+Overfull \hbox (7.68568pt too wide) in paragraph at lines 73--73
 []\EU1/EBGaramond(2)/bx/n/10.95 The ttbar plus strong ISR population is able to
  pass this selection as both the leptonic and hadronic 
  []
 
-[104]
+[107]
 File: figures/ttbar/postfit/CA_RISR_CRTopC.eps Graphic file (type eps)
  <figures/ttbar/postfit/CA_RISR_CRTopC.eps>
 File: figures/ttbar/postfit/CA_pTISR_CRTopC.eps Graphic file (type eps)
@@ -3136,10 +3133,10 @@ File: figures/ttbar/postfit/CA_dphiISRI_CRTopC_log.eps Graphic file (type eps)
 
 <figures/ttbar/postfit/CA_dphiISRI_CRTopC_log.eps>
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 87.
+(Font)              scaled to size 10.0pt on input line 86.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 87.
- [105] [106]
+(Font)              scaled to size 10.0pt on input line 86.
+ [108] [109]
 File: figures/ttbar/postfit/CA_RISR_CRTopC.eps Graphic file (type eps)
 
 <figures/ttbar/postfit/CA_RISR_CRTopC.eps>
@@ -3159,30 +3156,30 @@ File: figures/ttbar/postfit/CA_dphiISRI_CRTopC_log.eps Graphic file (type eps)
 
 <figures/ttbar/postfit/CA_dphiISRI_CRTopC_log.eps>
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 120.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 119.
 
-[107] [108]
 File: figures/ttbar/postfit/CA_RISR_CRTopC_log.eps Graphic file (type eps)
- <figures/ttbar/postfit/CA_RISR_CRTopC_log.eps>
+<figures/ttbar/postfit/CA_RISR_CRTopC_log.eps>
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 126.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 125.
 
+[110] [111]
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 130.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 130.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 129.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 130.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 129.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 132.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 129.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 132.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 131.
 
-[109] (./tables/SRYields/SRC1Yields.tex) (./tables/SRYields/SRC2Yields.tex)
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 131.
+
+[112] (./tables/SRYields/SRC1Yields.tex) (./tables/SRYields/SRC2Yields.tex)
 (./tables/SRYields/SRC3Yields.tex) (./tables/SRYields/SRC4Yields.tex)
 (./tables/SRYields/SRC5Yields.tex)
 File: figures/ttbar/postfit/CA_RISR_CRTopC.eps Graphic file (type eps)
@@ -3200,28 +3197,28 @@ File: figures/ttbar/postfit/CA_pTbV1_CRTopC_log.eps Graphic file (type eps)
 
 <figures/ttbar/postfit/CA_pTbV1_CRTopC_log.eps>
 
-LaTeX Warning: Reference `tab:SRBkg' on page 110 undefined on input line 169.
+LaTeX Warning: Reference `tab:SRBkg' on page 113 undefined on input line 168.
 
 
-LaTeX Warning: Reference `tab:SRBkg' on page 110 undefined on input line 172.
+LaTeX Warning: Reference `tab:SRBkg' on page 113 undefined on input line 171.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 176.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 175.
 
 
-Overfull \hbox (104.23143pt too wide) in paragraph at lines 175--182
+Overfull \hbox (104.23143pt too wide) in paragraph at lines 174--181
  [] 
  []
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 186.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 185.
 
-) [110] [111] [112]
+) [113] [114] [115]
 \openout2 = `chapters/Background.aux'.
 
  (./chapters/Background.tex
 Chapter 12.
-[113
+[116
 
 
 
@@ -3229,7 +3226,7 @@ Chapter 12.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 18.
 
-[114] (./chapters/Background/ttbar.tex
+[117] (./chapters/Background/ttbar.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
@@ -3239,10 +3236,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
 
-LaTeX Warning: Reference `sec:Bkg:ttbar:Sel' on page 115 undefined on input lin
+LaTeX Warning: Reference `sec:Bkg:ttbar:Sel' on page 118 undefined on input lin
 e 5.
 
-[115]
+[118]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 9.
@@ -3251,7 +3248,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 9.
 
-[116]
+[119]
 File: ./figures/MET_ISR.png Graphic file (type QTm)
  <use  "./figures/MET_ISR.png" >
 
@@ -3262,9 +3259,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 22.
 
-[117]
+[120]
 File: ./figures/MET_ISR.png Graphic file (type QTm)
- <use  "./figures/MET_ISR.png" > [118]
+ <use  "./figures/MET_ISR.png" > [121]
 Overfull \hbox (2.09544pt too wide) in paragraph at lines 37--37
 |[]\EU1/EBGaramond(2)/m/sc/12 Predicting the amount of $[][]$ in Signal Region 
 using a One Lepton Con-
@@ -3279,22 +3276,59 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 37.
 
 
-LaTeX Warning: Reference `sec:Bkg:ttbar:Sel' on page 119 undefined on input lin
+LaTeX Warning: Reference `sec:Bkg:ttbar:Sel' on page 122 undefined on input lin
 e 40.
 
-[119]
+[122]
 
-LaTeX Warning: Reference `tab:SRcommon' on page 120 undefined on input line 44.
+LaTeX Warning: Reference `tab:SRcommon' on page 123 undefined on input line 44.
 
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 53.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 54.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 55.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 56.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 57.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 63.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 63.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 63.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 63.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 63.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 63.
+
+[123]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
@@ -3314,18 +3348,14 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
 
-[120]
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
@@ -3336,42 +3366,9 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
 
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
-
-[121]
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 66.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 66.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 66.
-
+[124]
 File: figures/ttbar/postfit/CA_RISR_CRTopC.eps Graphic file (type eps)
-<figures/ttbar/postfit/CA_RISR_CRTopC.eps>
+ <figures/ttbar/postfit/CA_RISR_CRTopC.eps>
 File: figures/ttbar/postfit/CA_pTISR_CRTopC.eps Graphic file (type eps)
 
 <figures/ttbar/postfit/CA_pTISR_CRTopC.eps>
@@ -3394,22 +3391,56 @@ File: ./figures/MET_ISR.png Graphic file (type QTm)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `sec:sys' on page 122 undefined on input line 91.
+LaTeX Warning: Reference `sec:sys' on page 125 undefined on input line 90.
 
-[122] [123]
-Overfull \hbox (6.03145pt too wide) in paragraph at lines 93--93
+[125] [126]
+Overfull \hbox (6.03145pt too wide) in paragraph at lines 92--92
 |[]\EU1/EBGaramond(2)/m/sc/12 Validating $[][]$ Predictions in Signal Region us
 ing a Zero Lepton Valida-
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 93.
+(hyperref)                removing `math shift' on input line 92.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 93.
+(hyperref)                removing `math shift' on input line 92.
 
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 96.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 96.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 96.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 96.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 96.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 96.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 96.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 96.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 96.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 96.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 96.
+
+[127]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
 
@@ -3423,42 +3454,11 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
-
-[124]
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 98.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 98.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 98.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 98.
-
-
-LaTeX Warning: Reference `tab:SRcommon' on page 125 undefined on input line 102
+LaTeX Warning: Reference `tab:SRcommon' on page 128 undefined on input line 101
 .
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 106.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 107.
@@ -3467,10 +3467,10 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 107.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 108.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 109.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 108.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 109.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 108.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 109.
@@ -3482,16 +3482,13 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 110.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 111.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 112.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 111.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 112.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 113.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 113.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 112.
 
 File: figures/ttbar/postfit/CA_RISR_VRTopC.eps Graphic file (type eps)
 <figures/ttbar/postfit/CA_RISR_VRTopC.eps>
@@ -3511,15 +3508,12 @@ File: figures/ttbar/postfit/CA_dphiISRI_VRTopC_log.eps Graphic file (type eps)
 
 <figures/ttbar/postfit/CA_dphiISRI_VRTopC_log.eps>
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 134.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 133.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 134.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 133.
 
-[125] [126]) (./chapters/Background/WJet.tex
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
-
+[128] [129]) (./chapters/Background/WJet.tex
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
@@ -3527,460 +3521,223 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
 
-LaTeX Warning: Reference `tab:singleTop1LepCR_def' on page 127 undefined on inp
-ut line 5.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
 
-LaTeX Warning: Reference `sec:WVR' on page 127 undefined on input line 5.
+LaTeX Warning: Reference `tab:singleTop1LepCR_def' on page 130 undefined on inp
+ut line 6.
 
-[127] [128] (./chapters/Background/yields/CRWYields.tex)
-File: figures/wJets/postfit/JetPt_1__CRW_log.eps Graphic file (type eps)
-
-<figures/wJets/postfit/JetPt_1__CRW_log.eps>
-File: figures/wJets/postfit/JetPt_3__CRW_log.eps Graphic file (type eps)
-
-<figures/wJets/postfit/JetPt_3__CRW_log.eps>
-File: figures/wJets/postfit/JetPt_4__CRW_log.eps Graphic file (type eps)
-
-<figures/wJets/postfit/JetPt_4__CRW_log.eps>
-File: figures/wJets/postfit/NJets_CRW_log.eps Graphic file (type eps)
-
-<figures/wJets/postfit/NJets_CRW_log.eps>
-File: figures/wJets/postfit/Ht_CRW_log.eps Graphic file (type eps)
-
-<figures/wJets/postfit/Ht_CRW_log.eps>
-File: figures/wJets/postfit/MinDRBLep_CRW.eps Graphic file (type eps)
-
-<figures/wJets/postfit/MinDRBLep_CRW.eps>
-File: figures/wJets/postfit/DRBB_CRW.eps Graphic file (type eps)
- <figures/wJets/postfit/DRBB_CRW.eps>
-
-LaTeX Warning: Float too large for page by 119.2699pt on input line 59.
-
+[130] [131] (./chapters/Background/yields/CRWYields.tex)
 File: figures/wJets/postfit/Met_CRW_log.eps Graphic file (type eps)
+
 <figures/wJets/postfit/Met_CRW_log.eps>
-File: figures/wJets/postfit/MT2Chi2_CRW_log.eps Graphic file (type eps)
-
-<figures/wJets/postfit/MT2Chi2_CRW_log.eps>
-File: figures/wJets/postfit/HtSig_CRW.eps Graphic file (type eps)
-
-<figures/wJets/postfit/HtSig_CRW.eps>
-File: figures/wJets/postfit/MtBMin_CRW.eps Graphic file (type eps)
- <figures/wJets/postfit/MtBMin_CRW.eps>
-File: figures/wJets/postfit/MtBMax_CRW.eps Graphic file (type eps)
-
-<figures/wJets/postfit/MtBMax_CRW.eps>
 File: figures/wJets/postfit/AntiKt12M_0__CRW.eps Graphic file (type eps)
 
 <figures/wJets/postfit/AntiKt12M_0__CRW.eps>
-File: figures/wJets/postfit/AntiKt12M_1__CRW.eps Graphic file (type eps)
+File: figures/wJets/postfit/NJets_CRW_log.eps Graphic file (type eps)
 
-<figures/wJets/postfit/AntiKt12M_1__CRW.eps>
-File: figures/wJets/postfit/AntiKt8M_0__CRW.eps Graphic file (type eps)
+<figures/wJets/postfit/NJets_CRW_log.eps>
+File: figures/wJets/postfit/MinDRBLep_CRW.eps Graphic file (type eps)
 
-<figures/wJets/postfit/AntiKt8M_0__CRW.eps>
-File: figures/wJets/postfit/AntiKt8M_1__CRW.eps Graphic file (type eps)
-
-<figures/wJets/postfit/AntiKt8M_1__CRW.eps> [129] [130] [131] [132]
-
-LaTeX Warning: Reference `tab:SRcommon' on page 133 undefined on input line 90.
-
-
-(./chapters/Background/yields/VRWYields.tex)
-File: figures/wJets/postfit/JetPt_1__VRW_log.eps Graphic file (type eps)
-
-<figures/wJets/postfit/JetPt_1__VRW_log.eps>
-File: figures/wJets/postfit/JetPt_3__VRW_log.eps Graphic file (type eps)
-
-<figures/wJets/postfit/JetPt_3__VRW_log.eps>
-File: figures/wJets/postfit/JetPt_4__VRW_log.eps Graphic file (type eps)
-
-<figures/wJets/postfit/JetPt_4__VRW_log.eps>
-File: figures/wJets/postfit/NJets_VRW_log.eps Graphic file (type eps)
-
-<figures/wJets/postfit/NJets_VRW_log.eps>
-File: figures/wJets/postfit/JetPt_JetLeadTagIndex_JetPt_JetSubleadTagIndex__VRW
-_log.eps Graphic file (type eps)
-
-<figures/wJets/postfit/JetPt_JetLeadTagIndex_JetPt_JetSubleadTagIndex__VRW_log.
-eps>
-File: figures/wJets/postfit/Ht_VRW_log.eps Graphic file (type eps)
- <figures/wJets/postfit/Ht_VRW_log.eps>
-File: figures/wJets/postfit/MinDRBLep_VRW.eps Graphic file (type eps)
-
-<figures/wJets/postfit/MinDRBLep_VRW.eps>
-File: figures/wJets/postfit/DRBB_VRW.eps Graphic file (type eps)
- <figures/wJets/postfit/DRBB_VRW.eps>
-
-LaTeX Warning: Float too large for page by 119.2699pt on input line 133.
-
-File: figures/wJets/postfit/Met_VRW_log.eps Graphic file (type eps)
-<figures/wJets/postfit/Met_VRW_log.eps>
-File: figures/wJets/postfit/MT2Chi2_VRW_log.eps Graphic file (type eps)
-
-<figures/wJets/postfit/MT2Chi2_VRW_log.eps>
-File: figures/wJets/postfit/HtSig_VRW.eps Graphic file (type eps)
-
-<figures/wJets/postfit/HtSig_VRW.eps>
-File: figures/wJets/postfit/MtBMin_VRW.eps Graphic file (type eps)
- <figures/wJets/postfit/MtBMin_VRW.eps>
-File: figures/wJets/postfit/MtBMax_VRW.eps Graphic file (type eps)
-
-<figures/wJets/postfit/MtBMax_VRW.eps>
-File: figures/wJets/postfit/AntiKt12M_0__VRW.eps Graphic file (type eps)
-
-<figures/wJets/postfit/AntiKt12M_0__VRW.eps>
-File: figures/wJets/postfit/AntiKt12M_1__VRW.eps Graphic file (type eps)
-
-<figures/wJets/postfit/AntiKt12M_1__VRW.eps>
-File: figures/wJets/postfit/AntiKt8M_0__VRW.eps Graphic file (type eps)
-
-<figures/wJets/postfit/AntiKt8M_0__VRW.eps>
-File: figures/wJets/postfit/AntiKt8M_1__VRW.eps Graphic file (type eps)
-
-<figures/wJets/postfit/AntiKt8M_1__VRW.eps> [133
-
-] [134] [135] [136] [137])
-(./chapters/Background/SingleTop.tex
+<figures/wJets/postfit/MinDRBLep_CRW.eps>) (./chapters/Background/SingleTop.tex
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
-[138
 
-] (./chapters/Background/yields/CRSTYields.tex)
+LaTeX Warning: Reference `tab:1CR_BaseDefs' on page 132 undefined on input line
+ 9.
+
+[132] [133] (./chapters/Background/yields/CRSTYields.tex)
 File: figures/singleTop/postfit/Met_CRST_log.eps Graphic file (type eps)
 
 <figures/singleTop/postfit/Met_CRST_log.eps>
-File: figures/singleTop/postfit/MT2Chi2_CRST_log.eps Graphic file (type eps)
-
-<figures/singleTop/postfit/MT2Chi2_CRST_log.eps>
-File: figures/singleTop/postfit/MtBMin_CRST.eps Graphic file (type eps)
-
-<figures/singleTop/postfit/MtBMin_CRST.eps>
-File: figures/singleTop/postfit/MtBMax_CRST.eps Graphic file (type eps)
-
-<figures/singleTop/postfit/MtBMax_CRST.eps>
-File: figures/singleTop/postfit/DRBB_CRST.eps Graphic file (type eps)
-
-<figures/singleTop/postfit/DRBB_CRST.eps>
-File: figures/singleTop/postfit/Ht_CRST_log.eps Graphic file (type eps)
-
-<figures/singleTop/postfit/Ht_CRST_log.eps>
-File: figures/singleTop/postfit/HtSig_CRST_log.eps Graphic file (type eps)
-
-<figures/singleTop/postfit/HtSig_CRST_log.eps>
-File: figures/singleTop/postfit/MinDRBLep_CRST.eps Graphic file (type eps)
-
-<figures/singleTop/postfit/MinDRBLep_CRST.eps>
-
-LaTeX Warning: Float too large for page by 120.2699pt on input line 54.
-
-File: figures/singleTop/postfit/JetPt_1__CRST_log.eps Graphic file (type eps)
-<figures/singleTop/postfit/JetPt_1__CRST_log.eps>
-File: figures/singleTop/postfit/JetPt_3__CRST_log.eps Graphic file (type eps)
-
-<figures/singleTop/postfit/JetPt_3__CRST_log.eps>
-File: figures/singleTop/postfit/JetPt_4__CRST_log.eps Graphic file (type eps)
-
-<figures/singleTop/postfit/JetPt_4__CRST_log.eps>
 File: figures/singleTop/postfit/NJets_CRST_log.eps Graphic file (type eps)
 
 <figures/singleTop/postfit/NJets_CRST_log.eps>
-File: figures/singleTop/postfit/JetPt_JetLeadTagIndex_JetPt_JetSubleadTagIndex_
-_CRST_log.eps Graphic file (type eps)
-
-<figures/singleTop/postfit/JetPt_JetLeadTagIndex_JetPt_JetSubleadTagIndex__CRST
-_log.eps>
 File: figures/singleTop/postfit/AntiKt12M_0__CRST.eps Graphic file (type eps)
- <figures/singleTop/postfit/AntiKt12M_0__CRST.eps>
-File: figures/singleTop/postfit/AntiKt12M_1__CRST.eps Graphic file (type eps)
 
-<figures/singleTop/postfit/AntiKt12M_1__CRST.eps>
-File: figures/singleTop/postfit/AntiKt8M_0__CRST.eps Graphic file (type eps)
+<figures/singleTop/postfit/AntiKt12M_0__CRST.eps>
+File: figures/singleTop/postfit/MtBMin_CRST.eps Graphic file (type eps)
 
-<figures/singleTop/postfit/AntiKt8M_0__CRST.eps>
-File: figures/singleTop/postfit/AntiKt8M_1__CRST.eps Graphic file (type eps)
+<figures/singleTop/postfit/MtBMin_CRST.eps>
+File: figures/singleTop/postfit/MinDRBLep_CRST.eps Graphic file (type eps)
 
-<figures/singleTop/postfit/AntiKt8M_1__CRST.eps> [139] [140] [141] [142])
+<figures/singleTop/postfit/MinDRBLep_CRST.eps>
+File: figures/singleTop/postfit/DRBB_CRST.eps Graphic file (type eps)
+
+<figures/singleTop/postfit/DRBB_CRST.eps> [134] [135] [136])
 (./chapters/Background/ttV.tex
 
-LaTeX Warning: Reference `sec:Selection' on page 143 undefined on input line 7.
+LaTeX Warning: Command \t invalid in math mode on input line 10.
 
 
+Overfull \hbox (139.70647pt too wide) in paragraph at lines 15--26
+ [] 
+ []
 
-LaTeX Warning: Reference `tb:lepTriggers' on page 143 undefined on input line 7
-.
+[137
+
+]
+File: figures/ttGamma/TruthStudies/Pt150.pdf Graphic file (type QTm)
+ <use  "figures/ttGamma/TruthStudies/Pt150.pdf" >
+
+LaTeX Warning: Reference `tb:electronsSignal' on page 138 undefined on input li
+ne 44.
 
 
-LaTeX Warning: Reference `tb:lepTriggers' on page 143 undefined on input line 1
+LaTeX Warning: Reference `tb:muonsSignal' on page 138 undefined on input line 4
 4.
 
-
-LaTeX Warning: Reference `tb:electronsSignal' on page 143 undefined on input li
-ne 14.
-
-
-LaTeX Warning: Reference `tb:muonsSignal' on page 143 undefined on input line 1
-4.
-
-[143
-
-] (./chapters/Background/yields/CRTTGammaYields.tex)
+(./chapters/Background/yields/CRTTGammaYields.tex)
 File: figures/ttGamma/Met_CRTTGamma_withRatio_log.eps Graphic file (type eps)
 
 <figures/ttGamma/Met_CRTTGamma_withRatio_log.eps>
-File: figures/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps Graphic file (type e
-ps)
+File: figures/ttGamma/postfit/NJets_CRTTGamma_log.eps Graphic file (type eps)
 
-<figures/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps>
+<figures/ttGamma/postfit/NJets_CRTTGamma_log.eps>
 File: figures/ttGamma/postfit/JetPt_1__CRTTGamma_log.eps Graphic file (type eps
 )
 
 <figures/ttGamma/postfit/JetPt_1__CRTTGamma_log.eps>
-File: figures/ttGamma/postfit/JetPt_3__CRTTGamma_log.eps Graphic file (type eps
-)
-
-<figures/ttGamma/postfit/JetPt_3__CRTTGamma_log.eps>
 File: figures/ttGamma/postfit/JetPt_4__CRTTGamma_log.eps Graphic file (type eps
 )
 
 <figures/ttGamma/postfit/JetPt_4__CRTTGamma_log.eps>
-File: figures/ttGamma/postfit/NJets_CRTTGamma_log.eps Graphic file (type eps)
-
-<figures/ttGamma/postfit/NJets_CRTTGamma_log.eps>
-File: figures/ttGamma/postfit/JetPt_JetLeadTagIndex_JetPt_JetSubleadTagIndex__C
-RTTGamma_log.eps Graphic file (type eps)
-
-<figures/ttGamma/postfit/JetPt_JetLeadTagIndex_JetPt_JetSubleadTagIndex__CRTTGa
-mma_log.eps>
-
-LaTeX Warning: Float too large for page by 6.56544pt on input line 78.
-
-File: figures/ttGamma/postfit/SigPhotonPt_0__CRTTGamma_log.eps Graphic file (ty
-pe eps)
-<figures/ttGamma/postfit/SigPhotonPt_0__CRTTGamma_log.eps>
-File: figures/ttGamma/postfit/MT2Chi2Photon_CRTTGamma_log.eps Graphic file (typ
-e eps)
-
-<figures/ttGamma/postfit/MT2Chi2Photon_CRTTGamma_log.eps>
-File: figures/ttGamma/postfit/SigPhotonPt_0_sqrtHt_CRTTGamma.eps Graphic file (
-type eps)
-
-<figures/ttGamma/postfit/SigPhotonPt_0_sqrtHt_CRTTGamma.eps>
-File: figures/ttGamma/postfit/MtBMinPhoton_CRTTGamma_log.eps Graphic file (type
- eps)
-
-<figures/ttGamma/postfit/MtBMinPhoton_CRTTGamma_log.eps>
-File: figures/ttGamma/postfit/MtBMaxPhoton_CRTTGamma_log.eps Graphic file (type
- eps)
-
-<figures/ttGamma/postfit/MtBMaxPhoton_CRTTGamma_log.eps>
-File: figures/ttGamma/postfit/Ht_CRTTGamma_log.eps Graphic file (type eps)
-
-<figures/ttGamma/postfit/Ht_CRTTGamma_log.eps>
-File: figures/ttGamma/postfit/DRBB_CRTTGamma.eps Graphic file (type eps)
-
-<figures/ttGamma/postfit/DRBB_CRTTGamma.eps>
-
-LaTeX Warning: Float too large for page by 174.91278pt on input line 92.
-
 File: figures/ttGamma/postfit/AntiKt12M_0__CRTTGamma.eps Graphic file (type eps
 )
+
 <figures/ttGamma/postfit/AntiKt12M_0__CRTTGamma.eps>
-File: figures/ttGamma/postfit/AntiKt12M_1__CRTTGamma.eps Graphic file (type eps
-)
+File: figures/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps Graphic file (type e
+ps)
 
-<figures/ttGamma/postfit/AntiKt12M_1__CRTTGamma.eps>
-File: figures/ttGamma/postfit/AntiKt8M_0__CRTTGamma.eps Graphic file (type eps)
+<figures/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps>
 
+LaTeX Warning: Float too large for page by 19.66563pt on input line 94.
 
-<figures/ttGamma/postfit/AntiKt8M_0__CRTTGamma.eps>
-File: figures/ttGamma/postfit/AntiKt8M_1__CRTTGamma.eps Graphic file (type eps)
-
-
-<figures/ttGamma/postfit/AntiKt8M_1__CRTTGamma.eps>
-File: figures/ttGamma/TruthStudies/Pt150.pdf Graphic file (type QTm)
-
-<use  "figures/ttGamma/TruthStudies/Pt150.pdf" > [144] [145] [146] [147]
-[148] [149]) (./chapters/Background/ZJet.tex
+) (./chapters/Background/ZJet.tex
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 5.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 5.
 
-) (./chapters/Background/diboson.tex
+[138] [139] [140]) (./chapters/Background/diboson.tex
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
 ) (./chapters/Background/QCD.tex
 
-Package natbib Warning: Citation `jetSmearing' on page 150 undefined on input l
-ine 21.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
 
-[150
 
-]
-Overfull \hbox (126.09398pt too wide) in paragraph at lines 45--47
-\EU1/EBGaramond(2)/bx/n/10.95 of the []\EU1/SourceCodePro(0)/m/it/10.95 HLT_j* 
-\EU1/EBGaramond(2)/bx/n/10.95 triggers. Each seach event is weighted based on o
-nline leading $[][]$([]\EU1/SourceCodePro(0)/m/it/10.95 HLT_xAOD__JetContainer_
-a4tcemsubjesFS\EU1/EBGaramond(2)/bx/n/10.95 ) 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
+
+[141]
+File: figures/QCDJetSmearing/jet_smearing.pdf Graphic file (type QTm)
+ <use  "figures/QCDJetSmearing/jet_smearing.pdf" >
+
+Package natbib Warning: Citation `JetSmearing' on page 142 undefined on input l
+ine 16.
+
+
+LaTeX Warning: Reference `tab:qcd:seed' on page 142 undefined on input line 20.
+
+
+[142] [143]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 88.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 88.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 88.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 88.
+
+File: figures/QCDJetSmearing/CRQC/dphiISRI_36500.eps Graphic file (type eps)
+<figures/QCDJetSmearing/CRQC/dphiISRI_36500.eps>
+File: figures/QCDJetSmearing/CRQC/PTISR_36500.eps Graphic file (type eps)
+
+<figures/QCDJetSmearing/CRQC/PTISR_36500.eps>
+File: figures/QCDJetSmearing/CRQC/MV_36500.eps Graphic file (type eps)
+
+<figures/QCDJetSmearing/CRQC/MV_36500.eps>
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 95.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 95.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 95.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 95.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 100.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 100.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 123.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 123.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 123.
+
+File: figures/QCDJetSmearing/VRqC/RISR_36500.eps Graphic file (type eps)
+<figures/QCDJetSmearing/VRqC/RISR_36500.eps>
+File: figures/QCDJetSmearing/VRqC/dphiISRI_36500.eps Graphic file (type eps)
+
+<figures/QCDJetSmearing/VRqC/dphiISRI_36500.eps>
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 129.
+
+[144] [145] [146]
+
+LaTeX Warning: Reference `tab:QCD:SRyield' on page 147 undefined on input line 
+138.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 145.
+
+
+Overfull \hbox (21.23108pt too wide) in paragraph at lines 144--148
+ [] 
  []
 
-[151]
-Overfull \hbox (15.47508pt too wide) in paragraph at lines 96--97
-[]\EU1/EBGaramond(2)/bx/n/10.95 As recommended by the jet smearing group, we us
-e the following definition for the $[][]$-significance:  
- []
-
-[152]
-
-LaTeX Warning: Reference `fig:CRQCD_1' on page 153 undefined on input line 151.
-
-
-
-LaTeX Warning: Reference `fig:CRQCD_2' on page 153 undefined on input line 151.
-
-
-
-LaTeX Warning: Reference `fig:CRQCD_3' on page 153 undefined on input line 151.
-
-
-
-LaTeX Warning: Reference `fig:CRQCD_4' on page 153 undefined on input line 151.
-
-
-[153]
-
-LaTeX Warning: Reference `tab:QCDRegionC' on page 154 undefined on input line 1
-78.
-
-
-LaTeX Warning: Reference `tab:SRcommon' on page 154 undefined on input line 181
-.
-
-)) [154] [155]
+)) [147]
 \openout2 = `chapters/Systematics.aux'.
 
  (./chapters/Systematics.tex
 Chapter 13.
-
-LaTeX Warning: Reference `sec:sizeSystematics' on page 156 undefined on input l
-ine 7.
-
-[156
+) [148
 
 
 
-] (./chapters/detSystematics.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1.
-
-
-Package natbib Warning: Citation `JESnew' on page 157 undefined on input line 9
-.
-
-
-Package natbib Warning: Citation `JES2015plots' on page 157 undefined on input 
-line 10.
-
-
-LaTeX Warning: Reference `sec:jetSyst' on page 157 undefined on input line 12.
-
-
-Package natbib Warning: Citation `JER' on page 157 undefined on input line 14.
-
-[157]
-
-Package natbib Warning: Citation `Aad:2012re' on page 158 undefined on input li
-ne 30.
-
-) (./chapters/theorySystematics.tex [158] [159] (./zSysts.tex) [160]
-(./wSysts.tex)
-
-LaTeX Warning: Reference `sec:truthAna' on page 161 undefined on input line 53.
-
-
-[161]
-
-Package natbib Warning: Citation `ATLAS:ttbarTheoryUnc' on page 162 undefined o
-n input line 55.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 61.
-
-[162]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (48.52821pt too wide) in paragraph at lines 244--262
- [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[163] [164] (./ttVSyst.tex)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[165] [166]
-Overfull \hbox (141.55841pt too wide) in paragraph at lines 473--490
- [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (117.00835pt too wide) in paragraph at lines 498--514
- [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (127.9816pt too wide) in paragraph at lines 522--538
- [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[167])) [168] [169] [170]
+]
 \openout2 = `chapters/Statistics.aux'.
 
  (./chapters/Statistics.tex
 Chapter 14.
-[171
+[149
 
 
 
@@ -3988,191 +3745,51 @@ Chapter 14.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 30.
 
-[172] [173] [174]
+[150] [151] [152]
 File: ./figures/statistics/CR_VR_SR.pdf Graphic file (type QTm)
  <use  "./figures/statistics/CR_VR_SR.pdf" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[175]
+[153]
 
-Package natbib Warning: Citation `HistFitter' on page 176 undefined on input li
+Package natbib Warning: Citation `HistFitter' on page 154 undefined on input li
 ne 93.
 
 
-Package natbib Warning: Citation `RooFit' on page 176 undefined on input line 9
+Package natbib Warning: Citation `RooFit' on page 154 undefined on input line 9
 3.
 
-[176] [177]
+[154] [155]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 113.
 
-[178]
+[156]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 127.
 
-[179] [180]
+[157] [158]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 144.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 144.
 
-) [181]
+) [159]
 \openout2 = `chapters/Results.aux'.
 
  (./chapters/Results.tex
 Chapter 15.
-
-LaTeX Warning: Reference `sec:Systematics' on page 182 undefined on input line 
-7.
-
-[182
+) [160
 
 
-
-] [183] [184] (./chapters/unblindedResults.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 4.
-
-
-LaTeX Warning: Reference `fig:SRAUnblined' on page 185 undefined on input line 
-7.
-
-
-LaTeX Warning: Reference `fig:SRBUnblined' on page 185 undefined on input line 
-7.
-
-
-LaTeX Warning: Reference `fig:SRDUnblined' on page 185 undefined on input line 
-7.
-
-
-LaTeX Warning: Reference `fig:SREUnblined' on page 185 undefined on input line 
-7.
-
-) [185
 
 ]
-
-LaTeX Warning: Reference `table.bkgonly.CRTopA' on page 186 undefined on input 
-line 55.
-
-
-LaTeX Warning: Reference `table.bkgonly.CRTopB' on page 186 undefined on input 
-line 55.
-
-
-LaTeX Warning: Reference `table.bkgonly.CRTTgamma' on page 186 undefined on inp
-ut line 56.
-
-
-LaTeX Warning: Reference `table.bkgonly.CRZ' on page 186 undefined on input lin
-e 57.
-
-
-LaTeX Warning: Reference `table.bkgonly.CRother' on page 186 undefined on input
- line 57.
-
-
-LaTeX Warning: Reference `table.bkgonly.VRTopA' on page 186 undefined on input 
-line 60.
-
-
-LaTeX Warning: Reference `table.bkgonly.VRTopB' on page 186 undefined on input 
-line 61.
-
-
-LaTeX Warning: Reference `table.bkgonly.VRW' on page 186 undefined on input lin
-e 62.
-
-
-LaTeX Warning: Reference `table.bkgonly.VRZ' on page 186 undefined on input lin
-e 63.
-
-
-LaTeX Warning: Reference `table.bkgonly.SRA' on page 186 undefined on input lin
-e 66.
-
-
-LaTeX Warning: Reference `table.bkgonly.SRB' on page 186 undefined on input lin
-e 66.
-
-
-LaTeX Warning: Reference `table.bkgonly.SRD' on page 186 undefined on input lin
-e 66.
-
-
-LaTeX Warning: Reference `table.bkgonly.SRE' on page 186 undefined on input lin
-e 67.
-
-
-LaTeX Warning: Reference `table.results.bkgestimate.uncertainties.SRA_TT_SRA_TW
-_SRA_T0' on page 186 undefined on input line 73.
-
-
-LaTeX Warning: Reference `table.results.bkgestimate.uncertainties.SRB_TT_SRB_TW
-_SRB_T0' on page 186 undefined on input line 74.
-
-
-LaTeX Warning: Reference `table.results.bkgestimate.uncertainties.SRD_low_SRD_h
-igh' on page 186 undefined on input line 77.
-
-
-LaTeX Warning: Reference `table.results.bkgestimate.uncertainties.SRE' on page 
-186 undefined on input line 78.
-
-
-LaTeX Warning: Reference `sec:bkgonly_fit_details' on page 186 undefined on inp
-ut line 82.
-
-(./sfs.tex) (./HistFitterStuff/YieldsTable.CRTopCDE.tex)
-(./HistFitterStuff/YieldsTable.VRTopCDE.tex) [186
-
-] [187] [188] [189]
-(./HistFitterStuff/YieldsTable.SRC1to3.tex)
-(./HistFitterStuff/YieldsTable.SRC4to5.tex) [190] [191]
-(./HistFitterStuff/SysTable.SRC1to3.tex)
-(./HistFitterStuff/SysTable.SRC4to5.tex) [192] [193]
-File: HistFitterStuff/corrMatrix.pdf Graphic file (type QTm)
-
-<use  "HistFitterStuff/corrMatrix.pdf" > [194]
-File: HistFitterStuff/pullPlot.pdf Graphic file (type QTm)
-
-<use  "HistFitterStuff/pullPlot.pdf" >
-
-LaTeX Warning: Float too large for page by 217.58849pt on input line 143.
-
-
-LaTeX Warning: Reference `figure.exclusion.SRA' on page 195 undefined on input 
-line 152.
-
-
-LaTeX Warning: Reference `figure.exclusion.SRB' on page 195 undefined on input 
-line 152.
-
-File: HistFitterStuff/SRC_exclusion.pdf Graphic file (type QTm)
-<use  "HistFitterStuff/SRC_exclusion.pdf" >
-
-LaTeX Warning: Float too large for page by 12.07645pt on input line 172.
-
-File: HistFitterStuff/SRABC_exclusion.pdf Graphic file (type QTm)
-<use  "HistFitterStuff/SRABC_exclusion.pdf" >
-
-LaTeX Warning: Float too large for page by 24.07645pt on input line 185.
-
-) [195
-
-
-
-
-] [196] [197] [198]
 \openout2 = `chapters/Interpretation.aux'.
 
  (./chapters/Interpretation.tex
 Chapter 16.
-) [199
+) [161
 
 
 
@@ -4181,7 +3798,7 @@ Chapter 16.
 
  (./chapters/conclusion.tex
 Chapter 17.
-) [200
+) [162
 
 
 
@@ -4190,7 +3807,7 @@ Chapter 17.
 
  (./chapters/appendixA.tex
 Appendix A.
-) [201
+) [163
 
 
 
@@ -4276,7 +3893,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--16
 \EU1/EBGaramond(2)/bx/n/10.95 from its lead author, Jordan Suchow, at [][]su-
  []
 
-) [202
+) [164
 
 
 
@@ -4310,12 +3927,12 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 30736 strings out of 493591
- 545696 string characters out of 6143546
- 671859 words of memory out of 5000000
- 33183 multiletter control sequences out of 15000+600000
- 18696 words of font info for 156 fonts, out of 8000000 for 9000
+ 30523 strings out of 493591
+ 540025 string characters out of 6143546
+ 636210 words of memory out of 5000000
+ 33062 multiletter control sequences out of 15000+600000
+ 18680 words of font info for 154 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 51i,18n,107p,10474b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,18n,107p,10474b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (212 pages).
+Output written on dissertation.pdf (174 pages).

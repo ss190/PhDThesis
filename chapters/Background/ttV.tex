@@ -1,13 +1,43 @@
 \subsection{Standard Model \ttbar+Z}
 \label{sec:Bkg:ttV}
 
-$\ttbar$ produced in conjunction with a Z boson consist of about 1 percent of the background in the SR.  Although the background is essentially negligible we do estimate the amount of $\ttbar+\Zboson$ using a $\ttbar+\gamma$ CR. Designing a CR to estimate the $\ttbar+Z$ background by using the charged leptonic $Z$ boson decays would be favorable. However, such CR is difficult to design due to low statistics and the small branching fraction to leptons. In particular a 2-lepton CR suffers from a large contamination of $\ttbar$ and $Z$ + jets processes. For this reason, another data driven approach is followed by building a one-lepton CR for $\ttbar\gamma$ which is a similar process. A zero-lepton region was considered as a validation region but it was found to have a too low $\ttbar\gamma$ contribution, with $\gamma$+jets being the main contaminant.\\
-The CR is designed to minimize the differences between the two processes and keep the theoretical uncertainties from the extrapolation of the $\gamma$ to the \Zboson\ low. \\
+\indent $\ttbar$ produced in conjunction with a Z boson consist of about 1 percent of the background in the SR.  Although the background is essentially negligible we do estimate the amount of $\ttbar+\Zboson$ using a $\ttbar+\gamma$ CR. \\
 
-The $\ttbar+\gamma$ CR requires exactly one photon with a FixedCutTight isolation WP, exactly one signal lepton (electron or muon as defined in Section~\ref{sec:Selection}) and at least four jets of which at least two are required to be b-tagged. To collect these events the lepton triggers described in Table~\ref{tb:lepTriggers} are used. \\
-Moreover, due to the difference in mass between the \Zboson\ and the $\gamma$, to mimic the $Z \rightarrow \nu\nu$ decay, the highest \pT\ photon is required to have $\pt>150\gev$. \\ %A k-factor equal to 1.47~\cite{ATLAS:xsecNLOttV} is applied to $\ttbar\gamma$. 
-Unlike the CRTops, CRW, and CRST one-lepton control regions the lepton is not treated as a jet. Instead, the photon is used to model the \met\ since the \met\ from $\ttbar+Z$ in the SR originates mostly from the neutrino decay of the \Zboson. \\
-The details of the selection for the one-lepton CR are summarized in Table~\ref{tb:ttG_1lepSel}.\\
+\indent Using the charged leptonic $Z$ boson decays to design a CR to estimate the $\ttbar+Z$ background would produce a CR with small systematic uncertainty. However, such CR tend to have low statistics because of the small branching fraction to electrons/muons compared to the branching fraction of neutrinos.  A dilepton CR also contain a large contamination of $\ttbar$ and $Z$ + jets processes. \\
+
+\indent We take another data driven approach by building a one-lepton CR for $\ttbar+\gamma$.  $\ttbar\gamma$ mimics $\ttbar+Z$ as the photon is in many ways like a lighter $Z$.  The CR is designed to minimize theoretical uncertainties due to the extrapolation from the $\gamma$ in CR to the $\Zboson$ in SR. \\
+
+\indent We require exactly one signal photon and one signal lepton.  The lepton is not treated as a jet for the purpose of jet multiplicity and jet $\t$ requirements unlike the ttbar, $\Wjets$ and single top CRs.  We trigger on leptons instead of $\met$ in this region with the triggers defined in table \ref{tb:lepTriggers}.  \\
+
+\begin{table}[htpb]
+  \caption{Single Lepton triggers}
+  \begin{center}
+    \begin{tabular}{c|c} \hline\hline
+      Channel & Trigger \\  \hline
+              & {\bf Data 2015} \\ \hline
+      Electron & \verb+HLT_e24_lhmedium_L1EM20VH OR HLT_e60_lhmedium OR HLT_e120_lhloose+         \\ 
+      Muon & \verb+HLT_mu20_iloose_L1MU15 OR HLT_mu50+ \\
+      \hline
+              & {\bf Data 2016} \\ \hline
+      Electron & \verb+HLT_e26_lhtight_nod0_ivarloose OR HLT_e60_lhmedium_nod0 OR HLT_e140_lhloose_nod0+         \\ 
+      Muon & \verb+HLT_mu26_ivarmedium OR HLT_mu50+ \\
+      \hline \hline
+    \end{tabular}
+  \end{center}
+  \label{tb:lepTriggers}
+\end{table}
+
+
+\indent The highest $\pt$ photon is required to have a $\pt$ of at least $>150\gev$.  The high $\pt$ gamma ensures that we are in a region of phase space where the $\gamma$ $\pt$ shape will mimic the heavier $\Zboson\rightarrow\nu\nu$ decay.  The true $\gamma$ $\pt$ and the $\Zboson$ $\pt$ distributions without detector resolution effects is shown in figure \ref{fig:ttZ_vs_ttGamma_pt} after a selection of reconstructed boson $\pt > 150 \gev$ has been applied for both samples. \\
+
+\begin{figure}[htpb]
+\centering
+\includegraphics[scale=0.4, angle=270]{figures/ttGamma/TruthStudies/Pt150.pdf}
+\caption{Truth \pT\ ratio.}
+\label{fig:ttZ_vs_ttGamma_pt}
+\end{figure}
+
+\indent The $\ttbar+\gamma$ control region is given in table~\ref{tb:ttG_1lepSel}.  The expected background and data yields in the $\ttbar+\gamma$ CR is given in table \ref{tb:ttVCR_2bj}. \\
 
 
 \begin{table}[htpb]
@@ -19,12 +49,9 @@ The details of the selection for the one-lepton CR are summarized in Table~\ref{
       \hline \hline
       Event selection & Event cleaning \\
       \hline
-      % Trigger (Data 2015) &\texttt{HLT\_g120\_loose}  \\ 
-      % \hline
-      % Trigger (Data 2016) & \texttt{HLT\_g140\_loose}  \\ 
-      %\hline
-      Leptons & exactly 1 \\
-      Lepton \pt & 28 GeV \\
+       Trigger  & 1L Triggers  \\  \hline
+      Leptons & $= 1$ \\
+      Lepton \pt & 28 $\GeV$ \\
       \hline
       Photons & exactly 1\\
       \hline
@@ -42,9 +69,6 @@ The details of the selection for the one-lepton CR are summarized in Table~\ref{
 \end{table}
 
 
-Table~\ref{tb:ttVCR_2bj} shows the background composition for the $\ttbar\gamma$ CR. A normalisation factor is derived as the ratio between data and MC correcting for the contamination for non-$t\bar{t}\gamma$ backgrounds.
-
-
 \begin{table}[htpb]
   \caption{Background composition of $t\bar{t}\gamma$ CR.}
   \begin{center}
@@ -54,71 +78,22 @@ Table~\ref{tb:ttVCR_2bj} shows the background composition for the $\ttbar\gamma$
   \label{tb:ttVCR_2bj}
 \end{table}
 
-Data/MC comparisons of several distributions are shown in the following figures after applying the full selection in Table~\ref{tb:ttG_1lepSel}.
-
+\indent Data vs MC comparisons in the $\ttbar+\gamma$ control region are shown in histograms in figure ~\ref{fig:ttgamma}  The expected MC background has been normalized to the amount of data in the $\ttbar+\gamma$ control region by performing a simultaneous fit to all background CR.  The hashed bands on the total SM background correspond to the amount of total experimental systematical uncertainty plus the MC statistical uncertainty.   \\
 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=0.49\textwidth]{figures/ttGamma/Met_CRTTGamma_withRatio_log.eps}
+\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/NJets_CRTTGamma_log.eps}
+\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/JetPt_1__CRTTGamma_log.eps}
+\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/JetPt_4__CRTTGamma_log.eps}
+\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/AntiKt12M_0__CRTTGamma.eps}
 \includegraphics[width=0.49\textwidth]{figures/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps}
 \caption{\label{fig:ttVFakeLepCheck} Prefit distributions of the \met\ and \mtlepmet\ for fake lepton checks. Agreement at low \mtlepmet\ is reasonable indicating no significant contributions from fake leptons. The ratio between data and MC is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
-\end{center}
-\end{figure}
-
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/JetPt_1__CRTTGamma_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/JetPt_3__CRTTGamma_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/JetPt_4__CRTTGamma_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/NJets_CRTTGamma_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/JetPt_JetLeadTagIndex_JetPt_JetSubleadTagIndex__CRTTGamma_log.eps}
-\caption{\label{fig:ttVJetPts} Postfit distributions of the \pT\ of the
-  leading and subleading jets for the 2 b-jets selection. The ratio between data and MC is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
-\end{center}
-\end{figure}
-
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/SigPhotonPt_0__CRTTGamma_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/MT2Chi2Photon_CRTTGamma_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/SigPhotonPt_0_sqrtHt_CRTTGamma.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/MtBMinPhoton_CRTTGamma_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/MtBMaxPhoton_CRTTGamma_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/Ht_CRTTGamma_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/DRBB_CRTTGamma.eps}
-\caption{\label{fig:ttV} Postfit distributions of the \pT\ of the
-  leading and subleading jets for the 2 b-jets selection. The ratio between data and MC is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
-\end{center}
-\end{figure}
-
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/AntiKt12M_0__CRTTGamma.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/AntiKt12M_1__CRTTGamma.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/AntiKt8M_0__CRTTGamma.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/AntiKt8M_1__CRTTGamma.eps}
-\caption{\label{fig:ttVMasses} Postfit distributions of the \pT\ of the
-  leading and subleading jets for the 2 b-jets selection. The ratio between data and MC is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
+\label{fig:ttgamma}
 \end{center}
 \end{figure}
 
 
 
-Truth studies are performed in order to check the differencies in
-kinematic distributions. The truth \pT\ ratio for a 2-bjet
-selection are shown in Fig.~\ref{fig:ttZ_vs_ttGamma_pt}.
 
-\begin{figure}[htpb]
-\centering
-\includegraphics[scale=0.4]{figures/ttGamma/TruthStudies/Pt150}
-\caption{Truth \pT\ ratio.}
-\label{fig:ttZ_vs_ttGamma_pt}
-\end{figure}
-
-
-
-
-
-
-\clearpage
 

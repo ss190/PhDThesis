@@ -1,13 +1,15 @@
 \subsection{Standard Model Single Top}
 \label{sec:Bkg:SingleTop}
 
-Standard Model single top consists of 3 to 7 percent of the background in any one $\RISR$ bin. In total, single top consist of 4 percent of the total background in SRC.  A 1 lepton single top control region is defined in section \ref{sec:SingleTopCR}.  The single top CR is orthogonal to both the $W$+jets control region and ttbar control region.  \\
+\indent Standard Model single top consists of 3 to 7 percent of the background in any one $\RISR$ bin. In total, single top consist of 4 percent of the total background in SRC.  A 1 lepton single top control region is defined in section \ref{sec:SingleTopCR}.  The single top CR is orthogonal to both the 1 lepton $W$+jets control region and ttbar control region.  \\
 
 \subsubsection{Single Top Control Region}
 \label{sec:SingleTopCR}
 
+\indent The definition of the single top control region is given in table \ref{tab:1CR_BaseDefs}. \\
+
 \begin{table}[htpb]
-  \caption{Selection for the 1-lepton, single top control region. The signal lepton is treated as a jet for the jet counting and \pt\ ordering as well as for the top reco.}
+  \caption{Selection for the 1-lepton, single top control region.}
   \begin{center}
     \begin{tabular}{c|c}
       \hline \hline
@@ -28,8 +30,13 @@ Standard Model single top consists of 3 to 7 percent of the background in any on
   \label{tab:1LCR_BaseDefs}
 \end{table}
 
-The selection on $\Delta R(b_{0,1},\ell)_{\mathrm{min}}$, defined as the minimum $\Delta R$ between the two jets with the highest b-tag weight and the selected lepton, ensures the orthogonality of CRTop and CRST. In CRST the requirement on the $\Delta R$ of the two leading-weight b-jets is necessary to reject a large part of the remaining \ttbar\ background and reach a single top purity of $\sim$50\%. \\
-Data-MC comparisons in the single top control region are shown in Table~\ref{tab:CRST} and for a selection of variables are shown in Fig.~\ref{fig:CRST},~\ref{fig:CRSTPTs}, and~\ref{fig:CRSTMasses}. \\
+\indent The signal lepton is treated as a jet for the jet multiplicity and the jet $\pt$ requirement as well as for the top reconstruction.  The $\mtlepmet$ selection ensures that the transverse mass is consistent with a $W$ decay.  The $\drbjetbjet > 1.5$, the $\Delta R$ between the two b-jets with the highest b-tagging values, isolates single top events and reject ttbar background.  This gives the single top CR a single top purity of $\sim50\%$ \\
+
+\indent The mass requirement on the large R jet $\mantikttwelvezero > 120 \gev$ searches for events with reconstructed boosted tops and ensures orthogonality with the $\Wjets$ CR.  The $\mindrblep$ selection ensures orthogonality with the ttbar CR.  \\
+
+\indent Data vs MC comparisons in the single control region are shown in histograms in figure ~\ref{fig:CRST}.  The expected MC background has been normalized to the amount of data in the single top control region by performing a simultaneous fit to all background CR.  The hashed bands on the total SM background correspond to the amount of total experimental systematical uncertainty plus the MC statistical uncertainty.  The yield in the single top CR is given in table~\ref{tab:CRST}.  \\
+
+\indent  Data and MC are compatible to within statistical uncertainty.  No strong trends are observed in the data to MC ratios in any of the distribution. \\
 
 \begin{table}[!htb]
   \centering
@@ -41,44 +48,18 @@ Data-MC comparisons in the single top control region are shown in Table~\ref{tab
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/Met_CRST_log.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/MT2Chi2_CRST_log.eps}
+\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/NJets_CRST_log.eps}
+\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/AntiKt12M_0__CRST.eps}
 \includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/MtBMin_CRST.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/MtBMax_CRST.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/DRBB_CRST.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/Ht_CRST_log.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/HtSig_CRST_log.eps}
+%\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/MtBMax_CRST.eps}
 \includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/MinDRBLep_CRST.eps}
+\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/DRBB_CRST.eps}
+%\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/Ht_CRST_log.eps}
+%\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/HtSig_CRST_log.eps}
 \end{center}
-\caption{Single top postfit control region distributions for \intlumi\ \ifb\ of data. The ratio between data and MC is shown in the bottom panel. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics.}
+\caption{Single top control region distributions for \intlumi\ \ifb\ of data after a simultaneous fit to all background CR. The ratio between data and MC is shown in the bottom panel. The hashed area on the expected SM background represent the uncertainty due to experimental systematics and MC statistics.}
 \label{fig:CRST}
 \end{figure}
-
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/JetPt_1__CRST_log.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/JetPt_3__CRST_log.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/JetPt_4__CRST_log.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/NJets_CRST_log.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/JetPt_JetLeadTagIndex_JetPt_JetSubleadTagIndex__CRST_log.eps}
-
-\end{center}
-\caption{Single top postfit control region distributions for \intlumi\ \ifb\ of data. The ratio between data and MC is shown in the bottom panel. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics.}
-\label{fig:CRSTPTs}
-\end{figure}
-
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/AntiKt12M_0__CRST.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/AntiKt12M_1__CRST.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/AntiKt8M_0__CRST.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/AntiKt8M_1__CRST.eps}
-
-\end{center}
-\caption{Single top postfit control region distributions for \intlumi\ \ifb\ of data. The ratio between data and MC is shown in the bottom panel. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics.}
-\label{fig:CRSTMasses}
-\end{figure}
-
-
 
 
 \clearpage
