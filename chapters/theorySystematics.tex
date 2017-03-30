@@ -2,520 +2,91 @@
 \subsection{Theoretical Uncertainties}
 \label{sec:TheoSystematics}
 
-Theory uncertainties affecting the background normalization and kinematic distribution shapes largely impact the background prediction in the signal regions, as they directly affect the background normalization and acceptance times efficiency. If a background normalization is determined by making use of dedicated control regions, then only systematics affecting the analysis acceptance are relevant. Statistical uncertainties in the evaluation of systematics are neglected in general; where necessary, selection cuts are loosened to make the systematic comparison statistically meaningful. The remainder of this section is dedicated to the discussion on how the theory systematic uncertainties have been derived for each of the background processes considered.
+\indent Theoretical uncertainties quantify the uncertainty associated with MC event generation including calculations on the matrix element, parton shower, and different input parameters such as $\alpha_s$, and others.  As the background is ultimately normalized to the CR, only difference is the transfer factor (defined in equation \ref{eqn:TF}) will result in a different SR background yield.  We vary MC generation with respect to the default setting and determine the corresponding variation in the transfer factor as according to equation \ref{eq:theory_uncertainty}. \\
 
-The theoretical uncertainty in each signal region is evaluated by
-considering variations with respect to the default settings and choices for the event generation. For each of the variations considered, the systematic uncertainty is estimated as an uncertainty on the so-called transfer factor, that is, the ratio of the predicted yields between the signal region and the $\ttbar$ control region(s). For a given control - signal region pair, the transfer factor $T_f$ is defined by:
-
-\begin{equation}
-  T_f = \frac{N_{\mathrm{SR}}}{N_{\mathrm{CR}}}
-\end{equation}
-
-\begin{description}
-\item[\boldmath $Z+jets$] For the estimation of the $Z$ production background, the \sherpa\ generator is used by default. To assess the theory systematic uncertainties due to scale variations with good statistical power seven LHE3 weights are used. 
-
-The theory uncertainty on the normalisation of the $Z$ production is obtained by comparing the \sherpa\ predictions on the transfer factor between the control region and the signal region with and without systematic weights applied. The uncertainty on the transfer factor is computed with the following equation: 
-      \begin{eqnarray}
+ \begin{eqnarray}
     \Delta_{X} = \frac{T_f^{\mathrm{up}} - T_f^{\mathrm{down}}}{T_f^{\mathrm{up}} + T_f^{\mathrm{down}}}
     \label{eq:theory_uncertainty}
   \end{eqnarray}
 
-  , where $X$ is the systematic variation. Tables~\ref{tab:ZThSyst} summarises the values of the transfer factors obtained for \sherpa\ systematics for all signal regions, together with the resulting relative uncertainty.
+\indent All theoretical uncertainties for different backgrounds are assumed to be independent of one another. \\
 
-  The $Z+jets$ theory uncertainty is denoted by {\bf theoSysZ} in the fit.
+\subsubsection*{$\ttbar$ Theoretical Uncertainty}
 
-  \begin{table}[!h]
-    \begin{center} \footnotesize
-\input{zSysts.tex}
-    \end{center}
-    \caption{Summary of the theory uncertainties (in percent) on $Z$ production obtained on the transfer factor for all signal regions except for SRC for which the Z background is negligible. The largest uncertainty is below 37\% in SRA-T0. }
-    \label{tab:ZThSyst}
-  \end{table}  
-  
+\indent Theoretical uncertainties on ttbar production include uncertainties on the hard scattering matrix element (ME) calculation, uncertainties on the parton shower (PS), and uncertainty on the amount of ISR/FSR produced in association with ttbar.  \\
 
-\item[\boldmath $W+jets$]
-  A similar approach is performed to assess the $W$+jets theory uncertainties. No additional uncertainty due to possible $W+c$ contribution in CRW which has a one $b$-jet requirement (compared to the 2b requirement). It was found that the flavor contribution in the VRW (which also has a two b-jet requirement) is very similar to the SR. The postfit MC from VRW match the observed data well which leads us to believe that the $W+c$ contribution in CRW has a negligible effect on the normalization factor. The details are described in Section~\ref{sec:WCR}. 
+\indent The ttbar ISR/FSR uncertainty is estimated by performing the analysis on fully reconstructed simulation with variations on the PS tuning and ME+PS matching scales that induces more/less ISR and FSR to be emitted in the simulation. The uncertainty on the ME calculation and on the PS calculation is estimated by performing the analysis on truth level-simulation using different MC generator programs without detector resolution effects.  In other words, the ISR/FSR uncertainty determines how much the ttbar yields in SR differ if different $\powheg$ and $\pythia$ settings were used.  The ttbar hard scattering and PS variations determines how much the ttbar yields in SR differ if a different generator other than $\powheg\pythia$ is used. \\
 
-Table~\ref{tab:WThSyst} summarises the values of the transfer factors obtained for \sherpa\ systematics for all signal regions, together with the resulting relative uncertainty.
+\indent Uncertainties on the ME and PS are estimated by comparing the nominal $\powheg\pythia$ ttbar sample with $\powheg\herwigpp$ ttbar and $\sherpa$ 2.2.1 ttbar samples.  The $\powheg\herwigpp$ sample do not vary the ME calculation with respect to the nominal sample but does perform a different set of PS calculation with a distinct PS tune.  The $\sherpa$ 2.2.1 ttbar sample perform a different ME and PS calculation with a different PDF set and PS tune.  More details on the different ttbar MC generation can be found in section \ref{sec:MC:Bkg}. \\
 
-  These $W$ theory uncertainties are denoted by {\bf theoSysW, theoSysWc} in the fit, respectively.
-
-
-  \begin{table}[!h]
-    \begin{center} \footnotesize
-\input{wSysts.tex}
-    \end{center}
-    \caption{Summary of the theory uncertainties (in percent) on $W$ production obtained on the transfer factor for all signal regions. 
-      The largest uncertainty is 13\%. }
-    \label{tab:WThSyst}
-  \end{table}         
-
-\item{\boldmath \bf \ttbar\ production} Most \ttbar\ uncertainties are estimated by comparing variations at reco level. The hard scattering generation uncertainty however is estimated using truth quantities. In this case, the yields are estimated by repeating the analysis at particle level. The object definitions for the particle level analysis are described in Appendix~\ref{sec:truthAna}.
-
-  The recommended variations~\cite{ATLAS:ttbarTheoryUnc} of the event generation considered are summarized below, with details about how the corresponding uncertainty has been evaluated.  
-
-  \begin{itemize}
-  \item{\bf Hard scatter generation:} An uncertainty on the hard scattering generation is computed by comparing the \mcatnlo\pythia\ with DSID 410225 and \powheg\pythia\ with DSID 410000, 407012. In this case, the uncertainty is given by:
+\indent We take an envelope of the $\sherpa$ and $\powheg\herwigpp$ variations as the combined ttbar hard scattering and PS uncertainty.  This is because the $\powheg\herwigpp$ and $\sherpa$ samples both vary the PS and avoids double counting of the PS uncertainty. The total hard scattering plus PS uncertainty is defined as the maximum of equation \ref{eq:ttbar_ME_uncertainty} and \ref{eq:ttbar_PS_uncertainty}.  \\
 
     \begin{eqnarray}
-      \Delta_{\mathrm{hard~scatter}} = \frac{T_f^{\mathrm{\powheg}} - T_f^{\mathrm{\mcatnlo}}}{T_f^{\mathrm{\powheg}}}
+      \Delta_{\mathrm{hard~scatter}} = \frac{T_f^{\mathrm{\powheg}} - T_f^{\mathrm{\sherpa}}}{T_f^{\mathrm{\sherpa}}}
+      \label{eq:ttbar_ME_uncertainty}
     \end{eqnarray}
-
-  A sample generated using \sherpa\ 2.2.1 was also considered for this uncertainty.
-
-  \item{\bf Parton shower:} An uncertainty on the choice of the showering model is computed by comparing the baseline DSID 410000, 407012 (that is, \powheg\pythia\ with the P2011C tuning for \pythia, where the two DSIDs correspond to the inclusive and high \met -sliced samples) and DSID 410004 (that is, \powheg\herwigpp\ with the UE5C6L1 CT10 tuning for \herwigpp). In this case, the uncertainty is given by:
 
     \begin{eqnarray}
       \Delta_{\mathrm{PS}} = \frac{T_f^{\mathrm{\pythia}} - T_f^{\mathrm{\herwigpp}}}{T_f^{\mathrm{\pythia}}}
       \label{eq:ttbar_frag_uncertainty}
     \end{eqnarray}
 
-  \item{\bf ISR/FSR:} Uncertainties related to the emission of additional partons in the initial or final states are evaluated by comparing the radHi and radLow \powheg\pythia\ samples with DSID 410002 and 410001. The uncertainty is calculated with eq~\ref{eq:theory_uncertainty}.
-
-  \end{itemize}
-
-  Tables ~\ref{tab:ttbar_unc_SRA_TT}, ~\ref{tab:ttbar_unc_SRA_TW}, ~\ref{tab:ttbar_unc_SRA_T0},  ~\ref{tab:ttbar_unc_SRB_TT},
-~\ref{tab:ttbar_unc_SRB_TT},~\ref{tab:ttbar_unc_SRA_TW},~\ref{tab:ttbar_unc_SRB_T0},~\ref{tab:ttbar_unc_SRC},~\ref{tab:ttbar_unc_SRD}
-and ~\ref{tab:ttbar_unc_SRE} summarise the $\ttbar$ systematic uncertainties obtained by the comparisons described above for the different
-control, signal and validation regions in this analysis. Control regions in which the $\ttbar$ background is negligible are not considered. 
-The results for the single top control region are found in Table~\ref{tab:ttbar_unc_SRB_T0}, while results for CRW are in
- Table~\ref{tab:ttbar_unc_SRE}.
-
- In general, limited statistics of the \mcatnlo\pythia\ and \sherpa\ samples result in very large values of the generator uncertainty. 
-In the SRA signal regions, all $\ttbar$ systematic uncertainties are limited by statistics of the relevant samples. For regions where
-sufficient statistics are available, the uncertainties typically range from a few \% to 30\%.
-%Appendix~\ref{sec:truthAna} contains plots with $\met$ distributions compared for some of the cases just described.
-
-  The $\ttbar$ theory uncertainty is denoted by {\bf theoSysTop} in the fit.  
+\indent  The ttbar ISR uncertainty is estimated by using the radHi and radLo $\powheg\pythia$ samples.  These samples are produced with different renormalization and factorization scales compared to the nominal sample (x0.5 to radHi and x2 to radLo).   The radHi sample also increase the $h_{damp}$ parameter that help control the matching between PS and ME from the nominal $m_{top}$ to x2 $m_{top}$. In general, the radHi (radLo) sample generates a higher (lower) differential cross-section for ttbar that is produced in conjunction with strong ISR then the nominal.  \\
+ 
+\indent The raw pre-fit $\ttbar$ yields in CR, VR and SR for the different ttbar samples and the ttbar theory uncertainty derived from transfer factor is given in table \ref{tab:ttbar_unc_SRC}  \\
   
-  \begin{table}[!h]
-    \begin{center} \footnotesize
-      \begin{tabular}{|c|c|c|c|}
-        \hline
-        & CRA-TT & SRA-TT & VRTopATT\\
-        \hline
-        ttbar&   $69.5\pm 2.9 $&         $0.36\pm 0.20 $&        $55.0\pm 2.7 $\\
-        ttbar (rad up)&          $81.1\pm 3.5 $&         $1.32\pm 0.35 $&        $80.0\pm 3.3 $\\
-        ttbar (rad down)&        $58.8\pm 3.0 $&         $0.29\pm 0.13 $&        $48.9\pm 2.5 $\\
-        ttbar (Powheg+H++)&      $60.1\pm 2.8 $&         $0.59\pm 0.20 $&        $57.2\pm 2.4 $\\
-        ttbar (aMC@NLO+P8)&      $63\pm 16 $&    $<0.01$&        $32\pm 18 $\\
-        ttbar (Sherpa)&          $73\pm 10 $&    $<0.01$&        $79\pm 11 $\\
-        \hline
-        \multicolumn{4}{c}{\bf Transfer factors (in \%)} \\ \hline
-        ISR/FSR & &        $53$&   $9$\\
-        PS & &        $90$&   $20$\\
-        Generator (aMC@NLO) & & - & $40$\\
-        Generator (Sherpa) & & - & $37$\\
-        \hline
-        \end{tabular}
-    \end{center}
-    \caption{Theory uncertainties for the $\ttbar$\ background for the SRA-TT regions.}
-    \label{tab:ttbar_unc_SRA_TT}
-  \end{table}
-
-  \begin{table}[!h]
-    \begin{center} \footnotesize
-      \begin{tabular}{|c|c|c|c|}
-        \hline
-        & CRA-TW & SRA-TW & VRTopATW\\
-        \hline
-        ttbar&   $119.0\pm 3.5 $&        $0.66\pm 0.22 $&        $48.4\pm 2.7 $\\
-        ttbar (rad up)&          $111\pm 4 $&    $0.43\pm 0.16 $&        $50.1\pm 2.6 $\\
-        ttbar (rad down)&        $121\pm 4 $&    $0.59\pm 0.25 $&        $42.0\pm 2.0 $\\
-        ttbar (Powheg+H++)&      $91.7\pm 3.0 $&         $0.61\pm 0.21 $&        $40.0\pm 2.3 $\\
-        ttbar (aMC@NLO+P8)&      $101\pm 19 $&   $<0.01$&        $20\pm 11 $\\
-        ttbar (Sherpa)&          $121\pm 19 $&   $0.5\pm 0.5 $&          $44\pm 8 $\\
-        \hline
-        \multicolumn{4}{c}{\bf Transfer factors (in \%)} \\ \hline
-        ISR/FSR &      &  $11$&   $13$\\
-        PS &  &      $20$&   $7$\\
-        Generator (aMC@NLO) & & - & $51$\\
-        Generator (Sherpa) & & - & $11$\\
-        \hline
-        \end{tabular}
-    \end{center}
-    \caption{Theory uncertainties for the $\ttbar$\ background for the SRA-TB regions.}
-    \label{tab:ttbar_unc_SRA_TW}
-  \end{table}
-
- \begin{table}[!h]
-    \begin{center} \footnotesize
-      \begin{tabular}{|c|c|c|c|}
-        \hline
-        & CRA-T0 & SRA-T0 & VRTopAT0\\
-        \hline
-        ttbar&   $76.2\pm 2.9 $&         $1.9\pm 0.6 $&          $58.3\pm 2.5 $\\
-        ttbar (rad up)&          $70.1\pm 2.8 $&         $0.80\pm 0.29 $&        $56.8\pm 2.8 $\\
-        ttbar (rad down)&        $85.1\pm 3.2 $&         $0.50\pm 0.19 $&        $63.9\pm 2.5 $\\
-        ttbar (Powheg+H++)&      $60.2\pm 2.6 $&         $1.0\pm 0.5 $&          $42.4\pm 2.1 $\\
-        ttbar (Sherpa)&          $61\pm 12 $&    $0.7\pm 0.7 $&          $53\pm 10 $\\     
-        \hline
-        \multicolumn{4}{c}{\bf Transfer factors (in \%)} \\ \hline
-        ISR/FSR &     &   $32$&   $4$\\
-        PS &  &      $30$&   $8$\\
-        Generator (aMC@NLO) & & - & $68$\\
-        Generator (Sherpa) & & - & $14$\\        
-        \hline       
-        \end{tabular}
-    \end{center}
-    \caption{Theory uncertainties for the $\ttbar$\ background for the SRA-T0 regions.}
-    \label{tab:ttbar_unc_SRA_T0}
-  \end{table}
-
- \begin{table}[!h]
-    \begin{center} \footnotesize
-      \begin{tabular}{|c|c|c|c|}
-        \hline
-        & CRB-TT & SRB-TT & VRTopBTT\\
-        \hline
-        ttbar&   $64.0\pm 2.8 $&         $6.5\pm 0.8 $&          $96.3\pm 3.5 $\\
-        ttbar (rad up)&          $70.9\pm 3.0 $&         $11.2\pm 1.3 $&         $133\pm 5 $\\
-        ttbar (rad down)&        $54.2\pm 2.5 $&         $4.3\pm 0.7 $&          $87.8\pm 3.4 $\\
-        ttbar (Powheg+H++)&      $53.3\pm 2.3 $&         $7.5\pm 0.8 $&          $101\pm 4 $\\
-        ttbar (aMC@NLO+P8)&      $58\pm 17 $&    $9\pm 11 $&     $48\pm 26 $\\
-        ttbar (Sherpa)&          $66\pm 9 $&     $6.3\pm 2.6 $&          $123\pm 13 $\\
-        \hline
-        \multicolumn{4}{c}{\bf Transfer factors (in \%)} \\ \hline
-        ISR/FSR &   &     $33$&   $7$\\
-        PS &   &     $39$&   $26$\\
-        Generator (aMC@NLO) &  & $50$ & $45$\\
-        Generator (Sherpa) & & $10$ & $24$\\        
-        \hline       
-        \end{tabular}
-    \end{center}
-    \caption{Theory uncertainties for the $\ttbar$\ background for the SRB-TT regions. }
-    \label{tab:ttbar_unc_SRB_TT}
-  \end{table}
-
-
- \begin{table}[!h]
-    \begin{center} \footnotesize
-      \begin{tabular}{|c|c|c|c|}
-        \hline
-        & CRB-TW & SRB-TW & VRTopBTW\\
-        \hline
-        ttbar&   $265\pm 6 $&    $12.8\pm 1.1 $&         $119\pm 4 $\\
-        ttbar (rad up)&          $241\pm 6 $&    $18.5\pm 2.1 $&         $129\pm 5 $\\
-        ttbar (rad down)&        $275\pm 6 $&    $10.7\pm 1.1 $&         $121\pm 4 $\\
-        ttbar (Powheg+H++)&      $200\pm 4 $&    $11.6\pm 1.3 $&         $107\pm 4 $\\
-        ttbar (aMC@NLO+P8)&      $256\pm 33 $&   $6\pm 9 $&      $88\pm 24 $\\
-        ttbar (Sherpa)&          $278\pm 26 $&   $16\pm 5 $&     $119\pm 13 $\\
-        \hline
-        \multicolumn{4}{c}{\bf Transfer factors (in \%)} \\ \hline
-        ISR/FSR &   &     $33$&   $10$\\
-        PS &   &     $20$&   $19$\\
-        Generator (aMC@NLO) & & $50$ & $23$\\
-        Generator (Sherpa) & & $20$ & $5$\\        
-        \hline       
-        \end{tabular}
-    \end{center}
-    \caption{Theory uncertainties for the $\ttbar$\ background for the SRB-TW regions.}
-    \label{tab:ttbar_unc_SRB_TW}
-  \end{table}
-
- \begin{table}[!h]
-    \begin{center} \footnotesize
-      \begin{tabular}{|c|c|c|c|c|}
-        \hline
-        & CRB-T0 & CRST & SRB-T0 & VRTopBT0\\
-        \hline
-        ttbar&   $432\pm 7 $&    $34.2\pm 2.1 $&         $45.8\pm 2.6 $&         $159\pm 5 $\\
-        ttbar (rad up)&          $382\pm 13 $&   $39.2\pm 2.7 $&         $47.6\pm 3.0 $&         $139\pm 5 $\\
-        ttbar (rad down)&        $457\pm 7 $&    $28.7\pm 1.9 $&         $36.6\pm 2.2 $&         $153\pm 5 $\\
-        ttbar (Powheg+H++)&      $308\pm 6 $&    $27.9\pm 1.8 $&         $39.6\pm 2.4 $&         $122\pm 4 $\\
-        ttbar (aMC@NLO+P8)&      $380\pm 40 $&   $59\pm 16 $&    $59\pm 20 $&    $100\pm 22 $\\
-        ttbar (Sherpa)&          $376\pm 29 $&   $37\pm 8 $&     $58\pm 15 $&    $144\pm 17 $\\
-\hline
-        \multicolumn{5}{c}{\bf Transfer factors (in \%)} \\ \hline
-        ISR/FSR &    &    $24$&   $22$&   $4.2$\\
-        PS &   &    $14$&   $21$&   $8$\\
-        Generator (aMC@NLO) &  &      $100$&          $50$&   $29$\\
-        Generator (Sherpa) &   &     $24$&   $50$&   $4$\\        
-        \hline       
-        \end{tabular}
-    \end{center}
-    \caption{Theory uncertainties for the $\ttbar$\ background for the SRB-T0 regions.}
-    \label{tab:ttbar_unc_SRB_T0}
-  \end{table}
-
-
- \begin{table}[!h]
+   \begin{table}[!h]
     \begin{center} \footnotesize
       \begin{tabular}{|c|c|c|c|c|c|c|c|}
         \hline
-        & CRTopC & SRC1 & SRC2 & SRC3 & SRC4 & SRC5 & VRTopC\\
+        & $\ttbar$ CR & SRC1 & SRC2 & SRC3 & SRC4 & SRC5 & $\ttbar$ VR\\
         \hline
 ttbar&   $668\pm 9 $&    $16.7\pm 1.6 $&         $31.7\pm 2.1 $&         $21.7\pm 1.6 $&         $6.3\pm 0.8 $&          $0.60\pm 0.23 $&         $232\pm 5 $\\
 ttbar (rad up)&          $872\pm 11 $&   $25.2\pm 2.3 $&         $39.5\pm 2.3 $&         $28.7\pm 2.1 $&         $8.6\pm 1.0 $&  $1.05\pm 0.33 $&         $293\pm 7 $\\
 ttbar (rad down)&        $521\pm 9 $&    $10.1\pm 1.0 $&         $19.2\pm 1.6 $&         $15.8\pm 1.5 $&         $6.3\pm 1.2 $&  $0.7\pm 0.4 $&   $187\pm 5 $\\
 ttbar (Powheg+H++)&      $621\pm 10 $&   $16.3\pm 1.8 $&         $27.8\pm 1.8 $&         $18.0\pm 1.5 $&         $6.5\pm 0.9 $&  $0.46\pm 0.18 $&         $206\pm 5 $\\
-ttbar (aMC@NLO+P8)&      $310\pm 60 $&   $6\pm 5 $&      $<0.01$&        $4\pm 7 $&      $1\pm 5 $&      $0.9\pm 0.9 $&          $113\pm 34 $\\
 ttbar (Sherpa)&          $840\pm 40 $&   $30\pm 8 $&     $42\pm 9 $&     $22\pm 5 $&     $7.4\pm 3.2 $&          $<0.01$&        $297\pm 30 $\\        
         \hline
         \multicolumn{8}{c}{\bf Transfer factors (in \%)} \\ \hline
         ISR/FSR &  &      $20$&   $10$&   $4$&    $10$&   $5$&    $3.3$\\
         PS &     &   $5$&    $6$&    $11$&   $11$&   $20$&   $4$\\
-        Generator (aMC@NLO) &   &     $20$&   $110$&          $60$&   $70$&   $220$&          $0$\\
         Generator (Sherpa) &    &    $40$&   $5$&    $19$&   $10$&   $100$&          $2$\\
         \hline       
         \end{tabular}
     \end{center}
-    \caption{Theory uncertainties for the $\ttbar$\ background for the SRC regions.}
+    \caption{Expected yields for different ttbar samples and theory uncertainties based on transfer factor for the $\ttbar$\ background for the SR, ttbar CR and VR.}
     \label{tab:ttbar_unc_SRC}
   \end{table}
 
- \begin{table}[!h]
-    \begin{center} \footnotesize
-      \begin{tabular}{|c|c|c|c|c|c|}
-        \hline
-        & CRTopD & CRW & SRD-low & SRD-high & VRTopD\\
-        \hline
-        ttbar&   $134\pm 4 $&    $128\pm 4 $&    $3.2\pm 0.5 $&          $0.73\pm 0.23 $&        $159\pm 4 $\\
-        ttbar (rad up)&          $143\pm 5 $&    $135\pm 5 $&    $5.0\pm 0.7 $&          $1.38\pm 0.35 $&        $164\pm 5 $\\
-        ttbar (rad down)&        $132\pm 4 $&    $117\pm 4 $&    $2.6\pm 0.4 $&          $1.4\pm 0.4 $&          $148\pm 4 $\\
-        ttbar (Powheg+H++)&      $93.0\pm 3.3 $&         $87.9\pm 3.1 $&         $3.6\pm 0.6 $&          $1.30\pm 0.33 $&        $117\pm 4 $\\
-        ttbar (aMC@NLO+P8)&      $145\pm 22 $&   $218\pm 25 $&   $9\pm 5 $&      $3.5\pm 2.4 $&          $106\pm 32 $\\
-        ttbar (Sherpa)&          $119\pm 15 $&   $131\pm 14 $&   $5.5\pm 2.9 $&          $1.5\pm 1.5 $&          $150\pm 14 $\\        
-        \hline
-        \multicolumn{6}{c}{\bf Transfer factors (in \%)} \\ \hline
-        ISR/FSR &    &    $3.2$&          $28$&   $5$&    $1.1$\\
-        PS &   &     $1$&    $62$&   $160$&          $6$\\
-        Generator (aMC@NLO) &  &      $57$&   $160$&          $340$&          $38$\\
-        Generator (Sherpa) &   &     $15$&   $90$&   $130$&          $6$\\        
-        \hline       
-        \end{tabular}
-    \end{center}
-    \caption{Theory uncertainties for the $\ttbar$\ background for the SRD regions.}
-    \label{tab:ttbar_unc_SRD}
-  \end{table} 
+\subsubsection*{$\Wjets$ Theoretical Uncertainty}
 
- \begin{table}[!h]
-    \begin{center} \footnotesize
-      \begin{tabular}{|c|c|c|c|}
-        \hline
-        & CRTopE & SRE & VRTopE\\
-        \hline
-        ttbar&   $42.5\pm 2.4 $&         $0.45\pm 0.21 $&        $66.5\pm 2.9 $\\
-        ttbar (rad up)&          $53.4\pm 2.7 $&         $0.53\pm 0.19 $&        $84.1\pm 3.5 $\\
-        ttbar (rad down)&        $35.4\pm 2.2 $&         $0.6\pm 0.4 $&          $60\pm 4 $\\
-        ttbar (Powheg+H++)&      $36.4\pm 1.9 $&         $0.38\pm 0.20 $&        $72.6\pm 3.0 $\\
-        ttbar (aMC@NLO+P8)&      $34\pm 11 $&    $<0.01$&        $44\pm 13 $\\
-        ttbar (Sherpa)&          $45\pm 8 $&     $0.6\pm 0.6 $&          $74\pm 10 $\\
-        \hline
-        \multicolumn{4}{c}{\bf Transfer factors (in \%)} \\ \hline
-        ISR/FSR &    &    $30$&   $4$\\
-        PS &   &     $0$&   $27$\\
-        Generator (aMC@NLO) & & $100$ & $44$\\
-        Generator (Sherpa) & & $30$ & $5$\\        
-        \hline       
-        \end{tabular}
-    \end{center}
-    \caption{Theory uncertainties for the $\ttbar$\ background for the SRE regions.}
-    \label{tab:ttbar_unc_SRE}
-  \end{table}
- 
- 
-%  \begin{table}[!h]
-%    \begin{center} \footnotesize
-     %\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
-     %    \hline
-     %    & SRA-TT & SRA-TW & SRA-T0 & SRB-TT & SRB-TW & SRB-T0 & SRB-Other\\ \hline
-     %   ISR/FSR &      $53$&   $26$&   $12$&   $41$&   $22.5$&         $7.2$&          $14.9$\\       
-     %   PS  &  $37$&   $19$&   $7$&    $18$&   $8$&    $11.9$&         $2.2$\\
-     %   Generator &  $80$&   $10$&   $40$&   $26$&   $45$&   $7$&    $13$\\
-     %    \hline \hline
-     % \end{tabular}
-%    \end{center}
-%    \caption{Summary of the \ttbar\ theory uncertainties obtained in the SRA signal regions. }
-%    \label{tab:ttbar_unc}
-%  \end{table}         
+\indent The $\sherpa$ generator is used to estimate $\Wjets$ theory uncertainties.  Different scale variations and seven LHE3 variations are included to model the variations in $\sherpa$ parton shower and ME calculations.  \\
 
-
-%   \begin{table}[!h]
-%    \begin{center} \footnotesize
-     %  \begin{tabular}{c||c|c|c|c|c|} \hline\hline
-%         & SRC-low & SRC-med & SRC-high & SRE & SRF\\ \hline 
-%          ISR/FSR &         $27$&   $59$&   $41$&   $25$&   $22$\\
-%          PS &   $52$&   $56$&   $17$&   $16$&   $24$\\
-% %         Generator & -\\
-%         \hline \hline 
-%      \end{tabular}
-%    \end{center}
-%    \caption{Summary of the $t\bar{t}$ theory uncertainties obtained in the SRC, SRE and SRF signal regions. The uncertainties are symmetrised, and all numbers are given in percentages. The MC statistical uncertainties are too large to meaningfully evaluate the generator uncertainty.}
-%    \label{tab:ttbar_unc2}
-%  \end{table}
-
-%   \begin{table}[!h]
-%    \begin{center} \footnotesize
-      % \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
-     %    \hline
-     %    & SRD1 & SRD2 & SRD3 & SRD3 & SRD4 & SRD6 & SRD7 & SRD8\\ \hline 
-     %    ISR/FSR &  $15$&   $14$&   $14.4$&         $13$&   $10.7$&         $9$&    $8$&    $9$\\
-     %    PS  &  $3$&    $6$&    $1$&    $1$&    $6$&    $1$&    $8$&    $14$\\
-     %    Generator &   $18$&   $30$&   $19$&   $23$&   $11$&   $31$&   $34$&   $0$\\
-     %    \hline \hline 
-     % \end{tabular}
-%    \end{center}
-%%    \caption{Summary of the $t\bar{t}$ theory uncertainties obtained in the SRD signal regions. The uncertainties are symmetrised, and all numbers are given in percentages. }
-%    \label{tab:single_top_unc3}
-%  \end{table}
-
-\item[\boldmath $\ttV$] The \ttV\ theory uncertainties on yields of $\ttV$ have been determined by performing the analysis with several variations at particle level. The particle-level object definitions are the same as for $\ttbar$. The systematic uncertainty is caculated as the difference in yields in due to the variations. %{\color{red} This depends on whether we end up using ttGamma.}
-
-  Following the recommendations of the background forum, a global 13\% uncertainty on the production cross section and, therefore, on the global normalisation of the MC samples is considered. On top of this, further uncertainties on the acceptance of the selection have been considered:
-
-  \begin{itemize}
-  \item{\bf Scale} Scale variations are used to estimate the uncertainty on the ttV yield due to various scales. 
-  \item{\bf Generator} Samples produced with the \sherpa\ generator are compared with the default MadGraph generated samples.
-  \end{itemize}
-  Table1~\ref{tab:ttbarZ_unc1} shows the estimated systematic uncertainties for all variations. Also mentioned earlier is the 13\% uncertainty on the total cross section, together with the total estimated uncertainty, obtained as the sum in quadrature of the individual uncertainties.
-
-  %% ADDED BY FABRIZIO 10/2/2017
-  The largest uncertainties are 35\% and 24\% in SRC1 and SRC5, respectively. This is expected due to the low number of $\ttV$ events falling in such regions. However, in the regions where such background is more significant, such as SRA, SRB, and SRD, the largest uncertainties are 5.2\%, 5.0\%, and 6.5\%, respectively.
-  %%
-  
-  The $\ttV$ theory uncertainty is denoted by {\bf theoSysTtbarV} in the fit.
-
-  % \begin{table}[!h]
-  %   \begin{center} \footnotesize
-  %         %           \begin{tabular}{c|c|c|c|c|c|c|c}   
-      
-  %         %         \end{tabular}
-  %   \end{center}
-  %   \caption{Summary of the \ttW\ theory uncertainties obtained in each of the signal regions. No number is reported for the SRD, because all uncertainties on acceptance are negligible. All numbers are in percentage.}
-  %   \label{tab:ttbarW_unc}
-  % \end{table}         
-
-  % \begin{table}[!h]
-  %   \begin{center} \footnotesize
-  %         %           \begin{tabular}{c|c|c|c|c|c|c|c}   
-  %         %         \end{tabular}
-  %   \end{center}
-  %   \caption{Summary of the \ttZ\ theory uncertainties obtained in each of the 6-jet signal regions. No number is reported for the SRD, because all uncertainties on acceptance are negligible. All numbers are in percentage.}
-  %   \label{tab:ttbarZ_unc}
-  % \end{table}
-  
-
-
-  %% COMMENTED OUT BY FABRIZIO 10/2/2017
-  %% \begin{table}[!h]
-  %%   \begin{center} \footnotesize
-  %%     \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|} 
-  %%       \hline
-  %%       & SRA-TT & SRA-TW & SRA-T0 & SRB-TT & SRB-TW & SRB-T0 & SRB-Other\\ \hline
-  %%       Scale &  $5.8$&          $3.2$&          $2.9$&          $1.2$&          $0.0$&          $0.5$&          $5.0$\\
-  %%       Generator &   $20.6$&         $25.8$&         $42.3$&         $17.7$&         $20.8$&         $18.0$&         $21.9$\\
-  %%       \hline \hline 
-  %%    \end{tabular}
-  %%   \end{center}
-  %%   \caption{Summary of the $t\bar{t}Z$ theory uncertainties obtained in the SRA and SRB signal regions. The uncertainties are symmetrised, and all numbers are given in percentages. }
-  %%   \label{tab:ttbarZ_unc1}
-  %% \end{table}
-
-
-
-  
-  %% ADDED BY FABRIZIO 10/2/2017
-  \begin{table}[!h]
-    \begin{center} \footnotesize
-      \input{ttVSyst.tex}
-    \end{center}
-    \caption{Summary of the theory uncertainties (in percent) on  $\ttV$ production obtained on the transfer factor on all the signal regions. The uncertainties are symmetrised, and all numbers are given in percentages.}
-    \label{tab:ttbarZ_unc1}
-  \end{table}
-  %%
-  
-
-
-  
-  %%  \begin{table}[!h]
-  %%   \begin{center} \footnotesize
-  %%    %  \begin{tabular}{c||c|c|c|c|c|} \hline\hline
-  %%    %    & SRC-low & SRC-med & SRC-high & SRE & SRF\\ \hline 
-  %%    %    Scale &           $9.6$&          $15.6$&         $6.1$&          $7.9$&          $10.2$\\
-  %%    %    Generator &          $29.9$&         $39.3$&         $36.8$&         $17.7$&         $26.9$\\
-  %%    %    \hline \hline 
-  %%    % \end{tabular}
-  %%   \end{center}
-  %%   \caption{Summary of the $t\bar{t}Z$ theory uncertainties obtained in the SRC, SRE and SRF signal regions. The uncertainties are symmetrised, and all numbers are given in percentages. }
-  %%   \label{tab:ttbarZ_unc2}
-  %% \end{table}
-
-  %%  \begin{table}[!h]
-  %%   \begin{center} \footnotesize
-  %%    %  \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
-  %%    %    \hline
-  %%    %    & SRD1 & SRD2 & SRD3 & SRD3 & SRD4 & SRD6 & SRD7 & SRD8\\ \hline 
-  %%    %    Scale &   $17.3$&         $3.3$&          $8.7$&          $9.0$&          $11.0$&         $5.6$&          $4.9$&          $15.0$\\
-  %%    %    Generator &   $29.6$&         $17.2$&         $15.9$&         $37.7$&         $0.8$&          $14.5$&         $2.0$&          $7.7$\\
-  %%    %    \hline \hline 
-  %%    % \end{tabular}
-  %%   \end{center}
-  %%   \caption{Summary of the $t\bar{t}Z$ uncertainties obtained in each of the SRD signal regions. The uncertainties are symmetrised, and all numbers are given in percentages. }
-  %%   \label{tab:ttbarZ_unc3}
-  %% \end{table}
-  
-
-\item[Single-top] The single-top background in the signal region is dominated by the $Wt$ subprocess. The following comparisons are made to evaluate the uncertainty on the transfer factor. 
-
-  \begin{itemize}
-  \item {\bf Parton shower:} An uncertainty on the choice of the showering model is computed by comparing the baseline DSID 410013, 407014 (that is, \powheg\pythia\ with the P2011 tuning for \pythia, where the two DSIDs correspond to the top and antitop samples) and DSID 410147, 410148 (that is, \powheg\herwigpp\ with the UE5C6L1 CT10 tuning for \herwigpp\ and similar \met\ slicing). In this case, the uncertainty is given by equation~\ref{eq:ttbar_frag_uncertainty}.
-
-  \item {\bf ISR/FSR:} Uncertainties related ISR/FSR are evaluated by comparing the radHi and radLow \powheg\pythia\ samples with DSID 410099, 410101 and 410100, 410102, where the two sets of DSIDs represent the top and antitop final states. The formula used is equation~\ref{eq:theory_uncertainty}.
-  \end{itemize}
-
-  The uncertainties resulting from these comparisons are summarized in Tables \ref{tab:single_top_unc1}, \ref{tab:single_top_unc2}, \ref{tab:single_top_unc3}, \ref{tab:single_top_unc1}, for SRA, SRB, SRC, SRD, SRE and associated control regions, respectively. 
-
-  The single-top theory uncertainty is denoted by {\bf theoSysSingleTop} in the fit.
+\indent The theory uncertainty on $\Wjets$ production obtained from transfer factors is given in table \ref{tab:WThSyst}.  Values are given as percent uncertainty on $\Wjets$ yields in the SR.  \\
 
   \begin{table}[!h]
     \begin{center} \footnotesize
-   \begin{tabular}{|c|c|c|c|c|c|c|c|} 
-        \hline
-        & CRST & CRTopATT & CRTopATW & CRTopAT0 & SRA-TT & SRA-TW & SRA-T0 \\ \hline
-        \hline \hline 
-        st Wt (MET200)&          $41.7\pm 1.1$&          $6.0\pm 0.4$&   $3.94\pm 0.35$&         $3.17\pm 0.31$&         $3.35\pm 0.33$&         $2.39\pm 0.27$&         $4.3\pm 0.4$\\
-st Wt (radHi, MET200)&   $50.4\pm 1.3$&          $8.0\pm 0.5$&   $5.0\pm 0.4$&   $4.1\pm 0.4$&   $5.5\pm 0.4$&   $4.4\pm 0.4$&   $5.7\pm 0.4$\\
-st Wt (radLo, MET200)&   $34.9\pm 1.0$&          $4.7\pm 0.4$&   $3.75\pm 0.33$&         $2.56\pm 0.28$&         $2.25\pm 0.25$&         $1.99\pm 0.24$&         $2.87\pm 0.29$\\
-st Wt (Powheg+H++,MET200)&       $39.2\pm 1.0$&          $5.6\pm 0.4$&   $3.15\pm 0.30$&         $2.39\pm 0.27$&         $2.77\pm 0.28$&         $2.58\pm 0.27$&         $4.02\pm 0.34$\\
-st Wt (DS,MET200)&       $6.8\pm 0.4$&   $0.81\pm 0.13$&         $1.42\pm 0.17$&         $1.14\pm 0.16$&         $0.059\pm 0.034$&       $0.08\pm 0.04$&         $0.06\pm 0.06$\\
-       \hline
-       \multicolumn{8}{c}{\bf Transfer factors (in \%)} \\ \hline
-       \hline
-       ISR/FSR &  &       $8\pm6$&        $4\pm6$&        $5\pm8$&        $26\pm7$&       $21\pm8$&       $16\pm6$\\
-       PS &    &    $1\pm10$&       $15\pm13$&      $20\pm14$&      $12\pm14$&      $15\pm17$&      $1\pm13$\\
-       Inteference (DR vs DS) & &        $17\pm16$&      $121\pm33$&     $120\pm40$&     $89\pm15$&      $79\pm18$&      $91\pm16$\\
-       \hline
-   \end{tabular}
+\input{wSysts.tex}
     \end{center}
-    \caption{Summary of the single-top theory uncertainties obtained in each of the signal regions. The uncertainties are symmetrised, and all numbers are given in percentages. Note that the event yields and transfer factors are obtained from truth-level samples. %The total uncertainty is the sum in quadrature of the uncertainties labeled ``Total    generator+PS+interference''. 
-}
-    \label{tab:single_top_unc1}
- \end{table}
+    \caption{Summary of the theory uncertainties (in percent) on $W$ production obtained using variations on transfer factors. }
+    \label{tab:WThSyst}
+  \end{table}        
 
-  \begin{table}[!h]
-    \begin{center} \footnotesize
-   \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|} 
-        \hline
-        & CRST & CRTopBTT & CRTopBTW & CRTopBT0 & SRB-TT & SRB-TW & SRB-T0 \\ \hline
-        \hline \hline 
-       st Wt (MET200)&          $41.7\pm 1.1$&          $7.3\pm 0.5$&   $7.9\pm 0.5$&   $12.0\pm 0.6$&          $11.4\pm 0.6$&          $15.1\pm 0.7$&          $53.8\pm 1.3$\\
-st Wt (radHi, MET200)&   $50.4\pm 1.3$&          $9.6\pm 0.6$&   $9.8\pm 0.6$&   $13.4\pm 0.7$&          $15.4\pm 0.7$&          $19.8\pm 0.8$&          $59.9\pm 1.4$\\
-st Wt (radLo, MET200)&   $34.9\pm 1.0$&          $5.8\pm 0.4$&   $7.7\pm 0.5$&   $10.5\pm 0.6$&          $8.8\pm 0.5$&   $11.5\pm 0.6$&          $48.5\pm 1.2$\\
-st Wt (Powheg+H++,MET200)&       $39.2\pm 1.0$&          $6.5\pm 0.4$&   $7.1\pm 0.4$&   $9.3\pm 0.5$&   $10.7\pm 0.5$&          $14.7\pm 0.6$&          $44.9\pm 1.1$\\
-st Wt (DS,MET200)&       $6.8\pm 0.4$&   $0.90\pm 0.14$&         $3.04\pm 0.25$&         $5.70\pm 0.35$&         $0.67\pm 0.12$&         $1.73\pm 0.20$&         $9.0\pm 0.5$\\
-        \hline
-        \multicolumn{8}{c}{\bf Transfer factors (in \%)} \\ \hline        
-        ISR/FSR &   &     $7\pm5$&        $6\pm5$&        $6\pm4$&        $10\pm4$&       $9\pm4$&        $7.8\pm2.6$\\
-        PS &    &    $5\pm10$&       $4\pm9$&        $18\pm8$&       $0\pm8$&        $4\pm7$&        $11\pm5$\\
-        Interference (DR vs DS) &   &     $24\pm15$&      $136\pm27$&     $191\pm28$&     $64\pm10$&      $30\pm11$&      $3\pm9$\\
-       \hline
-   \end{tabular}
-    \end{center}
-    \caption{Summary of the single-top theory uncertainties obtained in each of the signal regions. The uncertainties are symmetrised, and all numbers are given in percentages. Note that the event yields and transfer factors are obtained from truth-level samples. %The total uncertainty is the sum in quadrature of the uncertainties labeled ``Total    generator+PS+interference''. 
-}
-    \label{tab:single_top_unc2}
-  \end{table}
+\subsubsection*{Single Top Theoretical Uncertainty}
+
+\indent Single top theoretical uncertainty include uncertainty on the PS, ISR/FSR, and the interference between ttbar and single top in the Wt channel.  Single top uncertainties is evaluated on the $Wt$ subprocess because the $Wt$ subprocess dominates the single top background in signal region.  \\
+
+\indent The single top parton shower uncertainty is modeled by comparing the nominal $\powheg\pythia$ sample with a $\powheg\herwigpp$ single top sample in a similar fashion to the $\ttbar$ PS uncertainty.  \\
+
+\indent The single top ISR/FSR uncertainty is also modeled by comparing the radHi and radLo $\powheg\pythia$ single top samples to the nominal $\powheg\pythia$ samples analogous to the $\ttbar$ ISR/FSR uncertainty. \\
+
+\indent The single top interference uncertainty refer to the fact that at NLO the calculation of the $pp \rightarrow Wt$ process will include contributions from $ pp \rightarrow \ttbar \rightarrow t + b + W$ which is already modeled in the SM ttbar MC.  We can subtract out the ttbar contribution at either the level of amplitude (DR scheme) or at the level of matrix elements (DS scheme).  Subtracting at the matrix element level also remove any potential interference between the single top $pp \rightarrow Wt$ and ttbar $ pp \rightarrow \ttbar \rightarrow t + b + W$ processes.  Subtracting at the amplitude level does not remove those interferences. \\
+
+\indent There is an uncertainty on the correct procedure to treat ttbar and single top interference as both DR and DS schemes violates formal gauge invariance.  We estimate this uncertainty by comparing the DR and DS schemes.  \\
+
+\indent At the moment we take an 100\% interference uncertainty because of the low MC statistics in DS scheme. \\
+
+\indent The raw pre-fit single top yields in SR, single top CR and VR for the different single top samples and the single top theory uncertainty derived from transfer factor is given in table \ref{tab:single_top_unc3}. \\
 
    \begin{table}[!h]
     \begin{center} \footnotesize
@@ -536,62 +107,32 @@ st Wt (DS,MET200)&       $6.8\pm 0.4$&   $0.12\pm 0.05$&         $0.30\pm 0.09$&
           \hline
         \end{tabular}
     \end{center}
-    \caption{Summary of the single-top theory uncertainties obtained in each of the signal regions. The uncertainties are symmetrised, and all numbers are given in percentages. Note that the event yields and transfer factors are obtained from truth-level samples. %The total uncertainty is the sum in quadrature of the uncertainties labeled ``Total    generator+PS+interference''. 
-}
+    \caption{Summary of the single-top theory uncertainties obtained in each of the signal regions. The uncertainties are symmetrize, and all numbers are given in percentages.}
     \label{tab:single_top_unc3}
   \end{table}
 
+\subsubsection*{$\ttV$ Theoretical Uncertainty}
+
+\indent $\ttV$ theoretical uncertainty include scale variations and \texttt{NNPDF3.0} PDF variations.  Plus an uncertainty on the difference between $\ttbar\gamma$ and $\ttbar Z$ vector boson $\pt$ differential cross section is added for $\ttV$ due to the procedure of using $\tt\gamma$ to estimate $\ttV$.  The $\sherpa$+OpenLoops is used to calculate $\ttbar\gamma$ and $\ttbar Z$ vector boson differential cross-section to NLO accuracy.  The relative difference between $\sherpa$+OpenLoops and the nominal {\sc MadGraph5\_aMC\/@NLO} cross-sections is combined in quadrature with the scale and \texttt{NNPDF3.0} PDF variations to give the total $\ttV$ theoretical uncertainty. \\
+
+\indent $\ttV$ theoretical uncertainty is given in table \ref{ab:ttbarZ_unc1}.  The systematic uncertainty maybe large for $\ttV$ production in the SR but $\ttV$ comprise about 1\% of our expected background. Therefore, $\ttV$ do not contribute significantly to the total background uncertainty in the analysis. \\
 
   \begin{table}[!h]
     \begin{center} \footnotesize
-      \begin{tabular}{|c|c|c|c|c|c|}
-        \hline
-        & CRST & CRW & SRD-low & SRD-high & VRTopD \\ \hline
-        \hline \hline
-        
-       \hline
-       \multicolumn{6}{c}{\bf Transfer factors (in \%)} \\ \hline
-       \hline
-
-      \end{tabular}
+      \input{ttVSyst.tex}
     \end{center}
-    \caption{Summary of the single-top theory uncertainties obtained in each of the signal regions. The uncertainties are symmetrised, and all numbers are given in percentages. Note that the event yields and transfer factors are obtained from truth-level samples. %The total uncertainty is the sum in quadrature of the uncertainties labeled ``Total    generator+PS+interference''. 
-}
-    \label{tab:single_top_unc4}
- \end{table}
+    \caption{Summary of the theory uncertainties (in percent) on $\ttV$ production obtained on the transfer factor. The uncertainties are symmetries.}
+    \label{tab:ttbarZ_unc1}
+  \end{table}
 
-  \begin{table}[!h]
-    \begin{center} \footnotesize
-      \begin{tabular}{|c|c|c|c|}
-        \hline
-        & CRST & SRE & VRTopE \\ \hline
-        \hline \hline
-        st Wt (MET200)&          $41.7\pm 1.1$&          $0.93\pm 0.17$&         $2.81\pm 0.29$\\
-        st Wt (radHi, MET200)&   $50.4\pm 1.3$&          $1.77\pm 0.24$&         $3.57\pm 0.34$\\
-        st Wt (radLo, MET200)&   $34.9\pm 1.0$&          $0.37\pm 0.10$&         $2.10\pm 0.25$\\
-        st Wt (Powheg+H++,MET200)&       $39.2\pm 1.0$&          $0.73\pm 0.15$&         $2.77\pm 0.27$\\
-        st Wt (DS,MET200)&       $6.8\pm 0.4$&   $<0.01$&        $0.89\pm 0.14$\\
-       \hline
-       \multicolumn{4}{c}{\bf Transfer factors (in \%)} \\ \hline
-       \hline
-       ISR/FSR &  &      $54\pm14$&      $8\pm8$\\
-       PS &     &   $16\pm25$&      $5\pm15$\\
-       Interference (DR vs DS) &    &    $100\pm26$&     $90\pm40$\\
-       \hline
-      \end{tabular}
-    \end{center}
-    \caption{Summary of the single-top theory uncertainties obtained in each of the signal regions. The uncertainties are symmetrised, and all numbers are given in percentages. Note that the event yields and transfer factors are obtained from truth-level samples. %The total uncertainty is the sum in quadrature of the uncertainties labeled ``Total    generator+PS+interference''. 
-}
-    \label{tab:single_top_unc5}
- \end{table}
-  
-A 100\% uncertainty due to interference is applied for single top.
+\subsubsection*{Dibosons Theoretical Uncertainty}
 
-\item[The Remaining Background Components]
+A 50\% uncertainty is used for the dibosons estimate because the diboson yield is predicted using MC alone.
 
-A 50\% uncertainty is used for the dibosons estimate.
-\item[Signal Component] 
+\subsubsection*{$Z$+jets Theoretical Uncertainty}
+
+A 50\% uncertainty is used for the $\Zjets$ estimate because the $\Zjets$ yield is predicted using MC alone.
+
+\subsubsection*{Signal Theoretical Uncertainty}
 
   {\color{red} Coming soon}
-
-\end{description}

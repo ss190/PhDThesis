@@ -77,7 +77,7 @@
 
 \indent Unlike the ttbar samples, single top samples are produced separately according to production channels.  Three production channels exist including the s-channel, t-channel and the Wt channel.  The largest contribution to our analysis comes from the Wt channel.  \\
 
-\indent The NLO calculation of the $pp \rightarrow Wt$ includes contributions from $ pp \rightarrow \ttbar \rightarrow \top + b + W$.  However $ pp \rightarrow \ttbar \rightarrow \top + b + W$ is already included in our simulation of ttbar and including it here would be double counting.  We can subtract out the ttbar contribution at either the level of amplitude (DR scheme) or at the level of matrix elements (DS scheme).  Subtracting at the matrix element level also remove any potential interference between the single top $pp \rightarrow Wt$ and ttbar $ pp \rightarrow \ttbar \rightarrow \top + b + W$ processes.  Subtracting at the amplitude level does not remove those interferences.  Both schemes violates formal gauge invariance and there isn't a consensus on the correct procedure.  We generate two sets of Wt channel single top samples with the two schemes.  The nominal single top sample is generated with the DR scheme and another sample is generated with the DS scheme.  We to compare the difference between the two samples to quantify the uncertainty due to the single top and ttbar interference terms. \\
+\indent The NLO calculation of the $pp \rightarrow Wt$ includes contributions from $ pp \rightarrow \ttbar \rightarrow t + b + W$.  However $ pp \rightarrow \ttbar \rightarrow t + b + W$ is already included in our simulation of ttbar and including it here would be double counting.  We can subtract out the ttbar contribution at either the level of amplitude (DR scheme) or at the level of matrix elements (DS scheme).  Subtracting at the matrix element level also remove any potential interference between the single top $pp \rightarrow Wt$ and ttbar $ pp \rightarrow \ttbar \rightarrow t + b + W$ processes.  Subtracting at the amplitude level does not remove those interferences.  Both schemes violates formal gauge invariance and there isn't a consensus on the correct procedure.  We generate two sets of Wt channel single top samples with the two schemes.  The nominal single top sample is generated with the DR scheme and another sample is generated with the DS scheme.  We to compare the difference between the two samples to quantify the uncertainty due to the single top and ttbar interference terms. \\
 
 \indent RadHi and radLo samples are also produced for all channels to study the variation in single top ISR and FSR emissions.  These samples are also produced with \textsc{Powheg+\pythia6} but have different renormalization and factorization scales (x0.5 to radHi and x2 to radLo). The radHi sample also has the $h_{damp}$ parameter that help control the matching between PS and ME increased from the nominal $m_{top}$ to x2 $m_{top}$. \\
 
@@ -103,7 +103,7 @@
 
 \subsection{Standard Model Diboson Monte Carlo Generation}
 
-\indent dibosons samples are generated with \sherpa v2.2 using CT10 PDF set. 
+\indent dibosons samples are generated with \sherpa v2.2 using CT10 PDF set. \\
 
 \section{Detector Simulation}
 \label{sec:MC:DET}

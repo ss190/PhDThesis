@@ -23,6 +23,16 @@ T = \frac{N_{MC}^{SR}}{N_{MC}^{CR}}
 
 \indent We use control regions to estimate the dominant ttbar background and subdominant W+jet, single top, and ttV backgrounds.  Z+jets and diboson backgrounds are estimated using MC alone.  Z+jets and diboson contributions are less then 5 percent of all backgrounds in the SR and we allow for an additional 100 percent theory uncertainty for these two samples.  Details on the ttbar background is found in section \ref{sec:Bkg:ttbar}. Details on the treatment of each sub dominate background can be found in section \ref{sec:Bkg:sub}. Finally QCD multijet background is estimated using the jet smearing method described in section \ref{sec:Bkg:QCD}. \\
 
+\indent The scale factors for each background derived from the simultaneous fit to the CR are given in table \ref{table.scale.factors}. ttbar background is scaled down by 0.707 because the MC over estimates the amount of ttbar that is produced with strong ISR. \\
+
+\begin{table}
+  \begin{center}
+    \input{sfs.tex}
+  \end{center}
+  \caption{MC scale factors for SM backgrounds.  Scale factors are derived by simultaneously fitting to all background CR using \intlumi\ \ifb of data.}
+  \label{table.scale.factors}
+\end{table}
+
 \input{chapters/Background/ttbar.tex}
 
 \section{Subdominant Backgrounds}

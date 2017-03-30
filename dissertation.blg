@@ -1,0 +1,133 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dissertation.aux
+A level-1 auxiliary file: chapters/Introduction.aux
+A level-1 auxiliary file: chapters/Motivation.aux
+A level-1 auxiliary file: chapters/LHC.aux
+A level-1 auxiliary file: chapters/Reconstruction.aux
+A level-1 auxiliary file: chapters/Trigger.aux
+A level-1 auxiliary file: chapters/ObjectDef.aux
+A level-1 auxiliary file: chapters/MCSimulation.aux
+A level-1 auxiliary file: chapters/AnaStrategy.aux
+A level-1 auxiliary file: chapters/Jigsaw.aux
+A level-1 auxiliary file: chapters/EventSelection.aux
+A level-1 auxiliary file: chapters/SignalRegion.aux
+A level-1 auxiliary file: chapters/Background.aux
+A level-1 auxiliary file: chapters/Systematics.aux
+A level-1 auxiliary file: chapters/Statistics.aux
+A level-1 auxiliary file: chapters/Results.aux
+A level-1 auxiliary file: chapters/Interpretation.aux
+A level-1 auxiliary file: chapters/conclusion.aux
+A level-1 auxiliary file: chapters/appendixA.aux
+The style file: apalike2.bst
+Database file #1: references.bib
+You're missing a field name---line 28 of file references.bib
+ : abstract="",                                                                                                                                                                                         
+ :                                                                                                                                                                                                      ",
+I'm skipping whatever remains of this entry
+You're missing a field name---line 80 of file references.bib
+ : 
+ : %  author={A Miucci},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 91 of file references.bib
+ : @article{IBLOverview
+ :                     ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 237 of file references.bib
+ : 
+ : %jet reco
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Phase1"
+Warning--I didn't find a database entry for "Calibartion13TeV"
+Warning--I didn't find a database entry for "topoCalib"
+Warning--I didn't find a database entry for "antikt"
+Warning--I didn't find a database entry for "sherpa"
+Warning--I didn't find a database entry for "stop0Lmoriond"
+Warning--to sort, need author or key in IBLOverview
+Warning--to sort, need author or key in VertexReco
+Warning--to sort, need author or key in jetReco7TeV
+Warning--to sort, need author or key in jetReco13TeV
+Warning--to sort, need author or key in pileupsub
+Warning--to sort, need author or key in JetCalibartion13TeV
+Warning--to sort, need author or key in jet_GSC
+Warning--to sort, need author or key in JES_ZGamma
+Warning--to sort, need author or key in JES_dijet
+Warning--to sort, need author or key in JVT
+Warning--to sort, need author or key in JetCleaning
+Warning--to sort, need author or key in btagging2016
+Warning--to sort, need author or key in btagging2015
+Warning--to sort, need author or key in EMReco13TeV
+Warning--to sort, need author or key in EleID
+Warning--to sort, need author or key in photonID
+Warning--to sort, need author or key in METReco
+Warning--to sort, need author or key in Trigger2016
+Warning--to sort, need author or key in Pythia8tunes
+Warning--empty author in IBLOverview
+Warning--empty year in IBLOverview
+Warning--empty title in IBLOverview
+Warning--empty journal in IBLOverview
+Warning--empty author in jetReco7TeV
+Warning--empty author in pileupsub
+Warning--empty author in Pythia8tunes
+Warning--empty author in JVT
+Warning--empty author in JES_dijet
+Warning--empty author in JES_ZGamma
+Warning--empty author in METReco
+Warning--empty author in btagging2015
+Warning--empty author in jet_GSC
+Warning--empty author in JetCalibartion13TeV
+Warning--empty author in jetReco13TeV
+Warning--empty author in JetCleaning
+Warning--empty author in VertexReco
+Warning--empty author in EMReco13TeV
+Warning--empty author in EleID
+Warning--empty author in btagging2016
+Warning--empty author in photonID
+Warning--empty author in Trigger2016
+Warning--empty institution in IBL_TDR
+Warning--empty journal in MartinSUSY
+Warning--empty note in ATLASSig
+You've used 43 entries,
+            2229 wiz_defined-function locations,
+            772 strings with 12532 characters,
+and the built_in function-call counts, 16748 in all, are:
+= -- 1483
+> -- 944
+< -- 35
++ -- 365
+- -- 352
+* -- 1685
+:= -- 2978
+add.period$ -- 127
+call.type$ -- 43
+change.case$ -- 368
+chr.to.int$ -- 40
+cite$ -- 106
+duplicate$ -- 572
+empty$ -- 993
+format.name$ -- 386
+if$ -- 3076
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 20
+newline$ -- 216
+num.names$ -- 72
+pop$ -- 326
+preamble$ -- 1
+purify$ -- 391
+quote$ -- 0
+skip$ -- 376
+stack$ -- 0
+substring$ -- 785
+swap$ -- 62
+text.length$ -- 22
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 258
+warning$ -- 44
+while$ -- 65
+width$ -- 0
+write$ -- 553
+(There were 4 error messages)

@@ -99,6 +99,7 @@
 \usepackage{adjustbox}
 \usepackage{dcolumn}
 \RequirePackage{graphicx}
+%\usepackage{physics}
 %\usepackage{enumerate}
 \usepackage{braket}
 
@@ -337,11 +338,11 @@
         \include{chapters/appendixA}
     \end{appendices}
     \input{endmatter/personalize}
-    \clearpage
     \begin{spacing}{\dcompressedspacing}
         \bibliography{references}
         \addcontentsline{toc}{chapter}{References}
         \bibliographystyle{apalike2}
-        \include{endmatter/colophon}
+	%        \include{endmatter/colophon}
     \end{spacing}
+    \clearpage
 }

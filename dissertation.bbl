@@ -1,0 +1,276 @@
+\begin{thebibliography}{}
+
+\bibitem[IBL, ]{IBLOverview}
+
+
+\bibitem[jet, 2010]{jetReco7TeV}
+ (2010).
+\newblock {\em {Properties of Jets and Inputs to Jet Reconstruction and
+  Calibration with the ATLAS Detector Using Proton-Proton Collisions at
+  $\sqrt{s}=7$ TeV}}.
+\newblock Technical Report ATLAS-CONF-2010-053, CERN, Geneva.
+
+\bibitem[pil, 2013]{pileupsub}
+ (2013).
+\newblock {\em {Pile-up subtraction and suppression for jets in ATLAS}}.
+\newblock Technical Report ATLAS-CONF-2013-083, CERN, Geneva.
+
+\bibitem[Pyt, 2014]{Pythia8tunes}
+ (2014).
+\newblock {\em {ATLAS Run 1 Pythia8 tunes}}.
+\newblock Technical Report ATL-PHYS-PUB-2014-021, CERN, Geneva.
+
+\bibitem[JVT, 2014]{JVT}
+ (2014).
+\newblock {\em {Tagging and suppression of pileup jets with the ATLAS
+  detector}}.
+\newblock Technical Report ATLAS-CONF-2014-018, CERN, Geneva.
+
+\bibitem[JES, 2015a]{JES_dijet}
+ (2015a).
+\newblock {\em {Data-driven determination of the energy scale and resolution of
+  jets reconstructed in the ATLAS calorimeters using dijet and multijet events
+  at $\sqrt{s}=8~TeV$}}.
+\newblock Technical Report ATLAS-CONF-2015-017, CERN, Geneva.
+
+\bibitem[JES, 2015b]{JES_ZGamma}
+ (2015b).
+\newblock {\em {Determination of the jet energy scale and resolution at ATLAS
+  using ${Z/\gamma}$--jet events in data at $\sqrt{s}=8$ TeV}}.
+\newblock Technical Report ATLAS-CONF-2015-057, CERN, Geneva.
+
+\bibitem[MET, 2015]{METReco}
+ (2015).
+\newblock {\em {Expected performance of missing transverse momentum
+  reconstruction for the ATLAS detector at $\sqrt{s}= 13~\text{TeV}$}}.
+\newblock Technical Report ATL-PHYS-PUB-2015-023, CERN, Geneva.
+
+\bibitem[bta, 2015]{btagging2015}
+ (2015).
+\newblock {\em {Expected performance of the ATLAS $b$-tagging algorithms in
+  Run-2}}.
+\newblock Technical Report ATL-PHYS-PUB-2015-022, CERN, Geneva.
+
+\bibitem[jet, 2015]{jet_GSC}
+ (2015).
+\newblock {\em {Jet global sequential corrections with the ATLAS detector in
+  proton-proton collisions at sqrt(s) = 8 TeV}}.
+\newblock Technical Report ATLAS-CONF-2015-002, CERN, Geneva.
+
+\bibitem[Jet, 2015]{JetCalibartion13TeV}
+ (2015).
+\newblock {\em {Monte Carlo Calibration and Combination of In-situ Measurements
+  of Jet Energy Scale, Jet Energy Resolution and Jet Mass in ATLAS}}.
+\newblock Technical Report ATLAS-CONF-2015-037, CERN, Geneva.
+
+\bibitem[jet, 2015]{jetReco13TeV}
+ (2015).
+\newblock {\em {Properties of Jets and Inputs to Jet Reconstruction and
+  Calibration with the ATLAS Detector Using Proton-Proton Collisions at
+  $\sqrt{s} = 13$ TeV}}.
+\newblock Technical Report ATL-PHYS-PUB-2015-036, CERN, Geneva.
+
+\bibitem[Jet, 2015]{JetCleaning}
+ (2015).
+\newblock {\em {Selection of jets produced in 13TeV proton-proton collisions
+  with the ATLAS detector}}.
+\newblock Technical Report ATLAS-CONF-2015-029, CERN, Geneva.
+
+\bibitem[Ver, 2015]{VertexReco}
+ (2015).
+\newblock {\em {Vertex Reconstruction Performance of the ATLAS Detector at
+  $\sqrt{s} = 13~\textrm{TeV}$}}.
+\newblock Technical Report ATL-PHYS-PUB-2015-026, CERN, Geneva.
+
+\bibitem[EMR, 2016]{EMReco13TeV}
+ (2016).
+\newblock {\em {Electron and photon energy calibration with the ATLAS detector
+  using data collected in 2015 at $\sqrt{s} = 13 \mathrm{TeV}$}}.
+\newblock Technical Report ATL-PHYS-PUB-2016-015, CERN, Geneva.
+
+\bibitem[Ele, 2016]{EleID}
+ (2016).
+\newblock {\em {Electron efficiency measurements with the ATLAS detector using
+  the 2015 LHC proton-proton collision data}}.
+\newblock Technical Report ATLAS-CONF-2016-024, CERN, Geneva.
+
+\bibitem[bta, 2016]{btagging2016}
+ (2016).
+\newblock {\em {Optimisation of the ATLAS $b$-tagging performance for the 2016
+  LHC Run}}.
+\newblock Technical Report ATL-PHYS-PUB-2016-012, CERN, Geneva.
+
+\bibitem[pho, 2016]{photonID}
+ (2016).
+\newblock {\em {Photon identification in 2015 ATLAS data}}.
+\newblock Technical Report ATL-PHYS-PUB-2016-014, CERN, Geneva.
+
+\bibitem[Tri, 2017]{Trigger2016}
+ (2017).
+\newblock {\em {Trigger Menu in 2016}}.
+\newblock Technical Report ATL-DAQ-PUB-2017-001, CERN, Geneva.
+
+\bibitem[Achenbach et~al., 2008]{L1Calo}
+Achenbach, R., Adragna, P., Andrei, V., Apostologlou, P., Åsman, B., Ay, C.,
+  Barnett, B.~M., Bauss, B., Bendel, M., Bohm, C., Booth, J. R.~A., Brawn,
+  I.~P., Thomas, P.~B., Charlton, D.~G., Collins, N.~J., Curtis, C.~J.,
+  Dahlhoff, A., Davis, A.~O., Eckweiler, S., Edwards, J.~P., Eisenhandler, E.,
+  Faulkner, P. J.~W., Fleckner, J., Föhlisch, F., Garvey, J., Gee, C. N.~P.,
+  Gillman, A.~R., Hanke, P., Hatley, R.~P., Hellman, S., Hidvégi, A., Hillier,
+  S.~J., Jakobs, K., Johansen, M., Kluge, E.~E., Landon, M., Lendermann, V.,
+  Lilley, J.~N., Mahboubi, K., Mahout, G., Mass, A., Meier, K., Moa, T., Moyse,
+  E., Müller, F., Neusiedl, A., Nöding, C., Oltmann, B., Pentney, J.~M.,
+  Perera, V. J.~O., Pfeiffer, U., Prieur, D. P.~F., Qian, W., Rees, D.~L.,
+  Rieke, S., Rühr, F., Sankey, D. P.~C., Schäfer, U., Schmitt, K.,
+  Schultz-Coulon, H.~C., Schumacher, C., Silverstein, S., Staley, R.~J.,
+  Stamen, R., Stockton, M.~C., Tapprogge, S., Thomas, J.~P., Trefzger, T.,
+  Watkins, P.~M., Watson, A., Weber, P., \& Woehrling, E.~E. (2008).
+\newblock The atlas level-1 calorimeter trigger.
+\newblock {\em Journal of Instrumentation}, 3(03), P03001.
+
+\bibitem[Ball et~al., 2015]{NNPDF3.0}
+Ball, R.~D., Bertone, V., Carrazza, S., Deans, C.~S., Del~Debbio, L., Forte,
+  S., Guffanti, A., Hartland, N.~P., Latorre, J.~I., Rojo, J., \& Ubiali, M.
+  (2015).
+\newblock Parton distributions for the lhc run ii.
+\newblock {\em Journal of High Energy Physics}, 2015(4), 40.
+
+\bibitem[Besjes et~al., 2015]{HistFitter}
+Besjes, G.~J., Baak, M., C{\^o}t{\'e}, D., Koutsman, A., Lorenz, J.~M., \&
+  Short, D. (2015).
+\newblock Histfitter: a flexible framework for statistical data analysis.
+\newblock {\em Journal of Physics: Conference Series}, 664(7), 072004.
+
+\bibitem[Borschensky et~al., 2014]{stopXsec}
+Borschensky, C., Kr{\"a}mer, M., Kulesza, A., Mangano, M., Padhi, S., Plehn,
+  T., \& Portell, X. (2014).
+\newblock Squark and gluino production cross sections in pp collisions at
+  $\sqrt{s}$ = 13, 14, 33 and 100 tev.
+\newblock {\em Eur. Phys. J.}, C74(12), 3174.
+
+\bibitem[Cacciari et~al., 2008]{JetAreaGhostAssociate}
+Cacciari, M., Salam, G.~P., \& Soyez, G. (2008).
+\newblock The catchment area of jets.
+\newblock {\em Journal of High Energy Physics}, 2008(04), 005.
+
+\bibitem[Capeans et~al., 2010]{IBL_TDR}
+Capeans, M., Darbo, G., Einsweiller, K., Elsing, M., Flick, T.,
+  Garcia-Sciveres, M., Gemme, C., Pernegger, H., Rohne, O., \& Vuillermet, R.
+  (2010).
+\newblock {\em {ATLAS Insertable B-Layer Technical Design Report}}.
+\newblock Technical Report CERN-LHCC-2010-013. ATLAS-TDR-19.
+
+\bibitem[Collaboration, 2014]{EMReco8TeV}
+Collaboration, A. (2014).
+\newblock Electron and photon energy calibration with the atlas detector using
+  lhc run 1 data.
+\newblock {\em The European Physical Journal C}, 74(10), 3071.
+
+\bibitem[Collaboration, 2016a]{Higgs2016}
+Collaboration, A. (2016a).
+\newblock Measurements of the higgs boson production and decay rates and
+  constraints on its couplings from a combined atlas and cms analysis of the
+  lhc pp collision data at $ \sqrt{s}=7 $ and 8 tev.
+\newblock {\em Journal of High Energy Physics}, 2016(8), 45.
+
+\bibitem[Collaboration, 2016b]{MuonReco}
+Collaboration, A. (2016b).
+\newblock Muon reconstruction performance of the atlas detector in
+  proton--proton collision data at $\sqrt{s} =13$�tev.
+\newblock {\em The European Physical Journal C}, 76(5), 292.
+
+\bibitem[Collaboration, 2016c]{Trigger2015}
+Collaboration, A. (2016c).
+\newblock {\em {Performance of the ATLAS Trigger System in 2015}}.
+\newblock Technical Report arXiv:1611.09661. CERN-EP-2016-241, CERN, Geneva.
+\newblock Comments: 76 pages in total, author list starting page 60, 50
+  figures, 1 table. Submitted to Eur. Phys. J. C. All figures including
+  auxiliary figures are available at
+  http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/TRIG-2016-01/.
+
+\bibitem[Collaboration, 2008]{ATLAS_JINST}
+Collaboration, T.~A. (2008).
+\newblock The atlas experiment at the cern large hadron collider.
+\newblock {\em Journal of Instrumentation}, 3(08), S08003.
+
+\bibitem[Cornelissen et~al., 2007]{NEWT}
+Cornelissen, T., Elsing, M., Fleischmann, S., Liebig, W., Moyse, E., \&
+  Salzburger, A. (2007).
+\newblock {\em {Concepts, Design and Implementation of the ATLAS New Tracking
+  (NEWT)}}.
+\newblock Technical Report ATL-SOFT-PUB-2007-007. ATL-COM-SOFT-2007-002, CERN,
+  Geneva.
+
+\bibitem[Czakon \& Mitov, 2014]{topXsec}
+Czakon, M. \& Mitov, A. (2014).
+\newblock {Top++: A Program for the Calculation of the Top-Pair Cross-Section
+  at Hadron Colliders}.
+\newblock {\em Comput. Phys. Commun.}, 185, 2930.
+
+\bibitem[Evans \& Bryant, 2008]{LHC}
+Evans, L. \& Bryant, P. (2008).
+\newblock {LHC Machine}.
+\newblock {\em JINST}, 3, S08001.
+
+\bibitem[Fruhwirth et~al., 2007]{adaptiveFitting}
+Fruhwirth, R., Waltenberger, W., \& Vanlaer, P. (2007).
+\newblock {Adaptive vertex fitting}.
+\newblock {\em J. Phys.}, G34, N343.
+
+\bibitem[{Hoecker} et~al., 2007]{TMVA}
+{Hoecker}, A., {Speckmayer}, P., {Stelzer}, J., {Therhaag}, J., {von Toerne},
+  E., {Voss}, H., {Backes}, M., {Carli}, T., {Cohen}, O., {Christov}, A.,
+  {Dannheim}, D., {Danielowski}, K., {Henrot-Versille}, S., {Jachowski}, M.,
+  {Kraszewski}, K., {Krasznahorkay}, Jr., A., {Kruk}, M., {Mahalalel}, Y.,
+  {Ospanov}, R., {Prudent}, X., {Robert}, A., {Schouten}, D., {Tegenfeldt}, F.,
+  {Voigt}, A., {Voss}, K., {Wolter}, M., \& {Zemla}, A. (2007).
+\newblock {TMVA - Toolkit for Multivariate Data Analysis}.
+\newblock {\em ArXiv Physics e-prints}.
+
+\bibitem[Illingworth \& Kittler, 1988]{HoughTrans}
+Illingworth, J. \& Kittler, J. (1988).
+\newblock A survey of the hough transform.
+\newblock {\em Computer Vision, Graphics, and Image Processing}, 44(1), 87 --
+  116.
+
+\bibitem[Lai et~al., 2010]{CT10}
+Lai, H.-L., Guzzi, M., Huston, J., Li, Z., Nadolsky, P.~M., Pumplin, J., \&
+  Yuan, C.-P. (2010).
+\newblock New parton distributions for collider physics.
+\newblock {\em Phys. Rev. D}, 82, 074024.
+
+\bibitem[Martin, 1997]{MartinSUSY}
+Martin, S.~P. (1997).
+\newblock {A Supersymmetry primer}.
+\newblock [Adv. Ser. Direct. High Energy Phys.18,1(1998)].
+
+\bibitem[Owen, 2012]{JetSmearing}
+Owen, S. (2012).
+\newblock {\em {Data-driven estimation of the QCD multijet background to SUSY
+  searches with jets and missing transverse momentum at ATLAS using jet
+  smearing}}.
+\newblock Technical Report ATL-PHYS-INT-2012-008, CERN, Geneva.
+
+\bibitem[Pequenao \& Schaffner, 2013]{ATLASSig}
+Pequenao, J. \& Schaffner, P. (2013).
+\newblock {An computer generated image representing how ATLAS detects
+  particles}.
+
+\bibitem[Pumplin et~al., 2002]{CTEQ6L1}
+Pumplin, J., Stump, D.~R., Huston, J., Lai, H.-L., Nadolsky, P., \& Tung, W.-K.
+  (2002).
+\newblock New generation of parton distributions with uncertainties from global
+  qcd analysis.
+\newblock {\em Journal of High Energy Physics}, 2002(07), 012.
+
+\bibitem[Skands, 2010]{Perugia2012}
+Skands, P.~Z. (2010).
+\newblock Tuning monte carlo generators: The perugia tunes.
+\newblock {\em Phys. Rev. D}, 82, 074018.
+
+\bibitem[{Verkerke} \& {Kirkby}, 2003]{RooFit}
+{Verkerke}, W. \& {Kirkby}, D. (2003).
+\newblock The roofit toolkit for data modeling.
+\newblock {\em eConf}, C0303241, MOLT007.
+
+\end{thebibliography}
