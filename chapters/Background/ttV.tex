@@ -1,13 +1,13 @@
 \subsection{Standard Model \ttbar+Z}
 \label{sec:Bkg:ttV}
 
-\indent $\ttbar$ produced in conjunction with a Z boson consist of about 1 percent of the background in the SR.  Although the background is essentially negligible we do estimate the amount of $\ttbar+\Zboson$ using a $\ttbar+\gamma$ CR. \\
+\indent ttbar produced in conjunction with a Z boson consist of about one percent of the background in the SR.  Although the background is essentially negligible we do estimate the amount of $\ttbar+\Zboson$ using a $\ttbar+\gamma$ CR. \\
 
-\indent Using the charged leptonic $Z$ boson decays to design a CR to estimate the $\ttbar+Z$ background would produce a CR with small systematic uncertainty. However, such CR tend to have low statistics because of the small branching fraction to electrons/muons compared to the branching fraction of neutrinos.  A dilepton CR also contain a large contamination of $\ttbar$ and $Z$ + jets processes. \\
+\indent Using the charged leptonic $Z$ boson decays to design a CR to estimate the $\ttbar+Z$ background would produce a CR with small systematic uncertainty. However, such CR tend to have low statistics because of the small branching fraction to electrons/muons compared to the branching fraction of neutrinos.  A dilepton CR also contain a large contribution from SM ttbar and $Z$ + jets. \\
 
-\indent We take another data driven approach by building a one-lepton CR for $\ttbar+\gamma$.  $\ttbar\gamma$ mimics $\ttbar+Z$ as the photon is in many ways like a lighter $Z$.  The CR is designed to minimize theoretical uncertainties due to the extrapolation from the $\gamma$ in CR to the $\Zboson$ in SR. \\
+\indent We take another data driven approach by building a one-lepton CR for $\ttbar+\gamma$.  $\ttbar+\gamma$ mimics $\ttbar+Z$ as the photon is in many ways like a lighter $Z$ boson.  The CR is designed to minimize theoretical uncertainties due to the extrapolation from the $\gamma$ in CR to the $\Zboson$ in SR. \\
 
-\indent We require exactly one signal photon and one signal lepton.  The lepton is not treated as a jet for the purpose of jet multiplicity and jet $\t$ requirements unlike the ttbar, $\Wjets$ and single top CRs.  We trigger on leptons instead of $\met$ in this region with the triggers defined in table \ref{tb:lepTriggers}.  \\
+\indent We require exactly one signal photon and one signal lepton.  The lepton is not treated as a jet for the purpose of jet multiplicity and jet $\pt$ requirements unlike in the other one lepton CRs.  We also trigger on leptons instead of $\met$ in this region. The lepton triggers used are defined in table \ref{tb:lepTriggers}.  \\
 
 \begin{table}[htpb]
   \caption{Single Lepton triggers}
@@ -15,12 +15,18 @@
     \begin{tabular}{c|c} \hline\hline
       Channel & Trigger \\  \hline
               & {\bf Data 2015} \\ \hline
-      Electron & \verb+HLT_e24_lhmedium_L1EM20VH OR HLT_e60_lhmedium OR HLT_e120_lhloose+         \\ 
-      Muon & \verb+HLT_mu20_iloose_L1MU15 OR HLT_mu50+ \\
+      Electron & \verb+HLT_e24_lhmedium_L1EM20VH  \\
+      	            & \verb+HLT_e60_lhmedium \\
+	            & \verb+HLT_e120_lhloose+         \\  
+      Muon & \verb+HLT_mu20_iloose_L1MU15
+      	       & \verb+HLT_mu50+ \\
       \hline
               & {\bf Data 2016} \\ \hline
-      Electron & \verb+HLT_e26_lhtight_nod0_ivarloose OR HLT_e60_lhmedium_nod0 OR HLT_e140_lhloose_nod0+         \\ 
-      Muon & \verb+HLT_mu26_ivarmedium OR HLT_mu50+ \\
+      Electron & \verb+HLT_e26_lhtight_nod0_ivarloose \\
+                     &\verb+HLT_e60_lhmedium_nod0 \\
+                     &\verb+HLT_e140_lhloose_nod0+         \\ 
+      Muon & \verb+HLT_mu26_ivarmedium 
+                & \verb+HLT_mu50+ \\
       \hline \hline
     \end{tabular}
   \end{center}
@@ -28,20 +34,19 @@
 \end{table}
 
 
-\indent The highest $\pt$ photon is required to have a $\pt$ of at least $>150\gev$.  The high $\pt$ gamma ensures that we are in a region of phase space where the $\gamma$ $\pt$ shape will mimic the heavier $\Zboson\rightarrow\nu\nu$ decay.  The true $\gamma$ $\pt$ and the $\Zboson$ $\pt$ distributions without detector resolution effects is shown in figure \ref{fig:ttZ_vs_ttGamma_pt} after a selection of reconstructed boson $\pt > 150 \gev$ has been applied for both samples. \\
+\indent We require a hight $\pt$ photon with $\pt$ greater than $150\gev$.  The high $\pt$ gamma ensures that we are in a region of phase space where the $\gamma$ $\pt$ shape will mimic the heavier $\Zboson$ $\pt$.  The true $\gamma$ $\pt$ and the $\Zboson$ $\pt$ distributions is shown in figure \ref{fig:ttZ_vs_ttGamma_pt} after selecting for a boson $\pt$ with greater then $150 \gev$.  We add a systematic uncertainty to account for the difference between the $\gamma$ and $\Zboson$ $\pt$ spectrum. \\
 
 \begin{figure}[htpb]
 \centering
 \includegraphics[scale=0.4, angle=270]{figures/ttGamma/TruthStudies/Pt150.pdf}
-\caption{Truth \pT\ ratio.}
+\caption{$\gamma$ and $\Zboson$ $\pT$ distributions with no detector resolution effects.  A selection of $\pt > 150 \gev$ has been applied.}
 \label{fig:ttZ_vs_ttGamma_pt}
 \end{figure}
 
-\indent The $\ttbar+\gamma$ control region is given in table~\ref{tb:ttG_1lepSel}.  The expected background and data yields in the $\ttbar+\gamma$ CR is given in table \ref{tb:ttVCR_2bj}. \\
+\indent The $\ttbar+\gamma$ control region is defined in table~\ref{tb:ttG_1lepSel}.  The expected background and data yields in the $\ttbar+\gamma$ CR is given in table \ref{tb:ttVCR_2bj}. \\
 
 
 \begin{table}[htpb]
-  \caption{Selection for the $\ttbar+\gamma$ 1 lepton CR. The same triggers as described in Table~\ref{tb:lepTriggers} are used and the same signal lepton requirements are mad as in Tables~\ref{tb:electronsSignal} and~\ref{tb:muonsSignal}}
   \begin{center}
     \begin{tabular}{c|c}
       \hline \hline
@@ -65,7 +70,8 @@
       \hline\hline
     \end{tabular}
   \end{center}
-  \label{tb:ttG_1lepSel}
+    \caption{Selection for the $\ttbar+\gamma$ one lepton CR. The one lepton triggers as described in Table~\ref{tb:lepTriggers}}
+      \label{tb:ttG_1lepSel}
 \end{table}
 
 
@@ -78,7 +84,7 @@
   \label{tb:ttVCR_2bj}
 \end{table}
 
-\indent Data vs MC comparisons in the $\ttbar+\gamma$ control region are shown in histograms in figure ~\ref{fig:ttgamma}  The expected MC background has been normalized to the amount of data in the $\ttbar+\gamma$ control region by performing a simultaneous fit to all background CR.  The hashed bands on the total SM background correspond to the amount of total experimental systematical uncertainty plus the MC statistical uncertainty.   \\
+\indent Kinematic distributions in the $\ttbar+\gamma$ control region are shown in figure ~\ref{fig:ttgamma}  The MC background has been normalized to data by performing a simultaneous fit to all CRs.  The hashed bands on the total SM background correspond to the total experimental systematical uncertainty plus the MC statistical uncertainty.   \\
 
 \begin{figure}[htbp]
 \begin{center}
@@ -88,7 +94,7 @@
 \includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/JetPt_4__CRTTGamma_log.eps}
 \includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/AntiKt12M_0__CRTTGamma.eps}
 \includegraphics[width=0.49\textwidth]{figures/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps}
-\caption{\label{fig:ttVFakeLepCheck} Prefit distributions of the \met\ and \mtlepmet\ for fake lepton checks. Agreement at low \mtlepmet\ is reasonable indicating no significant contributions from fake leptons. The ratio between data and MC is given in the bottom panel. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
+\caption{\label{fig:ttgamma} Distributions of select kinematic variables in the $\ttbar+\gamma$ CR. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
 \label{fig:ttgamma}
 \end{center}
 \end{figure}

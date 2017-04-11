@@ -105,6 +105,13 @@
 \newblock {\em {Photon identification in 2015 ATLAS data}}.
 \newblock Technical Report ATL-PHYS-PUB-2016-014, CERN, Geneva.
 
+\bibitem[HLL, 2016]{HLLHC_stop}
+ (2016).
+\newblock {\em {Prospects for a search for direct pair production of top
+  squarks in scenarios with compressed mass spectra at the high luminosity LHC
+  with the ATLAS Detector}}.
+\newblock Technical Report ATL-PHYS-PUB-2016-022, CERN, Geneva.
+
 \bibitem[Tri, 2017]{Trigger2016}
  (2017).
 \newblock {\em {Trigger Menu in 2016}}.
@@ -127,6 +134,12 @@ Achenbach, R., Adragna, P., Andrei, V., Apostologlou, P., Åsman, B., Ay, C.,
   Watkins, P.~M., Watson, A., Weber, P., \& Woehrling, E.~E. (2008).
 \newblock The atlas level-1 calorimeter trigger.
 \newblock {\em Journal of Instrumentation}, 3(03), P03001.
+
+\bibitem[An \& Wang, 2015]{Pheno2}
+An, H. \& Wang, L.-T. (2015).
+\newblock Opening up the compressed region of top squark searches at 13 tev
+  lhc.
+\newblock {\em Phys. Rev. Lett.}, 115, 181602.
 
 \bibitem[Ball et~al., 2015]{NNPDF3.0}
 Ball, R.~D., Bertone, V., Carrazza, S., Deans, C.~S., Del~Debbio, L., Forte,
@@ -233,11 +246,28 @@ Illingworth, J. \& Kittler, J. (1988).
 \newblock {\em Computer Vision, Graphics, and Image Processing}, 44(1), 87 --
   116.
 
+\bibitem[Jackson et~al., 2017a]{JigsawCompressed}
+Jackson, P., Rogan, C., \& Santoni, M. (2017a).
+\newblock Sparticles in motion: Analyzing compressed susy scenarios with a new
+  method of event reconstruction.
+\newblock {\em Phys. Rev. D}, 95, 035031.
+
+\bibitem[Jackson et~al., 2017b]{JigsawContraBoost}
+Jackson, P., Rogan, C., \& Santoni, M. (2017b).
+\newblock Sparticles in motion: Analyzing compressed susy scenarios with a new
+  method of event reconstruction.
+\newblock {\em Phys. Rev. D}, 95, 035031.
+
 \bibitem[Lai et~al., 2010]{CT10}
 Lai, H.-L., Guzzi, M., Huston, J., Li, Z., Nadolsky, P.~M., Pumplin, J., \&
   Yuan, C.-P. (2010).
 \newblock New parton distributions for collider physics.
 \newblock {\em Phys. Rev. D}, 82, 074024.
+
+\bibitem[Macaluso et~al., 2016]{Pheno1}
+Macaluso, S., Park, M., Shih, D., \& Tweedie, B. (2016).
+\newblock Revealing compressed stops using high-momentum recoils.
+\newblock {\em Journal of High Energy Physics}, 2016(3), 151.
 
 \bibitem[Martin, 1997]{MartinSUSY}
 Martin, S.~P. (1997).

@@ -9,6 +9,10 @@ A level-1 auxiliary file: chapters/Trigger.aux
 A level-1 auxiliary file: chapters/ObjectDef.aux
 A level-1 auxiliary file: chapters/MCSimulation.aux
 A level-1 auxiliary file: chapters/AnaStrategy.aux
+White space in argument---line 9 of file chapters/AnaStrategy.aux
+ : \citation{HLLHC_stop
+ :                      }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/Jigsaw.aux
 A level-1 auxiliary file: chapters/EventSelection.aux
 A level-1 auxiliary file: chapters/SignalRegion.aux
@@ -64,6 +68,7 @@ Warning--to sort, need author or key in photonID
 Warning--to sort, need author or key in METReco
 Warning--to sort, need author or key in Trigger2016
 Warning--to sort, need author or key in Pythia8tunes
+Warning--to sort, need author or key in HLLHC_stop
 Warning--empty author in IBLOverview
 Warning--empty year in IBLOverview
 Warning--empty title in IBLOverview
@@ -85,49 +90,50 @@ Warning--empty author in EMReco13TeV
 Warning--empty author in EleID
 Warning--empty author in btagging2016
 Warning--empty author in photonID
+Warning--empty author in HLLHC_stop
 Warning--empty author in Trigger2016
 Warning--empty institution in IBL_TDR
 Warning--empty journal in MartinSUSY
 Warning--empty note in ATLASSig
-You've used 43 entries,
+You've used 48 entries,
             2229 wiz_defined-function locations,
-            772 strings with 12532 characters,
-and the built_in function-call counts, 16748 in all, are:
-= -- 1483
-> -- 944
-< -- 35
-+ -- 365
-- -- 352
-* -- 1685
-:= -- 2978
-add.period$ -- 127
-call.type$ -- 43
-change.case$ -- 368
-chr.to.int$ -- 40
-cite$ -- 106
-duplicate$ -- 572
-empty$ -- 993
-format.name$ -- 386
-if$ -- 3076
-int.to.chr$ -- 4
+            796 strings with 13237 characters,
+and the built_in function-call counts, 18575 in all, are:
+= -- 1656
+> -- 1016
+< -- 37
++ -- 390
+- -- 376
+* -- 1853
+:= -- 3300
+add.period$ -- 142
+call.type$ -- 48
+change.case$ -- 404
+chr.to.int$ -- 44
+cite$ -- 114
+duplicate$ -- 641
+empty$ -- 1124
+format.name$ -- 416
+if$ -- 3426
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 20
-newline$ -- 216
-num.names$ -- 72
-pop$ -- 326
+missing$ -- 24
+newline$ -- 241
+num.names$ -- 84
+pop$ -- 353
 preamble$ -- 1
-purify$ -- 391
+purify$ -- 428
 quote$ -- 0
-skip$ -- 376
+skip$ -- 423
 stack$ -- 0
-substring$ -- 785
-swap$ -- 62
-text.length$ -- 22
+substring$ -- 909
+swap$ -- 68
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 258
-warning$ -- 44
-while$ -- 65
+type$ -- 288
+warning$ -- 46
+while$ -- 77
 width$ -- 0
-write$ -- 553
-(There were 4 error messages)
+write$ -- 618
+(There were 5 error messages)
