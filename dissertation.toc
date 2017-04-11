@@ -83,25 +83,23 @@
 \contentsline {subsection}{\numberline {12.2.3}Validating $\ensuremath {t\mathaccentV {bar}016{t}}$ Predictions in Signal Region using a Zero Lepton Validation Region}{140}{subsection.12.2.3}
 \contentsline {section}{\numberline {12.3}Subdominant Backgrounds}{144}{section.12.3}
 \contentsline {subsection}{\numberline {12.3.1}Standard Model W+Jets}{144}{subsection.12.3.1}
-\contentsline {subsubsection}{\ensuremath {\ensuremath {W}\tmspace +\thinmuskip {.1667em}+\tmspace +\thinmuskip {.1667em}\mathrm {jets}}\ Control Region}{144}{subsection.12.3.1}
 \contentsline {subsection}{\numberline {12.3.2}Standard Model Single Top}{146}{subsection.12.3.2}
-\contentsline {subsubsection}{Single Top Control Region}{146}{subsection.12.3.2}
-\contentsline {subsection}{\numberline {12.3.3}Standard Model \ensuremath {t\mathaccentV {bar}016{t}}+Z}{151}{subsection.12.3.3}
-\contentsline {subsection}{\numberline {12.3.4}Standard Model Z+Jets}{155}{subsection.12.3.4}
-\contentsline {subsection}{\numberline {12.3.5}Standard Model Diboson}{155}{subsection.12.3.5}
-\contentsline {subsection}{\numberline {12.3.6}Standard Model QCD Multijet and all Hadronic $\ensuremath {t\mathaccentV {bar}016{t}}$}{155}{subsection.12.3.6}
-\contentsline {chapter}{\numberline {13}Systematic Uncertainties}{162}{chapter.13}
-\contentsline {subsection}{\numberline {13.0.1}Experimental Uncertainties}{166}{subsection.13.0.1}
-\contentsline {subsection}{\numberline {13.0.2}Theoretical Uncertainties}{172}{subsection.13.0.2}
-\contentsline {chapter}{\numberline {14}Statistical Analysis}{180}{chapter.14}
-\contentsline {section}{\numberline {14.1}Introduction to Log Likelihood Fitting}{180}{section.14.1}
-\contentsline {section}{\numberline {14.2}Overview of Fitting to Control Regions and Signal Regions}{183}{section.14.2}
-\contentsline {section}{\numberline {14.3}Parameterization of Systematics as Gaussian Constraints}{186}{section.14.3}
-\contentsline {section}{\numberline {14.4}Background Only Fit and Background Estimation}{187}{section.14.4}
-\contentsline {section}{\numberline {14.5}Exclusion Fit and Exclusion Limit Calculation}{188}{section.14.5}
-\contentsline {section}{\numberline {14.6}Discovery Fit and Discovery Significance Calculation}{189}{section.14.6}
-\contentsline {chapter}{\numberline {15}Results}{191}{chapter.15}
-\contentsline {chapter}{\numberline {16}Interpretation of Results}{195}{chapter.16}
-\contentsline {chapter}{\numberline {17}Conclusion}{200}{chapter.17}
-\contentsline {chapter}{Appendix \numberline {A}Sanity Checks}{204}{Appendix.1.A}
-\contentsline {chapter}{References}{209}{chapter*.99}
+\contentsline {subsection}{\numberline {12.3.3}Standard Model \ensuremath {t\mathaccentV {bar}016{t}}+Z}{149}{subsection.12.3.3}
+\contentsline {subsection}{\numberline {12.3.4}Standard Model Z+Jets}{154}{subsection.12.3.4}
+\contentsline {subsection}{\numberline {12.3.5}Standard Model Diboson}{154}{subsection.12.3.5}
+\contentsline {subsection}{\numberline {12.3.6}Standard Model QCD Multijet and all Hadronic $\ensuremath {t\mathaccentV {bar}016{t}}$}{154}{subsection.12.3.6}
+\contentsline {chapter}{\numberline {13}Systematic Uncertainties}{161}{chapter.13}
+\contentsline {subsection}{\numberline {13.0.1}Experimental Uncertainties}{163}{subsection.13.0.1}
+\contentsline {subsection}{\numberline {13.0.2}Theoretical Uncertainties}{171}{subsection.13.0.2}
+\contentsline {chapter}{\numberline {14}Statistical Analysis}{178}{chapter.14}
+\contentsline {section}{\numberline {14.1}Introduction to Log Likelihood Fitting}{178}{section.14.1}
+\contentsline {section}{\numberline {14.2}Overview of Fitting to Control Regions and Signal Regions}{181}{section.14.2}
+\contentsline {section}{\numberline {14.3}Parameterization of Systematics as Gaussian Constraints}{184}{section.14.3}
+\contentsline {section}{\numberline {14.4}Background Only Fit and Background Estimation}{185}{section.14.4}
+\contentsline {section}{\numberline {14.5}Exclusion Fit and Exclusion Limit Calculation}{186}{section.14.5}
+\contentsline {section}{\numberline {14.6}Discovery Fit and Discovery Significance Calculation}{187}{section.14.6}
+\contentsline {chapter}{\numberline {15}Results}{189}{chapter.15}
+\contentsline {chapter}{\numberline {16}Interpretation of Results}{193}{chapter.16}
+\contentsline {chapter}{\numberline {17}Conclusion}{198}{chapter.17}
+\contentsline {chapter}{Appendix \numberline {A}Sanity Checks}{202}{Appendix.1.A}
+\contentsline {chapter}{References}{207}{chapter*.99}

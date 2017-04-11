@@ -29,16 +29,7 @@ You're missing a field name---line 28 of file references.bib
  : abstract="",                                                                                                                                                                                         
  :                                                                                                                                                                                                      ",
 I'm skipping whatever remains of this entry
-You're missing a field name---line 80 of file references.bib
- : 
- : %  author={A Miucci},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 91 of file references.bib
- : @article{IBLOverview
- :                     ,
-I'm skipping whatever remains of this entry
-You're missing a field name---line 237 of file references.bib
+You're missing a field name---line 221 of file references.bib
  : 
  : %jet reco
 (Error may have been on previous line)
@@ -49,7 +40,6 @@ Warning--I didn't find a database entry for "topoCalib"
 Warning--I didn't find a database entry for "antikt"
 Warning--I didn't find a database entry for "sherpa"
 Warning--I didn't find a database entry for "stop0Lmoriond"
-Warning--to sort, need author or key in IBLOverview
 Warning--to sort, need author or key in VertexReco
 Warning--to sort, need author or key in jetReco7TeV
 Warning--to sort, need author or key in jetReco13TeV
@@ -69,10 +59,7 @@ Warning--to sort, need author or key in METReco
 Warning--to sort, need author or key in Trigger2016
 Warning--to sort, need author or key in Pythia8tunes
 Warning--to sort, need author or key in HLLHC_stop
-Warning--empty author in IBLOverview
-Warning--empty year in IBLOverview
-Warning--empty title in IBLOverview
-Warning--empty journal in IBLOverview
+Warning--to sort, need author or key in METPerform
 Warning--empty author in jetReco7TeV
 Warning--empty author in pileupsub
 Warning--empty author in Pythia8tunes
@@ -83,6 +70,7 @@ Warning--empty author in METReco
 Warning--empty author in btagging2015
 Warning--empty author in jet_GSC
 Warning--empty author in JetCalibartion13TeV
+Warning--empty author in METPerform
 Warning--empty author in jetReco13TeV
 Warning--empty author in JetCleaning
 Warning--empty author in VertexReco
@@ -95,45 +83,45 @@ Warning--empty author in Trigger2016
 Warning--empty institution in IBL_TDR
 Warning--empty journal in MartinSUSY
 Warning--empty note in ATLASSig
-You've used 48 entries,
+You've used 49 entries,
             2229 wiz_defined-function locations,
-            796 strings with 13237 characters,
-and the built_in function-call counts, 18575 in all, are:
-= -- 1656
-> -- 1016
-< -- 37
-+ -- 390
-- -- 376
-* -- 1853
-:= -- 3300
-add.period$ -- 142
-call.type$ -- 48
-change.case$ -- 404
+            806 strings with 13508 characters,
+and the built_in function-call counts, 18923 in all, are:
+= -- 1695
+> -- 1023
+< -- 39
++ -- 393
+- -- 378
+* -- 1880
+:= -- 3369
+add.period$ -- 147
+call.type$ -- 49
+change.case$ -- 410
 chr.to.int$ -- 44
-cite$ -- 114
-duplicate$ -- 641
-empty$ -- 1124
-format.name$ -- 416
-if$ -- 3426
-int.to.chr$ -- 5
+cite$ -- 112
+duplicate$ -- 655
+empty$ -- 1149
+format.name$ -- 419
+if$ -- 3496
+int.to.chr$ -- 6
 int.to.str$ -- 0
 missing$ -- 24
-newline$ -- 241
-num.names$ -- 84
-pop$ -- 353
+newline$ -- 248
+num.names$ -- 87
+pop$ -- 347
 preamble$ -- 1
-purify$ -- 428
+purify$ -- 434
 quote$ -- 0
-skip$ -- 423
+skip$ -- 432
 stack$ -- 0
-substring$ -- 909
-swap$ -- 68
-text.length$ -- 23
+substring$ -- 936
+swap$ -- 71
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 288
-warning$ -- 46
-while$ -- 77
+type$ -- 294
+warning$ -- 43
+while$ -- 80
 width$ -- 0
-write$ -- 618
-(There were 5 error messages)
+write$ -- 638
+(There were 3 error messages)

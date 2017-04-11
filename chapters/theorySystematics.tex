@@ -2,22 +2,31 @@
 \subsection{Theoretical Uncertainties}
 \label{sec:TheoSystematics}
 
-\indent Theoretical uncertainties quantify the uncertainty associated with MC event generation including calculations on the matrix element, parton shower, and different input parameters such as $\alpha_s$, and others.  As the background is ultimately normalized to the CR, only difference is the transfer factor (defined in equation \ref{eqn:TF}) will result in a different SR background yield.  We vary MC generation with respect to the default setting and determine the corresponding variation in the transfer factor as according to equation \ref{eq:theory_uncertainty}. \\
+\indent Theoretical uncertainties quantify the uncertainty associated with MC generation including calculations on the matrix element, parton shower, and different scale parameters such as QCD renormalization, factorization scales and $\alpha_s$ etc.  As the background is ultimately normalized to the CR, only difference comes from the transfer factor (defined in equation \ref{eqn:TF}) will result in a different SR background yield.  \\
+
+\begin{equation}
+T = \frac{N_{MC}^{SR}}{N_{MC}^{CR}}
+\label{eqn:TF}
+\end{equation}
+
+\indent We vary MC generation with respect to the default setting and determine the corresponding variation in the transfer factor according to equation \ref{eq:theory_uncertainty}.  All theoretical uncertainties for different backgrounds are assumed to be independent of one another. \\
 
  \begin{eqnarray}
     \Delta_{X} = \frac{T_f^{\mathrm{up}} - T_f^{\mathrm{down}}}{T_f^{\mathrm{up}} + T_f^{\mathrm{down}}}
     \label{eq:theory_uncertainty}
   \end{eqnarray}
 
-\indent All theoretical uncertainties for different backgrounds are assumed to be independent of one another. \\
-
 \subsubsection*{$\ttbar$ Theoretical Uncertainty}
 
 \indent Theoretical uncertainties on ttbar production include uncertainties on the hard scattering matrix element (ME) calculation, uncertainties on the parton shower (PS), and uncertainty on the amount of ISR/FSR produced in association with ttbar.  \\
 
-\indent The ttbar ISR/FSR uncertainty is estimated by performing the analysis on fully reconstructed simulation with variations on the PS tuning and ME+PS matching scales that induces more/less ISR and FSR to be emitted in the simulation. The uncertainty on the ME calculation and on the PS calculation is estimated by performing the analysis on truth level-simulation using different MC generator programs without detector resolution effects.  In other words, the ISR/FSR uncertainty determines how much the ttbar yields in SR differ if different $\powheg$ and $\pythia$ settings were used.  The ttbar hard scattering and PS variations determines how much the ttbar yields in SR differ if a different generator other than $\powheg\pythia$ is used. \\
+%\indent The ttbar ISR/FSR uncertainty is estimated by performing the analysis on fully reconstructed simulation with variations on the PS tuning and ME+PS matching scales that induces more/less ISR and FSR in the simulation. 
 
-\indent Uncertainties on the ME and PS are estimated by comparing the nominal $\powheg\pythia$ ttbar sample with $\powheg\herwigpp$ ttbar and $\sherpa$ 2.2.1 ttbar samples.  The $\powheg\herwigpp$ sample do not vary the ME calculation with respect to the nominal sample but does perform a different set of PS calculation with a distinct PS tune.  The $\sherpa$ 2.2.1 ttbar sample perform a different ME and PS calculation with a different PDF set and PS tune.  More details on the different ttbar MC generation can be found in section \ref{sec:MC:Bkg}. \\
+\indent  The ttbar ISR/FSR uncertainty is estimated by using the radHi and radLo $\powheg\pythia$ samples.  These samples are produced with different renormalization and factorization scales compared to the nominal sample (x0.5 to radHi and x2 to radLo).   The radHi sample also increase the $h_{damp}$ parameter that help control the matching between PS and ME from the nominal $m_{top}$ to $2 \times m_{top}$. In general, the radHi (radLo) sample generates a higher (lower) differential cross-section for ttbar that is produced in conjunction with strong ISR.  \\
+
+%\indent The uncertainty on the ME calculation and on the PS calculation is estimated by performing the analysis on truth level-simulation using different MC generator programs.  In short, the ISR/FSR uncertainty determines how much the ttbar yields in SR differ if different $\powheg$ and $\pythia$ settings were used.  The ttbar hard scattering and PS variations determines how much the ttbar yields in SR differ if different generator programs and parton shower tunes are used. \\
+
+\indent Uncertainties on the hard scattering and PS are calculated by comparing the nominal $\powheg\pythia$ ttbar sample with $\powheg\herwigpp$ ttbar and $\sherpa$ 2.2.1 ttbar samples.  The $\powheg\herwigpp$ sample do not vary the ME calculation with respect to the nominal sample but does perform a different set of PS calculation with a distinct PS tune.  The $\sherpa$ 2.2.1 ttbar sample perform a different ME and PS calculation with a different PDF set and PS tune.  More details on the different ttbar MC generation can be found in section \ref{sec:MC:Bkg}. \\
 
 \indent We take an envelope of the $\sherpa$ and $\powheg\herwigpp$ variations as the combined ttbar hard scattering and PS uncertainty.  This is because the $\powheg\herwigpp$ and $\sherpa$ samples both vary the PS and avoids double counting of the PS uncertainty. The total hard scattering plus PS uncertainty is defined as the maximum of equation \ref{eq:ttbar_ME_uncertainty} and \ref{eq:ttbar_PS_uncertainty}.  \\
 
@@ -28,12 +37,10 @@
 
     \begin{eqnarray}
       \Delta_{\mathrm{PS}} = \frac{T_f^{\mathrm{\pythia}} - T_f^{\mathrm{\herwigpp}}}{T_f^{\mathrm{\pythia}}}
-      \label{eq:ttbar_frag_uncertainty}
+      \label{eq:ttbar_PS_uncertainty}
     \end{eqnarray}
-
-\indent  The ttbar ISR uncertainty is estimated by using the radHi and radLo $\powheg\pythia$ samples.  These samples are produced with different renormalization and factorization scales compared to the nominal sample (x0.5 to radHi and x2 to radLo).   The radHi sample also increase the $h_{damp}$ parameter that help control the matching between PS and ME from the nominal $m_{top}$ to x2 $m_{top}$. In general, the radHi (radLo) sample generates a higher (lower) differential cross-section for ttbar that is produced in conjunction with strong ISR then the nominal.  \\
  
-\indent The raw pre-fit $\ttbar$ yields in CR, VR and SR for the different ttbar samples and the ttbar theory uncertainty derived from transfer factor is given in table \ref{tab:ttbar_unc_SRC}  \\
+\indent The pre-fit $\ttbar$ yields in CR, VR and SR for the different ttbar samples and the ttbar theory uncertainty derived from transfer factor are given in table \ref{tab:ttbar_unc_SRC}  \\
   
    \begin{table}[!h]
     \begin{center} \footnotesize
@@ -50,11 +57,11 @@ ttbar (Sherpa)&          $840\pm 40 $&   $30\pm 8 $&     $42\pm 9 $&     $22\pm 
         \multicolumn{8}{c}{\bf Transfer factors (in \%)} \\ \hline
         ISR/FSR &  &      $20$&   $10$&   $4$&    $10$&   $5$&    $3.3$\\
         PS &     &   $5$&    $6$&    $11$&   $11$&   $20$&   $4$\\
-        Generator (Sherpa) &    &    $40$&   $5$&    $19$&   $10$&   $100$&          $2$\\
+        hard scattering &    &    $40$&   $5$&    $19$&   $10$&   $100$&          $2$\\
         \hline       
         \end{tabular}
     \end{center}
-    \caption{Expected yields for different ttbar samples and theory uncertainties based on transfer factor for the $\ttbar$\ background for the SR, ttbar CR and VR.}
+    \caption{Expected yields for different ttbar samples and theory uncertainties based on transfer factor for the $\ttbar$ background for the SR, ttbar CR and VR.}
     \label{tab:ttbar_unc_SRC}
   \end{table}
 
@@ -76,17 +83,17 @@ ttbar (Sherpa)&          $840\pm 40 $&   $30\pm 8 $&     $42\pm 9 $&     $22\pm 
 
 \indent Single top theoretical uncertainty include uncertainty on the PS, ISR/FSR, and the interference between ttbar and single top in the Wt channel.  Single top uncertainties is evaluated on the $Wt$ subprocess because the $Wt$ subprocess dominates the single top background in signal region.  \\
 
-\indent The single top parton shower uncertainty is modeled by comparing the nominal $\powheg\pythia$ sample with a $\powheg\herwigpp$ single top sample in a similar fashion to the $\ttbar$ PS uncertainty.  \\
+\indent The single top parton shower uncertainty is modeled by comparing the nominal $\powheg\pythia$ sample with a $\powheg\herwigpp$ single top sample in a similar fashion to the ttbar PS uncertainty.  \\
 
 \indent The single top ISR/FSR uncertainty is also modeled by comparing the radHi and radLo $\powheg\pythia$ single top samples to the nominal $\powheg\pythia$ samples analogous to the $\ttbar$ ISR/FSR uncertainty. \\
 
 \indent The single top interference uncertainty refer to the fact that at NLO the calculation of the $pp \rightarrow Wt$ process will include contributions from $ pp \rightarrow \ttbar \rightarrow t + b + W$ which is already modeled in the SM ttbar MC.  We can subtract out the ttbar contribution at either the level of amplitude (DR scheme) or at the level of matrix elements (DS scheme).  Subtracting at the matrix element level also remove any potential interference between the single top $pp \rightarrow Wt$ and ttbar $ pp \rightarrow \ttbar \rightarrow t + b + W$ processes.  Subtracting at the amplitude level does not remove those interferences. \\
 
-\indent There is an uncertainty on the correct procedure to treat ttbar and single top interference as both DR and DS schemes violates formal gauge invariance.  We estimate this uncertainty by comparing the DR and DS schemes.  \\
+\indent  Both DR and DS schemes violates formal gauge invariance and there is no consensus on the correct procedure to treat the ttbar and single top interference.  We quantify the interference uncertainty by taking the difference between the DR and DS schemes.  \\
 
 \indent At the moment we take an 100\% interference uncertainty because of the low MC statistics in DS scheme. \\
 
-\indent The raw pre-fit single top yields in SR, single top CR and VR for the different single top samples and the single top theory uncertainty derived from transfer factor is given in table \ref{tab:single_top_unc3}. \\
+\indent The pre-fit single top yields in SR, single top CR and VR for the different single top samples and the single top theory uncertainty derived from transfer factor is given in table \ref{tab:single_top_unc3}. \\
 
    \begin{table}[!h]
     \begin{center} \footnotesize
@@ -113,7 +120,7 @@ st Wt (DS,MET200)&       $6.8\pm 0.4$&   $0.12\pm 0.05$&         $0.30\pm 0.09$&
 
 \subsubsection*{$\ttV$ Theoretical Uncertainty}
 
-\indent $\ttV$ theoretical uncertainty include scale variations and \texttt{NNPDF3.0} PDF variations.  Plus an uncertainty on the difference between $\ttbar\gamma$ and $\ttbar Z$ vector boson $\pt$ differential cross section is added for $\ttV$ due to the procedure of using $\tt\gamma$ to estimate $\ttV$.  The $\sherpa$+OpenLoops is used to calculate $\ttbar\gamma$ and $\ttbar Z$ vector boson differential cross-section to NLO accuracy.  The relative difference between $\sherpa$+OpenLoops and the nominal {\sc MadGraph5\_aMC\/@NLO} cross-sections is combined in quadrature with the scale and \texttt{NNPDF3.0} PDF variations to give the total $\ttV$ theoretical uncertainty. \\
+\indent $\ttV$ theoretical uncertainty include scale variations and \texttt{NNPDF3.0} PDF variations.  Plus an uncertainty on the difference between $\ttbar\gamma$ and $\ttbar Z$ vector boson $\pt$ differential cross section is added for $\ttV$ due to the procedure of using $\ttbar+\gamma$ to estimate $\ttV$.  $\sherpa$+OpenLoops is used to calculate $\ttbar \gamma$ and $\ttbar Z$ vector boson differential cross-section to NLO accuracy.  The relative difference between $\sherpa$+OpenLoops and the nominal {\sc MadGraph5\_aMC\/@NLO} cross-sections is combined in quadrature with the scale and \texttt{NNPDF3.0} PDF variations to give the total $\ttV$ theoretical uncertainty. \\
 
 \indent $\ttV$ theoretical uncertainty is given in table \ref{ab:ttbarZ_unc1}.  The systematic uncertainty maybe large for $\ttV$ production in the SR but $\ttV$ comprise about 1\% of our expected background. Therefore, $\ttV$ do not contribute significantly to the total background uncertainty in the analysis. \\
 
@@ -133,6 +140,6 @@ A 50\% uncertainty is used for the dibosons estimate because the diboson yield i
 
 A 50\% uncertainty is used for the $\Zjets$ estimate because the $\Zjets$ yield is predicted using MC alone.
 
-\subsubsection*{Signal Theoretical Uncertainty}
+%\subsubsection*{Signal Theoretical Uncertainty}
 
-  {\color{red} Coming soon}
+%  {\color{red} Coming soon}

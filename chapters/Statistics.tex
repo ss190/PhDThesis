@@ -13,14 +13,14 @@
 
 \indent Where $x_i$ are data points and $\vec{z}$ are a list of parameters, and $P(x|\vec{z})$ is the fitted probability density function (PDF).  The PDF $P(x|\vec{z})$ have the probability of producing the a dataset $x_i$ when the likelihood is maximized. \\
 
-\indent Maximizing the likelihood is equivalent to minimizing the negative log likelihood or NLL since logarithms are a monotonically increasing functions.  Therefore, we tend to minimize the NLL $M$ defined in equation \ref{eqn:NLL} \\
+\indent Maximizing the likelihood is equivalent to minimizing the negative log likelihood or NLL since logarithms are a monotonically increasing functions.  Therefore, we can instead minimize the NLL $M$ defined in equation \ref{eqn:NLL} \\
 
 \begin{equation}
 \label{eqn:NLL}
-M(\vec{z})=-\ln(({\mathcal{L(\vec{z})}}) = -{\displaystyle\sum_{i=1}^{n}} \ln( P(x_i|\vec{z}) )
+M(\vec{z})=-\ln(({\mathcal{L}}(\vec{z})) = -{\displaystyle\sum_{i=1}^{n}} \ln( P(x_i|\vec{z}) )
 \end{equation}
 
-\indent In collider physics we do not know the total number of $n$ events a priori.  Instead, we have an expected value of events proportional to the cross-section times luminosity.  This means the actual number of measured events should vary according to a poisson distribution.  We include this uncertainty in the number of final observed events by multiplying a poisson distribution with expected rate $\lambda$ to the likelihood in equation \ref{eqn:likelihood} resulting in equation \ref{eqn:ExtLikelihood}.  \\
+\indent In collider physics we do not know the total number of $n$ events a priori.  Instead, we have an expected value of events proportional to the cross-section times the luminosity.  This means the actual number of measured events should vary according to a poisson distribution.  We include this uncertainty in the number of final observed events by multiplying a poisson distribution with expected rate $\lambda$ to the likelihood in equation \ref{eqn:likelihood} resulting in equation \ref{eqn:ExtLikelihood}.  \\
 
 \begin{equation}
 \label{eqn:ExtLikelihood}

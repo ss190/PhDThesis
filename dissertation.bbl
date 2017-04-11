@@ -1,8 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[IBL, ]{IBLOverview}
-
-
 \bibitem[jet, 2010]{jetReco7TeV}
  (2010).
 \newblock {\em {Properties of Jets and Inputs to Jet Reconstruction and
@@ -39,8 +36,8 @@
   using ${Z/\gamma}$--jet events in data at $\sqrt{s}=8$ TeV}}.
 \newblock Technical Report ATLAS-CONF-2015-057, CERN, Geneva.
 
-\bibitem[MET, 2015]{METReco}
- (2015).
+\bibitem[MET, 2015a]{METReco}
+ (2015a).
 \newblock {\em {Expected performance of missing transverse momentum
   reconstruction for the ATLAS detector at $\sqrt{s}= 13~\text{TeV}$}}.
 \newblock Technical Report ATL-PHYS-PUB-2015-023, CERN, Geneva.
@@ -62,6 +59,13 @@
 \newblock {\em {Monte Carlo Calibration and Combination of In-situ Measurements
   of Jet Energy Scale, Jet Energy Resolution and Jet Mass in ATLAS}}.
 \newblock Technical Report ATLAS-CONF-2015-037, CERN, Geneva.
+
+\bibitem[MET, 2015b]{METPerform}
+ (2015b).
+\newblock {\em {Performance of missing transverse momentum reconstruction for
+  the ATLAS detector in the first proton-proton collisions at at $\sqrt s$= 13
+  TeV}}.
+\newblock Technical Report ATL-PHYS-PUB-2015-027, CERN, Geneva.
 
 \bibitem[jet, 2015]{jetReco13TeV}
  (2015).
@@ -239,6 +243,11 @@ Fruhwirth, R., Waltenberger, W., \& Vanlaer, P. (2007).
   {Voigt}, A., {Voss}, K., {Wolter}, M., \& {Zemla}, A. (2007).
 \newblock {TMVA - Toolkit for Multivariate Data Analysis}.
 \newblock {\em ArXiv Physics e-prints}.
+
+\bibitem[Hugging, 2011]{IBLOverview}
+Hugging, F. (2011).
+\newblock {The ATLAS Pixel Insertable B-Layer (IBL)}.
+\newblock {\em Nucl. Instrum. Meth.}, A650, 45--49.
 
 \bibitem[Illingworth \& Kittler, 1988]{HoughTrans}
 Illingworth, J. \& Kittler, J. (1988).

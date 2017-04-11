@@ -111,14 +111,15 @@
 \RequirePackage{amssymb}
 \usepackage{amsmath}
 \RequirePackage{mathspec}
-\setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{EB Garamond}
-\setmathrm{EB Garamond}
+%\setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{EB Garamond}
+\setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{Avenir}
+\setmathrm{Avenir}
 \AtBeginEnvironment{tabular}{\addfontfeature{RawFeature=+tnum}}
 \widowpenalty=300
 \clubpenalty=300
-\setromanfont[Numbers=OldStyle, Ligatures={Common, TeX}, Scale=1.0]{EB Garamond}
-\newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{EB Garamond}
-\setsansfont[Scale=MatchLowercase, BoldFont={Lato Bold}]{Lato Regular}
+\setromanfont[Numbers=OldStyle, Ligatures={Common, TeX}, Scale=1.0]{Avenir}
+\newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{Avenir}
+\setsansfont[Scale=MatchLowercase, BoldFont={Avenir Bold}]{Avenir Regular}
 \setmonofont[Scale=MatchLowercase]{Source Code Pro}
 \RequirePackage[labelfont={bf,sf,footnotesize,singlespacing},
                 textfont={sf,footnotesize,singlespacing},
