@@ -119,7 +119,7 @@
 \clubpenalty=300
 \setromanfont[Numbers=OldStyle, Ligatures={Common, TeX}, Scale=1.0]{Avenir}
 \newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{Avenir}
-\setsansfont[Scale=MatchLowercase, BoldFont={Avenir Bold}]{Avenir Regular}
+\setsansfont[Scale=MatchLowercase, BoldFont={Avenir}]{Avenir}
 \setmonofont[Scale=MatchLowercase]{Source Code Pro}
 \RequirePackage[labelfont={bf,sf,footnotesize,singlespacing},
                 textfont={sf,footnotesize,singlespacing},

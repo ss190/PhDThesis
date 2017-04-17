@@ -9,7 +9,7 @@ A level-1 auxiliary file: chapters/Trigger.aux
 A level-1 auxiliary file: chapters/ObjectDef.aux
 A level-1 auxiliary file: chapters/MCSimulation.aux
 A level-1 auxiliary file: chapters/AnaStrategy.aux
-White space in argument---line 9 of file chapters/AnaStrategy.aux
+White space in argument---line 10 of file chapters/AnaStrategy.aux
  : \citation{HLLHC_stop
  :                      }
 I'm skipping whatever remains of this command
@@ -34,11 +34,12 @@ You're missing a field name---line 221 of file references.bib
  : %jet reco
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Phase1"
 Warning--I didn't find a database entry for "Calibartion13TeV"
 Warning--I didn't find a database entry for "topoCalib"
 Warning--I didn't find a database entry for "antikt"
+Warning--I didn't find a database entry for "Herwig"
 Warning--I didn't find a database entry for "sherpa"
+Warning--I didn't find a database entry for "Geant"
 Warning--I didn't find a database entry for "stop0Lmoriond"
 Warning--to sort, need author or key in VertexReco
 Warning--to sort, need author or key in jetReco7TeV
@@ -83,45 +84,45 @@ Warning--empty author in Trigger2016
 Warning--empty institution in IBL_TDR
 Warning--empty journal in MartinSUSY
 Warning--empty note in ATLASSig
-You've used 49 entries,
+You've used 55 entries,
             2229 wiz_defined-function locations,
-            806 strings with 13508 characters,
-and the built_in function-call counts, 18923 in all, are:
-= -- 1695
-> -- 1023
+            847 strings with 14683 characters,
+and the built_in function-call counts, 21758 in all, are:
+= -- 1946
+> -- 1211
 < -- 39
-+ -- 393
-- -- 378
-* -- 1880
-:= -- 3369
-add.period$ -- 147
-call.type$ -- 49
-change.case$ -- 410
-chr.to.int$ -- 44
-cite$ -- 112
-duplicate$ -- 655
-empty$ -- 1149
-format.name$ -- 419
-if$ -- 3496
-int.to.chr$ -- 6
++ -- 464
+- -- 446
+* -- 2157
+:= -- 3888
+add.period$ -- 166
+call.type$ -- 55
+change.case$ -- 474
+chr.to.int$ -- 51
+cite$ -- 118
+duplicate$ -- 739
+empty$ -- 1308
+format.name$ -- 493
+if$ -- 4021
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 24
-newline$ -- 248
-num.names$ -- 87
-pop$ -- 347
+missing$ -- 30
+newline$ -- 279
+num.names$ -- 105
+pop$ -- 398
 preamble$ -- 1
-purify$ -- 434
+purify$ -- 498
 quote$ -- 0
-skip$ -- 432
+skip$ -- 492
 stack$ -- 0
-substring$ -- 936
-swap$ -- 71
+substring$ -- 1084
+swap$ -- 77
 text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 294
+type$ -- 330
 warning$ -- 43
-while$ -- 80
+while$ -- 98
 width$ -- 0
-write$ -- 638
+write$ -- 718
 (There were 3 error messages)

@@ -139,11 +139,36 @@ Achenbach, R., Adragna, P., Andrei, V., Apostologlou, P., Ã…sman, B., Ay, C.,
 \newblock The atlas level-1 calorimeter trigger.
 \newblock {\em Journal of Instrumentation}, 3(03), P03001.
 
+\bibitem[Alioli et~al., 2012]{PowhegTTbar}
+Alioli, S., Moch, S.-O., \& Uwer, P. (2012).
+\newblock Hadronic top-quark pair-production with one jet and parton showering.
+\newblock {\em Journal of High Energy Physics}, 2012(1), 137.
+
+\bibitem[Alioli et~al., 2009]{PowhegST_st}
+Alioli, S., Nason, P., Oleari, C., \& Re, E. (2009).
+\newblock {NLO single-top production matched with shower in POWHEG: s- and
+  t-channel contributions}.
+\newblock {\em JHEP}, 09, 111.
+\newblock [Erratum: JHEP02,011(2010)].
+
+\bibitem[Alwall et~al., 2014]{Madgraph}
+Alwall, J., Frederix, R., Frixione, S., Hirschi, V., Maltoni, F., Mattelaer,
+  O., Shao, H.-S., Stelzer, T., Torrielli, P., \& Zaro, M. (2014).
+\newblock The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower simulations.
+\newblock {\em Journal of High Energy Physics}, 2014(7), 79.
+
 \bibitem[An \& Wang, 2015]{Pheno2}
 An, H. \& Wang, L.-T. (2015).
 \newblock Opening up the compressed region of top squark searches at 13 tev
   lhc.
 \newblock {\em Phys. Rev. Lett.}, 115, 181602.
+
+\bibitem[Artoisenet et~al., 2013]{Madspin}
+Artoisenet, P., Frederix, R., Mattelaer, O., \& Rietkerk, R. (2013).
+\newblock Automatic spin-entangled decays of heavy resonances in monte carlo
+  simulations.
+\newblock {\em Journal of High Energy Physics}, 2013(3), 15.
 
 \bibitem[Ball et~al., 2015]{NNPDF3.0}
 Ball, R.~D., Bertone, V., Carrazza, S., Deans, C.~S., Del~Debbio, L., Forte,
@@ -183,21 +208,14 @@ Collaboration, A. (2014).
   lhc run 1 data.
 \newblock {\em The European Physical Journal C}, 74(10), 3071.
 
-\bibitem[Collaboration, 2016a]{Higgs2016}
+\bibitem[Collaboration, 2016a]{MuonReco}
 Collaboration, A. (2016a).
-\newblock Measurements of the higgs boson production and decay rates and
-  constraints on its couplings from a combined atlas and cms analysis of the
-  lhc pp collision data at $ \sqrt{s}=7 $ and 8 tev.
-\newblock {\em Journal of High Energy Physics}, 2016(8), 45.
-
-\bibitem[Collaboration, 2016b]{MuonReco}
-Collaboration, A. (2016b).
 \newblock Muon reconstruction performance of the atlas detector in
   proton--proton collision data at $\sqrt{s} =13$ tev.
 \newblock {\em The European Physical Journal C}, 76(5), 292.
 
-\bibitem[Collaboration, 2016c]{Trigger2015}
-Collaboration, A. (2016c).
+\bibitem[Collaboration, 2016b]{Trigger2015}
+Collaboration, A. (2016b).
 \newblock {\em {Performance of the ATLAS Trigger System in 2015}}.
 \newblock Technical Report arXiv:1611.09661. CERN-EP-2016-241, CERN, Geneva.
 \newblock Comments: 76 pages in total, author list starting page 60, 50
@@ -301,6 +319,23 @@ Pumplin, J., Stump, D.~R., Huston, J., Lai, H.-L., Nadolsky, P., \& Tung, W.-K.
 \newblock New generation of parton distributions with uncertainties from global
   qcd analysis.
 \newblock {\em Journal of High Energy Physics}, 2002(07), 012.
+
+\bibitem[Re, 2011]{PowhegST_wt}
+Re, E. (2011).
+\newblock {Single-top Wt-channel production matched with parton showers using
+  the POWHEG method}.
+\newblock {\em Eur. Phys. J.}, C71, 1547.
+
+\bibitem[Sjostrand et~al., 2015]{Pythia8}
+Sjostrand, T., Ask, S., Christiansen, J.~R., Corke, R., Desai, N., Ilten, P.,
+  Mrenna, S., Prestel, S., Rasmussen, C.~O., \& Skands, P.~Z. (2015).
+\newblock An introduction to pythia 8.2.
+\newblock {\em Computer Physics Communications}, 191, 159 -- 177.
+
+\bibitem[Sjostrand et~al., 2006]{Pythia6}
+Sjostrand, T., Mrenna, S., \& Skands, P. (2006).
+\newblock Pythia 6.4 physics and manual.
+\newblock {\em Journal of High Energy Physics}, 2006(05), 026.
 
 \bibitem[Skands, 2010]{Perugia2012}
 Skands, P.~Z. (2010).
