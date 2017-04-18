@@ -248,7 +248,7 @@
 	\copyrightpage
 	\abstractpage
     \contentspage
-	% \listoffigures % optional
+        \listoffigures % optional
 	\dedicationpage
 	\acknowledgments
 }

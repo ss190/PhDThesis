@@ -72,33 +72,33 @@
 \contentsline {section}{\numberline {10.2}One Lepton Pre-Selection}{130}{section.10.2}
 \contentsline {chapter}{\numberline {11}Signal Region Definition}{132}{chapter.11}
 \contentsline {section}{\numberline {11.1}Physical Intuition on how Signal Region Selections Reject SM Background}{133}{section.11.1}
-\contentsline {section}{\numberline {11.2}Signal Region Kinematic Selection}{139}{section.11.2}
+\contentsline {section}{\numberline {11.2}Signal Region Kinematic Selection}{138}{section.11.2}
 \contentsline {section}{\numberline {11.3}Signal Region Expected Yields and Kinematic Distributions}{142}{section.11.3}
-\contentsline {section}{\numberline {11.4}Signal Region Background Composition}{145}{section.11.4}
-\contentsline {chapter}{\numberline {12}Standard Model Backgrounds}{146}{chapter.12}
-\contentsline {section}{\numberline {12.1}Common Background Estimation and Validation Techniques}{146}{section.12.1}
-\contentsline {section}{\numberline {12.2}Dominant Background: Standard Model $t\ensuremath {\mathaccentV {bar}016{t}}$}{148}{section.12.2}
-\contentsline {subsection}{\numberline {12.2.1}Two Kinematically Distinct Populations of $t\ensuremath {\mathaccentV {bar}016{t}}$}{149}{subsection.12.2.1}
-\contentsline {subsection}{\numberline {12.2.2}Predicting the amount of $\ensuremath {t\mathaccentV {bar}016{t}}$ in Signal Region using a One Lepton Control Region}{151}{subsection.12.2.2}
-\contentsline {subsection}{\numberline {12.2.3}Validating $\ensuremath {t\mathaccentV {bar}016{t}}$ Predictions in Signal Region using a Zero Lepton Validation Region}{157}{subsection.12.2.3}
-\contentsline {section}{\numberline {12.3}Subdominant Backgrounds}{161}{section.12.3}
-\contentsline {subsection}{\numberline {12.3.1}Standard Model W+Jets}{161}{subsection.12.3.1}
-\contentsline {subsection}{\numberline {12.3.2}Standard Model Single Top}{163}{subsection.12.3.2}
-\contentsline {subsection}{\numberline {12.3.3}Standard Model \ensuremath {t\mathaccentV {bar}016{t}}+Z}{167}{subsection.12.3.3}
-\contentsline {subsection}{\numberline {12.3.4}Standard Model Z+Jets}{171}{subsection.12.3.4}
-\contentsline {subsection}{\numberline {12.3.5}Standard Model Diboson}{172}{subsection.12.3.5}
-\contentsline {subsection}{\numberline {12.3.6}Standard Model QCD Multijet and all Hadronic $\ensuremath {t\mathaccentV {bar}016{t}}$}{172}{subsection.12.3.6}
-\contentsline {chapter}{\numberline {13}Systematic Uncertainties}{179}{chapter.13}
-\contentsline {subsection}{\numberline {13.0.1}Experimental Uncertainties}{181}{subsection.13.0.1}
-\contentsline {subsection}{\numberline {13.0.2}Theoretical Uncertainties}{190}{subsection.13.0.2}
-\contentsline {chapter}{\numberline {14}Statistical Analysis}{198}{chapter.14}
-\contentsline {section}{\numberline {14.1}Introduction to Log Likelihood Fitting}{198}{section.14.1}
-\contentsline {section}{\numberline {14.2}Overview of Fitting to Control Regions and Signal Regions}{201}{section.14.2}
-\contentsline {section}{\numberline {14.3}Parameterization of Systematics as Gaussian Constraints}{204}{section.14.3}
-\contentsline {section}{\numberline {14.4}Background Only Fit and Background Estimation}{205}{section.14.4}
-\contentsline {section}{\numberline {14.5}Exclusion Fit and Exclusion Limit Calculation}{205}{section.14.5}
-\contentsline {section}{\numberline {14.6}Discovery Fit and Discovery Significance Calculation}{207}{section.14.6}
-\contentsline {chapter}{\numberline {15}Results}{209}{chapter.15}
-\contentsline {chapter}{\numberline {16}Interpretation of Results}{213}{chapter.16}
-\contentsline {chapter}{\numberline {17}Conclusion}{218}{chapter.17}
-\contentsline {chapter}{References}{228}{chapter*.103}
+\contentsline {section}{\numberline {11.4}Signal Region Background Composition}{143}{section.11.4}
+\contentsline {chapter}{\numberline {12}Standard Model Backgrounds}{147}{chapter.12}
+\contentsline {section}{\numberline {12.1}Common Background Estimation and Validation Techniques}{147}{section.12.1}
+\contentsline {section}{\numberline {12.2}Dominant Background: Standard Model $t\ensuremath {\mathaccentV {bar}016{t}}$}{149}{section.12.2}
+\contentsline {subsection}{\numberline {12.2.1}Two Kinematically Distinct Populations of $t\ensuremath {\mathaccentV {bar}016{t}}$}{150}{subsection.12.2.1}
+\contentsline {subsection}{\numberline {12.2.2}Predicting the amount of $\ensuremath {t\mathaccentV {bar}016{t}}$ in Signal Region using a One Lepton Control Region}{152}{subsection.12.2.2}
+\contentsline {subsection}{\numberline {12.2.3}Validating $\ensuremath {t\mathaccentV {bar}016{t}}$ Predictions in Signal Region using a Zero Lepton Validation Region}{158}{subsection.12.2.3}
+\contentsline {section}{\numberline {12.3}Subdominant Backgrounds}{162}{section.12.3}
+\contentsline {subsection}{\numberline {12.3.1}Standard Model W+Jets}{162}{subsection.12.3.1}
+\contentsline {subsection}{\numberline {12.3.2}Standard Model Single Top}{164}{subsection.12.3.2}
+\contentsline {subsection}{\numberline {12.3.3}Standard Model \ensuremath {t\mathaccentV {bar}016{t}}+Z}{168}{subsection.12.3.3}
+\contentsline {subsection}{\numberline {12.3.4}Standard Model Z+Jets}{172}{subsection.12.3.4}
+\contentsline {subsection}{\numberline {12.3.5}Standard Model Diboson}{173}{subsection.12.3.5}
+\contentsline {subsection}{\numberline {12.3.6}Standard Model QCD Multijet and all Hadronic $\ensuremath {t\mathaccentV {bar}016{t}}$}{173}{subsection.12.3.6}
+\contentsline {chapter}{\numberline {13}Systematic Uncertainties}{180}{chapter.13}
+\contentsline {subsection}{\numberline {13.0.1}Experimental Uncertainties}{182}{subsection.13.0.1}
+\contentsline {subsection}{\numberline {13.0.2}Theoretical Uncertainties}{191}{subsection.13.0.2}
+\contentsline {chapter}{\numberline {14}Statistical Analysis}{199}{chapter.14}
+\contentsline {section}{\numberline {14.1}Introduction to Log Likelihood Fitting}{199}{section.14.1}
+\contentsline {section}{\numberline {14.2}Overview of Fitting to Control Regions and Signal Regions}{202}{section.14.2}
+\contentsline {section}{\numberline {14.3}Parameterization of Systematics as Gaussian Constraints}{205}{section.14.3}
+\contentsline {section}{\numberline {14.4}Background Only Fit and Background Estimation}{206}{section.14.4}
+\contentsline {section}{\numberline {14.5}Exclusion Fit and Exclusion Limit Calculation}{206}{section.14.5}
+\contentsline {section}{\numberline {14.6}Discovery Fit and Discovery Significance Calculation}{208}{section.14.6}
+\contentsline {chapter}{\numberline {15}Results}{210}{chapter.15}
+\contentsline {chapter}{\numberline {16}Interpretation of Results}{215}{chapter.16}
+\contentsline {chapter}{\numberline {17}Conclusion}{220}{chapter.17}
+\contentsline {chapter}{References}{230}{chapter*.104}
