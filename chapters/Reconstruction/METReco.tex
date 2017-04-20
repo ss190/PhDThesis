@@ -15,7 +15,9 @@
 \label{eqn:metReco}
 \end{equation}
 
-\indent Fully calibrated hard objects include muons, electrons, photons and jets that satisfy their respective baseline selections.  Hadronic taus are not independently reconstructed and calibrated.  Therefore, hadronic taus will most likely be reconstructed as hadronic jets for our analysis.  Baseline object definitions can be found in the physics object definitions in chapter \ref{chap:objects} .  An overlap removal algorithm have been applied to the baseline objects to remove any potential duplicate objects. \\
+\indent Fully calibrated hard objects include muons, electrons, photons and jets that satisfy their respective {\tt Baseline} selections.  {\tt Baseline} selections applies a loose set of $\pt$ and quality requirements to ensure well reconstructed objects.  {\tt Baseline} object definitions can be found in chapter \ref{chap:objects}. \\
+
+\indent Hadronic taus are not independently reconstructed and calibrated.  Therefore, hadronic taus will most likely be reconstructed as hadronic jets for our analysis.  An overlap removal algorithm have been applied to the {\tt Baseline} objects to remove any potential duplicate objects. \\
 
 \indent We use a track based method called Track Soft Term (TST) \cite{METReco} to reconstruct the contribution from soft objects.  TST build the $\met$ that is not associated with any hard objects by summing the $\pt$ of ID tracks. \\
 
@@ -28,7 +30,14 @@
 \subsection{Track $\met$ Reconstruction}
 \label{sec:reco:trkMET}
 
-\indent Track $\met$ forms a complementary method of reconstructing $\met$.  Track $\met$ is reconstructed using a negative vector sum of all accepted ID tracks.  ID tracks must pass the same requirements described in section \ref{sec:MET:reco} for the TST but no attempt is made at removing tracks that are associated with hard objects.  The one exception to this is tracks associated with an electron.  Because of the high number of interaction expected between an electron and the material in the ID, electron tracks are replaced with the electron calorimeter cluster instead.  \\
+\indent Track $\met$ ($\mettrk$) forms a complementary method of reconstructing missing transverse energy.  $\mettrk$, defined in equation \ref{eqn:mettrkReco}, is reconstructed using a negative vector sum of all accepted ID tracks.  \\
+
+\begin{equation}
+\mettrk = - \sum_{ID tracks} \pt  
+\label{eqn:mettrkReco}
+\end{equation}
+
+\indent ID tracks must pass the same requirements described in section \ref{sec:MET:reco} for the TST but no attempt is made at removing tracks that are associated with hard objects.  The one exception to this is tracks associated with an electron.  Because of the high number of interaction expected between an electron and the material in the ID, electron tracks are replaced with the electron calorimeter cluster instead.  \\
 
 \indent Track $\met$ is very robust against pileup conditions ATLAS has very good vertex resolution but neglects the presence of neutral particles.  Track $\met$ is also limited by $\eta$ coverage of the ID which only extends to an $|\eta| < 2.5$.  We use track $\met$ as a cross check on the object based $\met$ reconstruction described in \ref{sec:MET:reco}. Both object based and track based $\met$ must agree loosely in direction for our analysis.  \\
 
