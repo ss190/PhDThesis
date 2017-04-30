@@ -13,7 +13,7 @@
 
 \indent All object definitions used follow the ATLAS performance group recommendations and SUSY group standards for MC15c samples ({\sc SUSYTools-00-08-54} and {\sc AnalysisBase-2.4.28}).  Details on each object is given below. \\
 
-\section{Electron Definition}  \label{sec:EleDef}
+\section{{\tt Baseline} and {\tt Signal} Electron Definition}  \label{sec:EleDef}
 
 \indent {\tt Baseline} electron candidates are selected using the {\tt VeryLooseLH} quality definition. The energy clusters associated with the electron are required to have an $\et = E_{\mathrm{cl}} / \cosh{\eta} > 7 \gev$ and be within an $\eta$ range of $|\eta_{\mathrm{cl}}| < 2.47$. Electrons in the transition region between EM barrel and endcap calorimeters ($1.37 < |\eta| < 1.52$) also called the crack region are accepted as long as they satisfy the {\tt VeryLooseLH} criteria. Electron reconstruction and calibrated are summarized in section \ref{sec:reco:EM}.\\
 
@@ -54,7 +54,7 @@
   \label{tb:electrons}
 \end{table}%
 
-\section{Muon Definition}  \label{sec:MuonDef}
+\section{{\tt Baseline} and {\tt Signal} Muon Definition}  \label{sec:MuonDef}
 
 \indent {\tt Baseline} muon candidates must pass the {\tt Loose} quality criteria.  {\tt Baseline} muons must also have a $\pT > 6 \gev$ with $|\eta| < 2.7$.  Electron reconstruction and calibrated are summarized in section \ref{sec:reco:muon}. \\
 
@@ -94,7 +94,7 @@
   \label{tb:muons:signal}
 \end{table}%
 
-\section{Jet Definitions}
+\section{{\tt Baseline} and {\tt Signal} Jet Definitions}
 \subsection{Calorimeter Jets}
 \label{sec:def:jets}
 
@@ -145,7 +145,7 @@
 
 \indent A subset of jets are identified as originating from a b-hadron using the MV2c10 b-tagging algorithm described in section \ref{sec:jet:btagging}.  b-jet candidates must be within ID coverage with $|\eta|<2.5$.  Any jet with MV2c10 $ > 0.6459$ is a b-tagged jet.  The selection chosen corresponds to approximately 77\% b-tagging efficiency with a factor of 134 reject rate for light jets and a factor of 6 rejection of c-jets.\\
 
-\section{Photon Definition}
+\section{{\tt Baseline} and {\tt Signal} Photon Definition}
 \label{sec:PhoDef}
 
 \indent {\tt Baseline} photons are used only for $\met$ calculation.  {\tt Baseline} photons must have $\pt > 25 \gev$ and $|\eta| < 2.37$ and pass the {\tt Tight} quality selection.  Photon reconstruction and calibrated are summarized in section \ref{sec:reco:EM}. \\
@@ -190,7 +190,7 @@
 
 \subsection{\boldmath Track-based \MET}
 
-\indent An complementary method of determining the $\met$ using only tracking information is used to discriminate against events with fake $\met$ resulting from mis-reconstructed calorimeter jets.  The track based $\met$ or $\mettrk$ is the negative vector sum of all ID track $\pt$.  $\mettrk$ is very robust against pileup but does not include the contribution to $E_T$ from neutral particles.  None the less, a loose agreement in direction between $\mettrk$ and calorimeter-based $\met$ was found to be an effective discriminate against multijet QCD background.  Details on $\mettrk$ reconstruction can be found in section \ref{sec:reco:trkMET}. \\
+\indent An complementary method of determining missing transverse energy using only tracking information is used to discriminate against events with fake $\met$ resulting from mis-reconstructed calorimeter jets.  The track based $\met$ or $\mettrk$ is the negative vector sum of all ID track $\pt$.  $\mettrk$ is very robust against pileup but does not include the contribution to $E_T$ from neutral particles.  None the less, a loose agreement in direction between $\mettrk$ and calorimeter-based $\met$ was found to be an effective discriminate against multijet QCD background.  Details on $\mettrk$ reconstruction can be found in section \ref{sec:reco:trkMET}. \\
 
 \section{Resolving overlapping objects}
 \label{sec:Selection_overlap}

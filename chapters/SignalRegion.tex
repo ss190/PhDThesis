@@ -3,61 +3,141 @@
 \chapter{Signal Region Definition}
 \label{chap:SignalRegion}
 
-\indent The kinematic selections in the signal region are designed to reject SM ttbar events, which comprise 70-90 percent of all background in SR.  The same selections are also effective at rejecting sub-dominant backgrounds including $W$+jets, single top, $Z$+jets and QCD multijet backgrounds.  This chapter first builds physical intuition on the dominant SM ttbar in section \ref{sec:SR:physical}.  A brief recap of the ISR reconstruction algorithm is given in section \ref{sec:SR:Definitions}.  The SR kinematic selections are defined in section \ref{sec:SR:Selections}.  The section also goes into detail on the background rejection power of each SR selection. Lastly the SR yields and background composition are covered in section \ref{sec:Bkg:Yields} and \ref{sec:Bkg:Compositiion}.  \\
+\indent The kinematic selections in the signal region are designed to maximize signal acceptance and reject SM ttbar events.  SM ttbar forms the dominant background for this analysis and comprise $70$ percent of backgrounds in the signal region.  The signal region selections are also effective at rejecting subdominant backgrounds including $W$+jets, single top, $Z$+jets and QCD multijet backgrounds.  \\
+
+\indent This chapter first builds physical intuition on the dominant SM ttbar in section \ref{sec:SR:physical} and explains how the signal region selections reject background.  The signal region kinematic selections are defined in section \ref{sec:SR:Selections}.  An back-of-the-envelope estimation of the signal region background rejection power and an order of magnitude estimation of how the signal over background ratio improves with the signal region selections is given in section \ref{sec:SR:estimate}. Lastly the signal region yields and background composition are covered in section \ref{sec:SR:Yields} and \ref{sec:Bkg:Compositiion}.  \\
 
 \section{Physical Intuition on how Signal Region Selections Reject SM Background}
 \label{sec:SR:physical}
 
-\indent The zero lepton SR is designed specifically to reject the dominant ttbar background.  The SR's design choice and signal and ttbar kinematics are summarized in this section.  The SR's effect on sub-dominant backgrounds are also described near the end of the section. More detail on each SM background, including background estimation techniques, can be found in chapter \ref{chap:backgrounds}. \\
+\indent The zero lepton signal region is designed specifically to reject the dominant ttbar background while maximizing signal acceptance.  The signal region selections' design choice and signal and ttbar kinematics are summarized in this section.  The signal region selections' effects on subdominant backgrounds are also described near the end of the section. More detail on each SM background, including background estimation techniques, can be found in chapter \ref{chap:backgrounds}. \\
 
-\indent 95 percent of all ttbar which survive SR selection decay via the single hadronic tau and single lepton decay channels.  SM ttbar that decays via the fully hadronic decay channel generates no little intrinsic $\MET$ and is negligible in SR.  Therefore, understanding ttbar specifically require us to understand the single lepton decay channel where the leptonic top can decay via an electron, muon or tau. \\
+\indent  We find that 95 percent of all ttbar which survive the signal region selections decay via the single hadronic tau, single electron, or single muon decay channels.  SM ttbar that decays via the fully hadronic decay channel generates little intrinsic $\MET$ and is negligible in the signal region.  SM ttbar di-leptonic decay branching ratio is a factor of 5 lower then the single lepton decay channel. Plus, di-leptonic ttbar has a higher probability of being rejected by the lepton veto.  A pie chart of the branching fractions for different ttbar decay channels is shown in Figure \ref{fig:ttbardecay}. \\
 
-\indent It is important to note that a top decay cannot generate a neutrino with 250 $\gev$ $\pt$ if the top decays at rest.  Therefore, the $\MET > 250 \gev$ requirement essentially forces the leptonic top to be boosted.   \\
+\begin{figure}[h!]
+  \begin{center}
+    	\includegraphics[width=0.85\textwidth]{figures/strategy/ttbarDecay.jpg}\hspace{0.05\textwidth}
+   \end{center}
+\caption{ Pie chart of the branching fractions for different ttbar decay channels. }
+\label{fig:ttbardecay} 
+\end{figure}
 
-\indent  The leptonic top can only gain boost in one of two ways.  Either the leptonic top recoils against the hadronic top in a back-to-back fashion or both tops recoil against strong ISR.  This break down of SM ttbar into two kinematically distinct populations is covered in more detail in section \ref{sec:Bkg:ttbar}.  \\
+\indent The $\met$ and $\RISR = \met/\PTISR$ distributions after the zero lepton preselection for stop signal and SM backgrounds can be seen in Figure \ref{fig:presel_dist_2}.  \\
+
+\begin{figure}[h!]
+  \begin{center}
+    \begin{subfigure}[a]{0.45\textwidth}    
+    	\includegraphics[width=\textwidth]{figures/plotSR/SR_eT_miss_0SR.eps}\hspace{0.05\textwidth}
+                \caption{ }
+                \label{fig:presel_dist_met} 
+    \end{subfigure}
+    \begin{subfigure}[b]{0.45\textwidth}
+    	\includegraphics[width=\textwidth]{figures/plotSR/SR_ND1_RISR_0SR.eps}\hspace{0.05\textwidth}
+                \caption{ }
+                \label{fig:presel_dist_RISR} 
+    \end{subfigure}
+\end{center}
+\caption[$\met$ and $\RISR = \met/\PTISR$ distributions after zero lepton preselection for stop signal and SM background]{ (a) $\met$ and (b) $\RISR$ distributions after preselection.  SM backgrounds are displayed as the solid stacked histograms.  Stop signals with $(m_{\stop}, m_{\ninoone}) = (250 \gev,77 \gev)$, $(300 \gev, 127 \gev)$ and $(400 \gev, 227 \gev)$ are shown as dashed histograms.  Signal strength is increased by a factor of 20 for better visibility. }
+\label{fig:presel_dist_2} 
+\end{figure}
+
+\indent  $\met$ distribution is very similar between stop signal and SM background, but the $\RISR$ distribution is peaking in signal.  The $\RISR$ peak in signal is wide because we have not made a requirement for high ISR $\pt$ at the preselection level.  This signal peak will sharpen with the additional signal region selections.  \\
+
+\indent The ttbar $\RISR$ distribution peaks at $\sim0.75$.  This corresponds to ttbar events without strong ISR which gives a high $\met/\PTISR$ ratio.  Again, no requirement on $\PTISR$ has been made at the preselection level.  After placing more signal region requirements on events with strong ISR $\pt$,  the ttbar events with high $\RISR$ ratio will be rejected.  The rest of this section will be devoted to explaining why the ttbar background initially peaks at $\sim0.75$ and how the signal region selections reject these high $\RISR$ ttbar events.  \\
+
+\indent First, it is important to note that the top decay cannot generate a 250 $\gev$ $\pt$ neutrino if the top decays at rest.  Therefore, the $\MET > 250 \gev$ requirement in preselection selects mainly for ttbar with a boosted leptonic top.   \\
+
+\indent  The leptonic top can only gain boost in one of two ways.  Either the leptonic top recoils against the hadronic top in a back-to-back fashion or both tops recoil against strong ISR.  This break down of SM ttbar into two kinematically distinct populations is covered in more detail in section \ref{sec:Bkg:ttbar}.  A schematic representation of these two distinct ttbar kinematic populations can be found in Figure \ref{fig:ttbar:2pop}. \\
+
+\begin{figure}[h!]
+  \centering
+	\includegraphics[width=0.85\textwidth]{./figures/strategy/ttbar_2pop.png}
+	\caption[Schematic depiction of the kinematics of the top/anti-top back-to-back ttbar population and the ttbar plus strong ISR population that exists after the zero lepton pre-selection.]{Depiction of the kinematics of the top/anti-top back-to-back ttbar population and the ttbar plus strong ISR population that exists after the zero lepton pre-selection. The two example events' thrust axis are aligned.  The hemisphere containing $\met$ has significantly higher jet multiplicities and total energy in ttbar plus strong ISR events. }
+\label{fig:ttbar:2pop}
+\end{figure}
 
 \indent The thrust axis, the axis that maximizes the amount of back-to-back $\pt$ along it, contains important information in both populations.  In the top/anti-top population, the thrust axis aligns along the top/anti-top back-to-back boost.  In the ttbar+strong ISR population, the thrust axis aligns along the ISR/ttbar back-to-back boost.  \\
 
-\indent Figure \ref{fig:ttbar:3pop} illustrates example events from the two distinct ttbar populations and the stop signal.  We line up all three events according to their thrust axis and the hemisphere containing the $\MET$ displayed in the upper half.  \\
+\indent  After preselection, 90 percent of all ttbar events belong to the top/anti-top back-to-back population.  Boosting one top against the other top simply requires less center-of-mass energy than boosting both tops with additional strong ISR.  \\
+
+\indent In the top/anti-top back-to-back population, the hadronic top's decay products will be mainly in the hemisphere not containing $\met$.  The reconstructed ISR $\pt$ will therefore be approximately the hadronic top $\pt$.  The leptonic top and hadronic top have roughly equal $\pt$ because the two tops are back-to-back.  The leptonic top will have its $\pt$ split between its decay products.  For this reason, we would expect the $\RISR$ to be approximately 1/3 as the neutrino would be expect to carry about 1/3 the leptonic top $\pt$ if no selections are applied. Some ttbar events will have a high $\RISR$ ratio because the neutrino carry a higher fraction of the leptonic top $\pt$ because of specific alignments between the top boost and the decay axes \\
+
+\indent However, the ttbar differential cross section as a function of $m^{t\tbar}$, shown in Figure \ref{fig:ttbar:mtt}, falls exponentially.  $m^{t\tbar}$ is directly related to the amount of back-to-back boost between the two tops and the $\pt$ of each top.  After the $\met > 250 \gev$ requirement, most ttbar events have a low $m^{t\tbar}$ but the neutrino receives a large fraction of the top $\pt$ instead of having a high $m^{t\tbar}$ and the neutrino receiving a small fraction of the top $\pt$.  This leads to a higher $\RISR$ peak at $\sim0.75$ for the top/anti-top back-to-back population in ttbar. \\
 
 \begin{figure}[h!]
   \centering
-	\includegraphics[width=0.65\textwidth]{./figures/strategy/ttbar_vs_signal.png}
-\caption{\label{fig:ttbar:3pop}{Basic depiction of the kinematics of the two ttbar populations and stop plus strong ISR events after 0 lepton pre-selection }}
+	\includegraphics[width=0.70\textwidth]{./figures/strategy/ttbar_mtt.png}
+	\caption[Normalized ttbar differential cross section as a function of $m^{t\tbar}$]{Normalized ttbar differential cross-section as a function of $m^{t\tbar}$.  $m^{t\tbar}$ distribution falls exponentially and the $m^{t\tbar}$ is directly related to the amount of back-to-back boost between the two tops. \cite{ttbarDiffCross} }
+\label{fig:ttbar:mtt}
 \end{figure}
 
-\indent We can immediately see that the signal has a  significantly higher jet multiplicity and total energy in the hemisphere with the $\MET$ than the top/anti-top back-to-back population in ttbar.  Indeed, the signal has 6 jets originating from the two hadronic tops in the hemisphere with $\MET$ compared with only a single leptonic top in the top/anti-top back-to-back ttbar population.   The ttbar plus strong ISR population looks more signal like as it has higher jet multiplicity and energy in the \MET hemisphere. However, it still has less total energy then that of the signal.  \\
-
-\indent By placing requirements on the jet multiplicity and total energy in the hemisphere with $\MET$ we are able to reject over 99 percent of ttbar events with less than 400 GeV of true ISR $\pt$.  Acceptance of ttbar events increase with true ISR $\pt$ but only asymptotically.  Even at 1200 GeV of true ISR $\pt$, a ttbar event which already passed zero lepton preselection only has a 35 percent chance of passing the additional SR selection.  \\
-
-\indent  After pre-selection, 90 percent of all ttbar events belong to the top/anti-top back-to-back population.  Boosting one top against the other top simply requires less center-of-mass energy than boosting both tops with additional strong ISR. \\
-
-\indent After SR selection, only approximately 10 percent of all ttbar events have true ISR $\pt$ less than 400 $\gev$.  A back-of-the-envelope calculation shows that ttbar events need around 600 $\gev$ of ISR $\pt$ in order to boost the neutrino past the 250 $\gev$ $\met$ selection if both tops started at rest.  Such high ISR $\pt$ is required because the neutrino must share the ISR $\pt$ with the 5 other particles in the ttbar decay.  This completely agrees with the true ISR $\pt$ distribution in SR which peaks around 550-600 $\gev$ for ttbar background in SR.  The ttbar true ISR $\pt$ distribution in SR can be seen in figure \ref{fig:ttbar:SR:trueISRpt}.  \\
+\indent Figure \ref{fig:ttbar:3pop} illustrates example events from the two ttbar populations alongside a stop signal event for comparison.  We line up all three events according to their thrust axis and the hemisphere containing the $\MET$ is displayed in the upper half of the figure.  \\
 
 \begin{figure}[h!]
   \centering
-	\includegraphics[width=0.65\textwidth]{./figures/ttbar/truePtISR_SRC_CRC_compare.eps}
-\caption{\label{fig:ttbar:SR:trueISRpt}{Distribution of true ISR $\pt$ for ttbar that survive the signal selections}}
+	\includegraphics[width=0.85\textwidth]{./figures/strategy/ttbar_vs_signal.png}
+\caption[Schematic depiction of example events from the top/anti-top back-to-back ttbar population, the ttbar plus strong ISR population in comparison to a stop plus strong ISR signal event after the zero lepton preselection]{Schematic depiction of example events from the top/anti-top back-to-back ttbar population, the ttbar plus strong ISR population in comparison to a stop plus strong ISR signal event after the zero lepton preselection.  All three events are aligned with one another according to their thrust axis.  The hemisphere containing $\met$ is located in the upper half of the figure.  The stop signal has much higher jet multiplicity and total energy in the hemisphere containing $\met$ then the top/anti-top ttbar population. }
+\label{fig:ttbar:3pop}
 \end{figure}
 
-\indent The analysis works by isolating ttbar with at least 550 $\gev$ of ISR $\pt$.  In comparison, a 400 $\gev$ stop requires only 440 $\gev$ of ISR $\pt$ to pass the 250 $\gev$ $\met$ requirement.  We effectively gain an order of magnitude in signal to background ratio (S/B) due to the lower required ISR $\pt$ in signal.  \\
+\indent We can immediately see that the signal has significantly higher jet multiplicity and total energy in the hemisphere with the $\MET$ than the top/anti-top back-to-back population in ttbar.  The signal has six jets originating from the two hadronic top decays in the hemisphere plus the $\MET$ from two neutralinos in the same hemisphere.  In comparison, the top/anti-top back-to-back ttbar event only has decay products from a single leptonic top in the hemisphere containing $\met$.   The ttbar plus strong ISR population has higher jet multiplicity and energy in the $\MET$ hemisphere. However, it still has on average less total energy and jet multiplicity then the stop signal.  \\
 
-\indent At the same time, we gain another factor of 5 improvement in S/B simply by working in the zero lepton channel.  In SR, the stops decay mainly via the all-hadronic decay channel with a 44 percent branching fraction.  In comparison, 80 percent of ttbar background in SR decay via the hadronic tau channel with a branching fraction of approximately 10 percent.  \\
+\indent By placing requirements on the jet multiplicity and total energy in the hemisphere with $\MET$, the signal region selections are able to reject over 99.5 percent of ttbar events with less than 400 GeV of true ISR $\pt$.  The acceptance of ttbar events increases with true ISR $\pt$ but only asymptotically.  Even at 1200 GeV of true ISR $\pt$, a ttbar event which already passed zero lepton preselection only has an eight percent chance of passing the additional signal region selection.  \\
 
-\indent The $\met$ and ISR correlations in both direction and magnitude further improve the S/B ratio by another factor of 5 to 10 depending on the stop mass.  When combined, we are able to overcome the original 300 times difference in product cross section between the 400 $\gev$ stop and SM ttbar.  \\
+\indent The signal region selection efficiency for ttbar as a function of ISR $\pt$ is shown in Figure \ref{fig:ttbar:SRaccept}.  \\
+
+\begin{figure}[h!]
+  \centering
+	\includegraphics[width=0.80\textwidth]{./figures/strategy/Compare0L_truth_acceptance.eps}
+\caption[The selection efficiency for ttbar as a function of ISR $\pt$ for ttbar after the zero lepton preselection and after all signal region selections]{The selection efficiency for ttbar as a function of ISR $\pt$ for ttbar after the zero lepton preselection and after all signal region selections. The selections overwhelmingly reject ttbar with low ISR $\pt$, rising to around 8\% for ttbar with 1 $\tev$ of ISR $\pt$ }}
+\label{fig:ttbar:SRaccept}{
+\end{figure}
+
+\indent After signal region selections, only approximately 10 percent of all ttbar events have true ISR $\pt$ less than 400 $\gev$.  A back-of-the-envelope calculation shows that ttbar events need around 600 $\gev$ of ISR $\pt$ in order to boost the neutrino past the 250 $\gev$ $\met$ selection if both tops started at rest.  Such high ISR $\pt$ is required because the neutrino must share the total $t\tbar$ $\pt$ with the 5 other particles in the ttbar decay.  This completely agrees with the true ISR $\pt$ distribution in the signal region which peaks around 550-600 $\gev$ for ttbar background.  \\
+
+\indent The ttbar true ISR $\pt$ distribution after the zero lepton preselection and after signal region selections can be seen in Figure \ref{fig:ttbar:SR:trueISRpt_presel_SRC}.  \\
+
+\begin{figure}[h!]
+  \centering
+	\includegraphics[width=0.80\textwidth]{./figures/strategy/Compare0L_truth.eps}
+\caption[Distribution of true ISR $\pt$ for ttbar after the zero lepton preselection and after all signal region selections]{Distribution of true ISR $\pt$ for ttbar after the zero lepton preselection and after all signal region selections.  Both distributions have been normalized to unit area.}
+\label{fig:ttbar:SR:trueISRpt_presel_SRC}
+\end{figure}
+
+\section{Order of Magnitude Estimation of how Signal Region Selections Improve Signal over Background Ratio}
+\label{sec:SR:estimate}
+
+\indent The signal region selects for ttbar with at least 550 $\gev$ of ISR $\pt$.  In comparison, the stop signal with $m_{\stop} = 400 \gev$ requires only 440 $\gev$ of ISR $\pt$ to pass the $\met > 250 \gev$ requirement and the signal region selections due to the $\met \sim m_{\ninoone}/m_{\stop} \times \PTISR $ relationship.  \\
+
+\indent The normalized ttbar differential cross section as a function of $p_{T}^{t\tbar}$ can be seen in Figure \ref{fig:ttbar:ttpt}.  $p_T^{t\tbar}$ is equal to the true $\PTISR$ because anything that the ttbar recoils against is considered ``ISR'' by the ISR identification algorithm.  By extrapolating the ttbar differential cross section measurement to high $p_T^{t\tbar}$ we can see that there is approximately an order of magnitude increase in differential cross section if we decrease the ISR $\pt$ requirement by 150 $\gev$.  Therefore, the signal has a order of magnitude larger normalized differential cross section than the SM ttbar background because the signal requires less ISR $\pt$.   This equals an increase in the signal over background ratio (S/B) by a factor of $\sim10$. \\
+
+\indent In reality, stop signal with 440 $\gev$ of ISR $\pt$ has an even higher normalized differential cross section then ttbar with 440 $\gev$ of ISR $\pt$.  This is because 440 $\gev$ of ISR $\pt$ is relatively small when compared to the two 400 $\gev$ stops.  In comparison, 440 $\gev$ is larger then the mass of two tops at $\sim172.5 \gev$ each.  This means the gain in S/B from the lower signal ISR $\pt$ requirement is even larger then Figure \ref{fig:ttbar:ttpt} suggests.  \\
+
+\begin{figure}[h!]
+  \centering
+	\includegraphics[width=0.70\textwidth]{./figures/strategy/ttbar_mtt.png}
+	\caption[Normalized ttbar differential cross section as a function of $p_T^{t\tbar}$]{Normalized ttbar differential cross-section as a function of $p_T^{t\tbar}$.\cite{ttbarDiffCross}  $p_T^{t\tbar}$ is equal to the $\PTISR$ because our ISR identification algorithm reconstructs anything that recoils against the ttbar as ISR.  $p_T^{t\tbar}$ distribution falls exponentially and can be modeled by a straight-line in the log plot.  Assuming the straight-line extrapolation holds, we would expect roughly an order of magnitude increase in differential cross section if the ISR $\pt$ required decreased by $\sim150 \gev$.  }
+\label{fig:ttbar:ttpt}
+\end{figure}
+
+\indent At the same time, we gain another factor of 5 improvement in S/B simply by working in the zero lepton channel.  In the signal region, the stops decay mainly via the all-hadronic decay channel with a 44 percent branching fraction.  In comparison in the signal region, 80 percent of ttbar background decay via the hadronic tau channel with a branching fraction of approximately 10 percent.  The ttbar single tau decay has a branching fraction of approximately 15 percent but only about 65 percent of taus decay hadronically. The ttbar decay branching fraction is shown in Figure \ref{fig:ttbardecay}.\\
+
+\indent The $\met$ and ISR correlations in both direction and magnitude further improve the S/B ratio by another factor of 5 to 10 depending on the stop mass.  The distribution of $\dPhiISRMET$ with all other signal region selections applied is shown in Figure \ref{fig:SR:dphiISRMET}. The $\RISR$ distribution after all signal selections including the $\dPhiISRMET > 3.0 $ requirement is shown in Figure \ref{fig:SR:RISR} \\
+
+\indent With all these effects combined, we are able to overcome the original 300 times difference in production cross section between the 400 $\gev$ stop and SM ttbar.  \\
 
 \indent As the stop mass increases, the required ISR $\pt$ in signal decreases according to $m_{\stop}/m_{\ninoone}$, further increasing the accepted signal differential cross section, even if the signal production cross section is dropping.  At the same time, the signal will peak at higher $\RISR$ ratios where background contributions are lower.  In this way, the analysis is able to maintain sensitivity across a wide range of stop masses despite rapidly dropping signal production cross section at high stop masses.  \\
 
-\indent After zero lepton preselection, the S/B ratio is $1\:40$ for a stop mass of 400 GeV.  After signal region selection, the S/B ratio improves to approximately $2\:1$ for the same mass point.  A quantitative breakdown of SR selection and yields is given in section \ref{sec:SR:Selections} and \ref{sec:SR:Yields}.  \\
+\indent After zero lepton preselection, the S/B ratio is $1$:$40$ for a stop mass of 400 GeV.  After signal region selection, the S/B ratio improves to approximately $2$:$1$ for the same mass point.  A quantitative breakdown of signal region selections and yields is given in section \ref{sec:SR:Selections} and \ref{sec:SR:Yields}.  \\
 
-\indent At the same time, the same kinematic selections on jet multiplicity and total energy are also difficult for sub-dominant backgrounds such as $W$+jets, $Z$+jets, single top and QCD multijet to satisfy.  It is in general difficult for these other processes to produce such high jet multiplicity and total energy in the same half of the event as the $\MET$.   Processes such as $W$+jets and $Z$+jets normally have the $\MET$ recoiling against other energetic jets.  Therefore, energetic jets in these processes tend to lie in the hemisphere opposite the $\MET$.  Total sub-dominant background contributions to SR is around 10 to 30 percent depending on $\RISR$ region.  \\
+\indent At the same time, the same kinematic selections on jet multiplicity and total energy are also difficult for subdominant backgrounds such as $W$+jets, $Z$+jets, single top and QCD multijet to satisfy.  It is in general difficult for these other processes to produce such high jet multiplicity and total energy in the same half of the event as the $\MET$.   Processes such as $W$+jets and $Z$+jets normally have the $\MET$ recoiling against other energetic jets.  Therefore, energetic jets in these processes tend to lie in the hemisphere opposite the $\MET$.  Total subdominant background contributions to the signal region is around 20 to 40 percent depending on $\RISR$ region.  \\
 
 %\section{Kinematic Variables Definitions}
 %\label{sec:SR:Definitions}
 
 
 
-%\indent We construct variables that measure kinematic properties of both the ISR and sparticle hemispheres.  The variables used in SR definition are listed below: \\
+%\indent We construct variables that measure kinematic properties of both the ISR and sparticle hemispheres.  The variables used in the signal region definition are listed below: \\
 
 %\begin{description}
 %\item [\boldmath \nBJetS:] number of b-tagged jets associated with the sparticle hemisphere.
@@ -76,13 +156,13 @@
 \section{Signal Region Kinematic Selection}
 \label{sec:SR:Selections}
 
-\indent Kinematic Selections for Signal Region is defined in table \ref{tab:SignalRegionC}.\\
+\indent Kinematic Selections for Signal Region are defined in Table \ref{tab:SignalRegionC}.\\
 
-\indent The kinematic variables used are reconstructed using the recursive jigsaw method.  A detailed description of this method and variable defined can be found in section \ref{Jigsaw:ISR}.  In short, the recursive jigsaw method separates the event into two hemispheres according to the thrust axis.  The thrust axis, the axis that maximizes the amount of back-to-back $\pt$ along it, should approximate the direction of ISR and sparticle back-to-back recoil in events with strong ISR.  The hemisphere containing the $\MET$ is considered the sparticle hemisphere and the hemisphere opposite the $\MET$ is considered the ISR hemisphere.  All jets in the sparticle hemisphere are considered to have originated from one of the stop decays.  All jets in the ISR hemisphere are considered ISR jets.  The performance of this ISR identification algorithm can be found in section \ref{Jigsaw:Performance}. \\
+\indent The kinematic variables used are reconstructed using the Recursive Jigsaw method.  A detailed description of this method and variable defined can be found in section \ref{Jigsaw:ISR}.  In short, the Recursive Jigsaw method separates the event into two hemispheres according to the thrust axis.  The thrust axis, the axis that maximizes the amount of back-to-back $\pt$ along it, approximates the direction of ISR and sparticle back-to-back recoil in events with strong ISR.  The hemisphere containing the $\MET$ is considered the sparticle hemisphere and the hemisphere opposite the $\MET$ is considered the ISR hemisphere.  All jets in the sparticle hemisphere are considered to have originated from one of the stop decays.  All jets in the ISR hemisphere are considered ISR jets.  The performance of this ISR identification algorithm can be found in section \ref{Jigsaw:Performance}. \\
 
-\indent We also construct variables that measure kinematic properties of both the ISR and sparticle hemispheres.  These include $\NbV$ and $\NjV$, which describe the jet multiplicity of the sparticle system.  $\MS$, $\pTjV$, and $\pTSBZero$ are all related to the total energy in the sparticle system.  $\pTISR$ corresponds to the total $\pt$ of the ISR system.  Finally $\RISR$ and $\dphiISRI$ quantify the correlation between the ISR system and $\MET$ in both direction and magnitude. \\
+\indent We also construct variables that measure kinematic properties of both the ISR and sparticle hemispheres.  These include $\NjV$ and $\NbV$, the number of jets and b-tagged jets in the sparticle system.  $\MS$, $\pTjV$, and $\pTSBZero$ are all related to the total energy in the sparticle system.  $\MS$ is the total transverse mass of the sparticle system.  $\pTjV$ is the $\pt$ of the fourth highest $\pt$ jet in the sparticle system.  $\pTSBZero$ is the $\pt$ of the highest $\pt$ b-tagged jet in the sparticle system.  $\pTISR$ corresponds to the total $\pt$ of the ISR system.  Finally $\RISR = \met/\PTISR$ and $\dphiISRI$ quantify the correlation between the ISR system and $\MET$ in both direction and magnitude. \\
 
-\begin{table}[htpb]
+\begin{table}[h!]
   \begin{center}
     \def\arraystretch{1.4}%
     \begin{tabular}{c||c|c|c|c|c} \hline\hline
@@ -97,15 +177,29 @@
       \rISR &  0.30-0.40 & 0.40-0.50 & 0.50-0.60 & 0.60-0.70 & 0.70-0.80\\  \hline \hline
     \end{tabular}
   \caption{Signal region definitions, in addition to the preselection requirements presented in Table~\ref{tab:0Lcommon}. }
-  \end{center}
   \label{tab:SignalRegionC}
+  \end{center}
 \end{table}%
 
-\indent The selections on $\nJetS$ and $\nBJetS$ ensures that the hemisphere with $\MET$ has high amounts of jet multiplicity.  These requirements are naturally satisfied in signal events because the two neutralinos go in the same direction as the six jets from the two stop decays.  However, this requirement is more difficult to satisfy for the top/anti-top back-to-back ttbar population since these events contain only a single leptonic or hadronic tau top in the same hemisphere as the $\MET$.  \\
+\indent The selections on $\nJetS \ge 5$ and $\nBJetS \ge 1$ ensures that the hemisphere with $\MET$ has high amounts of jet multiplicity.  These requirements are naturally satisfied in signal events because the six jets from the two stop decays are boosted by ISR toward the same direction as the two neutralinos.  However, this requirement is more difficult to satisfy for the top/anti-top back-to-back ttbar population since these events contain only a single leptonic or hadronic tau top in the same hemisphere as the $\MET$.  \\
 
-\indent The ttbar plus strong ISR population is able to pass this selection as both the leptonic and hadronic tops are in the sparticle hemisphere.  For this reason, the main background is comprised of these events after the sparticle jet multiplicity and the $\pTISR > 400 \GeV$ requirements.  The S/B ratio is around $1\:5$ after these selections.  \\
+\indent The ttbar plus strong ISR population is able to pass this selection as both the leptonic and hadronic tops are in the sparticle hemisphere.  For this reason, the main background is comprised of ttbar plus strong ISR events after the sparticle jet multiplicity and the $\pTISR > 400 \GeV$ requirements.  The S/B ratio is around $1$:$5$ after these selections.  \\
 
-%\indent Distribution of different kinematic variables is shown after a requirement on $\pTISR$, $\nJetS$, and $\nBJetS$ is shown in figure \ref{fig:SR:jetMultiplicity}. The ttbar MC is normalized to a 1 lepton control region with the same selections on sparticle jet multiplicity, and $\pTISR$.  All sub-dominant background are normalized to their respective CRs defined in section \ref{sec:Bkg:sub}.\\
+\indent The $\RISR$ distribution for signal and background is shown after the requirements on $\pTISR$, $\nJetS$, and $\nBJetS$ in Figure \ref{fig:SR:jetMultiplicity}. \\
+
+\begin{figure}[h!]
+  \begin{center}
+    \includegraphics[width=0.80\textwidth]{figures/plotSR/SR_ND1_RISR_3SR.eps}
+    \caption[$\RISR$ distribution for signal and background after preselection plus $\PTISR > 400 \gev$, $\NjV \ge 5$, and $\nBJetS \ge 1$ selections]{ $\RISR$ distribution for signal and background after preselection plus $\PTISR > 400 \gev$, $\NjV \ge 5$, and $\nBJetS \ge 1$ selections.  Stop signal rate is increased by a factor of 5 for better visibility. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics.  QCD background estimation is not included.  }
+  \label{fig:SR:jetMulti}
+    \end{center}
+\end{figure}
+
+\indent The signal peaks in the $\RISR$ distribution after the selections on $\PTISR$, $\NjV$ and $\NbV$ (in Figure \ref{fig:SR:jetMulti}) are much sharper when compared to the $\RISR$ distribution after preselection in Figure \ref{ig:presel_dist_RISR}.  The high $\NjV$ and $\PTISR$ requirements select for signal events with good correlations between ISR and $\met$.  In this way, the early selections on $\PTISR$, $\NjV$ and $\NbV$, increases the background rejection power on the later selections on $\RISR$ and $\dphiISRI$.  \\
+
+\indent The ttbar background distribution now peaks at approximately $\sim 0.55$.  The ttbar events with a high $\RISR$ of $\sim 0.75$ which dominated the ttbar $\RISR$ distribution after the zero lepton preselection in Figure \ref{fig:presel_dist_met} have been rejected.  The high $\RISR$ ttbar events corresponds to ttbar with strong top/anti-top back-to-back boost but has little real ISR $\pt$.  The lower $\RISR$ value correspond to ttbar with large real ISR $\pt$ because $\RISR = \met/\PTISR$.  The rejection of ttbar with $\RISR \sim 0.75$ is evidence that the selection is selecting mainly for ttbar events with strong ISR $\pt$.  \\ 
+
+%\indent Distribution of different kinematic variables is shown after a requirement on $\pTISR$, $\nJetS$, and $\nBJetS$ is shown in figure \ref{fig:SR:jetMultiplicity}. The ttbar MC is normalized to a 1 lepton control region with the same selections on sparticle jet multiplicity, and $\pTISR$.  All subdominant background are normalized to their respective CRs defined in section \ref{sec:Bkg:sub}.\\
 
 %\begin{figure}[htbp]
 %  \begin{center}
@@ -120,11 +214,32 @@
 %  \label{fig:SR:jetMultiplicity}
 %\end{figure}
 
-\indent Next, we make a requirement on the total energy of the sparticle system.  The total transverse mass of the sparticle system, $\mS$, must be greater then $300 \gev$ and $\pTSFour$, $\pt$ of the 4th highest $\pt$ jet in the sparticle system, must be greater then $50 \gev$.  $\pTSBZero$, the highest $\pt$ b-jet in the sparticle system, must also be greater then $40 \gev$.   \\
+\indent Next, we make a requirement on the total energy of the sparticle system.  The total transverse mass of the sparticle system, $\mS$, must be greater then $300 \gev$ and $\pTSFour$, $\pt$ of the 4th highest $\pt$ jet in the sparticle system, must be greater then $50 \gev$.  $\pTSBZero$, the highest $\pt$ b-jet in the sparticle system, must also be greater then $40 \gev$.   The distribution of $\MS$, $\pTjV$ and $\pTSBZero$ after the $\NjV \ge 5$, $\NbV \ge 1$ and $\PTISR > 400 \gev$ selections are shown in Figure \ref{fig:SR:jetMulti2}. \\
 
-\indent In general, the signal with two fully hadronic tops has more energy in the sparticle hemisphere then ttbar.  The top/anti-top back-to-back recoil population is nearly eliminated by these selections.  Of the ttbar events that passed zero lepton preselection, less then 2 percent of ttbar events with true ISR $\pt$ less then $400 \gev$ pass these additional requirements.   Even for ttbar events with greater then $600 \gev$ of true ISR $\pt$, the selection efficiency remain at approximately 35 percent.  S/B ratio improves to around $1\:2$ after these selections. \\
+\begin{figure}[h!]
+  \begin{center}
+    \begin{subfigure}[a]{0.45\textwidth}    
+    	 \includegraphics[width=\textwidth]{figures/plotSR/SR_ND1_pTjV4_3SR.eps}\hspace{0.05\textwidth}
+                \caption{ }
+    \end{subfigure}
+    \begin{subfigure}[a]{0.45\textwidth}    
+    	 \includegraphics[width=\textwidth]{figures/plotSR/SR_ND1_pTbV1_3SR.eps}\hspace{0.05\textwidth}
+                \caption{ }
+    \end{subfigure}
+    \begin{subfigure}[a]{0.45\textwidth}    
+    	 \includegraphics[width=\textwidth]{figures/plotSR/SR_ND1_MS_3SR.eps}\hspace{0.05\textwidth}
+                \caption{ }
+    \end{subfigure}
+     \caption[$\MS$, $\pTjV$, and $\pTbV1$ distributions for signal and background after preselection plus $\PTISR > 400 \gev$, $\NjV \ge 5$, and $\nBJetS \ge 1$ selections]{ $\MS$, $\pTjV$, and $\pTbV1$ distributions for signal and background after preselection plus $\PTISR > 400 \gev$, $\NjV \ge 5$, and $\nBJetS \ge 1$ selections.  Stop signal rate is increased by a factor of 5 for better visibility. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics.  QCD background estimation is not included.  }
+  \label{fig:SR:jetMulti2}
+    \end{center}
+\end{figure}
 
-%\indent Distribution of various kinematic variables after sparticle jet multiplicity, $\pTISR$, and sparticle energy requirement is shown in figure \ref{fig:SR:sparticleEnergy}.  The ttbar MC is normalized to a 1 lepton control region with the same selections on sparticle jet multiplicity, $\pTISR$, and sparticle energy requirement.  All sub-dominant background are normalized to their respective CRs defined in section \ref{sec:Bkg:sub}.\\
+\indent In general, the signal with two fully hadronic tops has higher energy jets and more total energy in the sparticle hemisphere then SM ttbar.  The top/anti-top back-to-back recoil ttbar population is nearly eliminated by these selections as they only have a single leptonic top in the same hemisphere as $\met$.  In ttbar events with strong ISR, the ISR boosts both tops toward the hemisphere containing $\met$.  However, the combined energy of the hadronic and leptonic tops is still less on average than the energy of two hadronic tops plus two neutralinos in the stop signal.  The $\MS > 300 \gev$, $\pTjV > 50 \gev$ and $\pTbV1 > 40 \gev$ requirements improve the S/B ratio to around $1$:$2$. \\
+
+ %Of the ttbar events that passed zero lepton preselection, less then 2 percent of ttbar events with true ISR $\pt$ less then $400 \gev$ pass these additional requirements.   The ttbar that also strong ISR $\pt$ still find this requirement difficult to satisfy.  Even ttbar events with greater then $600 \gev$ of true ISR $\pt$ has a selection efficiency of approximately 35 percent.  S/B ratio improves to around $1$:$2$ after these selections. \\
+
+%\indent Distribution of various kinematic variables after sparticle jet multiplicity, $\pTISR$, and sparticle energy requirement is shown in figure \ref{fig:SR:sparticleEnergy}.  The ttbar MC is normalized to a 1 lepton control region with the same selections on sparticle jet multiplicity, $\pTISR$, and sparticle energy requirement.  All subdominant background are normalized to their respective CRs defined in section \ref{sec:Bkg:sub}.\\
 %\begin{figure}[htbp]
 %  \begin{center}
 %    \includegraphics[width=0.45\textwidth]{figures/ttbar/postfit/CA_RISR_CRTopC}
@@ -137,51 +252,56 @@
 %  \label{fig:SR:sparticleEnergy}
 %\end{figure}
 
-\indent Lastly we make selections based on the correlations between the $\MET$ and ISR systems.  $\dPhiISRMET > 3.0$ ensures the $\MET$ and ISR systems are back-to-back.  The ISR system and $\MET$ must be nearly back-to-back in signal because the neutralino gains momenta mainly from ISR.  On the other hand, the neutrino in SM ttbar gains significant momentum from the top decay and its correlation with ISR is not as strong. The is also true for sub-dominant backgrounds including $W$+jet and single top. \\
+\indent Lastly we make selections based on the correlations between the $\MET$ and ISR systems.  $\dPhiISRMET > 3.0$ ensures the $\MET$ and ISR systems are back-to-back.  The ISR system and $\MET$ must be nearly back-to-back in signal because the neutralino gains momenta mainly from ISR.  On the other hand, the neutrino in SM ttbar gains significant momentum from the top decay and its correlation with ISR is not as strong. The is also true for subdominant backgrounds including $W$+jet and single top. \\
 
-\indent The distribution of $\dPhiISRMET$ with all previous selections on sparticle jet multiplicity and sparticle system energy applied is shown in figure \ref{fig:SR:dphiISRMET}.   %The ttbar MC is normalized to a 1 lepton control region with the same selections on sparticle jet multiplicity, $\pTISR$, and sparticle energy requirement.  All sub-dominant background are normalized to their respective CRs defined in section \ref{sec:Bkg:sub}. \\
+\indent The distribution of $\dPhiISRMET$ with all previous selections on $\PTISR > 400 \gev$, sparticle hemisphere jet multiplicity and sparticle hemisphere energy is shown in Figure \ref{fig:SR:dphiISRMET}. \\  %The ttbar MC is normalized to a 1 lepton control region with the same selections on sparticle jet multiplicity, $\pTISR$, and sparticle energy requirement.  All subdominant background are normalized to their respective CRs defined in section \ref{sec:Bkg:sub}. \\
 
-\begin{figure}[htbp]
+\begin{figure}[h!]
   \begin{center}
      \includegraphics[width=0.80\textwidth]{figures/plotSR/SR_ND1_dphiISRI_6SR.eps}
-  \end{center}
-  \caption{$\dPhiISRMET$ distributions for the zero lepton preselection plus sparticle jet multiplicity, $\pTISR$, and sparticle total energy requirement with \intlumi\ \ifb\ of data. The ratio between data and MC is shown in the bottom panel. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics}
+  \caption[$\dPhiISRMET$ distribution after the zero lepton preselection, $\pTISR > 400 \gev$, sparticle hemisphere jet multiplicity and sparticle hemisphere energy requirements]{$\dPhiISRMET$ distribution after the zero lepton preselection, $\pTISR > 400 \gev$, sparticle hemisphere jet multiplicity and sparticle hemisphere energy requirements. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics}
   \label{fig:SR:dphiISRMET}
+    \end{center}
 \end{figure}
 
-\indent The final $\RISR$ distribution after all signal selections is shown in figure \ref{fig:SR:RISR}.  This $\RISR$ distribution is then separated into $5$ bins from $0.3$ to $0.8$.  The 5 SR bins are fitted simultaneously to extract the signal strength.  We expect to receive very little signal events in $\RISR$ below 0.3 and the region is dominated by QCD background.  As such the $\RISR$ region below 0.3 is not included in the final SR fit.  \\
+\indent The final $\RISR$ distribution after all signal selections is shown in Figure \ref{fig:SR:RISR1}.  This $\RISR$ distribution is then separated into $5$ bins from $0.3$ to $0.8$.  The 5 signal region bins are fitted simultaneously to extract the signal strength.  We expect to receive very little signal events in $\RISR$ below 0.3 and the region is dominated by QCD background.  As such the $\RISR$ region below 0.3 is not included in the final signal region fit.  \\
 
-\begin{figure}[htbp]
+\begin{figure}[h!]
   \begin{center}
      \includegraphics[width=0.80\textwidth]{figures/plotSR/SR_ND1_RISR_7SR.eps}
+  \caption[$\RISR$ distribution after signal region selection corresponding to \intlumi\ \ifb\ of data]{ $\RISR$ distribution after signal region selection corresponding to \intlumi\ \ifb\ of data. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics}
+  \label{fig:SR:RISR1}
   \end{center}
-  \caption{ $\RISR$ distribution after signal region selection with \intlumi\ \ifb\ of data. The ratio between data and MC is shown in the bottom panel. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics}
-  \label{fig:SR:RISR}
 \end{figure}
 
-\indent Stop samples with different stop and neutralino masses will peak in different locations in $\RISR$ with a S/B ratio of approximately $2\:1$ under the peak.  The simultaneous fit to all five bins captures this peaking feature in $\RISR$ for any stop mass.  \\
+\indent Stop samples with different stop and neutralino masses will peak in different locations in $\RISR$ with a S/B ratio of approximately $2$:$1$ under the peak.  The simultaneous fit to all five bins captures this peaking feature in $\RISR$ for any stop mass.  \\
 
 \section{Signal Region Expected Yields and Kinematic Distributions}
 \label{sec:SR:Yields}
 
-\indent The expected yields in SR are given in table \ref{tab:SRyield}.  All backgrounds have been normalized to CR defined in chapter \ref{chap:backgrounds}.  Signal yields for three example signal samples with stop, neutralino masses of $(300,127 \gev), (400,227\gev), $ and $(500,327 \gev)$ are also shown for comparison.  We achieved a $1\:1$ to $2\:1$ S/B ratio under the signal $\RISR$ peak in SR. \\
+\indent The expected yields in the signal region are given in Table \ref{table.SRYields}.  Signal yields for three example signal samples with stop, neutralino masses of $(300,127 \gev), (400,227\gev), $ and $(500,327 \gev)$ are also shown for comparison.  We achieved a $1$:$1$ to $2$:$1$ S/B ratio under the signal $\RISR$ peak in the signal region. \\
 
-\begin{table}
-  \begin{center}
-    \def\arraystretch{1.4}%
-    \input{tables/SRYields/SRC1Yields.tex}
-    \input{tables/SRYields/SRC2Yields.tex}
-    \input{tables/SRYields/SRC3Yields.tex}
-    \input{tables/SRYields/SRC4Yields.tex}
-    \input{tables/SRYields/SRC5Yields.tex}
-  \end{center}
-  \caption{Signal region expected discovery significance for select samples with 20\% background systematic uncertainty.}
-  \label{tab:SRyield}
-\end{table}
+\indent All expected background rates in the signal region have been normalized to control regions defined in chapter \ref{chap:backgrounds}.  The control regions are designed to mimic the background kinematics in the signal region but are orthogonal to the signal region and have low expected signal rate.  We directly measure the background rate using data in the control regions and use simulation to extrapolate background predictions from the control region to the signal region. \\
 
-\indent Distributions of kinematic variables in SR are shown in figure \ref{fig:SR} \\
+\input{tables/SRYields/YieldsTable.SRC.tex}
+%\input{tables/SRYields/YieldsTable.SRC4to5.tex}
 
-\begin{figure}[htbp]
+%\begin{table}
+%  \begin{center}
+%    \def\arraystretch{1.4}%
+%    \input{tables/SRYields/SRC1Yields.tex}
+%    \input{tables/SRYields/SRC2Yields.tex}
+%    \input{tables/SRYields/SRC3Yields.tex}
+%    \input{tables/SRYields/SRC4Yields.tex}
+%    \input{tables/SRYields/SRC5Yields.tex}
+%  \end{center}
+%  \caption{SR signal and background expected yields.}
+%  \label{tab:SRyield}
+%\end{table}
+
+\indent Distributions of kinematic variables in the signal region are shown in Figure \ref{fig:SR} \\
+
+\begin{figure}[h!]
   \begin{center}
     \includegraphics[width=0.45\textwidth]{figures/plotSR/SR_ND1_RISR_7SR.eps}
     \includegraphics[width=0.45\textwidth]{figures/plotSR/SR_ND1_PTISR_7SR.eps}
@@ -189,31 +309,10 @@
     \includegraphics[width=0.45\textwidth]{figures/plotSR/SR_NbV_7SR.eps}
     \includegraphics[width=0.45\textwidth]{figures/plotSR/SR_ND1_MS_7SR.eps}
     \includegraphics[width=0.45\textwidth]{figures/plotSR/SR_ND1_pTjV4_7SR.eps}
-    \caption{ Distributions for signal region selection. The ratio between data and MC is shown in the bottom panel. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics.  QCD background estimation is not included.  }
-    \end{center}
+    \caption[Kinematic distributions for signal region selection]{ Kinematic distributions for signal region selection. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics.  QCD background estimation is not included.  }
   \label{fig:SR}
+    \end{center}
 \end{figure}
 
-\section{Signal Region Background Composition}
-\label{sec:Bkg:Compositiion}
-
-The dominant background in all signal region bins is SM ttbar.  ttbar accounts for $85$ percent of all backgrounds in the signal region.  The next most prevalent background is W+jets which can reach up to 15 percent in high $\RISR$ bins. The breakdown of background composition is given in table \ref{tab:SRBkg} \\
-
-\begin{table}[htpb]
-  \begin{center}
-    \def\arraystretch{1.4}%
-    \begin{tabular}{c||c|c|c|c|c|c|} \hline\hline
-      \RISR Range & 0.2-0.3 & 0.3-0.4 & 0.4-0.5 & 0.5-0.6 & 0.6-0.7 & 0.7-0.8 \\  \hline
-      t\tbar  &  & & & & & \\  \hline
-      $W$+jets &  & & & & & \\  \hline 
-      $Z$+jets  &  & & & & & \\  \hline 
-      Single top & & & & & & \\ \hline
-      QCD & & & & & & \\ \hline
-      dibosons  & & & & & & \\ \hline \hline
-    \end{tabular}
-  \caption{Standard Model Background Composition in the signal region ~\ref{tab:SRBkg}.   }
-  \end{center}
-  \label{tab:SignalRegion}
-\end{table}%
 
 

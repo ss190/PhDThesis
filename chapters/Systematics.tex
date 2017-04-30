@@ -2,15 +2,25 @@
 \chapter{Systematic Uncertainties}
 \label{chap:Uncertainties}
 
-\indent Systematic uncertainties can be categorized into two separate categories, experimental uncertainties and theoretical uncertainties.  Experimental systematics result from uncertainties in physics object reconstruction, calibration and understanding the detectors.  Theoretical systematics result from uncertainties in theoretical calculations. Experimental uncertainties such as jet energy resolution are assumed to be 100 percent correlated across different background sources.  On the other hand, theoretical uncertainties are assumed to be uncorrelated from one another.  \\
+\indent Systematic uncertainties can be separated into two separate categories, experimental uncertainties and theoretical uncertainties.  Experimental systematics result from uncertainties in physics object reconstruction, calibration, the understanding of the detectors and the amount of additional pileup interactions.  Theoretical systematics result from uncertainties in PDFs, interaction scales, and theoretical calculations. Experimental uncertainties such as jet energy resolution are assumed to be 100 percent correlated across different background sources.  On the other hand, theoretical uncertainties are assumed to be uncorrelated from one another.  \\
 
-\indent In general systematic uncertainty are parameterized as independent nuisance parameters with gaussian constraints.  The systematic on backgrounds are evaluated through a simultaneous fit to CR and SR.  An estimate of the amount of systematic uncertainties on backgrounds in SR can be done by fitting the CR alone and extrapolating the result to the SR.  If the background prediction fluctuate in the same way in the CR and SR the total systematic in SR would be partially canceled out in the transfer factor.  This is why designing a CR that is kinematically similar to the SR is crucial to mitigating systematic uncertainties.  More detail on CR design and systematics can be found in chapter \ref{sec:Bkg:Tech} on background estimation and chapter \ref{chap:statistics} on statistics analysis.  \\
+\indent In general systematic uncertainties are parameterized as independent parameters with gaussian constraints.  These parameters are called ``nuisance'' parameters and normally denoted by the symbol $\alpha$.  The systematic errors on backgrounds are evaluated through a simultaneous fit to the CR and the SR.  An estimate of the systematic uncertainties on backgrounds in the SR can be made by fitting to the CR alone and extrapolating the result to the SR.  It is important to note that the fit can also lead to correlations between initially independent systematics uncertainties. \\
 
-\indent The fit may compensate for a change in one systematic by varying several other systematics in order to get the best fit in CR. This can lead to correlations between systematics that are initially parameterized as independent nuisance parameters before the fit to CR.  The correlation matrix between a reduced set of systematic variations and background scale factor after the simultaneous fit to all CRs are given in figure \ref{figure.corrMatrix}.  The scale factor $\mu$ is the amount that the expected background MC must be scaled up/down by so that data and MC yields agree in the CR.  \\
+\indent The amount of MC background in both the CR and SR will vary with experimental and theoretical systematics before the fit.  However after the fit the total amount of background will be normalized to the CR.  If the MC yield for background has a downward variation for a given systematic then the normalization scale factor will increase.  The increased normalization scale factor will compensate for the simultaneous drop in SR MC yield.  This partial cancelation of fluctuations between CR and SR can lead to smaller systematic uncertainties.  In effect, the CR reduces systematic uncertainty by directly measuring the amount of background in from data instead of relying solely on MC simulations.\\
 
-\indent Total background systematics is around $20\%$ in the SR.  The dominate background systematic uncertainty in the region between $0.3 < \RISR < 0.7$ is uncertainty on the jet energy scale, uncertainty on the ttbar ISR/FSR, and uncertainty on the ttbar matrix element and parton shower calculation with each attributing roughly 10\% to the total systematic uncertainty.  The theoretical uncertainty on the amount of interference between SM ttbar and single top at NLO is also significant.  The large systematic uncertainty in the $\RISR$ bin between $0.7-0.8$ is completely due to MC statistics caused by the low expected yield.  However the $0.7-0.8$ $\RISR$ region is completely statistically dominated for the same reason, expecting only 0.7 background events.  \\
+%If the background prediction varies in the same way in the CR and the SR the total systematic in SR is partially canceled out in the transfer factor.  
 
-\indent The background uncertainty in each SR $\RISR$ region ordered by size of the systematic is given in table \ref{table.results.bkgestimate.uncertainties.SRC1_SRC2_SRC3} and \ref{table.results.bkgestimate.uncertainties.SRC4_SRC5}.  \\
+\indent This is why designing a CR that is kinematically similar to the SR is crucial to mitigating systematic uncertainties.  More detail on CR design and systematics can be found in chapter \ref{sec:Bkg:Tech} on background estimation and chapter \ref{chap:statistics} on statistics analysis.  \\
+
+%\indent The fit may compensate for a change in one systematic by varying several other systematics in order to get the best fit in CR.  The correlation matrix between a reduced set of systematic variations and background scale factor after the simultaneous fit to all CRs are given in figure \ref{figure.corrMatrix}.
+
+%\indent The fit can also lead to correlations between systematics that are initially parameterized as independent nuisance parameters before the fit to CR.    The scale factor $\mu$ is the amount that the expected background MC must be scaled up/down by so that data and MC yields agree in the CR.  \\
+
+\indent The total background systematic uncertainty is $\approx 20\%$ in the SR.  The dominant background systematic uncertainties in the first four $\RISR$ SR bins, between $0.3 < \RISR < 0.7$, include uncertainty on the ttbar ISR/FSR, and uncertainty on the ttbar matrix element and parton shower calculation and uncertainty on the jet energy resolution.  Each of these dominant systematic uncertainties contributes 5-10\% to the total uncertainty on background rate in the SR.  The theoretical uncertainty on the amount of interference between SM ttbar and single top at NLO is also significant.  \\
+
+\indent The large systematic uncertainty in the highest $\RISR$ bin between $0.7-0.8$ is completely due to low MC statistics caused by the low expected yield.  However the $0.7-0.8$ $\RISR$ region is completely statistically dominated for the same reason, with only 0.7 expected background events.  \\
+
+\indent The dominant background uncertainties in each SR bin is given in table \ref{table.results.bkgestimate.uncertainties.SRC1_SRC2_SRC3} and \ref{table.results.bkgestimate.uncertainties.SRC4_SRC5}.  \\
 
 %\begin{table}[htpb]
   %\caption{5 Largest Systematic Uncertainty on SM background in the Signal Region. }
@@ -23,23 +33,23 @@
  % \end{center}
 %\end{table}%
 
-\input{HistFitterStuff/SysTable.SRC1to3}
-\input{HistFitterStuff/SysTable.SRC4to5}
+\input{HistFitterStuff/SysTable.SRC}
+%\input{HistFitterStuff/SysTable.SRC4to5}
 
-\begin{sidewaysfigure}[htbp]
-	\begin{center}
-		\includegraphics[width=0.85\textwidth, angle=90]{HistFitterStuff/corrMatrix.pdf}
-		\caption{Correlation matrix between select nuisance parameters.}
-		\label{figure.corrMatrix}
-	\end{center}
-\end{sidewaysfigure}
+%\begin{sidewaysfigure}[htbp]
+%	\begin{center}
+%		\includegraphics[width=0.85\textwidth, angle=90]{HistFitterStuff/corrMatrix.pdf}
+%		\caption{Correlation matrix between select nuisance parameters.}
+%		\label{figure.corrMatrix}
+%	\end{center}
+%\end{sidewaysfigure}
 
-\indent The post-fit pull is given in figure \ref{figure.pullPlot}.  No profiling of any systematics is observed. \\
+\indent The post background only fit pull is given in figure \ref{figure.pullPlot}.  All nuisance parameters, $\alpha$, are close to zero with uncertainties close to plus/minus one.  No profiling of any systematics is observed. \\
 
 \begin{figure}[htbp]
 	\begin{center}
-		\includegraphics[width=0.75\textwidth, angle=90]{HistFitterStuff/pullPlot.pdf}
-		\caption{Post-fit pull plot for the background-only fit.}
+		\includegraphics[width=0.45\textwidth, angle=180]{HistFitterStuff/pullPlot.pdf}
+		\caption[Post-fit pull plot for the background-only fit]{Post-fit pull plot for the background-only fit.  All nuisance parameters ($\alpha$) are close to zero after the fit with a fit uncertainty close to plus/minus 1.  No profiling of any systematics is observed.  The background normalization factors to background control regions, $\mu$, are also shown.  Most background normalization factors are statistically consistent with the nominal value of 1.0 but mu\_ttbarC, the ttbar normalization in the ttbar+strong ISR control region, has a central value of 0.707 and is inconsistent with 1.0.  This is because the ttbar MC overestimates the amount of ttbar+strong ISR.   }
 		\label{figure.pullPlot}
 	\end{center}
 \end{figure}

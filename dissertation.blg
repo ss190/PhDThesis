@@ -3,33 +3,28 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: chapters/Introduction.aux
 A level-1 auxiliary file: chapters/Motivation.aux
+A level-1 auxiliary file: chapters/AnaStrategy.aux
 A level-1 auxiliary file: chapters/LHC.aux
 A level-1 auxiliary file: chapters/Reconstruction.aux
 A level-1 auxiliary file: chapters/Trigger.aux
 A level-1 auxiliary file: chapters/ObjectDef.aux
 A level-1 auxiliary file: chapters/MCSimulation.aux
-A level-1 auxiliary file: chapters/AnaStrategy.aux
-White space in argument---line 10 of file chapters/AnaStrategy.aux
- : \citation{HLLHC_stop
- :                      }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/Jigsaw.aux
 A level-1 auxiliary file: chapters/EventSelection.aux
 A level-1 auxiliary file: chapters/SignalRegion.aux
 A level-1 auxiliary file: chapters/Background.aux
-A level-1 auxiliary file: chapters/Systematics.aux
 A level-1 auxiliary file: chapters/Statistics.aux
+A level-1 auxiliary file: chapters/Systematics.aux
 A level-1 auxiliary file: chapters/Results.aux
-A level-1 auxiliary file: chapters/Interpretation.aux
 A level-1 auxiliary file: chapters/conclusion.aux
 A level-1 auxiliary file: chapters/appendixA.aux
 The style file: apalike2.bst
 Database file #1: references.bib
-You're missing a field name---line 28 of file references.bib
+You're missing a field name---line 70 of file references.bib
  : abstract="",                                                                                                                                                                                         
  :                                                                                                                                                                                                      ",
 I'm skipping whatever remains of this entry
-You're missing a field name---line 221 of file references.bib
+You're missing a field name---line 263 of file references.bib
  : 
  : %jet reco
 (Error may have been on previous line)
@@ -38,9 +33,18 @@ Warning--I didn't find a database entry for "Calibartion13TeV"
 Warning--I didn't find a database entry for "topoCalib"
 Warning--I didn't find a database entry for "antikt"
 Warning--I didn't find a database entry for "Herwig"
-Warning--I didn't find a database entry for "sherpa"
 Warning--I didn't find a database entry for "Geant"
+Warning--I didn't find a database entry for "sherpa.OpenLoops"
 Warning--I didn't find a database entry for "stop0Lmoriond"
+Warning--to sort, need author or key in JES_dijet
+Warning--to sort, need author or key in JVT
+Warning--to sort, need author or key in btagging2016
+Warning--to sort, need author or key in EleID
+Warning--to sort, need author or key in EMReco13TeV
+Warning--to sort, need author or key in METReco
+Warning--to sort, need author or key in Trigger2016
+Warning--to sort, need author or key in stop0LCONF
+Warning--to sort, need author or key in SUSYinclusive0L
 Warning--to sort, need author or key in VertexReco
 Warning--to sort, need author or key in jetReco7TeV
 Warning--to sort, need author or key in jetReco13TeV
@@ -48,18 +52,11 @@ Warning--to sort, need author or key in pileupsub
 Warning--to sort, need author or key in JetCalibartion13TeV
 Warning--to sort, need author or key in jet_GSC
 Warning--to sort, need author or key in JES_ZGamma
-Warning--to sort, need author or key in JES_dijet
-Warning--to sort, need author or key in JVT
 Warning--to sort, need author or key in JetCleaning
-Warning--to sort, need author or key in btagging2016
 Warning--to sort, need author or key in btagging2015
-Warning--to sort, need author or key in EMReco13TeV
-Warning--to sort, need author or key in EleID
 Warning--to sort, need author or key in photonID
-Warning--to sort, need author or key in METReco
-Warning--to sort, need author or key in Trigger2016
 Warning--to sort, need author or key in Pythia8tunes
-Warning--to sort, need author or key in HLLHC_stop
+Warning--to sort, need author or key in ttbarDiffCross
 Warning--to sort, need author or key in METPerform
 Warning--empty author in jetReco7TeV
 Warning--empty author in pileupsub
@@ -77,52 +74,53 @@ Warning--empty author in JetCleaning
 Warning--empty author in VertexReco
 Warning--empty author in EMReco13TeV
 Warning--empty author in EleID
+Warning--empty author in ttbarDiffCross
 Warning--empty author in btagging2016
 Warning--empty author in photonID
-Warning--empty author in HLLHC_stop
+Warning--empty author in stop0LCONF
+Warning--empty author in SUSYinclusive0L
 Warning--empty author in Trigger2016
 Warning--empty institution in IBL_TDR
 Warning--empty journal in MartinSUSY
-Warning--empty note in ATLASSig
-You've used 55 entries,
+You've used 57 entries,
             2229 wiz_defined-function locations,
-            847 strings with 14683 characters,
-and the built_in function-call counts, 21758 in all, are:
-= -- 1946
-> -- 1211
-< -- 39
-+ -- 464
-- -- 446
-* -- 2157
-:= -- 3888
-add.period$ -- 166
-call.type$ -- 55
-change.case$ -- 474
-chr.to.int$ -- 51
-cite$ -- 118
-duplicate$ -- 739
-empty$ -- 1308
-format.name$ -- 493
-if$ -- 4021
+            856 strings with 15105 characters,
+and the built_in function-call counts, 22449 in all, are:
+= -- 2008
+> -- 1236
+< -- 40
++ -- 474
+- -- 456
+* -- 2230
+:= -- 4000
+add.period$ -- 173
+call.type$ -- 57
+change.case$ -- 487
+chr.to.int$ -- 53
+cite$ -- 125
+duplicate$ -- 770
+empty$ -- 1361
+format.name$ -- 501
+if$ -- 4153
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 279
+missing$ -- 31
+newline$ -- 290
 num.names$ -- 105
-pop$ -- 398
+pop$ -- 412
 preamble$ -- 1
-purify$ -- 498
+purify$ -- 513
 quote$ -- 0
-skip$ -- 492
+skip$ -- 507
 stack$ -- 0
-substring$ -- 1084
-swap$ -- 77
-text.length$ -- 24
+substring$ -- 1119
+swap$ -- 82
+text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 330
-warning$ -- 43
-while$ -- 98
+type$ -- 342
+warning$ -- 46
+while$ -- 99
 width$ -- 0
-write$ -- 718
-(There were 3 error messages)
+write$ -- 747
+(There were 2 error messages)

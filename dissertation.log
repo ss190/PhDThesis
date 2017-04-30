@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  19 APR 2017 23:52
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  30 APR 2017 19:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1393,7 +1393,7 @@ Package: quotchap 2012/10/20 v1.1 Decorative Chapter Headings with Quotes
 \@quotebox=\box86
 )
 \mybibindent=\skip128
-Package hyperref Info: Option `colorlinks' set `true' on input line 241.
+Package hyperref Info: Option `colorlinks' set `true' on input line 242.
 )
 (./dissertation.aux (./chapters/Introduction.aux) (./chapters/Motivation.aux
 
@@ -1428,15 +1428,20 @@ LaTeX Warning: Label `fig:trigScheme' multiply defined.
 (./chapters/Jigsaw.aux) (./chapters/EventSelection.aux)
 (./chapters/SignalRegion.aux) (./chapters/Background.aux
 
-LaTeX Warning: Label `fig:ttgamma' multiply defined.
+LaTeX Warning: Label `fig:ttbar:2pop' multiply defined.
 
-) (./chapters/Systematics.aux
 
-LaTeX Warning: Label `fig:sys:JES' multiply defined.
+LaTeX Warning: Label `eqn:mindrblep' multiply defined.
 
-) (./chapters/Statistics.aux) (./chapters/Results.aux)
-(./chapters/Interpretation.aux) (./chapters/conclusion.aux)
-(./chapters/appendixA.aux))
+
+LaTeX Warning: Label `table.bkgonly.CRW' multiply defined.
+
+
+LaTeX Warning: Label `eqn:dphijetmet' multiply defined.
+
+) (./chapters/Statistics.aux) (./chapters/Systematics.aux)
+(./chapters/Results.aux) (./chapters/conclusion.aux) (./chapters/appendixA.aux)
+)
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1459,8 +1464,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 7.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 7.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 7.
@@ -1611,100 +1615,74 @@ Track Reconstruc-
 
 [5
 
-] [6]
+]
+LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 10.6763pt on input line 42.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `SourceCodePro' (encoding: EU1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [6]
 Overfull \hbox (7.16547pt too wide) in paragraph at lines 74--74
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Physical Intuition on how Signal Region Se
 lections Reject SM Background[][] []  
  []
 
 
-Overfull \hbox (11.85042pt too wide) in paragraph at lines 82--82
+Overfull \hbox (15.70648pt too wide) in paragraph at lines 75--75
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Order of Magnitude Estimation of how Signa
+l Region Selections Improve 
+ []
+
+
+Overfull \hbox (13.46173pt too wide) in paragraph at lines 80--80
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Using Control and Validation Regions to Es
+timate Background in the Sig- 
+ []
+
+
+Overfull \hbox (11.85042pt too wide) in paragraph at lines 83--83
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Predicting the amount of $[][]$ in Signal 
 Region using a One Lepton 
  []
 
 
-Overfull \hbox (15.87999pt too wide) in paragraph at lines 83--83
+Overfull \hbox (15.87999pt too wide) in paragraph at lines 86--86
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Validating $[][]$ Predictions in Signal Re
 gion using a Zero Lepton Val- 
  []
 
-[7])
+[7]
+Overfull \hbox (11.92705pt too wide) in paragraph at lines 107--107
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Uncertainties on the Jet Energy Scale and 
+Jet Energy Resolution 
+ []
+
+
+Overfull \hbox (16.98598pt too wide) in paragraph at lines 110--110
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Uncertainty on Lepton Reconstruction Effic
+iencies and Energy Scale[][] []  
+ []
+
+)
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
  [8] (./dissertation.lof
 LaTeX Font Info:    Font shape `EU1/Avenir(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
+(Font)              scaled to size 8.0pt on input line 4.
 LaTeX Font Info:    Font shape `EU1/Avenir(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 3.
+(Font)              scaled to size 6.0pt on input line 4.
 
-Overfull \hbox (16.8792pt too wide) in paragraph at lines 3--3
- [][] [][][]$[][]$ \EU1/Avenir(2)/m/n/10.95 distribution for $\OT1/cmr/m/n/10.9
-5 ([][]\OML/cmm/m/it/10.95 ; [][]\OT1/cmr/m/n/10.95 ) = ([][][][][]\OML/cmm/m/i
-t/10.95 ; [][]\OT1/cmr/m/n/10.95 )$ \EU1/Avenir(2)/m/n/10.95 and $\OT1/cmr/m/n/
-10.95 ([][][][]\OML/cmm/m/it/10.95 ; [][][][]\OT1/cmr/m/n/10.95 )$ 
+Overfull \hbox (3.88327pt too wide) in paragraph at lines 4--4
+ \EU1/Avenir(2)/m/n/10.95 tion after loose preliminary selections for $[][] \OM
+L/cmm/m/it/10.95 > [][][][]$\EU1/Avenir(2)/m/n/10.95 , zero leptons 
  []
 
 
-Overfull \hbox (5.3113pt too wide) in paragraph at lines 3--3
- \EU1/Avenir(2)/m/n/10.95 stop signal and expected SM background. The signal cr
-oss section has 
- []
-
-
-Overfull \hbox (6.51576pt too wide) in paragraph at lines 3--3
- \EU1/Avenir(2)/m/n/10.95 been scaled up by 150 and 15 respectively for better 
-visibility. Basic se- 
- []
-
-
-Overfull \hbox (22.76854pt too wide) in paragraph at lines 3--3
- \EU1/Avenir(2)/m/n/10.95 lections ensuring well reconstructed $[][]$, no lepto
-ns, and minimal jet mul- 
- []
-
-
-Overfull \hbox (17.9301pt too wide) in paragraph at lines 3--3
- \EU1/Avenir(2)/m/n/10.95 tiplicity requirements are applied. Details on select
-ions can be found in$[]$ 
- []
-
-
-Overfull \hbox (26.6442pt too wide) in paragraph at lines 4--4
- \EU1/Avenir(2)/m/n/10.95 and $\OT1/cmr/m/n/10.95 ([][][][]\OML/cmm/m/it/10.95 
-; [][][][]\OT1/cmr/m/n/10.95 )$ \EU1/Avenir(2)/m/n/10.95 stop signal and expect
-ed SM background. All three 
- []
-
-
-Overfull \hbox (8.7824pt too wide) in paragraph at lines 4--4
- \EU1/Avenir(2)/m/n/10.95 been scaled up by a factor of 20 for better visibilit
-y. Basic selections en- 
- []
-
-
-Overfull \hbox (3.21185pt too wide) in paragraph at lines 4--4
- \EU1/Avenir(2)/m/n/10.95 suring well reconstructed $[][]$, no leptons, and min
-imal jet multiplicity 
- []
-
-
-Overfull \hbox (11.01988pt too wide) in paragraph at lines 5--5
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 95% confidence limits on stop parameter sp
-ace from various analysis on 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--5
- \EU1/Avenir(2)/m/n/10.95 ATLAS Run 1 searches. Different colored regions corre
-spond to differ- 
- []
-
-
-Overfull \hbox (22.63417pt too wide) in paragraph at lines 5--5
- \EU1/Avenir(2)/m/n/10.95 ent search strategies including different experimenta
-l signatures. The $[][] \OMS/cmsy/m/n/10.95 ^^@ 
+Overfull \hbox (3.25912pt too wide) in paragraph at lines 5--5
+ \EU1/Avenir(2)/m/n/10.95 after loose preliminary selections for $[][] \OML/cmm
+/m/it/10.95 > [][][][]$\EU1/Avenir(2)/m/n/10.95 , zero leptons and 
  []
 
 
@@ -1714,264 +1692,65 @@ ace from various analysis on
  []
 
 
-Overfull \hbox (0.36664pt too wide) in paragraph at lines 6--6
- \EU1/Avenir(2)/m/n/10.95 CMS $[] \OT1/cmr/m/n/10.95 = [] + [][]$ \EU1/Avenir(2
-)/m/n/10.95 data. Regions below colored curves have been ex- 
+Overfull \hbox (11.01988pt too wide) in paragraph at lines 7--7
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 95% confidence limits on stop parameter sp
+ace from various analysis on 
  []
 
 
-Overfull \hbox (6.99757pt too wide) in paragraph at lines 6--6
- \EU1/Avenir(2)/m/n/10.95 cluded by CMS Run 1 searches. Different colored curve
-s correspond to 
- []
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 8.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
- \EU1/Avenir(2)/m/n/10.95 different search strategies including different exper
-imental signatures. 
- []
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 7.
-
-
-Overfull \hbox (9.2039pt too wide) in paragraph at lines 7--7
+Overfull \hbox (5.92986pt too wide) in paragraph at lines 8--8
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Correlation between the $[][]\OML/cmm/m/it
-/10.95 =[][]$ \EU1/Avenir(2)/m/n/10.95 ratio in simulation for two stop sam- 
+/10.95 =[][]$ \EU1/Avenir(2)/m/n/10.95 ratio in simulation for stop samples 
  []
 
 
-Overfull \hbox (11.8922pt too wide) in paragraph at lines 7--7
- \EU1/Avenir(2)/m/n/10.95 with only a gaussian width of 4 percent. Deviation fr
-om the preferred ra- 
+Overfull \hbox (16.49487pt too wide) in paragraph at lines 9--9
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic depictions of stop plus strong i
+nitial state radiation event kine- 
  []
 
 
-Overfull \hbox (14.27203pt too wide) in paragraph at lines 7--7
- \EU1/Avenir(2)/m/n/10.95 tio is limited by the top width, as the top must be p
-ulled off-shell to gen- 
+Overfull \hbox (5.23875pt too wide) in paragraph at lines 10--10
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Distributions of the reconstructed ISR $[]
+[]$ over true ISR $[][]$ ratio for stop 
  []
 
 
-Overfull \hbox (1.91675pt too wide) in paragraph at lines 7--7
- \EU1/Avenir(2)/m/n/10.95 erate phase space. No detector resolution effects whe
-re included and 
- []
-
-
-Overfull \hbox (18.7469pt too wide) in paragraph at lines 8--8
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic depictions of stop plus strong I
-SR event kinematics. The thrust 
- []
-
-
-Overfull \hbox (9.42119pt too wide) in paragraph at lines 8--8
- \EU1/Avenir(2)/m/n/10.95 axis approximates the direction of back-to-back boost
- between ISR and 
- []
-
-
-Overfull \hbox (18.15492pt too wide) in paragraph at lines 8--8
- \EU1/Avenir(2)/m/n/10.95 stop decay products. The hemisphere containing $[][]$
- also contains most 
- []
-
-
-Overfull \hbox (19.85217pt too wide) in paragraph at lines 8--8
- \EU1/Avenir(2)/m/n/10.95 of the other stop decay products. The hemisphere oppo
-site the $[][]$ con- 
- []
-
-[9
-
-]
-Overfull \hbox (21.01746pt too wide) in paragraph at lines 9--9
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Reconstructed over true ISR $[][]$ ratio d
-istributions for stop signal and ttbar 
- []
-
-
-Overfull \hbox (9.59271pt too wide) in paragraph at lines 9--9
- \EU1/Avenir(2)/m/n/10.95 background in simulation. Only events with at least $
-[][][]$ GeV of true ISR 
- []
-
-
-Overfull \hbox (9.62578pt too wide) in paragraph at lines 9--9
- [][]$ \EU1/Avenir(2)/m/n/10.95 are accepted. The red distribution is formed wh
-en the whole ISR sys- 
- []
-
-
-Overfull \hbox (7.14015pt too wide) in paragraph at lines 9--9
- \EU1/Avenir(2)/m/n/10.95 tem is equated to just the highest $[][]$ jet. The bl
-ue distribution uses the 
- []
-
-
-Overfull \hbox (12.27544pt too wide) in paragraph at lines 9--9
- \EU1/Avenir(2)/m/n/10.95 thrust based ISR identification system. Detector reso
-lution effects are in- 
- []
-
-
-Overfull \hbox (7.3626pt too wide) in paragraph at lines 10--10
+Overfull \hbox (7.3626pt too wide) in paragraph at lines 11--11
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 95% confidence limit on stop parameter spa
 ce resulting from all ATLAS 
  []
 
 
-Overfull \hbox (11.84842pt too wide) in paragraph at lines 10--10
- \EU1/Avenir(2)/m/n/10.95 stop searches on the 2015+2016 dataset. The compresse
-d analysis is re- 
- []
-
-
-Overfull \hbox (17.71762pt too wide) in paragraph at lines 10--10
- \EU1/Avenir(2)/m/n/10.95 diagonal line. The compressed analysis also has sensi
-tivity to much of the 
- []
-
-
-Overfull \hbox (16.3707pt too wide) in paragraph at lines 10--10
- \EU1/Avenir(2)/m/n/10.95 ing the 2 lepton analysis in purple. 8 $[]$ ATLAS res
-ults are shown in light 
- []
-
-
-Overfull \hbox (16.93288pt too wide) in paragraph at lines 13--13
+Overfull \hbox (16.93288pt too wide) in paragraph at lines 14--14
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 One-Loop corrections due to a Dirac fermio
 n $[]$ and a scalar $[]$ to the Higgs 
  []
 
 
-Overfull \hbox (16.8792pt too wide) in paragraph at lines 15--15
- [][] [][][]$[][]$ \EU1/Avenir(2)/m/n/10.95 distribution for $\OT1/cmr/m/n/10.9
-5 ([][]\OML/cmm/m/it/10.95 ; [][]\OT1/cmr/m/n/10.95 ) = ([][][][][]\OML/cmm/m/i
-t/10.95 ; [][]\OT1/cmr/m/n/10.95 )$ \EU1/Avenir(2)/m/n/10.95 and $\OT1/cmr/m/n/
-10.95 ([][][][]\OML/cmm/m/it/10.95 ; [][][][]\OT1/cmr/m/n/10.95 )$ 
+Overfull \hbox (3.88327pt too wide) in paragraph at lines 17--17
+ \EU1/Avenir(2)/m/n/10.95 tion after loose preliminary selections for $[][] \OM
+L/cmm/m/it/10.95 > [][][][]$\EU1/Avenir(2)/m/n/10.95 , zero leptons 
  []
 
 
-Overfull \hbox (5.3113pt too wide) in paragraph at lines 15--15
- \EU1/Avenir(2)/m/n/10.95 stop signal and expected SM background. The signal cr
-oss section has 
+Overfull \hbox (3.88327pt too wide) in paragraph at lines 18--18
+ \EU1/Avenir(2)/m/n/10.95 tion after loose preliminary selections for $[][] \OM
+L/cmm/m/it/10.95 > [][][][]$\EU1/Avenir(2)/m/n/10.95 , zero leptons 
  []
 
 
-Overfull \hbox (6.51576pt too wide) in paragraph at lines 15--15
- \EU1/Avenir(2)/m/n/10.95 been scaled up by 150 and 15 respectively for better 
-visibility. Basic se- 
+Overfull \hbox (1.95747pt too wide) in paragraph at lines 19--19
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Gluino signal with large mass splittings a
+nd SM background $[][]$ distri- 
  []
 
+[9
 
-Overfull \hbox (22.76854pt too wide) in paragraph at lines 15--15
- \EU1/Avenir(2)/m/n/10.95 lections ensuring well reconstructed $[][]$, no lepto
-ns, and minimal jet mul- 
- []
-
-
-Overfull \hbox (17.9301pt too wide) in paragraph at lines 15--15
- \EU1/Avenir(2)/m/n/10.95 tiplicity requirements are applied. Details on select
-ions can be found in$[]$ 
- []
-
-
-Overfull \hbox (23.61554pt too wide) in paragraph at lines 16--16
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 (a) Feynman diagram for stop production an
-d decay. (b) $[][]$distribution 
- []
-
-
-Overfull \hbox (1.9003pt too wide) in paragraph at lines 16--16
- \EU1/Avenir(2)/m/n/10.95 for $\OT1/cmr/m/n/10.95 ([][]\OML/cmm/m/it/10.95 ; []
-[]\OT1/cmr/m/n/10.95 ) = ([][][][][]\OML/cmm/m/it/10.95 ; [][]\OT1/cmr/m/n/10.9
-5 )$ \EU1/Avenir(2)/m/n/10.95 and $\OT1/cmr/m/n/10.95 ([][][][]\OML/cmm/m/it/10
-.95 ; [][][][]\OT1/cmr/m/n/10.95 )$ \EU1/Avenir(2)/m/n/10.95 samples after 
- []
-
-
-Overfull \hbox (8.37721pt too wide) in paragraph at lines 16--16
- \EU1/Avenir(2)/m/n/10.95 lose selections for $[][] \OML/cmm/m/it/10.95 > [][][
-][]$\EU1/Avenir(2)/m/n/10.95 , zero leptons and at least four jets.$[]$ 
- []
-
-LaTeX Font Info:    Font shape `EU1/Avenir(2)/bx/n' will be
-(Font)              scaled to size 8.0pt on input line 17.
-
-Package natbib Warning: Citation `SUSYinclusive0L' on page x undefined on input
- line 17.
-
-
-Overfull \hbox (5.28258pt too wide) in paragraph at lines 17--17
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 (a) Feynman diagram for gluino production 
-and decay. (b) $[][]$ distribu- 
- []
-
-
-Overfull \hbox (1.0732pt too wide) in paragraph at lines 17--17
- \EU1/Avenir(2)/m/n/10.95 tion for gluino $\OT1/cmr/m/n/10.95 ([][]\OML/cmm/m/i
-t/10.95 ; [][]; [][]\OT1/cmr/m/n/10.95 ) = ([][][][][]\OML/cmm/m/it/10.95 ; [][
-][][]; [][][]\OT1/cmr/m/n/10.95 )$ \EU1/Avenir(2)/m/n/10.95 after lose 
- []
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 18.
-
-
-Overfull \hbox (1.28775pt too wide) in paragraph at lines 18--18
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Correlation between the $[][]$ ratio in si
-mulation for two different stop 
- []
-
-
-Overfull \hbox (9.75908pt too wide) in paragraph at lines 18--18
- \EU1/Avenir(2)/m/n/10.95 masses. Both stop samples peak sharply at $[][]\OML/c
-mm/m/it/10.95 =[][]$ \EU1/Avenir(2)/m/n/10.95 with only a gaussian 
- []
-
-
-Overfull \hbox (3.15411pt too wide) in paragraph at lines 18--18
- \EU1/Avenir(2)/m/n/10.95 width of 4 percent. Deviation from the preferred rati
-o is limited by the 
- []
-
-
-Overfull \hbox (4.64699pt too wide) in paragraph at lines 18--18
- \EU1/Avenir(2)/m/n/10.95 top width, as the top must be pulled off shell to gen
-erate phase space. 
- []
-
-
-Overfull \hbox (7.82245pt too wide) in paragraph at lines 18--18
- \EU1/Avenir(2)/m/n/10.95 No detector resolution effects where included and onl
-y the all hadronic 
- []
-
-[10]
-Overfull \hbox (18.7469pt too wide) in paragraph at lines 19--19
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic depictions of stop plus strong I
-SR event kinematics. The thrust 
- []
-
-
-Overfull \hbox (9.42119pt too wide) in paragraph at lines 19--19
- \EU1/Avenir(2)/m/n/10.95 axis approximates the direction of back-to-back boost
- between ISR and 
- []
-
-
-Overfull \hbox (18.15492pt too wide) in paragraph at lines 19--19
- \EU1/Avenir(2)/m/n/10.95 stop decay products. The hemisphere containing $[][]$
- also contains most 
- []
-
-
-Overfull \hbox (19.85217pt too wide) in paragraph at lines 19--19
- \EU1/Avenir(2)/m/n/10.95 of the other stop decay products. The hemisphere oppo
-site the $[][]$ con- 
- []
-
+]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 20.
 
@@ -1979,830 +1758,614 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 20.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 20.
 
 
-Overfull \hbox (10.75034pt too wide) in paragraph at lines 20--20
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 (a) $[][]$ distribution for stop signal an
-d SM background after loose selec- 
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 22.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 22.
+
+
+Overfull \hbox (6.76314pt too wide) in paragraph at lines 22--22
+ [][] [][][]$[][]$ \EU1/Avenir(2)/m/n/10.95 and $[][]$ distributions for stop s
+ignal and SM background after lose 
  []
 
 
-Overfull \hbox (11.04716pt too wide) in paragraph at lines 20--20
- \EU1/Avenir(2)/m/n/10.95 tribution for stop signal and background after lose s
-elections for $[][] \OML/cmm/m/it/10.95 > 
+Overfull \hbox (6.02666pt too wide) in paragraph at lines 23--23
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic depictions of the kinematics of 
+a ttbar event with the top re- 
  []
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 21.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 21.
-
-
-Overfull \hbox (1.51526pt too wide) in paragraph at lines 21--21
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic depictions of a ttbar top/anti-t
-op back-to-back recoil event 
+Overfull \hbox (30.07288pt too wide) in paragraph at lines 23--23
+ \EU1/Avenir(2)/m/n/10.95 coiling against the anti-top in a back-to-back manner
+ and a stop plus strong 
  []
 
 
-Overfull \hbox (13.46901pt too wide) in paragraph at lines 21--21
- \EU1/Avenir(2)/m/n/10.95 and a stop plus strong ISR event. The thrust axis app
-roximates the direc- 
+Overfull \hbox (14.52386pt too wide) in paragraph at lines 24--24
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic diagram demonstrating the use of
+ control regions to estimate 
  []
 
 
-Overfull \hbox (8.40283pt too wide) in paragraph at lines 21--21
- \EU1/Avenir(2)/m/n/10.95 tion of back-to-back boost between ISR and stop decay
- products in sig- 
- []
-
-
-Overfull \hbox (26.67838pt too wide) in paragraph at lines 21--21
- \EU1/Avenir(2)/m/n/10.95 nal and the back-to-back boost between the top and an
-ti-top in ttbar back- 
- []
-
-
-Overfull \hbox (19.33751pt too wide) in paragraph at lines 21--21
- \EU1/Avenir(2)/m/n/10.95 ground. This leads to the hemisphere containing $[][]
-$ has greater jet mul- 
- []
-
-
-Overfull \hbox (12.88136pt too wide) in paragraph at lines 22--22
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Basic diagram demonstrating the use of con
-trol regions (CR) to estimate 
- []
-
-
-Overfull \hbox (26.08708pt too wide) in paragraph at lines 22--22
- \EU1/Avenir(2)/m/n/10.95 background rates in the signal region (SR). We define
- CR that is dominated 
- []
-
-
-Overfull \hbox (24.93369pt too wide) in paragraph at lines 22--22
- \EU1/Avenir(2)/m/n/10.95 by background and have little signal. We can estimate
- the amount of back- 
- []
-
-
-Overfull \hbox (9.61829pt too wide) in paragraph at lines 22--22
- \EU1/Avenir(2)/m/n/10.95 ground we expect in the SR by measuring the amount of
- background in 
- []
-
-
-Overfull \hbox (6.32962pt too wide) in paragraph at lines 22--22
- \EU1/Avenir(2)/m/n/10.95 the CR and extrapolating to the SR using MC predictio
-ns. VRs exist be- 
- []
-
-
-Overfull \hbox (14.85236pt too wide) in paragraph at lines 22--22
- \EU1/Avenir(2)/m/n/10.95 tween CRs and SRs and serve as an independent region 
-to validate back- 
- []
-
-
-Overfull \hbox (14.6991pt too wide) in paragraph at lines 25--25
+Overfull \hbox (14.6991pt too wide) in paragraph at lines 27--27
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Cutaway view of the ATLAS detector with di
 fferent sub-detector systems 
  []
 
 
-Overfull \hbox (1.90948pt too wide) in paragraph at lines 26--26
+Overfull \hbox (1.90948pt too wide) in paragraph at lines 28--28
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Artistic representation of different detec
 tor signatures left by particles 
  []
 
 
-Overfull \hbox (7.61076pt too wide) in paragraph at lines 27--27
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 (a) Cutaway view of the ATLAS inner detect
-or. (b) Radial View of the AT- 
+Overfull \hbox (7.18736pt too wide) in paragraph at lines 32--32
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic depiction of the ATLAS electroma
+gnetic calorimeter module 
  []
 
 
-Overfull \hbox (16.88907pt too wide) in paragraph at lines 30--30
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 (a) The three layers of the EM module with
- the accordion geometry show. 
- []
-
-
-Overfull \hbox (21.95891pt too wide) in paragraph at lines 30--30
- \EU1/Avenir(2)/m/n/10.95 (b) Orientation of EM cells in the barrel and endcap 
-relative to the IP. Cells 
- []
-
-[11]
-Overfull \hbox (15.04947pt too wide) in paragraph at lines 31--31
+Overfull \hbox (15.04947pt too wide) in paragraph at lines 33--33
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 The tile calorimeter module with steel abs
 orber, tile scintillators and pho- 
  []
 
+LaTeX Font Info:    Font shape `EU1/Avenir(2)/bx/n' will be
+(Font)              scaled to size 8.0pt on input line 40.
 
-Overfull \hbox (4.41782pt too wide) in paragraph at lines 32--32
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Cutaway view of the ATLAS Muon Spectromete
-r. (Figure taken from$[]$) 
- []
-
-
-Overfull \hbox (5.15796pt too wide) in paragraph at lines 33--33
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Geometry of the barrel and endcap toroid m
-agnets. The cylinder repe- 
- []
+Package natbib Warning: Citation `Calibartion13TeV' on page x undefined on inpu
+t line 40.
 
 
-Overfull \hbox (13.45807pt too wide) in paragraph at lines 36--36
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic of the ATLAS muon trigger system
-. The coincidence windows 
- []
-
-
-Package natbib Warning: Citation `Calibartion13TeV' on page xii undefined on in
-put line 38.
-
-
-Overfull \hbox (5.3332pt too wide) in paragraph at lines 38--38
+Overfull \hbox (5.3332pt too wide) in paragraph at lines 40--40
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Flow chart of the steps involved in jet ca
 libration. (Figure taken from$[]$) 
  []
 
-LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.6763pt on input line 40.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `SourceCodePro' (encoding: EU1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 40.
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 42.
 
 
-Overfull \hbox (11.03084pt too wide) in paragraph at lines 40--40
+Overfull \hbox (11.03084pt too wide) in paragraph at lines 42--42
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 The distribution showing the jet vertex ta
 gger efficiency as a function of 
  []
 
 
-Overfull \hbox (4.4914pt too wide) in paragraph at lines 40--40
+Overfull \hbox (4.4914pt too wide) in paragraph at lines 42--42
  \EU1/Avenir(2)/m/n/10.95 jet $[][]$ in 2015+2016 data. Only jets balanced agai
 nst a $[]\OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 > [][]$ \EU1/Avenir(2)/m/n
 /10.95 boson 
  []
 
 
-Overfull \hbox (4.88788pt too wide) in paragraph at lines 41--41
+Overfull \hbox (4.88788pt too wide) in paragraph at lines 43--43
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Distribution of the MV20c10 multivariate d
 iscriminate used for tagging 
  []
 
 
-Overfull \hbox (9.4832pt too wide) in paragraph at lines 42--42
+Overfull \hbox (9.4832pt too wide) in paragraph at lines 44--44
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic representation of the electron r
 econstruction algorithm. (Fig- 
  []
 
-
-Overfull \hbox (0.15343pt too wide) in paragraph at lines 43--43
+[10]
+Overfull \hbox (0.15343pt too wide) in paragraph at lines 45--45
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Electron identification efficiency in 2016
  data as a function of $[][]$ and $\OML/cmm/m/it/10.95 ^^Q$ 
  []
 
 
-Overfull \hbox (4.30994pt too wide) in paragraph at lines 44--44
+Overfull \hbox (4.30994pt too wide) in paragraph at lines 46--46
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Photon identification efficiency in 2016 d
 ata as a function of $[][]$ for con- 
  []
 
 
-Overfull \hbox (16.3635pt too wide) in paragraph at lines 45--45
+Overfull \hbox (16.3635pt too wide) in paragraph at lines 47--47
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Flow chart of the steps involved in the ca
 libration of the energy response 
  []
 
 
-Overfull \hbox (42.15018pt too wide) in paragraph at lines 46--46
+Overfull \hbox (42.37418pt too wide) in paragraph at lines 48--48
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Distribution of muon reconstruction effici
 ency for loose and medium muons.$[]$ 
  []
 
 
-Overfull \hbox (15.48746pt too wide) in paragraph at lines 46--46
+Overfull \hbox (15.48746pt too wide) in paragraph at lines 48--48
  \EU1/Avenir(2)/m/n/10.95 where loose muons also accept calo-tagged and segment
  tagged muons 
  []
 
 
-Overfull \hbox (24.21461pt too wide) in paragraph at lines 47--47
+Overfull \hbox (24.21461pt too wide) in paragraph at lines 49--49
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Dimuon invariant mass before and after muo
 n momenta calibration in data 
  []
 
 
-Overfull \hbox (1.91118pt too wide) in paragraph at lines 48--48
+Overfull \hbox (1.91118pt too wide) in paragraph at lines 50--50
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Distribution of the TST $[][]$ resolution 
 relative to the total $[][]$ of recon- 
  []
 
 
-Overfull \hbox (3.11931pt too wide) in paragraph at lines 48--48
+Overfull \hbox (3.11931pt too wide) in paragraph at lines 50--50
  \EU1/Avenir(2)/m/n/10.95 structed objects in $[] \OMS/cmsy/m/n/10.95 ! [][]$ \
 EU1/Avenir(2)/m/n/10.95 events and Distribution of the TST $[][]$ res- 
  []
 
 
-Overfull \hbox (19.49022pt too wide) in paragraph at lines 48--48
+Overfull \hbox (19.49022pt too wide) in paragraph at lines 50--50
  \EU1/Avenir(2)/m/n/10.95 olution relative to the number of reconstructed verte
 xes in $[] \OMS/cmsy/m/n/10.95 ! [][]$ \EU1/Avenir(2)/m/n/10.95 events. 
  []
 
 
-Overfull \hbox (13.35027pt too wide) in paragraph at lines 48--48
+Overfull \hbox (13.04367pt too wide) in paragraph at lines 50--50
  [][]$ \EU1/Avenir(2)/m/n/10.95 resolution degrades as $[][]$ and pileup increa
 ses. (Figures taken from$[]$)[][] []  
  []
 
 
-Overfull \hbox (5.17258pt too wide) in paragraph at lines 50--50
+Overfull \hbox (5.17258pt too wide) in paragraph at lines 52--52
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic representation of the ATLAS trig
 ger system and information 
  []
 
-[12]
-Overfull \hbox (2.08398pt too wide) in paragraph at lines 51--51
+
+Overfull \hbox (2.08398pt too wide) in paragraph at lines 53--53
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 ATLAS trigger turn on curves for MHT $[][]
 $ triggers with several differ- 
  []
 
 
-Overfull \hbox (13.70262pt too wide) in paragraph at lines 52--52
+Overfull \hbox (13.70262pt too wide) in paragraph at lines 54--54
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Improvement to the L1_XE50 rate with new d
 ynamic pedestal correction 
  []
 
 
-Overfull \hbox (22.15239pt too wide) in paragraph at lines 55--55
+Overfull \hbox (22.15239pt too wide) in paragraph at lines 57--57
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 The decay topologies of the signal models 
 considered in this analysis. The 
  []
 
 
-Overfull \hbox (27.24777pt too wide) in paragraph at lines 55--55
+Overfull \hbox (27.24777pt too wide) in paragraph at lines 57--57
  \EU1/Avenir(2)/m/n/10.95 decay mode depends on the mass splitting between stop
  ($[]$) and neutralino 
  []
 
 
-Overfull \hbox (25.89488pt too wide) in paragraph at lines 55--55
+Overfull \hbox (25.89488pt too wide) in paragraph at lines 57--57
  \EU1/Avenir(2)/m/n/10.95 ($[]$). If the mass splitting is larger then $[][]$, 
 then a real top maybe produced 
  []
 
 
-Overfull \hbox (13.88634pt too wide) in paragraph at lines 55--55
+Overfull \hbox (13.88634pt too wide) in paragraph at lines 57--57
  \EU1/Avenir(2)/m/n/10.95 in the 2 body decay $[] \OMS/cmsy/m/n/10.95 ! [][]$\E
 U1/Avenir(2)/m/n/10.95 . If the mass splitting is too small then a stop 
  []
 
 
-Overfull \hbox (11.5564pt too wide) in paragraph at lines 55--55
+Overfull \hbox (11.5564pt too wide) in paragraph at lines 57--57
  \EU1/Avenir(2)/m/n/10.95 b-quark plus chargino ($[][][][][][][][][][]$) channe
 l is also considered in mixed 
  []
 
 
-Overfull \hbox (2.1935pt too wide) in paragraph at lines 57--57
+Overfull \hbox (2.1935pt too wide) in paragraph at lines 59--59
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Decay Tree corresponding to ISR-assisted $
 [][]$ signal analysis strategy. 
  []
 
 
-Overfull \hbox (4.02307pt too wide) in paragraph at lines 58--58
+Overfull \hbox (4.02307pt too wide) in paragraph at lines 60--60
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 The distribution of the ratio of reconstru
 cted vs true ISR $[][]$ for the $[][][]$ 
  []
 
 
-Overfull \hbox (5.88066pt too wide) in paragraph at lines 58--58
+Overfull \hbox (5.88066pt too wide) in paragraph at lines 60--60
  \EU1/Avenir(2)/m/n/10.95 GeV stop mass and $[][][]$ GeV neutralino mass signal
  sample. Only simu- 
  []
 
 
-Overfull \hbox (4.34036pt too wide) in paragraph at lines 58--58
+Overfull \hbox (4.34036pt too wide) in paragraph at lines 60--60
  \EU1/Avenir(2)/m/n/10.95 lations with fully hadronic stop decays and at least 
 $[][][]$ GeV of true ISR 
  []
 
 
-Overfull \hbox (9.62578pt too wide) in paragraph at lines 58--58
+Overfull \hbox (9.62578pt too wide) in paragraph at lines 60--60
  [][]$ \EU1/Avenir(2)/m/n/10.95 are accepted. The red distribution is formed wh
 en the whole ISR sys- 
  []
 
 
-Overfull \hbox (7.14015pt too wide) in paragraph at lines 58--58
+Overfull \hbox (7.14015pt too wide) in paragraph at lines 60--60
  \EU1/Avenir(2)/m/n/10.95 tem is equated to just the highest $[][]$ jet. The bl
 ue distribution uses the 
  []
 
-
-Overfull \hbox (2.53365pt too wide) in paragraph at lines 60--60
+[11]
+Overfull \hbox (2.53365pt too wide) in paragraph at lines 62--62
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Distribution of the amount of data deliver
 ed by the LHC and recorded 
  []
 
 
-Overfull \hbox (37.80356pt too wide) in paragraph at lines 61--61
+Overfull \hbox (37.80356pt too wide) in paragraph at lines 63--63
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Distribution of the mean number of interac
 tions per bunch crossing weighted 
- []
-
-
-Overfull \hbox (7.42827pt too wide) in paragraph at lines 64--64
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Basic depiction of the kinematics of the t
-wo ttbar populations and stop 
- []
-
-
-Overfull \hbox (8.37866pt too wide) in paragraph at lines 66--66
- [][] [][][]$[]\OML/cmm/m/it/10.95 ^^^[]$ \EU1/Avenir(2)/m/n/10.95 distribution
-s for the zero lepton preselection plus sparticle jet 
- []
-
-
-Overfull \hbox (8.87556pt too wide) in paragraph at lines 66--66
- \EU1/Avenir(2)/m/n/10.95 multiplicity, $[][]$, and sparticle total energy requ
-irement with $[][]\OML/cmm/m/it/10.95 :[][]$ [] 
- []
-
-
-Overfull \hbox (3.83304pt too wide) in paragraph at lines 66--66
- \EU1/Avenir(2)/m/n/10.95 of data. The ratio between data and MC is shown in th
-e bottom panel. 
- []
-
-
-Overfull \hbox (24.28032pt too wide) in paragraph at lines 66--66
- \EU1/Avenir(2)/m/n/10.95 The hashed area in both the top and lower panel repre
-sent the uncertainty 
  []
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 67.
 
 
-Overfull \hbox (20.0788pt too wide) in paragraph at lines 67--67
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 67.
+
+
+Overfull \hbox (3.03334pt too wide) in paragraph at lines 67--67
+ [][] [][][]$[][]$ \EU1/Avenir(2)/m/n/10.95 and $[][] \OT1/cmr/m/n/10.95 = [][]
+\OML/cmm/m/it/10.95 =[][]$ \EU1/Avenir(2)/m/n/10.95 distributions after zero le
+pton preselection 
+ []
+
+
+Overfull \hbox (6.51942pt too wide) in paragraph at lines 68--68
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic depiction of the kinematics of t
+he top/anti-top back-to-back 
+ []
+
+
+Overfull \hbox (5.5996pt too wide) in paragraph at lines 68--68
+ \EU1/Avenir(2)/m/n/10.95 ttbar population and the ttbar plus strong ISR popula
+tion that exists af- 
+ []
+
+
+Overfull \hbox (1.1101pt too wide) in paragraph at lines 70--70
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic depiction of example events from
+ the top/anti-top back-to- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+ \EU1/Avenir(2)/m/n/10.95 back ttbar population, the ttbar plus strong ISR popu
+lation in compar- 
+ []
+
+
+Overfull \hbox (13.0675pt too wide) in paragraph at lines 70--70
+ \EU1/Avenir(2)/m/n/10.95 ison to a stop plus strong ISR signal event after the
+ zero lepton preselec- 
+ []
+
+
+Overfull \hbox (16.82361pt too wide) in paragraph at lines 71--71
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 The selection efficiency for ttbar as a fu
+nction of ISR $[][]$ for ttbar after the 
+ []
+
+
+Overfull \hbox (17.7872pt too wide) in paragraph at lines 72--72
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Distribution of true ISR $[][]$ for ttbar 
+after the zero lepton preselection and 
+ []
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 74.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 74.
+
+
+Overfull \hbox (18.9914pt too wide) in paragraph at lines 74--74
+ [][] [][][]$[][]$ \EU1/Avenir(2)/m/n/10.95 distribution for signal and backgro
+und after preselection plus $[][] \OML/cmm/m/it/10.95 > 
+ []
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 75.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 75.
+
+
+Overfull \hbox (6.14873pt too wide) in paragraph at lines 75--75
+ [][] [][][]$[][]$\EU1/Avenir(2)/m/n/10.95 , $[][]$, and $[][][]$ distributions
+ for signal and background af- 
+ []
+
+
+Overfull \hbox (8.9649pt too wide) in paragraph at lines 76--76
+ [][] [][][]$[]\OML/cmm/m/it/10.95 ^^^[]$ \EU1/Avenir(2)/m/n/10.95 distribution
+ after the zero lepton preselection, $[][] \OML/cmm/m/it/10.95 > [][][][]$\EU1/
+Avenir(2)/m/n/10.95 , 
+ []
+
+
+Overfull \hbox (9.94678pt too wide) in paragraph at lines 76--76
+ \EU1/Avenir(2)/m/n/10.95 sparticle hemisphere jet multiplicity and sparticle h
+emisphere energy re- 
+ []
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 77.
+
+
+Overfull \hbox (20.4826pt too wide) in paragraph at lines 77--77
  [][] [][][]$[][]$ \EU1/Avenir(2)/m/n/10.95 distribution after signal region se
-lection with $[][]\OML/cmm/m/it/10.95 :[][]$ [] \EU1/Avenir(2)/m/n/10.95 of dat
-a. The 
+lection corresponding to $[][]\OML/cmm/m/it/10.95 :[][]$ [] 
  []
 
 
-Overfull \hbox (3.31839pt too wide) in paragraph at lines 67--67
- \EU1/Avenir(2)/m/n/10.95 ratio between data and MC is shown in the bottom pane
-l. The hashed 
+Overfull \hbox (8.17288pt too wide) in paragraph at lines 80--80
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic depiction of the top/anti-top ba
+ck-to-back $[][]$ population and 
  []
 
 
-Overfull \hbox (0.32173pt too wide) in paragraph at lines 67--67
- \EU1/Avenir(2)/m/n/10.95 area in both the top and lower panel represent the un
-certainty due to 
+Overfull \hbox (17.7872pt too wide) in paragraph at lines 81--81
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Distribution of true ISR $[][]$ for ttbar 
+after the zero lepton preselection and 
+ []
+
+[12]
+Overfull \hbox (17.89676pt too wide) in paragraph at lines 82--82
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 True ISR $[][]$ distribution for $[][]$ th
+at after signal region and $[][]$ control region 
  []
 
 
-Overfull \hbox (14.44359pt too wide) in paragraph at lines 68--68
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Distributions for signal region selection.
- The ratio between data and MC 
+Overfull \hbox (9.6009pt too wide) in paragraph at lines 83--83
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 One-lepton $[][]$ control region (CRTopC) 
+distributions for $[][]\OML/cmm/m/it/10.95 :[][]$ $[]$ \EU1/Avenir(2)/m/n/10.95
+ of data[][] []  
  []
 
 
-Overfull \hbox (17.36723pt too wide) in paragraph at lines 68--68
- \EU1/Avenir(2)/m/n/10.95 is shown in the bottom panel. The hashed area in both
- the top and lower 
+Overfull \hbox (23.19745pt too wide) in paragraph at lines 85--85
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Kinematic distributions in the $[]  \OT1/c
+mr/m/n/10.95 +  []$ \EU1/Avenir(2)/m/n/10.95 control region after the backgroun
+d 
  []
 
 
-Overfull \hbox (6.76762pt too wide) in paragraph at lines 68--68
- \EU1/Avenir(2)/m/n/10.95 panel represent the uncertainty due to MC statistics.
- QCD background 
- []
-
-[13]
-Overfull \hbox (15.75027pt too wide) in paragraph at lines 70--70
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Depiction of the kinematics of the back-to
--back ttbar population and the 
- []
-
-
-Overfull \hbox (39.5665pt too wide) in paragraph at lines 70--70
- \EU1/Avenir(2)/m/n/10.95 ttbar plus strong ISR population that exists after th
-e zero lepton pre-selection. 
- []
-
-
-Overfull \hbox (18.00229pt too wide) in paragraph at lines 70--70
- \EU1/Avenir(2)/m/n/10.95 The two example event’s thrust axis are aligned. The 
-hemisphere contain- 
- []
-
-
-Overfull \hbox (16.46132pt too wide) in paragraph at lines 70--70
- \EU1/Avenir(2)/m/n/10.95 ing $[][]$ has significantly higher jet multiplicitie
-s and total energy in ttbar 
- []
-
-
-Overfull \hbox (13.38506pt too wide) in paragraph at lines 71--71
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Distribution of true ISR pt for ttbar that
- survive the CR and SR selections. 
- []
-
-
-Overfull \hbox (17.68835pt too wide) in paragraph at lines 71--71
- \EU1/Avenir(2)/m/n/10.95 Both peak at roughly 550 $[]$ demonstrating that the 
-one lepton CR and 
- []
-
-
-Overfull \hbox (31.573pt too wide) in paragraph at lines 71--71
- \EU1/Avenir(2)/m/n/10.95 zero lepton SR captures the same population of ttbar 
-plus strong ISR. There- 
- []
-
-
-Overfull \hbox (3.79286pt too wide) in paragraph at lines 71--71
- \EU1/Avenir(2)/m/n/10.95 fore, the one lepton CR essentially measures the amou
-nt of ttbar in SR 
- []
-
-
-Overfull \hbox (2.09648pt too wide) in paragraph at lines 72--72
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 One lepton ttbar CR (CRCTop) distributions
- for $[][]\OML/cmm/m/it/10.95 :[][]$ $[]$ \EU1/Avenir(2)/m/n/10.95 of data. All
- 
- []
-
-
-Overfull \hbox (17.2942pt too wide) in paragraph at lines 72--72
- \EU1/Avenir(2)/m/n/10.95 backgrounds have already been normalized to CRs by pe
-rforming a back- 
- []
-
-
-Overfull \hbox (10.03073pt too wide) in paragraph at lines 72--72
- \EU1/Avenir(2)/m/n/10.95 ground only fit. The ratio between data and MC is sho
-wn in the bottom 
- []
-
-
-Overfull \hbox (1.31453pt too wide) in paragraph at lines 72--72
- \EU1/Avenir(2)/m/n/10.95 panel. The hashed area in both the top and lower pane
-l represent the 
- []
-
-
-Overfull \hbox (9.70587pt too wide) in paragraph at lines 73--73
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Distribution of select variables in the ze
-ro lepton ttbar validation region. 
- []
-
-
-Overfull \hbox (27.47774pt too wide) in paragraph at lines 73--73
- \EU1/Avenir(2)/m/n/10.95 The ratio between data and MC predictions are shown i
-n the bottom panel. 
- []
-
-
-Overfull \hbox (6.28949pt too wide) in paragraph at lines 73--73
- \EU1/Avenir(2)/m/n/10.95 The background rates have been normalized to CRs thro
-ugh the use of 
- []
-
-
-Overfull \hbox (12.02812pt too wide) in paragraph at lines 73--73
- \EU1/Avenir(2)/m/n/10.95 a background only fit to $[][]\OML/cmm/m/it/10.95 :[]
-[]$ $[]$ \EU1/Avenir(2)/m/n/10.95 of data. Experimental systematic un- 
- []
-
-
-Overfull \hbox (14.17348pt too wide) in paragraph at lines 73--73
- \EU1/Avenir(2)/m/n/10.95 certainties on background predictions are depicted as
- the hashed bands. 
- []
-
-
-Overfull \hbox (3.88167pt too wide) in paragraph at lines 74--74
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Postfit data/MC comparisons in the $[]  \O
-T1/cmr/m/n/10.95 +  []$ \EU1/Avenir(2)/m/n/10.95 CR. From left to right and 
- []
-
-
-Overfull \hbox (11.07909pt too wide) in paragraph at lines 74--74
- \EU1/Avenir(2)/m/n/10.95 top to bottom, the variables shown are $[][]$, $[][] 
-[]$, $[][]$ and 
- []
-
-
-Overfull \hbox (20.94003pt too wide) in paragraph at lines 74--74
- [][]\OT1/cmr/m/n/10.95 ([][]\OML/cmm/m/it/10.95 ; `\OT1/cmr/m/n/10.95 )[]$\EU1
-/Avenir(2)/m/n/10.95 . The expected SM background has been normalized to data 
- []
-
-
-Overfull \hbox (39.6103pt too wide) in paragraph at lines 74--74
- \EU1/Avenir(2)/m/n/10.95 in the CR by performing a simultaneous fit to all bac
-kground CR. The hatched 
- []
-
-
-Overfull \hbox (9.02698pt too wide) in paragraph at lines 74--74
- \EU1/Avenir(2)/m/n/10.95 band on the total SM background correspond to the tot
-al experimental 
- []
-
-
-Overfull \hbox (1.28983pt too wide) in paragraph at lines 75--75
+Overfull \hbox (1.28983pt too wide) in paragraph at lines 86--86
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Single top control region distributions fo
-r $[][]\OML/cmm/m/it/10.95 :[][]$ [] \EU1/Avenir(2)/m/n/10.95 of data after a s
-i- 
+r $[][]\OML/cmm/m/it/10.95 :[][]$ $[]$ \EU1/Avenir(2)/m/n/10.95 of data after a
+ si- 
  []
 
 
-Overfull \hbox (8.36998pt too wide) in paragraph at lines 75--75
- \EU1/Avenir(2)/m/n/10.95 multaneous fit to all background CR. The ratio betwee
-n data and MC is 
- []
-
-
-Overfull \hbox (9.43942pt too wide) in paragraph at lines 75--75
- \EU1/Avenir(2)/m/n/10.95 shown in the bottom panel. The hashed area on the exp
-ected SM back- 
- []
-
-
-Overfull \hbox (3.92429pt too wide) in paragraph at lines 75--75
- \EU1/Avenir(2)/m/n/10.95 ground represent the uncertainty due to experimental 
-systematics and 
- []
-
-
-Overfull \hbox (7.417pt too wide) in paragraph at lines 76--76
+Overfull \hbox (10.01581pt too wide) in paragraph at lines 87--87
  [][] [][][]$\OML/cmm/m/it/10.95 ^^M$ \EU1/Avenir(2)/m/n/10.95 and $[]$ $[][]$ 
-distributions with no detector resolution effects. A selection 
+distributions in MC simulation with no detector resolution ef- 
  []
 
 
-Overfull \hbox (4.98643pt too wide) in paragraph at lines 77--77
- \EU1/Avenir(2)/m/n/10.95 area in both the top and lower panel represents the u
-ncertainty due to 
- []
-
-[14]
-Overfull \hbox (3.34026pt too wide) in paragraph at lines 78--78
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic of the jet smearing method. A se
-ed event with good jet en- 
+Overfull \hbox (2.7092pt too wide) in paragraph at lines 89--89
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic diagram demonstrating the \EU1/S
+ourceCodePro(0)/m/it/10.95 Jet Smearing \EU1/Avenir(2)/m/n/10.95 method of esti
+- 
  []
 
 
-Overfull \hbox (7.15453pt too wide) in paragraph at lines 78--78
- \EU1/Avenir(2)/m/n/10.95 ergy measurements are repeatedly smeared with predete
-rmined jet en- 
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 90.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 90.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 90.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 90.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 91.
+
+
+Overfull \hbox (12.71712pt too wide) in paragraph at lines 93--93
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 Schematic representation of the relationsh
+ip between control, validation 
  []
 
 
-Overfull \hbox (4.77403pt too wide) in paragraph at lines 78--78
- \EU1/Avenir(2)/m/n/10.95 ergy resolutions. The new $[][]$ is calculated as the
- difference between 
- []
-
-
-Overfull \hbox (16.10066pt too wide) in paragraph at lines 78--78
- \EU1/Avenir(2)/m/n/10.95 the seed event’s and smeared event’s jet momenta plus
- the original seed 
- []
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 79.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 79.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 79.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 79.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 80.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 80.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 80.
-
-
-Overfull \hbox (5.31943pt too wide) in paragraph at lines 85--85
+Overfull \hbox (5.76837pt too wide) in paragraph at lines 97--97
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Fractional uncertainty on the jet energy r
-esolution (JER) vs jet $\OML/cmm/m/it/10.95 ^^Q$ \EU1/Avenir(2)/m/n/10.95 and j
-et 
+esolution as a function of jet $\OML/cmm/m/it/10.95 ^^Q$ 
  []
 
 
-Overfull \hbox (34.63832pt too wide) in paragraph at lines 86--86
+Overfull \hbox (2.59862pt too wide) in paragraph at lines 99--99
  [][] [][][]\EU1/Avenir(2)/m/n/10.95 Uncertainty on the $[][]$ track soft term 
-(TST) vs the number of reconstructed 
+as a function the number of re- 
  []
 
 
-Overfull \hbox (12.11122pt too wide) in paragraph at lines 88--88
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Basic diagram of data driven background es
-timation techniques. We de- 
+Overfull \hbox (8.39189pt too wide) in paragraph at lines 102--102
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 95% confidence limit curves in the stop, n
+eutralino parameter space for 
  []
 
 
-Overfull \hbox (4.73457pt too wide) in paragraph at lines 88--88
- \EU1/Avenir(2)/m/n/10.95 fine control regions (CR) that is dominated by backgr
-ound and have lit- 
+Overfull \hbox (19.12288pt too wide) in paragraph at lines 103--103
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 95% confidence limit curves in the stop, n
+eutralino mass parameter space 
  []
 
 
-Overfull \hbox (9.71318pt too wide) in paragraph at lines 88--88
- \EU1/Avenir(2)/m/n/10.95 tle signal. We can estimate the amount of background 
-we expect in the 
+Overfull \hbox (10.00153pt too wide) in paragraph at lines 104--104
+ [][] [][][]\EU1/Avenir(2)/m/n/10.95 95% confidence limit curves in the stop, n
+eutralino mass plane for when 
  []
 
 
-Overfull \hbox (16.49492pt too wide) in paragraph at lines 88--88
- \EU1/Avenir(2)/m/n/10.95 signal region (SR) by measuring the amount of backgro
-und in the CR and 
- []
-
-
-Overfull \hbox (13.66977pt too wide) in paragraph at lines 92--92
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Results of the exclusion fits in the tN1 g
-rid from a simultaneous fit to the 
- []
-
-
-Overfull \hbox (7.61444pt too wide) in paragraph at lines 93--93
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Results of the exclusion fits in the tN1 g
-rid from the combination of the 
- []
-
-
-Overfull \hbox (24.06133pt too wide) in paragraph at lines 93--93
- \EU1/Avenir(2)/m/n/10.95 bulk region stop 0L analysis (SRA+SRB) and the compre
-ssed analysis (SRC). 
- []
-
-
-Overfull \hbox (16.36348pt too wide) in paragraph at lines 93--93
- \EU1/Avenir(2)/m/n/10.95 The bulk region analysis SRA targets high stop masses
- with large $[][]$ and 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
- \EU1/Avenir(2)/m/n/10.95 SRB targets high stop masses with medium amount of $[
-][]$. SRC is the 
- []
-
-
-Overfull \hbox (17.08006pt too wide) in paragraph at lines 94--94
- [][] [][][]\EU1/Avenir(2)/m/n/10.95 Results of the exclusion fits in the grid 
-with two stop decay channels: $[] \OMS/cmsy/m/n/10.95 ! 
- []
-
-
-Overfull \hbox (14.00679pt too wide) in paragraph at lines 94--94
- \EU1/Avenir(2)/m/n/10.95 are shown as a function of the branching ratio to $[]
- \OMS/cmsy/m/n/10.95 ! [][]$\EU1/Avenir(2)/m/n/10.95 : 0%, 25%, 50%, 
- []
-
-
-Overfull \hbox (0.54805pt too wide) in paragraph at lines 94--94
- \EU1/Avenir(2)/m/n/10.95 75% and 100%. The results are based on taking the sig
-nal region with 
- []
-
-
-Overfull \hbox (12.85832pt too wide) in paragraph at lines 94--94
- \EU1/Avenir(2)/m/n/10.95 the best expected $[][][]$, using SRA, SRB, SRC, and 
-SRD. SRA and SRB tar- 
- []
-
-
-Overfull \hbox (5.09715pt too wide) in paragraph at lines 94--94
- \EU1/Avenir(2)/m/n/10.95 get high stop masses in the $[] \OMS/cmsy/m/n/10.95 !
- [][]$ \EU1/Avenir(2)/m/n/10.95 decay channel at high stop masses 
- []
-
-
-Overfull \hbox (5.78212pt too wide) in paragraph at lines 94--94
- \EU1/Avenir(2)/m/n/10.95 and moderate to large $[][]$. SRC is the compressed r
-egion analysis that 
+Overfull \hbox (1.74281pt too wide) in paragraph at lines 104--104
+ \EU1/Avenir(2)/m/n/10.95 the stop can decay through two different decay channe
+ls: $[] \OMS/cmsy/m/n/10.95 ! [][]$ \EU1/Avenir(2)/m/n/10.95 and 
  []
 
 )
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
- [15] [16] (./frontmatter/dedication.tex) [17
+ [13] (./frontmatter/dedication.tex) [14
 
-] (./frontmatter/thanks.tex)
-[18
+] (./frontmatter/thanks.tex) [15
 
 
 ]
 \openout2 = `chapters/Introduction.aux'.
 
- (./chapters/Introduction.tex
+
+(./chapters/Introduction.tex
 Chapter 0.
 [1
 
 
-] [2] [3]
+] [2]
+File: figures/strategy/SUSYparticles.jpg Graphic file (type QTm)
+ <use  "figures/strategy/SUSYparticles.jpg" >
+LaTeX Font Info:    Font shape `EU1/Avenir(2)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 17.
+LaTeX Font Info:    Font shape `EU1/Avenir(4)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 17.
+LaTeX Font Info:    Font shape `EU1/Avenir(4)/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 17.
+LaTeX Font Info:    Font shape `EU1/Avenir(4)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 17.
+LaTeX Font Info:    Font shape `EU1/Avenir(4)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 17.
+
+Underfull \hbox (badness 1097) in paragraph at lines 17--17
+ [][]\EU1/Avenir(4)/m/n/10 Figure 1: |Diagram of SM particles and their respect
+ive superpartners.| 
+ []
+
+
+Overfull \hbox (17.50896pt too wide) in paragraph at lines 22--22
+\EU1/Avenir(2)/m/n/10.95 troweak force at high energies, provide more cp violat
+ion to generate matter/antimatter 
+ []
+
+[3]
 File: figures/feynDiag/stst-tN1tN1.png Graphic file (type QTm)
  <use  "figures/feynDiag/stst-tN1tN1.png" >
-LaTeX Font Info:    Font shape `EU1/Avenir(2)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 23.
-LaTeX Font Info:    Font shape `EU1/Avenir(4)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 23.
-LaTeX Font Info:    Font shape `EU1/Avenir(4)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 23.
-LaTeX Font Info:    Font shape `EU1/Avenir(4)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 23.
-LaTeX Font Info:    Font shape `EU1/Avenir(4)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 23.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4]
 File: figures/preselection/Met_preCutSRPlot_withRatio_log.eps Graphic file (typ
 e eps)
-
-<figures/preselection/Met_preCutSRPlot_withRatio_log.eps>
+ <figures/preselection/Met_preCutSRPlot_withRatio_log.eps>
 LaTeX Font Info:    Font shape `EU1/Avenir(4)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 34.
+(Font)              scaled to size 7.0pt on input line 45.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] [5]
+[5]
 File: figures/plotSR/SR_eT_miss_0SR.eps Graphic file (type eps)
- <figures/plotSR/SR_eT_miss_0SR.eps> [6]
-Overfull \hbox (3.23744pt too wide) in paragraph at lines 54--54
+ <figures/plotSR/SR_eT_miss_0SR.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (3.23744pt too wide) in paragraph at lines 65--65
 \EU1/Avenir(2)/m/n/10.95 pressed mass spectra. In general, such regions of phas
 e space are called compressed 
  []
 
-
-Overfull \hbox (1.19955pt too wide) in paragraph at lines 56--56
-[]\EU1/Avenir(2)/m/n/10.95 The ATLAS and CMS Run 1 stop search results are summ
-arized in figure [][]4[][]. Shaded 
- []
-
+[6]
 File: figures/8TeV/ATLAS_SUSY_Stop_tLSP_201507.png Graphic file (type QTm)
-<use  "figures/8TeV/ATLAS_SUSY_Stop_tLSP_201507.png" >
+ <use  "figures/8TeV/ATLAS_SUSY_Stop_tLSP_201507.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: Reference `fig:CMS:8TeVResult' on page 7 undefined on input line
- 67.
-
-File: figures/8TeV/T2tt_2015.pdf Graphic file (type QTm)
-<use  "figures/8TeV/T2tt_2015.pdf" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ 78.
 
 [7]
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 81.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 81.
-
-[8]
-File: figures/strategy/RISR_truth.png Graphic file (type QTm)
- <use  "figures/strategy/RISR_truth.png" >
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 87.
-
+File: figures/8TeV/T2tt_2015.pdf Graphic file (type QTm)
+ <use  "figures/8TeV/T2tt_2015.pdf" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9] [10]
-File: ./figures/strategy/ISR_signal.png Graphic file (type QTm)
- <use  "./figures/strategy/ISR_signal.png" > [11]
-File: ./figures/strategy/ThrustAlgoEfficiency.eps Graphic file (type eps)
+[8] [9]
 
-<./figures/strategy/ThrustAlgoEfficiency.eps>
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 92.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 92.
+
+File: figures/strategy/RISR_truth.png Graphic file (type QTm)
+<use  "figures/strategy/RISR_truth.png" >
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 98.
+
+[10]
+File: ./figures/strategy/ISR_signal.png Graphic file (type QTm)
+ <use  "./figures/strategy/ISR_signal.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11]
+File: ./figures/strategy/ThrustAlgoEfficiency.eps Graphic file (type eps)
+ <./figures/strategy/ThrustAlgoEfficiency.eps>
 File: ./figures/strategy/ThrustAlgoEfficiency_ttbar.eps Graphic file (type eps)
 
 
-<./figures/strategy/ThrustAlgoEfficiency_ttbar.eps> [12]
-File: figures/8TeV/ATLAS_SUSY_Stop_tLSP.png Graphic file (type QTm)
+<./figures/strategy/ThrustAlgoEfficiency_ttbar.eps>
 
-<use  "figures/8TeV/ATLAS_SUSY_Stop_tLSP.png" > [13] [14] [15]) [16]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12]
+File: figures/8TeV/ATLAS_SUSY_Stop_tLSP.png Graphic file (type QTm)
+ <use  "figures/8TeV/ATLAS_SUSY_Stop_tLSP.png" > [13] [14] [15]) [16]
 \openout2 = `chapters/Motivation.aux'.
 
 
@@ -2816,6 +2379,11 @@ Chapter 1.
 File: figures/theory/Standard_Model_of_Elementary_Particles.png Graphic file (t
 ype QTm)
  <use  "figures/theory/Standard_Model_of_Elementary_Particles.png" >
+Underfull \hbox (badness 4713) in paragraph at lines 11--11
+ []\EU1/Avenir(4)/m/n/10 Figure 1.1: |List of standard model elementary particl
+es| 
+ []
+
 [18]
 Overfull \hbox (10.5857pt too wide) in paragraph at lines 22--22
 \EU1/Avenir(2)/m/n/10.95 left handed component of the fermions form an $[][]\OT
@@ -2833,17 +2401,15 @@ File: figures/theory/loopf.png Graphic file (type QTm)
  <use  "figures/theory/loopf.png" >
 File: figures/theory/loopS.png Graphic file (type QTm)
  <use  "figures/theory/loopS.png" >
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 62.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 62.
+Underfull \hbox (badness 7613) in paragraph at lines 51--51
+ []\EU1/Avenir(4)/m/n/10 Figure 1.2: |One-Loop corrections due to a Dirac 
+ []
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 62.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 62.
+Underfull \hbox (badness 4217) in paragraph at lines 51--51
+ \EU1/Avenir(4)/m/n/10 fermion $[]$ and a scalar $[]$ to the Higgs mass paramet
+er $[][]$| 
+ []
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 62.
@@ -2917,12 +2483,26 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 62.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 62.
 
-[21] [22]
 
-LaTeX Warning: Reference `eqn:Higgs:logterm' on page 23 undefined on input line
- 82.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 62.
 
-[23] [24]) [25]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 62.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 62.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 62.
+
+[21]
+File: figures/strategy/SUSYparticles.jpg Graphic file (type QTm)
+ <use  "figures/strategy/SUSYparticles.jpg" > [22] [23]
+
+LaTeX Warning: Reference `eqn:Higgs:logterm' on page 24 undefined on input line
+ 93.
+
+[24]) [25] [26]
 \openout2 = `chapters/AnaStrategy.aux'.
 
  (./chapters/AnaStrategy.tex
@@ -2933,7 +2513,7 @@ Overfull \hbox (9.11552pt too wide) in paragraph at lines 3--3
 rge Mass Splittings
  []
 
-[26
+[27
 
 
 
@@ -2941,6 +2521,12 @@ rge Mass Splittings
 File: figures/preselection/Met_preCutSRPlot_withRatio_log.eps Graphic file (typ
 e eps)
  <figures/preselection/Met_preCutSRPlot_withRatio_log.eps>
+Underfull \hbox (badness 1052) in paragraph at lines 15--15
+ []\EU1/Avenir(4)/m/n/10 Figure 2.1: |$[][]$ distribution for $\OT1/cmr/m/n/10 
+([][]\OML/cmm/m/it/10 ; [][]\OT1/cmr/m/n/10 ) = ([][][][][]\OML/cmm/m/it/10 ; [
+][]\OT1/cmr/m/n/10 )$ \EU1/Avenir(4)/m/n/10 and 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2952,7 +2538,7 @@ Package caption Warning: \label without proper reference on input line 50.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:stopMtbmin' on page 27 undefined on input line 36
+LaTeX Warning: Reference `fig:stopMtbmin' on page 28 undefined on input line 36
 .
 
 
@@ -2960,36 +2546,44 @@ Package caption Warning: \label without proper reference on input line 146.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:gluino_meff' on page 27 undefined on input line 3
+LaTeX Warning: Reference `fig:gluino_meff' on page 28 undefined on input line 3
 6.
 
-[27] [28]
+[28] [29]
 File: figures/feynDiag/stst-bqqbqqN1N1-tt.eps Graphic file (type eps)
  <figures/feynDiag/stst-bqqbqqN1N1-tt.eps>
 LaTeX Font Info:    Font shape `EU1/Avenir(4)/bx/n' will be
 (Font)              scaled to size 10.95pt on input line 42.
 LaTeX Font Info:    Font shape `EU1/Avenir(4)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 42.
+
+Underfull \hbox (badness 1953) in paragraph at lines 42--42
+ []\EU1/Avenir(4)/m/n/10 (a)|| 
+ []
+
 File: figures/preselection/MtBMax_preCutSRPlot_withRatio.eps Graphic file (type
  eps)
-
 <figures/preselection/MtBMax_preCutSRPlot_withRatio.eps>
+Underfull \hbox (badness 5203) in paragraph at lines 46--46
+ []\EU1/Avenir(4)/m/n/10 (b)|| 
+ []
+
 File: figures/feynDiag/gluino_onestep.png Graphic file (type QTm)
-
 <use  "figures/feynDiag/gluino_onestep.png" >
+Underfull \hbox (badness 1953) in paragraph at lines 57--57
+ []\EU1/Avenir(4)/m/n/10 (a)|| 
+ []
+
 File: figures/strategy/gluino_meff.png Graphic file (type QTm)
-
 <use  "figures/strategy/gluino_meff.png" >
-LaTeX Font Info:    Font shape `EU1/Avenir(2)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 63.
-LaTeX Font Info:    Font shape `EU1/Avenir(2)/bx/n' will be
-(Font)              scaled to size 7.0pt on input line 63.
+Underfull \hbox (badness 5203) in paragraph at lines 61--61
+ []\EU1/Avenir(4)/m/n/10 (b)|| 
+ []
 
 
-Package natbib Warning: Citation `SUSYinclusive0L' on page 29 undefined on inpu
-t line 63.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29] [30]
+[30] [31]
 Overfull \hbox (15.03424pt too wide) in paragraph at lines 87--87
 \EU1/Avenir(2)/m/n/10.95 tem is boosted by strong initial state radiation (ISR)
 . The goal of the traditional searches 
@@ -3064,9 +2658,9 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
 
-[31]
+[32]
 
-LaTeX Warning: Reference `ig:stop_400_227_ISR_MET_truth' on page 32 undefined o
+LaTeX Warning: Reference `ig:stop_400_227_ISR_MET_truth' on page 33 undefined o
 n input line 106.
 
 
@@ -3078,15 +2672,18 @@ File: ./figures/strategy/RISR_truth.png Graphic file (type QTm)
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 111.
 
 
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 111.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32]
+[33]
 File: ./figures/strategy/ISR_signal.png Graphic file (type QTm)
  <use  "./figures/strategy/ISR_signal.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33]
+[34]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 132.
 
@@ -3100,24 +2697,35 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 132.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 132.
 
 
-LaTeX Warning: Reference `fig:presel:NjV' on page 34 undefined on input line 13
+LaTeX Warning: Reference `fig:presel:NjV' on page 35 undefined on input line 13
 2.
 
 
-LaTeX Warning: Reference `fig:presel:MS' on page 34 undefined on input line 132
+LaTeX Warning: Reference `fig:presel:MS' on page 35 undefined on input line 132
 .
 
 File: figures/plotSR/SR_ND1_NjV_0SR.eps Graphic file (type eps)
 <figures/plotSR/SR_ND1_NjV_0SR.eps>
+Underfull \hbox (badness 5288) in paragraph at lines 138--138
+ []\EU1/Avenir(4)/m/n/10 (a)|| 
+ []
+
 File: figures/plotSR/SR_ND1_MS_0SR.eps Graphic file (type eps)
- <figures/plotSR/SR_ND1_MS_0SR.eps>
+<figures/plotSR/SR_ND1_MS_0SR.eps>
+Underfull \hbox (badness 5203) in paragraph at lines 142--142
+ []\EU1/Avenir(4)/m/n/10 (b)|| 
+ []
+
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 144.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 144.
 
-[34]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35]
 File: ./figures/strategy/ttbarb2b_stop.png Graphic file (type QTm)
  <use  "./figures/strategy/ttbarb2b_stop.png" >
 
@@ -3129,123 +2737,196 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 154.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35] [36]
+[36] [37]
 File: ./figures/statistics/CR_VR_SR.pdf Graphic file (type QTm)
- <use  "./figures/statistics/CR_VR_SR.pdf" >) [37] [38]
+ <use  "./figures/statistics/CR_VR_SR.pdf" > [38]) [39]
 \openout2 = `chapters/LHC.aux'.
 
 
 (./chapters/LHC.tex
 Chapter 3.
-[39
+[40
 
 
 
 ]
 File: figures/LHC_ATLAS/AccComplex0700829.pdf Graphic file (type QTm)
- <use  "figures/LHC_ATLAS/AccComplex0700829.pdf" > [40] [41]
-File: figures/LHC_ATLAS/ATLAS_SE_Corrected7.eps Graphic file (type eps)
-
-<figures/LHC_ATLAS/ATLAS_SE_Corrected7.eps>
-File: figures/LHC_ATLAS/ATLAS_Signature.jpg Graphic file (type QTm)
-
-<use  "figures/LHC_ATLAS/ATLAS_Signature.jpg" >
+ <use  "figures/LHC_ATLAS/AccComplex0700829.pdf" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[42] [43]
-Overfull \hbox (9.94128pt too wide) in paragraph at lines 83--83
-[]\EU1/Avenir(2)/m/n/10.95 The shower particles deposit energy in the active ma
-terial layers within the calorime- 
+[41]
+
+LaTeX Warning: Text page 42 contains only floats.
+
+
+Overfull \vbox (4.6821pt too high) has occurred while \output is active []
+
+
+[42]
+File: figures/LHC_ATLAS/ATLAS_SE_Corrected7.eps Graphic file (type eps)
+ <figures/LHC_ATLAS/ATLAS_SE_Corrected7.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+ []\EU1/Avenir(4)/m/n/10 Figure 3.2: |Cutaway view of the ATLAS detec- 
  []
 
-[44]
 
-LaTeX Warning: Reference `' on page 45 undefined on input line 96.
+Underfull \hbox (badness 7558) in paragraph at lines 62--62
+ \EU1/Avenir(4)/m/n/10 tor with different sub-detector systems labeled. []| 
+ []
 
-[45]
+[43]
+File: figures/LHC_ATLAS/ATLAS_Signature.jpg Graphic file (type QTm)
+ <use  "figures/LHC_ATLAS/ATLAS_Signature.jpg" > [44] [45] [46]
+
+LaTeX Warning: Reference `' on page 47 undefined on input line 100.
+
 File: figures/LHC_ATLAS/FigID11blast.eps Graphic file (type eps)
- <figures/LHC_ATLAS/FigID11blast.eps>
+<figures/LHC_ATLAS/FigID11blast.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+ []\EU1/Avenir(4)/m/n/10 (a)|| 
+ []
+
 File: figures/LHC_ATLAS/FigID26-mod-011107.eps Graphic file (type eps)
+<figures/LHC_ATLAS/FigID26-mod-011107.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+ []\EU1/Avenir(4)/m/n/10 (b)|| 
+ []
 
-<figures/LHC_ATLAS/FigID26-mod-011107.eps> [46]
+
+Underfull \hbox (badness 1990) in paragraph at lines 113--113
+ []\EU1/Avenir(4)/m/n/10 Figure 3.4: |(a) Cutaway view of the ATLAS inner detec
+tor. (b) Ra- 
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 113--113
+ \EU1/Avenir(4)/m/n/10 dial View of the ATLAS inner detector (Figure Taken from
+$[]$) []| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[47] [48]
 File: figures/LHC_ATLAS/fig_ibl_layout_rev.png Graphic file (type QTm)
+ <use  "figures/LHC_ATLAS/fig_ibl_layout_rev.png" >
 
-<use  "figures/LHC_ATLAS/fig_ibl_layout_rev.png" > [47]
-Overfull \hbox (1.75192pt too wide) in paragraph at lines 140--140
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49] [50]
+Overfull \hbox (1.75192pt too wide) in paragraph at lines 149--149
 \EU1/Avenir(2)/m/n/10.95 The TRT is the outermost component of the ID and contr
 ibute approximately 351000 
  []
 
-[48] [49]
+[51]
 
-LaTeX Warning: Reference `' on page 50 undefined on input line 153.
+LaTeX Warning: Reference `' on page 52 undefined on input line 162.
 
 File: figures/LHC_ATLAS/Calorimeter_d3.eps Graphic file (type eps)
-<figures/LHC_ATLAS/Calorimeter_d3.eps> [50]
-Overfull \hbox (1.98912pt too wide) in paragraph at lines 171--171
+<figures/LHC_ATLAS/Calorimeter_d3.eps>
+Underfull \hbox (badness 1478) in paragraph at lines 168--168
+ []\EU1/Avenir(4)/m/n/10 Figure 3.6: |Layout of the ATLAS calorimeter. (Figure 
+taken from$[]$) []| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[52]
+Overfull \hbox (1.98912pt too wide) in paragraph at lines 180--180
 \EU1/Avenir(2)/m/n/10.95 sampler layer in front of certain regions. The presamp
 ler is composed of a thin liquid- 
  []
 
-[51]
+[53]
 File: figures/LHC_ATLAS/LARG3-TDR-barrelM.eps Graphic file (type eps)
  <figures/LHC_ATLAS/LARG3-TDR-barrelM.eps>
 File: figures/LHC_ATLAS/LARG3-abcdM.eps Graphic file (type eps)
 
-<figures/LHC_ATLAS/LARG3-abcdM.eps> [52]
-File: figures/LHC_ATLAS/TileCal_Module3.eps Graphic file (type eps)
-
-<figures/LHC_ATLAS/TileCal_Module3.eps>
+<figures/LHC_ATLAS/LARG3-abcdM.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[53] [54]
+[54] [55]
+File: figures/LHC_ATLAS/TileCal_Module3.eps Graphic file (type eps)
+ <figures/LHC_ATLAS/TileCal_Module3.eps>
+Underfull \hbox (badness 2237) in paragraph at lines 214--214
+ []\EU1/Avenir(4)/m/n/10 Figure 3.8: |The tile calorimeter module with steel ab
+sorber, tile 
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 214--214
+ \EU1/Avenir(4)/m/n/10 scintillators and photomultiplier readout. (Figures take
+n from$[]$) []| 
+ []
+
+[56] [57]
 File: figures/LHC_ATLAS/Muon_rz_large_sect_6.eps Graphic file (type eps)
  <figures/LHC_ATLAS/Muon_rz_large_sect_6.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[55]
 File: figures/LHC_ATLAS/ATLcoilGeom.eps Graphic file (type eps)
- <figures/LHC_ATLAS/ATLcoilGeom.eps> [56] [57]
-File: figures/LHC_ATLAS/MDT_tube_cross_section.eps Graphic file (type eps)
 
-<figures/LHC_ATLAS/MDT_tube_cross_section.eps>
-File: figures/LHC_ATLAS/CSC_structure.eps Graphic file (type eps)
+<figures/LHC_ATLAS/ATLcoilGeom.eps>
+Underfull \hbox (badness 1371) in paragraph at lines 247--247
+ []\EU1/Avenir(4)/m/n/10 Figure 3.10: |Geometry of the ATLAS barrel and endcap 
+toroid mag- 
+ []
 
-<figures/LHC_ATLAS/CSC_structure.eps> [58]
-File: figures/LHC_ATLAS/RPC_TGC_schematics_5.eps Graphic file (type eps)
 
-<figures/LHC_ATLAS/RPC_TGC_schematics_5.eps>
+Underfull \hbox (badness 1325) in paragraph at lines 247--247
+ \EU1/Avenir(4)/m/n/10 nets. The cylinder represents the calorimeter. (Figure t
+aken from$[]$) []| 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [59] [60]
+[58] [59]
+File: figures/LHC_ATLAS/MDT_tube_cross_section.eps Graphic file (type eps)
+ <figures/LHC_ATLAS/MDT_tube_cross_section.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/LHC_ATLAS/CSC_structure.eps Graphic file (type eps)
+<figures/LHC_ATLAS/CSC_structure.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[60] [61]
+File: figures/LHC_ATLAS/RPC_TGC_schematics_5.eps Graphic file (type eps)
+ <figures/LHC_ATLAS/RPC_TGC_schematics_5.eps>
+Underfull \hbox (badness 1005) in paragraph at lines 291--291
+ []\EU1/Avenir(4)/m/n/10 Figure 3.13: |Schematic of the ATLAS muon trigger syst
+em. The coinci- 
+ []
+
+) [62]
 \openout2 = `chapters/Reconstruction.aux'.
 
  (./chapters/Reconstruction.tex
 Chapter 4.
-(./chapters/Reconstruction/IDTracks.tex [61
+(./chapters/Reconstruction/IDTracks.tex [63
 
 
 
-] [62])
-(./chapters/Reconstruction/VertexReco.tex [63]
+] [64])
+(./chapters/Reconstruction/VertexReco.tex [65]
 Overfull \hbox (9.03246pt too wide) in paragraph at lines 20--20
 []\EU1/Avenir(2)/m/n/10.95 Adaptive fitting determines the vertex position usin
 g a least squared fitting method, 
  []
 
-) [64] (./chapters/Reconstruction/CaloJets.tex
+) [66] (./chapters/Reconstruction/CaloJets.tex
 
-LaTeX Warning: Reference `sec:jet:btag' on page 65 undefined on input line 6.
+LaTeX Warning: Reference `sec:jet:btag' on page 67 undefined on input line 6.
 
-[65]
+[67]
 
-LaTeX Warning: Reference `eqn:antikt' on page 66 undefined on input line 13.
+LaTeX Warning: Reference `eqn:antikt' on page 68 undefined on input line 13.
 
-[66]
+[68]
 Overfull \hbox (0.65569pt too wide) in paragraph at lines 22--22
 []\EU1/Avenir(2)/m/n/10.95 A perfectly conical jet of radius $[]$ will be forme
 d if no other hard objects are found 
@@ -3257,22 +2938,27 @@ Overfull \hbox (1.02919pt too wide) in paragraph at lines 31--31
 ATLAS are sampling calorime- 
  []
 
-[67]
+[69]
 
-Package natbib Warning: Citation `Calibartion13TeV' on page 68 undefined on inp
+Package natbib Warning: Citation `Calibartion13TeV' on page 70 undefined on inp
 ut line 33.
 
 File: figures/JetCalib/JetCalibFlow.png Graphic file (type QTm)
 <use  "figures/JetCalib/JetCalibFlow.png" >
+LaTeX Font Info:    Font shape `EU1/Avenir(2)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 39.
+LaTeX Font Info:    Font shape `EU1/Avenir(2)/bx/n' will be
+(Font)              scaled to size 7.0pt on input line 39.
 
-Package natbib Warning: Citation `Calibartion13TeV' on page 68 undefined on inp
+
+Package natbib Warning: Citation `Calibartion13TeV' on page 70 undefined on inp
 ut line 39.
 
 
-Package natbib Warning: Citation `topoCalib' on page 68 undefined on input line
+Package natbib Warning: Citation `topoCalib' on page 70 undefined on input line
  43.
 
-[68]
+[70]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 49.
 
@@ -3280,7 +2966,7 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 49.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 49.
 
 
-LaTeX Warning: Reference `pilupCorrection' on page 69 undefined on input line 5
+LaTeX Warning: Reference `pilupCorrection' on page 71 undefined on input line 5
 3.
 
 
@@ -3290,23 +2976,36 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 56.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 56.
 
 
-LaTeX Warning: Reference `pilupCorrection' on page 69 undefined on input line 6
+LaTeX Warning: Reference `pilupCorrection' on page 71 undefined on input line 6
 0.
 
-[69]
+[71]
 
-LaTeX Warning: Reference `jet_insitu' on page 70 undefined on input line 68.
+LaTeX Warning: Reference `jet_insitu' on page 72 undefined on input line 68.
 
-[70]
+[72]
 File: figures/JetCalib/JetCentral_Response.png Graphic file (type QTm)
  <use  "figures/JetCalib/JetCentral_Response.png" >
 File: figures/JetCalib/JetTransition_Response.png Graphic file (type QTm)
 
 <use  "figures/JetCalib/JetTransition_Response.png" >
+Underfull \hbox (badness 1874) in paragraph at lines 82--82
+ []\EU1/Avenir(4)/m/n/10 Figure 4.2: |Jet $[][]$ resolution for $\OMS/cmsy/m/n/
+10 j\OML/cmm/m/it/10 ^^Q\OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 < []:[]$ \EU1/Aveni
+r(4)/m/n/10 and $[]\OML/cmm/m/it/10 :[] < \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ^^
+Q\OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 < 
+ []
 
-LaTeX Warning: Reference `eqn:corrJVF' on page 71 undefined on input line 91.
 
-[71] [72]
+Underfull \hbox (badness 1931) in paragraph at lines 82--82
+ []\OML/cmm/m/it/10 :[]$ \EU1/Avenir(4)/m/n/10 jets as a function of jet $[][]$
+ in 8 TeV data. (Figure taken from$[]$)| 
+ []
+
+
+LaTeX Warning: Reference `eqn:corrJVF' on page 73 undefined on input line 91.
+
+[73] [74]
 File: figures/JetCalib/JVT_eff.eps Graphic file (type eps)
  <figures/JetCalib/JVT_eff.eps>
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
@@ -3316,12 +3015,30 @@ LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/it' will be
 LaTeX Font Info:    Font shape `EU1/Avenir(4)/m/n' will be
 (Font)              scaled to size 5.0pt on input line 115.
 
+Underfull \hbox (badness 2591) in paragraph at lines 115--115
+ []\EU1/Avenir(4)/m/n/10 Figure 4.3: |The distribution showing the jet vertex t
+agger effi- 
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 115--115
+ \EU1/Avenir(4)/m/n/10 ciency as a function of jet $[][]$ in 2015+2016 data. On
+ly jets balanced 
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 115--115
+ \EU1/Avenir(4)/m/n/10 against a $[]\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 > [][
+]$ \EU1/Avenir(4)/m/n/10 boson are accepted. Details can be found in$[]$.| 
+ []
+
+
 Overfull \hbox (2.63765pt too wide) in paragraph at lines 124--124
 []\EU1/Avenir(2)/m/n/10.95 Energy ratio variables can reject calorimeter noise 
 and beam induced backgrounds 
  []
 
-[73] [74]
+[75] [76]
 Overfull \hbox (11.66414pt too wide) in paragraph at lines 140--141
 []$[][]\OML/cmm/m/it/10.95 =[][]$\EU1/Avenir(2)/m/n/10.95 : ratio of $[][]$ and
  $[][]$, the maximum energy fraction in any single calorime- 
@@ -3333,40 +3050,96 @@ Overfull \hbox (15.81163pt too wide) in paragraph at lines 149--150
 y pulse shapes in EM LAr Calorime- 
  []
 
-[75] [76] [77]
+[77] [78] [79]
 File: figures/JetCalib/MV20c10.eps Graphic file (type eps)
- <figures/JetCalib/MV20c10.eps>)
-(./chapters/Reconstruction/EMReco.tex [78] [79]
+ <figures/JetCalib/MV20c10.eps>
+Underfull \hbox (badness 4266) in paragraph at lines 188--188
+ []\EU1/Avenir(4)/m/n/10 Figure 4.4: |Distribution of the MV20c10 multivariate 
+dis- 
+ []
 
-LaTeX Warning: Reference `sec:reco:phoQuality' on page 80 undefined on input li
+
+Underfull \hbox (badness 4981) in paragraph at lines 188--188
+ \EU1/Avenir(4)/m/n/10 criminate used for tagging b-jets. Figure taken from$[]$
+| 
+ []
+
+) (./chapters/Reconstruction/EMReco.tex [80] [81]
+
+LaTeX Warning: Reference `sec:reco:phoQuality' on page 82 undefined on input li
 ne 13.
 
 
-LaTeX Warning: Reference `fig:elec_reco' on page 80 undefined on input line 15.
+LaTeX Warning: Reference `fig:elec_reco' on page 82 undefined on input line 15.
 
 
 File: figures/EMCalib/Reco_Diag.png Graphic file (type QTm)
-<use  "figures/EMCalib/Reco_Diag.png" > [80]
+<use  "figures/EMCalib/Reco_Diag.png" >
+Underfull \hbox (badness 7415) in paragraph at lines 20--20
+ []\EU1/Avenir(4)/m/n/10 Figure 4.5: |Schematic representation of the elec- 
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 20--20
+ \EU1/Avenir(4)/m/n/10 tron reconstruction algorithm. (Figure taken from$[]$)| 
+
+ []
+
+[82]
 LaTeX Font Info:    Font shape `EU1/Avenir(2)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 30.
 File: figures/EMCalib/Elec_Et.png Graphic file (type QTm)
-
-<use  "figures/EMCalib/Elec_Et.png" >
+ <use  "figures/EMCalib/Elec_Et.png" >
 File: figures/EMCalib/Elec_eta.png Graphic file (type QTm)
- <use  "figures/EMCalib/Elec_eta.png" >
-[81]
 
-LaTeX Warning: Reference `fig:pho_eff' on page 82 undefined on input line 52.
+<use  "figures/EMCalib/Elec_eta.png" >
+Underfull \hbox (badness 1590) in paragraph at lines 38--38
+ []\EU1/Avenir(4)/m/n/10 Figure 4.6: |Electron identification efficiency in 201
+6 data as a func- 
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 38--38
+ \EU1/Avenir(4)/m/n/10 tion of $[][]$ and $\OML/cmm/m/it/10 ^^Q$ \EU1/Avenir(4)
+/m/n/10 for different electron qualities. (Figure taken from$[]$)| 
+ []
+
+[83]
+
+LaTeX Warning: Reference `fig:pho_eff' on page 84 undefined on input line 52.
 
 File: figures/EMCalib/Unconverted_Et.png Graphic file (type QTm)
 <use  "figures/EMCalib/Unconverted_Et.png" >
 File: figures/EMCalib/Converted_Et.png Graphic file (type QTm)
 
-<use  "figures/EMCalib/Converted_Et.png" > [82] [83]
-File: figures/EMCalib/ElecCalib.png Graphic file (type QTm)
+<use  "figures/EMCalib/Converted_Et.png" >
+Underfull \hbox (badness 1184) in paragraph at lines 58--58
+ []\EU1/Avenir(4)/m/n/10 Figure 4.7: |Photon identification efficiency in 2016 
+data as a function 
+ []
 
-<use  "figures/EMCalib/ElecCalib.png" > [84])
-(./chapters/Reconstruction/MuonReco.tex [85] [86] [87] [88] [89] [90] [91]
+
+Underfull \hbox (badness 1331) in paragraph at lines 58--58
+ \EU1/Avenir(4)/m/n/10 of $[][]$ for converted and unconverted photons. (Figure
+ taken from$[]$)| 
+ []
+
+[84] [85]
+File: figures/EMCalib/ElecCalib.png Graphic file (type QTm)
+ <use  "figures/EMCalib/ElecCalib.png" >
+Underfull \hbox (badness 1412) in paragraph at lines 73--73
+ []\EU1/Avenir(4)/m/n/10 Figure 4.8: |Flow chart of the steps involved in the c
+alibration of the 
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 73--73
+ \EU1/Avenir(4)/m/n/10 energy response of electrons and photons. (Figure taken 
+from$[]$)| 
+ []
+
+[86]) (./chapters/Reconstruction/MuonReco.tex [87] [88] [89] [90] [91] [92]
+[93]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 68.
 
@@ -3386,7 +3159,7 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 68.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 68.
 
 File: figures/MuonReco/MuonEff.eps Graphic file (type eps)
-<figures/MuonReco/MuonEff.eps> [92] [93]
+<figures/MuonReco/MuonEff.eps> [94] [95]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 89.
 
@@ -3420,8 +3193,17 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 93.
 File: figures/MuonReco/JPsiMass.eps Graphic file (type eps)
 <figures/MuonReco/JPsiMass.eps>
 File: figures/MuonReco/ZMass.eps Graphic file (type eps)
- <figures/MuonReco/ZMass.eps>)
-(./chapters/Reconstruction/METReco.tex [94]
+ <figures/MuonReco/ZMass.eps>
+Underfull \hbox (badness 6825) in paragraph at lines 102--102
+ []\EU1/Avenir(4)/m/n/10 Figure 4.10: |Dimuon invariant mass before and af- 
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 102--102
+ \EU1/Avenir(4)/m/n/10 ter muon momenta calibration in data and MC.$[]$| 
+ []
+
+) (./chapters/Reconstruction/METReco.tex [96]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 8.
@@ -3441,7 +3223,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 14.
 
-[95] [96]
+[97] [98]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 30.
@@ -3474,17 +3256,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 44.
 
-[97]
+[99]
 File: figures/METCalib/METReso_Et.eps Graphic file (type eps)
  <figures/METCalib/METReso_Et.eps>
 File: figures/METCalib/METReso_nVtx.eps Graphic file (type eps)
  <figures/METCalib/METReso_nVtx.eps>))
-[98] [99]
+[100] [101]
 \openout2 = `chapters/Trigger.aux'.
 
  (./chapters/Trigger.tex
 Chapter 5.
-[100
+[102
 
 
 
@@ -3496,38 +3278,31 @@ Overfull \hbox (56.7428pt too wide) in paragraph at lines 19--19
 d D4-F1 and HLT_xe110_mht_L1XE50 
  []
 
-[101]
 
-LaTeX Warning: Reference `sec:trig:metHLT' on page 102 undefined on input line 
-21.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 23.
+Overfull \hbox (1.41129pt too wide) in paragraph at lines 21--21
+[]\EU1/Avenir(2)/m/n/10.95 All HLT triggers that we use are seeded by the L1_XE
+50 trigger which corresponds 
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 23.
+LaTeX Warning: Reference `sec:trig:metHLT' on page 103 undefined on input line 
+23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 23.
+(hyperref)                removing `math shift' on input line 25.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 23.
+(hyperref)                removing `subscript' on input line 25.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 26.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 25.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 26.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 26.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 26.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 25.
 
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 28.
@@ -3541,67 +3316,103 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 28.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 28.
 
-[102]
+[103]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 30.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 30.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 30.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 30.
+
+[104]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 30.
+(hyperref)                removing `math shift' on input line 32.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 30.
+(hyperref)                removing `subscript' on input line 32.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 30.
+(hyperref)                removing `superscript' on input line 32.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 30.
+(hyperref)                removing `math shift' on input line 32.
 
 
-Overfull \hbox (8.66087pt too wide) in paragraph at lines 33--33
+Overfull \hbox (8.66087pt too wide) in paragraph at lines 35--35
 \EU1/Avenir(2)/m/n/10.95 boring cells with greater then $[]\OML/cmm/m/it/10.95 
 ^^[$ \EU1/Avenir(2)/m/n/10.95 thresholds are added. Neighboring cells with grea
 ter 
  []
 
 
-Overfull \hbox (3.47105pt too wide) in paragraph at lines 33--33
+Overfull \hbox (3.47105pt too wide) in paragraph at lines 35--35
 \EU1/Avenir(2)/m/n/10.95 this point, one final round of neighboring cells are a
 dded regardless of energy thresh- 
  []
 
-[103]
+[105]
 File: figures/trigger/2016-05-16-UpdatedTurnOns.png Graphic file (type QTm)
  <use  "figures/trigger/2016-05-16-UpdatedTurnOns.png" >
+Underfull \hbox (badness 3333) in paragraph at lines 49--49
+ []\EU1/Avenir(4)/m/n/10 Figure 5.2: |ATLAS trigger turn on curves for MHT $[][
+]$ trig- 
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 49--49
+ \EU1/Avenir(4)/m/n/10 gers with several different thresholds. (Figure taken fr
+om$[]$)| 
+ []
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 51.
+(hyperref)                removing `math shift' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 51.
+(hyperref)                removing `subscript' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 51.
+(hyperref)                removing `superscript' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 51.
+(hyperref)                removing `math shift' on input line 53.
 
-[104]
+[106]
 
-LaTeX Warning: Reference `fig:L1METImprove' on page 105 undefined on input line
- 56.
+LaTeX Warning: Reference `fig:L1METImprove' on page 107 undefined on input line
+ 58.
 
 File: figures/trigger/L1_XE50.png Graphic file (type QTm)
-<use  "figures/trigger/L1_XE50.png" >) [105] [106]
+<use  "figures/trigger/L1_XE50.png" >
+Underfull \hbox (badness 4660) in paragraph at lines 64--64
+ []\EU1/Avenir(4)/m/n/10 Figure 5.3: |Improvement to the L1_XE50 rate with new 
+
+ []
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 64--64
+ \EU1/Avenir(4)/m/n/10 dynamic pedestal correction for out-of-time pileup.$[]$|
+ 
+ []
+
+) [107] [108]
 \openout2 = `chapters/ObjectDef.aux'.
 
  (./chapters/ObjectDef.tex
 Chapter 6.
-[107
+[109
 
 
 
@@ -3618,13 +3429,16 @@ Overfull \hbox (34.68951pt too wide) in paragraph at lines 14--14
 Tools-00-08-54 and AnalysisBase- 
  []
 
-[108]
+[110]
+LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 11.70007pt on input line 16.
+
 
 Package caption Warning: \label without proper reference on input line 37.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tb:electrons:baseline' on page 109 undefined on input
+LaTeX Warning: Reference `tb:electrons:baseline' on page 111 undefined on input
  line 22.
 
 .................................................
@@ -3713,8 +3527,6 @@ LaTeX Warning: Reference `tb:electrons:baseline' on page 109 undefined on input
 .................................................
 LaTeX Font Info:    Font shape `EU1/Avenir(5)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 27.
-LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 11.70007pt on input line 30.
 LaTeX Font Info:    Font shape `EU1/Avenir(5)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 32.
 LaTeX Font Info:    Font shape `EU1/Avenir(5)/m/n' will be
@@ -3722,10 +3534,22 @@ LaTeX Font Info:    Font shape `EU1/Avenir(5)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/Avenir(2)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 35.
 
-LaTeX Warning: Reference `tb:electrons:sig' on page 109 undefined on input line
+Underfull \hbox (badness 3826) in paragraph at lines 35--35
+ []\EU1/Avenir(4)/m/n/10 Table 6.1: |\EU1/SourceCodePro(0)/m/it/10 Baseline \EU
+1/Avenir(4)/m/n/10 Electron selection criteria. The over- 
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 35--35
+ \EU1/Avenir(4)/m/n/10 lap removal is described in more detail in section [][]6
+.6[][].| 
+ []
+
+
+LaTeX Warning: Reference `tb:electrons:sig' on page 111 undefined on input line
  40.
 
-[109]
+[111]
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -3745,11 +3569,23 @@ LaTeX Warning: Reference `tb:electrons:sig' on page 109 undefined on input line
 * 'Avenir' with script '' and language ''.
 *************************************************
 
+Underfull \hbox (badness 4739) in paragraph at lines 52--52
+ []\EU1/Avenir(4)/m/n/10 Table 6.2: |\EU1/SourceCodePro(0)/m/it/10 Signal \EU1/
+Avenir(4)/m/n/10 Electron selection criteria. The over- 
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 52--52
+ \EU1/Avenir(4)/m/n/10 lap removal is described in more detail in section [][]6
+.6[][].| 
+ []
+
+
 Package caption Warning: \label without proper reference on input line 77.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tb:muons:baseline' on page 110 undefined on input lin
+LaTeX Warning: Reference `tb:muons:baseline' on page 112 undefined on input lin
 e 63.
 
 .................................................
@@ -3772,11 +3608,23 @@ e 63.
 LaTeX Font Info:    Font shape `EU1/Avenir(5)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 72.
 
+Underfull \hbox (badness 3189) in paragraph at lines 75--75
+ []\EU1/Avenir(4)/m/n/10 Table 6.3: |Selection criteria for \EU1/SourceCodePro(
+0)/m/it/10 Baseline \EU1/Avenir(4)/m/n/10 muons. The over- 
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 75--75
+ \EU1/Avenir(4)/m/n/10 lap removal is described in more detail in section [][]6
+.6[][].| 
+ []
+
+
 Package caption Warning: \label without proper reference on input line 94.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tb:muons:signal' on page 110 undefined on input line 
+LaTeX Warning: Reference `tb:muons:signal' on page 112 undefined on input line 
 80.
 
 .................................................
@@ -3797,16 +3645,22 @@ LaTeX Warning: Reference `tb:muons:signal' on page 110 undefined on input line
 * 'Avenir' with script '' and language ''.
 *************************************************
 
-Package natbib Warning: Citation `antikt' on page 110 undefined on input line 1
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+ []\EU1/Avenir(4)/m/n/10 Table 6.4: |Selection criteria for \EU1/SourceCodePro(
+0)/m/it/10 Signal \EU1/Avenir(4)/m/n/10 muons.| 
+ []
+
+
+Package natbib Warning: Citation `antikt' on page 112 undefined on input line 1
 01.
 
-[110] [111]
+[112] [113]
 
 Package caption Warning: \label without proper reference on input line 122.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tb:jets:baseline' on page 112 undefined on input line
+LaTeX Warning: Reference `tb:jets:baseline' on page 114 undefined on input line
  107.
 
 .................................................
@@ -3827,11 +3681,17 @@ LaTeX Warning: Reference `tb:jets:baseline' on page 112 undefined on input line
 * 'Avenir' with script '' and language ''.
 *************************************************
 
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+ []\EU1/Avenir(4)/m/n/10 Table 6.5: |Selection criteria for \EU1/SourceCodePro(
+0)/m/it/10 Baseline \EU1/Avenir(4)/m/n/10 jets.| 
+ []
+
+
 Package caption Warning: \label without proper reference on input line 141.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tb:jets:signal' on page 112 undefined on input line 1
+LaTeX Warning: Reference `tb:jets:signal' on page 114 undefined on input line 1
 27.
 
 .................................................
@@ -3857,20 +3717,26 @@ Overfull \hbox (94.34921pt too wide) in paragraph at lines 131--139
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 144.
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+ []\EU1/Avenir(4)/m/n/10 Table 6.6: |Selection criteria for \EU1/SourceCodePro(
+0)/m/it/10 Signal \EU1/Avenir(4)/m/n/10 jets.| 
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 144.
 
-[112]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 144.
+
+[114]
 
 Package caption Warning: \label without proper reference on input line 165.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tb:photons:baseline' on page 113 undefined on input l
+LaTeX Warning: Reference `tb:photons:baseline' on page 115 undefined on input l
 ine 153.
 
 .................................................
@@ -3891,11 +3757,17 @@ ine 153.
 * 'Avenir' with script '' and language ''.
 *************************************************
 
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+ []\EU1/Avenir(4)/m/n/10 Table 6.7: |\EU1/SourceCodePro(0)/m/it/10 Baseline \EU
+1/Avenir(4)/m/n/10 photon selection criteria.| 
+ []
+
+
 Package caption Warning: \label without proper reference on input line 181.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tb:photons' on page 113 undefined on input line 168.
+LaTeX Warning: Reference `tb:photons' on page 115 undefined on input line 168.
 
 .................................................
 . fontspec info: "no-scripts"
@@ -3915,6 +3787,12 @@ LaTeX Warning: Reference `tb:photons' on page 113 undefined on input line 168.
 * 'Avenir' with script '' and language ''.
 *************************************************
 
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+ []\EU1/Avenir(4)/m/n/10 Table 6.8: |\EU1/SourceCodePro(0)/m/it/10 Signal \EU1/
+Avenir(4)/m/n/10 photon selection criteria.| 
+ []
+
+
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 184.
 
@@ -3930,7 +3808,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 187.
 
-[113]
+[115]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 191.
@@ -3939,21 +3817,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 191.
 
-
-Overfull \hbox (3.4375pt too wide) in paragraph at lines 193--193
-\EU1/Avenir(2)/m/n/10.95 is used to discriminate against events with fake $[][]
-$ resulting from mis-reconstructed 
- []
-
-[114]
+[116]
 LaTeX Font Info:    Font shape `EU1/Avenir(5)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 198.
- [115]) [116]
+ [117]) [118]
 \openout2 = `chapters/MCSimulation.aux'.
 
  (./chapters/MCSimulation.tex
 Chapter 7.
-[117
+[119
 
 
 
@@ -3976,6 +3848,12 @@ Chapter 7.
 * OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
 * 'Avenir' with script '' and language ''.
 *************************************************
+
+Underfull \hbox (badness 4765) in paragraph at lines 30--30
+ []\EU1/Avenir(4)/m/n/10 Table 7.1: |Overview of the nominal simulated samples.
+| 
+ []
+
 File: figures/feynDiag/stst-bqqbqqN1N1-tt.eps Graphic file (type eps)
 <figures/feynDiag/stst-bqqbqqN1N1-tt.eps>
 File: figures/feynDiag/stst-bqqbqqN1N1-3body.eps Graphic file (type eps)
@@ -3983,13 +3861,13 @@ File: figures/feynDiag/stst-bqqbqqN1N1-3body.eps Graphic file (type eps)
 <figures/feynDiag/stst-bqqbqqN1N1-3body.eps>
 File: figures/feynDiag/stst-bbWWN1N1.eps Graphic file (type eps)
 
-<figures/feynDiag/stst-bbWWN1N1.eps> [118] [119]
+<figures/feynDiag/stst-bbWWN1N1.eps> [120] [121]
 Overfull \hbox (4.06235pt too wide) in paragraph at lines 59--59
 \EU1/Avenir(2)/m/n/10.95 pling constant with the resummation of soft gluon emis
 sion added to next-to-leading- 
  []
 
-[120]
+[122]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 66.
@@ -3998,9 +3876,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 66.
 
-[121]
+[123]
 
-Package natbib Warning: Citation `Herwig' on page 122 undefined on input line 7
+Package natbib Warning: Citation `Herwig' on page 124 undefined on input line 7
 7.
 
 
@@ -4009,12 +3887,7 @@ Overfull \hbox (8.82437pt too wide) in paragraph at lines 77--77
 on using a Powheg+Herwigg++ 
  []
 
-[122]
-
-Package natbib Warning: Citation `sherpa' on page 123 undefined on input line 7
-9.
-
-[123]
+[124] [125]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 95.
@@ -4051,11 +3924,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 95.
 
-
-Package natbib Warning: Citation `sherpa' on page 124 undefined on input line 9
-7.
-
-[124]
+[126]
 Overfull \hbox (21.16502pt too wide) in paragraph at lines 99--99
 []\EU1/Avenir(2)/m/n/10.95 The ME calculation is merged with SHERPA parton show
  according to the MEPS@NLO 
@@ -4081,7 +3950,7 @@ $[][] \OT1/cmr/m/n/10.95 + []$ \EU1/Avenir(2)/m/n/10.95 where $[]$ is a $[]$ or
  $[]$ boson samples are generated using MadGraph5_aMC@NLO 
  []
 
-[125]
+[127]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 109.
@@ -4097,10 +3966,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Font Info:    Font shape `EU1/Avenir(2)/m/sc' will be
 (Font)              scaled to size 8.0pt on input line 120.
 
-Package natbib Warning: Citation `Geant' on page 126 undefined on input line 12
+Package natbib Warning: Citation `Geant' on page 128 undefined on input line 12
 0.
 
-[126] [127]) [128]
+[128] [129]) [130]
 \openout2 = `chapters/Jigsaw.aux'.
 
  (./chapters/Jigsaw.tex
@@ -4123,7 +3992,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 4.
 
-[129
+[131
 
 
 
@@ -4134,25 +4003,25 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 18.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 18.
 
-[130]
+[132]
 File: ./figures/strategy/DecayTree.eps Graphic file (type eps)
- <./figures/strategy/DecayTree.eps> [131] [132]
+ <./figures/strategy/DecayTree.eps> [133] [134]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 39.
 
-[133]
+[135]
 File: ./figures/strategy/ThrustAlgoEfficiency.eps Graphic file (type eps)
  <./figures/strategy/ThrustAlgoEfficiency.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[134]
+[136]
 Overfull \hbox (0.44815pt too wide) in paragraph at lines 66--66
 \EU1/Avenir(2)/m/n/10.95 from a stop will occasionally go in the opposite direc
 tion as the $[][]$ and be misiden- 
  []
 
-[135]
+[137]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 76.
 
@@ -4168,7 +4037,7 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 79.
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 79.
 
-[136]
+[138]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 80.
 
@@ -4230,14 +4099,14 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 86.
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 86.
 
 
-LaTeX Warning: Reference `chap:SR' on page 137 undefined on input line 86.
+LaTeX Warning: Reference `chap:SR' on page 139 undefined on input line 86.
 
-) [137]
+) [139]
 \openout2 = `chapters/EventSelection.aux'.
 
  (./chapters/EventSelection.tex
 Chapter 9.
-[138
+[140
 
 
 
@@ -4253,33 +4122,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
+
+Underfull \hbox (badness 5288) in paragraph at lines 19--19
+ []\EU1/Avenir(4)/m/n/10 (a)|| 
+ []
+
 File: figures/Data/IntLumi2016.png Graphic file (type QTm)
 <use  "figures/Data/IntLumi2016.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
+
+Underfull \hbox (badness 5203) in paragraph at lines 23--23
+ []\EU1/Avenir(4)/m/n/10 (b)|| 
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 26--26
+ []\EU1/Avenir(4)/m/n/10 Figure 9.1: |Distribution of the amount of data delive
+red by the 
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 26--26
+ \EU1/Avenir(4)/m/n/10 LHC and recorded by ATLAS vs time in 2015 (a) and 2016 (
+b)| 
+ []
+
 LaTeX Font Info:    Font shape `EU1/Avenir(5)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 30.
 File: figures/Data/mu_2015_2016_LHCC.png Graphic file (type QTm)
-<use  "figures/Data/mu_2015_2016_LHCC.png" > [139] [140] [141]
+<use  "figures/Data/mu_2015_2016_LHCC.png" > [141] [142] [143]
 Chapter 10.
-[142
+[144
 
-] [143]
-
-Package caption Warning: \label without proper reference on input line 85.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:0Lcommon' on page 144 undefined on input line 62.
-
-
+] [145]
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font Avenir does not contain any OpenType `Script' information.
 .................................................
+
 *************************************************
 * fontspec warning: "icu-feature-not-exist-in-font"
 * 
@@ -4297,21 +4181,36 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 70.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 72.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 71.
-
-[144]
-
-Package caption Warning: \label without proper reference on input line 114.
-See the caption package documentation for explanation.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 73.
 
 
-LaTeX Warning: Reference `tab:1Lcommon' on page 145 undefined on input line 98.
+Overfull \hbox (2.8034pt too wide) in paragraph at lines 91--91
+[]\EU1/Avenir(2)/m/n/10.95 We also require at least four \EU1/SourceCodePro(0)/
+m/it/10.95 Signal \EU1/Avenir(2)/m/n/10.95 jets with a minimum $[][]$ of $\OT1/
+cmr/m/n/10.95 ([][]\OML/cmm/m/it/10.95 ; [][]; [][]; [][]\OT1/cmr/m/n/10.95 )[]
+$ 
+ []
+
+[146]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 100.
 
 
-[145]
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 100.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 100.
+
+[147]
+Overfull \hbox (4.06966pt too wide) in paragraph at lines 110--110
+\EU1/Avenir(2)/m/n/10.95 zero lepton signal region. The MC is normalized to dat
+a in the control region through 
+ []
+
+[148]
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -4331,84 +4230,215 @@ LaTeX Warning: Reference `tab:1Lcommon' on page 145 undefined on input line 98.
 * 'Avenir' with script '' and language ''.
 *************************************************
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 106.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 124.
 
-[146]) [147]
+[149]) [150]
 \openout2 = `chapters/SignalRegion.aux'.
 
  (./chapters/SignalRegion.tex
 Chapter 11.
-
-LaTeX Warning: Reference `sec:SR:Definitions' on page 148 undefined on input li
-ne 6.
-
-
-LaTeX Warning: Reference `sec:Bkg:Yields' on page 148 undefined on input line 6
-.
-
-[148
+[151
 
 
 
 ]
-Overfull \hbox (14.47954pt too wide) in paragraph at lines 8--8
+Overfull \hbox (14.47954pt too wide) in paragraph at lines 10--10
 |[]\EU1/Avenir(2)/m/sc/12 Physical Intuition on how Signal Region Selections Re
 ject SM Background| 
  []
 
-[149]
+[152]
+File: figures/strategy/ttbarDecay.jpg Graphic file (type QTm)
+ <use  "figures/strategy/ttbarDecay.jpg" >
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 25.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 25.
+
+File: figures/plotSR/SR_eT_miss_0SR.eps Graphic file (type eps)
+<figures/plotSR/SR_eT_miss_0SR.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 31--31
+ []\EU1/Avenir(4)/m/n/10 (a)|| 
+ []
+
+File: figures/plotSR/SR_ND1_RISR_0SR.eps Graphic file (type eps)
+<figures/plotSR/SR_ND1_RISR_0SR.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 36--36
+ []\EU1/Avenir(4)/m/n/10 (b)|| 
+ []
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 40.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 44.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 44.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 46.
+
+[153] [154]
+File: ./figures/strategy/ttbar_2pop.png Graphic file (type QTm)
+ <use  "./figures/strategy/ttbar_2pop.png" > [155]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 63.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 63.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 65.
+
+[156]
+File: ./figures/strategy/ttbar_mtt.png Graphic file (type QTm)
+ <use  "./figures/strategy/ttbar_mtt.png" >
+Underfull \hbox (badness 1297) in paragraph at lines 70--70
+ []\EU1/Avenir(4)/m/n/10 Figure 11.4: |Normalized ttbar differential cross-sect
+ion as a function 
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 70--70
+ \EU1/Avenir(4)/m/n/10 of $[][]$. $[][]$ distribution falls exponentially and t
+he $[][]$ is directly re- 
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 70--70
+ \EU1/Avenir(4)/m/n/10 lated to the amount of back-to-back boost between the tw
+o tops.$[]$| 
+ []
+
 File: ./figures/strategy/ttbar_vs_signal.png Graphic file (type QTm)
- <use  "./figures/strategy/ttbar_vs_signal.png" > [150] [151]
-File: ./figures/ttbar/truePtISR_SRC_CRC_compare.eps Graphic file (type eps)
+<use  "./figures/strategy/ttbar_vs_signal.png" >
 
-<./figures/ttbar/truePtISR_SRC_CRC_compare.eps> [152]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 49.
+[157] [158]
+File: ./figures/strategy/Compare0L_truth_acceptance.eps Graphic file (type eps)
 
+ <./figures/strategy/Compare0L_truth_acceptance.eps> [159]
+File: ./figures/strategy/Compare0L_truth.eps Graphic file (type eps)
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 53.
-
-[153]
-
-Package caption Warning: \label without proper reference on input line 101.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:SignalRegionC' on page 154 undefined on input lin
-e 79.
+<./figures/strategy/Compare0L_truth.eps>
+Overfull \hbox (11.83954pt too wide) in paragraph at lines 107--107
+|[]\EU1/Avenir(2)/m/sc/12 Order of Magnitude Estimation of how Signal Region Se
+lections Improve
+ []
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 83.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 110.
+
+[160]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 112.
+
+File: ./figures/strategy/ttbar_mtt.png Graphic file (type QTm)
+<use  "./figures/strategy/ttbar_mtt.png" >
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 119.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 83.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[161]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 125.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 83.
+LaTeX Warning: Reference `fig:SR:RISR' on page 162 undefined on input line 125.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 83.
+[162]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 129.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 83.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 133.
+
+[163]
+Overfull \hbox (3.95166pt too wide) in paragraph at lines 161--161
+[]\EU1/Avenir(2)/m/n/10.95 The kinematic variables used are reconstructed using
+ the Recursive Jigsaw method. 
+ []
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 83.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 83.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 83.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 83.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
 
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+[164]
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font Avenir does not contain any OpenType `Script' information.
 .................................................
+
 *************************************************
 * fontspec warning: "icu-feature-not-exist-in-font"
 * 
@@ -4422,166 +4452,277 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 83.
 * 'Avenir' with script '' and language ''.
 *************************************************
 
-Package caption Warning: \label without proper reference on input line 85.
-See the caption package documentation for explanation.
-
-LaTeX Font Info:    Font shape `EU1/Avenir(2)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 99.
-
-LaTeX Warning: Reference `tab:0Lcommon' on page 154 undefined on input line 99.
-
-
-
-Overfull \hbox (0.34666pt too wide) in paragraph at lines 104--104
-\EU1/Avenir(2)/m/n/10.95 amounts of jet multiplicity. These requirements are na
-turally satisfied in signal events 
+Underfull \hbox (badness 4846) in paragraph at lines 179--179
+ []\EU1/Avenir(4)/m/n/10 Table 11.1: |Signal region definitions, in addition to
+ the 
  []
 
-[154] [155]
-Overfull \hbox (3.5696pt too wide) in paragraph at lines 140--140
+
+Underfull \hbox (badness 6348) in paragraph at lines 179--179
+ \EU1/Avenir(4)/m/n/10 preselection requirements presented in Table [][]10.1[][
+].| 
+ []
+
+[165]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 188.
+
+
+LaTeX Warning: Reference `fig:SR:jetMultiplicity' on page 166 undefined on inpu
+t line 188.
+
+File: figures/plotSR/SR_ND1_RISR_3SR.eps Graphic file (type eps)
+<figures/plotSR/SR_ND1_RISR_3SR.eps>
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 193.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 193.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 193.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+
+LaTeX Warning: Reference `ig:presel_dist_RISR' on page 166 undefined on input l
+ine 198.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
+
+[166]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 200.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 200.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 200.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 200.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 200.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 200.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 200.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 217.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 217.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 217.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 217.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 217.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 217.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 217.
+
+File: figures/plotSR/SR_ND1_pTjV4_3SR.eps Graphic file (type eps)
+<figures/plotSR/SR_ND1_pTjV4_3SR.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 223--223
+ []\EU1/Avenir(4)/m/n/10 (a)|| 
+ []
+
+File: figures/plotSR/SR_ND1_pTbV1_3SR.eps Graphic file (type eps)
+<figures/plotSR/SR_ND1_pTbV1_3SR.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 227--227
+ []\EU1/Avenir(4)/m/n/10 (b)|| 
+ []
+
+File: figures/plotSR/SR_ND1_MS_3SR.eps Graphic file (type eps)
+<figures/plotSR/SR_ND1_MS_3SR.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 231--231
+ []\EU1/Avenir(4)/m/n/10 (c)|| 
+ []
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 233.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 233.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 233.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 233.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 233.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 233.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 233.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 233.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 233.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 238.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 238.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 238.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 238.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 238.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 238.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 238.
+
+[167]
+Overfull \hbox (3.5696pt too wide) in paragraph at lines 255--255
 \EU1/Avenir(2)/m/n/10.95 significant momentum from the top decay and its correl
 ation with ISR is not as strong. 
  []
 
+[168]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 257.
+
 File: figures/plotSR/SR_ND1_dphiISRI_6SR.eps Graphic file (type eps)
 <figures/plotSR/SR_ND1_dphiISRI_6SR.eps>
 LaTeX Font Info:    Font shape `EU1/Avenir(5)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 148.
+(Font)              scaled to size 10.0pt on input line 262.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 152.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 267.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 152.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 267.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 152.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 267.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 152.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 267.
 
-[156] [157]
+[169]
 File: figures/plotSR/SR_ND1_RISR_7SR.eps Graphic file (type eps)
  <figures/plotSR/SR_ND1_RISR_7SR.eps>
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 158.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 272.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 162.
+Underfull \hbox (badness 1874) in paragraph at lines 272--272
+ []\EU1/Avenir(4)/m/n/10 Figure 11.12: |$[][]$ distribution after signal region
+ selection corre- 
+ []
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 162.
+Underfull \hbox (badness 1888) in paragraph at lines 272--272
+ \EU1/Avenir(4)/m/n/10 sponding to $[][]\OML/cmm/m/it/10 :[][]$ [] \EU1/Avenir(
+4)/m/n/10 of data. The hashed area in both the top 
+ []
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 167.
-
-[158] (./tables/SRYields/SRC1Yields.tex
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Avenir does not contain any OpenType `Script' information.
-.................................................
-
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
-* with script '' and language ''.
-*************************************************
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
-* 'Avenir' with script '' and language ''.
-*************************************************
-) (./tables/SRYields/SRC2Yields.tex
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Avenir does not contain any OpenType `Script' information.
-.................................................
-
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
-* with script '' and language ''.
-*************************************************
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
-* 'Avenir' with script '' and language ''.
-*************************************************
-) (./tables/SRYields/SRC3Yields.tex
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Avenir does not contain any OpenType `Script' information.
-.................................................
-
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
-* with script '' and language ''.
-*************************************************
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
-* 'Avenir' with script '' and language ''.
-*************************************************
-) (./tables/SRYields/SRC4Yields.tex
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Avenir does not contain any OpenType `Script' information.
-.................................................
-
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
-* with script '' and language ''.
-*************************************************
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
-* 'Avenir' with script '' and language ''.
-*************************************************
-) (./tables/SRYields/SRC5Yields.tex
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Avenir does not contain any OpenType `Script' information.
-.................................................
-
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
-* with script '' and language ''.
-*************************************************
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
-* 'Avenir' with script '' and language ''.
-*************************************************
-)
-
-LaTeX Warning: Float too large for page by 750.5151pt on input line 180.
+Underfull \hbox (badness 2393) in paragraph at lines 272--272
+ \EU1/Avenir(4)/m/n/10 and lower panel represent the uncertainty due to MC stat
+istics| 
+ []
 
 
-Package caption Warning: \label without proper reference on input line 194.
-See the caption package documentation for explanation.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 277.
 
 
-LaTeX Warning: Reference `fig:SR' on page 159 undefined on input line 182.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 277.
 
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 282.
+
+
+Overfull \hbox (41.98932pt too wide) in paragraph at lines 282--282
+\EU1/Avenir(2)/m/n/10.95 three example signal samples with stop, neutralino mas
+ses of $\OT1/cmr/m/n/10.95 ([][][]\OML/cmm/m/it/10.95 ; [][][][]\OT1/cmr/m/n/10
+.95 )\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 ([][][]\OML/cmm/m/it/10.95 ; [][]
+[][]\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ;$ 
+ []
+
+[170] (./tables/SRYields/YieldsTable.SRC.tex)
 File: figures/plotSR/SR_ND1_RISR_7SR.eps Graphic file (type eps)
+
 <figures/plotSR/SR_ND1_RISR_7SR.eps>
 File: figures/plotSR/SR_ND1_PTISR_7SR.eps Graphic file (type eps)
  <figures/plotSR/SR_ND1_PTISR_7SR.eps>
@@ -4595,17 +4736,42 @@ File: figures/plotSR/SR_ND1_MS_7SR.eps Graphic file (type eps)
 <figures/plotSR/SR_ND1_MS_7SR.eps>
 File: figures/plotSR/SR_ND1_pTjV4_7SR.eps Graphic file (type eps)
  <figures/plotSR/SR_ND1_pTjV4_7SR.eps>
+Underfull \hbox (badness 1215) in paragraph at lines 312--312
+ []\EU1/Avenir(4)/m/n/10 Figure 11.13: |Kinematic distributions for signal regi
+on selection. The 
+ []
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 200.
+
+Underfull \hbox (badness 1635) in paragraph at lines 312--312
+ \EU1/Avenir(4)/m/n/10 due to MC statistics. QCD background estimation is not i
+ncluded.| 
+ []
 
 
-LaTeX Warning: Reference `tab:SRBkg' on page 159 undefined on input line 200.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+) [171] [172] [173]
+\openout2 = `chapters/Background.aux'.
+
+ (./chapters/Background.tex
+Chapter 12.
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 7.
+
+
+LaTeX Warning: Reference `tab:SRBkg' on page 174 undefined on input line 7.
+
+[174
+
+
+
+]
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font Avenir does not contain any OpenType `Script' information.
 .................................................
+
 *************************************************
 * fontspec warning: "icu-feature-not-exist-in-font"
 * 
@@ -4619,21 +4785,20 @@ LaTeX Warning: Reference `tab:SRBkg' on page 159 undefined on input line 200.
 * 'Avenir' with script '' and language ''.
 *************************************************
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 206.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 13.
+
+LaTeX Font Info:    Font shape `EU1/Avenir(2)/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 22.
+
+LaTeX Warning: Reference `tab:SRBkg' on page 175 undefined on input line 22.
 
 
-LaTeX Warning: Reference `tab:SRBkg' on page 159 undefined on input line 214.
+Overfull \hbox (9.36752pt too wide) in paragraph at lines 28--28
+|[]\EU1/Avenir(2)/m/sc/12 Using Control and Validation Regions to Estimate Back
+ground in the Sig-
+ []
 
-) [159] [160] [161] [162]
-\openout2 = `chapters/Background.aux'.
-
- (./chapters/Background.tex
-Chapter 12.
-[163
-
-
-
-] [164] (./sfs.tex) (./chapters/Background/ttbar.tex
+[175] (./chapters/Background/ttbar.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
@@ -4645,7 +4810,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
-[165]
+[176]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 14.
@@ -4655,44 +4820,48 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 14.
 
 
+Overfull \hbox (13.21654pt too wide) in paragraph at lines 17--17
+\EU1/Avenir(2)/m/n/10.95 After the zero lepton preselection, 80 percent of $[][
+]$ events decay via the single hadronic 
+ []
+
+[177]
 Overfull \hbox (6.1173pt too wide) in paragraph at lines 25--25
 \EU1/Avenir(2)/m/n/10.95 important information. In the case where the leptonic 
 is recoiling against the hadronic 
  []
 
-[166]
 File: ./figures/strategy/ttbar_2pop.png Graphic file (type QTm)
- <use  "./figures/strategy/ttbar_2pop.png" >
+<use  "./figures/strategy/ttbar_2pop.png" >
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 33.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 33.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 34.
 
 
-Overfull \hbox (3.1155pt too wide) in paragraph at lines 52--52
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 34.
+
+[178]
+Overfull \hbox (3.1155pt too wide) in paragraph at lines 53--53
 |[]\EU1/Avenir(2)/m/sc/12 Predicting the amount of $[][]$ in Signal Region usin
 g a One Lepton Con-
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 52.
+(hyperref)                removing `math shift' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 52.
+(hyperref)                removing `math shift' on input line 53.
 
-[167] [168]
-
-LaTeX Warning: Reference `tab:SRcommon' on page 169 undefined on input line 64.
-
-
+[179]
+File: ./figures/strategy/Compare0L_truth.eps Graphic file (type eps)
+ <./figures/strategy/Compare0L_truth.eps> [180]
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font Avenir does not contain any OpenType `Script' information.
 .................................................
+
 *************************************************
 * fontspec warning: "icu-feature-not-exist-in-font"
 * 
@@ -4706,117 +4875,145 @@ LaTeX Warning: Reference `tab:SRcommon' on page 169 undefined on input line 64.
 * 'Avenir' with script '' and language ''.
 *************************************************
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 73.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 83.
 
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 74.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 76.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 82.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 82.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 82.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 82.
-
-[169]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 84.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 86.
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 88--88
+ []\EU1/Avenir(4)/m/n/10 Table 12.2: |One-lepton $[][]$ control region (CRTopC)
+ definitions. The 
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 88--88
+ \EU1/Avenir(4)/m/n/10 one-lepton preselections defined in Table [][]10.2[][] a
+re also applied.| 
+ []
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 95.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 95.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 95.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 95.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 95.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 95.
+
+[181]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 97.
+
+[182]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 107.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 107.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 107.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 107.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 107.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 112.
 
 File: ./figures/ttbar/truePtISR_SRC_CRC_compare.eps Graphic file (type eps)
 <./figures/ttbar/truePtISR_SRC_CRC_compare.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[170]
+[183] [184]
+Overfull \hbox (2.05484pt too wide) in paragraph at lines 129--129
+\EU1/Avenir(2)/m/n/10.95 cross section. Lower stop masses result in higher sign
+al contamination but our search 
+ []
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
+[185]
 
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
 
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
-
-[171] [172]
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 109.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 109.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 109.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 109.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 109.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 115.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 115.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 115.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 115.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 115.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 115.
-
+[186]
 File: figures/ttbar/postfit/CA_RISR_CRTopC.eps Graphic file (type eps)
-<figures/ttbar/postfit/CA_RISR_CRTopC.eps>
+ <figures/ttbar/postfit/CA_RISR_CRTopC.eps>
 File: figures/ttbar/postfit/CA_pTISR_CRTopC.eps Graphic file (type eps)
 
 <figures/ttbar/postfit/CA_pTISR_CRTopC.eps>
@@ -4831,81 +5028,117 @@ File: figures/ttbar/postfit/CA_pTbV1_CRTopC_log.eps Graphic file (type eps)
 <figures/ttbar/postfit/CA_pTbV1_CRTopC_log.eps>
 File: figures/ttbar/postfit/CA_dphiISRI_CRTopC_log.eps Graphic file (type eps)
 
-<figures/ttbar/postfit/CA_dphiISRI_CRTopC_log.eps> [173]
-Overfull \hbox (15.31949pt too wide) in paragraph at lines 134--134
+<figures/ttbar/postfit/CA_dphiISRI_CRTopC_log.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+(./tables/bkg/YieldsTable.CRTopC.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+Overfull \hbox (15.31949pt too wide) in paragraph at lines 169--169
 |[]\EU1/Avenir(2)/m/sc/12 Validating $[][]$ Predictions in Signal Region using 
 a Zero Lepton Validation
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 134.
+(hyperref)                removing `math shift' on input line 169.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 134.
+(hyperref)                removing `math shift' on input line 169.
+
+[187]
+
+LaTeX Warning: Text page 188 contains only floats.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 137.
+Overfull \vbox (4.76823pt too high) has occurred while \output is active []
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 137.
+[188] [189]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 174.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 137.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 174.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 137.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 176.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 137.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 176.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 137.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 176.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 137.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 176.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 137.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 176.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 139.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 176.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 139.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 178.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 139.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 178.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 139.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 180.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 139.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 180.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 180.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 182.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 182.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 182.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 182.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 182.
 
-[174] [175]
 
-LaTeX Warning: Reference `tab:SRcommon' on page 176 undefined on input line 145
-.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 182.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 184.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 184.
 
 .................................................
 . fontspec info: "no-scripts"
@@ -4925,40 +5158,53 @@ LaTeX Warning: Reference `tab:SRcommon' on page 176 undefined on input line 145
 * 'Avenir' with script '' and language ''.
 *************************************************
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 150.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 192.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 151.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 193.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 152.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 194.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 152.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 194.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 152.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 194.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 153.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 195.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 154.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 196.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 155.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 197.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 155.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 197.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 156.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 156.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 198.
 
+
+Underfull \hbox (badness 3302) in paragraph at lines 201--201
+ []\EU1/Avenir(4)/m/n/10 Table 12.4: |Zero-lepton $[][]$+ISR validation region 
+definitions, 
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 201--201
+ \EU1/Avenir(4)/m/n/10 in addition to the SRC requirements listed in Table [][]
+10.2[][].| 
+ []
+
+[190]
 File: figures/ttbar/postfit/CA_RISR_VRTopC.eps Graphic file (type eps)
-<figures/ttbar/postfit/CA_RISR_VRTopC.eps>
+ <figures/ttbar/postfit/CA_RISR_VRTopC.eps>
 File: figures/ttbar/postfit/CA_pTISR_VRTopC.eps Graphic file (type eps)
 
 <figures/ttbar/postfit/CA_pTISR_VRTopC.eps>
@@ -4975,12 +5221,22 @@ File: figures/ttbar/postfit/CA_dphiISRI_VRTopC_log.eps Graphic file (type eps)
 
 <figures/ttbar/postfit/CA_dphiISRI_VRTopC_log.eps>
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 175.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 220.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 175.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 220.
 
-[176] [177]) (./chapters/Background/WJet.tex
+
+Overfull \hbox (0.83209pt too wide) in paragraph at lines 224--224
+\EU1/Avenir(2)/m/n/10.95 have already been normalized to their respective contr
+ol regions using a background 
+ []
+
+[191] [192] (./tables/bkg/YieldsTable.VRTopC.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) (./chapters/Background/WJet.tex
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
@@ -5007,26 +5263,17 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 * OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
 * 'Avenir' with script '' and language ''.
 *************************************************
-[178] (./chapters/Background/yields/CRWYields.tex
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Avenir does not contain any OpenType `Script' information.
-.................................................
 
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
-* with script '' and language ''.
-*************************************************
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
-* 'Avenir' with script '' and language ''.
-*************************************************
-)
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[193]
+Overfull \hbox (8.64557pt too wide) in paragraph at lines 32--32
+[][]$ \EU1/Avenir(2)/m/n/10.95 control region and $[]$+jet control region is en
+sured by the selection on $[][]\OT1/cmr/m/n/10.95 ([][]\OML/cmm/m/it/10.95 ; `\
+OT1/cmr/m/n/10.95 )[]$\EU1/Avenir(2)/m/n/10.95 . 
+ []
+
+[194] [195]
 File: figures/wJets/postfit/Met_CRW_log.eps Graphic file (type eps)
  <figures/wJets/postfit/Met_CRW_log.eps>
 File: figures/wJets/postfit/AntiKt12M_0__CRW.eps Graphic file (type eps)
@@ -5037,17 +5284,23 @@ File: figures/wJets/postfit/NJets_CRW_log.eps Graphic file (type eps)
 <figures/wJets/postfit/NJets_CRW_log.eps>
 File: figures/wJets/postfit/MinDRBLep_CRW.eps Graphic file (type eps)
 
-<figures/wJets/postfit/MinDRBLep_CRW.eps>) (./chapters/Background/SingleTop.tex
+<figures/wJets/postfit/MinDRBLep_CRW.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./tables/bkg/YieldsTable.CRW.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) (./chapters/Background/SingleTop.tex
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
-[179]
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font Avenir does not contain any OpenType `Script' information.
 .................................................
-
 *************************************************
 * fontspec warning: "icu-feature-not-exist-in-font"
 * 
@@ -5060,26 +5313,31 @@ LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 * OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
 * 'Avenir' with script '' and language ''.
 *************************************************
-[180] [181] (./chapters/Background/yields/CRSTYields.tex
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Avenir does not contain any OpenType `Script' information.
-.................................................
 
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
-* with script '' and language ''.
-*************************************************
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
-* 'Avenir' with script '' and language ''.
-*************************************************
-)
+Underfull \hbox (badness 1796) in paragraph at lines 24--24
+ []\EU1/Avenir(4)/m/n/10 Table 12.8: |Selection for the one lepton single top c
+ontrol region. 
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 24--24
+ \EU1/Avenir(4)/m/n/10 The one lepton preselection defined in Table [][]10.2[][
+] is also applied.| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[196]
+
+LaTeX Warning: Reference `eqn:drbb' on page 197 undefined on input line 32.
+
+[197] [198]
+
+LaTeX Warning: Reference `table.bkgonly.CRST' on page 199 undefined on input li
+ne 43.
+
+[199]
 File: figures/singleTop/postfit/Met_CRST_log.eps Graphic file (type eps)
  <figures/singleTop/postfit/Met_CRST_log.eps>
 File: figures/singleTop/postfit/NJets_CRST_log.eps Graphic file (type eps)
@@ -5096,8 +5354,23 @@ File: figures/singleTop/postfit/MinDRBLep_CRST.eps Graphic file (type eps)
 <figures/singleTop/postfit/MinDRBLep_CRST.eps>
 File: figures/singleTop/postfit/DRBB_CRST.eps Graphic file (type eps)
 
-<figures/singleTop/postfit/DRBB_CRST.eps>) (./chapters/Background/ttV.tex
-[182] [183]
+<figures/singleTop/postfit/DRBB_CRST.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./tables/bkg/YieldsTable.CRW.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) (./chapters/Background/ttV.tex [200]
+
+LaTeX Warning: Text page 201 contains only floats.
+
+
+Overfull \vbox (5.76823pt too high) has occurred while \output is active []
+
+
+[201]
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -5116,15 +5389,29 @@ File: figures/singleTop/postfit/DRBB_CRST.eps Graphic file (type eps)
 * OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
 * 'Avenir' with script '' and language ''.
 *************************************************
-[184]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[202]
 File: figures/ttGamma/TruthStudies/Pt150.pdf Graphic file (type QTm)
  <use  "figures/ttGamma/TruthStudies/Pt150.pdf" >
+Underfull \hbox (badness 1231) in paragraph at lines 42--42
+ []\EU1/Avenir(4)/m/n/10 Figure 12.8: |$\OML/cmm/m/it/10 ^^M$ \EU1/Avenir(4)/m/
+n/10 and $[]$ $[][]$ distributions in MC simulation with no detec- 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `table.bkgonly.CRTTgamma' on page 203 undefined on inp
+ut line 46.
+
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font Avenir does not contain any OpenType `Script' information.
 .................................................
-
 *************************************************
 * fontspec warning: "icu-feature-not-exist-in-font"
 * 
@@ -5137,28 +5424,23 @@ File: figures/ttGamma/TruthStudies/Pt150.pdf Graphic file (type QTm)
 * OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
 * 'Avenir' with script '' and language ''.
 *************************************************
-(./chapters/Background/yields/CRTTGammaYields.tex
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Avenir does not contain any OpenType `Script' information.
-.................................................
 
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
-* with script '' and language ''.
-*************************************************
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
-* 'Avenir' with script '' and language ''.
-*************************************************
-)
+Underfull \hbox (badness 2970) in paragraph at lines 73--73
+ []\EU1/Avenir(4)/m/n/10 Table 12.11: |Selections for the $[][] \OT1/cmr/m/n/10
+ + \OML/cmm/m/it/10 ^^M$ \EU1/Avenir(4)/m/n/10 one lepton control re- 
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 73--73
+ \EU1/Avenir(4)/m/n/10 gion. The one lepton triggers as described in Table [][]
+12.10[][]| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figures/ttGamma/Met_CRTTGamma_withRatio_log.eps Graphic file (type eps)
- <figures/ttGamma/Met_CRTTGamma_withRatio_log.eps>
+<figures/ttGamma/Met_CRTTGamma_withRatio_log.eps>
 File: figures/ttGamma/postfit/NJets_CRTTGamma_log.eps Graphic file (type eps)
 
 <figures/ttGamma/postfit/NJets_CRTTGamma_log.eps>
@@ -5177,29 +5459,63 @@ File: figures/ttGamma/postfit/AntiKt12M_0__CRTTGamma.eps Graphic file (type eps
 File: figures/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps Graphic file (type e
 ps)
 
-<figures/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps>)
-(./chapters/Background/ZJet.tex [185] [186] [187])
-(./chapters/Background/diboson.tex
+<figures/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapters/Background/ZJet.tex [203]
+Overfull \vbox (8.66823pt too high) has occurred while \output is active []
+
+
+[204]) (./chapters/Background/diboson.tex) (./chapters/Background/QCD.tex
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
-) (./chapters/Background/QCD.tex [188]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
-
-
-LaTeX Warning: Reference `tab:qcd:seed' on page 189 undefined on input line 8.
-
+[205]
 File: figures/QCDJetSmearing/jet_smearing.pdf Graphic file (type QTm)
-<use  "figures/QCDJetSmearing/jet_smearing.pdf" > [189]
+ <use  "figures/QCDJetSmearing/jet_smearing.pdf" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[206]
+
+LaTeX Warning: Reference `tab:qcd:seed' on page 207 undefined on input line 38.
+
+
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Avenir does not contain any OpenType `Script' information.
+.................................................
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
+* with script '' and language ''.
+*************************************************
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
+* 'Avenir' with script '' and language ''.
+*************************************************
+
+Underfull \hbox (badness 5388) in paragraph at lines 55--55
+ []\EU1/Avenir(4)/m/n/10 Table 12.12: |\EU1/SourceCodePro(0)/m/it/10 Jet Smeari
+ng \EU1/Avenir(4)/m/n/10 seed event preselection| 
+ []
+
+[207]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 80.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 80.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 80.
+
+[208]
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -5218,44 +5534,28 @@ File: figures/QCDJetSmearing/jet_smearing.pdf Graphic file (type QTm)
 * OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
 * 'Avenir' with script '' and language ''.
 *************************************************
-[190] [191]
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Avenir does not contain any OpenType `Script' information.
-.................................................
 
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
-* with script '' and language ''.
-*************************************************
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
-* 'Avenir' with script '' and language ''.
-*************************************************
-
-Package caption Warning: \label without proper reference on input line 85.
-See the caption package documentation for explanation.
+Underfull \hbox (badness 6859) in paragraph at lines 102--102
+ []\EU1/Avenir(4)/m/n/10 Table 12.13: |QCD control region selections, in ad- 
+ []
 
 
-LaTeX Warning: Reference `tab:0Lcommon' on page 192 undefined on input line 82.
+Underfull \hbox (badness 6157) in paragraph at lines 102--102
+ \EU1/Avenir(4)/m/n/10 dition to the zero lepton preselection in Table [][]10.1
+[][].| 
+ []
 
 
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 87.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 87.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 107.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 87.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 107.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 87.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 107.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 107.
 
 File: figures/QCDJetSmearing/CRQC/dphiISRI_36500.eps Graphic file (type eps)
 <figures/QCDJetSmearing/CRQC/dphiISRI_36500.eps>
@@ -5266,31 +5566,28 @@ File: figures/QCDJetSmearing/CRQC/MV_36500.eps Graphic file (type eps)
 
 <figures/QCDJetSmearing/CRQC/MV_36500.eps>
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 94.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 114.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 94.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 114.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 94.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 114.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 94.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 114.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 119.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 99.
-
-[192] [193]
-
-Package caption Warning: \label without proper reference on input line 85.
-See the caption package documentation for explanation.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 119.
 
 
-LaTeX Warning: Reference `tab:0Lcommon' on page 194 undefined on input line 102
-.
+Overfull \hbox (6.95195pt too wide) in paragraph at lines 119--119
+[]\EU1/Avenir(2)/m/n/10.95 The QCD multijet prediction after normalizing to the
+ control region can be checked 
+ []
 
 .................................................
 . fontspec info: "no-scripts"
@@ -5310,173 +5607,309 @@ LaTeX Warning: Reference `tab:0Lcommon' on page 194 undefined on input line 102
 * 'Avenir' with script '' and language ''.
 *************************************************
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 122.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 122.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 122.
-
-File: figures/QCDJetSmearing/VRqC/RISR_36500.eps Graphic file (type eps)
-<figures/QCDJetSmearing/VRqC/RISR_36500.eps>
-File: figures/QCDJetSmearing/VRqC/dphiISRI_36500.eps Graphic file (type eps)
-
-<figures/QCDJetSmearing/VRqC/dphiISRI_36500.eps>
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 128.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 128.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 128.
-
-[194]
-
-LaTeX Warning: Reference `tab:QCD:SRyield' on page 195 undefined on input line 
-137.
-
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Avenir does not contain any OpenType `Script' information.
-.................................................
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
-* with script '' and language ''.
-*************************************************
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
-* 'Avenir' with script '' and language ''.
-*************************************************
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 142.
-
-
-Overfull \hbox (74.835pt too wide) in paragraph at lines 141--145
- [] 
- []
-
-)) [195]
-\openout2 = `chapters/Systematics.aux'.
-
- (./chapters/Systematics.tex
-Chapter 13.
-[196
-
-
-
-]
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 11.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 11.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 11.
-
-[197]
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 13.
-
-(./HistFitterStuff/SysTable.SRC1to3.tex
-
-LaTeX Warning: Float too large for page by 31.92899pt on input line 86.
-
-) (./HistFitterStuff/SysTable.SRC4to5.tex)
-File: HistFitterStuff/corrMatrix.pdf Graphic file (type QTm)
-
-<use  "HistFitterStuff/corrMatrix.pdf" >
-Overfull \hbox (201.1639pt too wide) in paragraph at lines 31--32
- [] 
+Underfull \hbox (badness 5652) in paragraph at lines 137--137
+ []\EU1/Avenir(4)/m/n/10 Table 12.14: |QCD validation region selections, in ad-
+ 
  []
 
 
-Overfull \hbox (0.67393pt too wide) in paragraph at lines 37--37
-[]\EU1/Avenir(2)/m/n/10.95 The post-fit pull is given in figure [][]13.2[][]. N
-o profiling of any systematics is observed.  
- []
-
-File: HistFitterStuff/pullPlot.pdf Graphic file (type QTm)
-<use  "HistFitterStuff/pullPlot.pdf" >
-Overfull \hbox (236.5581pt too wide) in paragraph at lines 41--42
- [] 
- []
-
-(./chapters/detSystematics.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1.
-
-
-Overfull \hbox (5.09895pt too wide) in paragraph at lines 8--8
-\EU1/Avenir(2)/m/n/10.95 section [][]4.3[][]. Uncertainty in the calibration pr
-ocess leads to uncertainty in the calorime- 
- []
-
-[198] [199] [200] [201] [202]
-File: figures/JetCalib/JES_pt.png Graphic file (type QTm)
- <use  "figures/JetCalib/JES_pt.png" >
-File: figures/JetCalib/JES_eta.png Graphic file (type QTm)
-
-<use  "figures/JetCalib/JES_eta.png" >
-
-LaTeX Warning: Reference `fig:sys:JER' on page 203 undefined on input line 27.
-
-File: figures/JetCalib/JER_pt.png Graphic file (type QTm)
-<use  "figures/JetCalib/JER_pt.png" >
-File: figures/JetCalib/JER_eta.png Graphic file (type QTm)
- <use  "figures/JetCalib/JER_eta.png" >
-[203] [204] [205]
-File: figures/METCalib/MET_TST_tt.eps Graphic file (type eps)
- <figures/METCalib/MET_TST_tt.eps> [206])
-(./chapters/theorySystematics.tex [207]
-Overfull \hbox (30.66963pt too wide) in paragraph at lines 25--25
-[]\EU1/Avenir(2)/m/n/10.95 The ttbar ISR/FSR uncertainty is estimated by using 
-the radHi and radLo $[][][][][][][][][][][][]$ 
- []
-
-[208]
-Overfull \hbox (25.05835pt too wide) in paragraph at lines 31--31
-\EU1/Avenir(2)/m/n/10.95 combined ttbar hard scattering and PS uncertainty. Thi
-s is because the $[][][][][][][][][][][][] \OT1/cmr/m/n/10.95 + 
- []
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 34.
-
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Avenir does not contain any OpenType `Script' information.
-.................................................
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
-* with script '' and language ''.
-*************************************************
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
-* 'Avenir' with script '' and language ''.
-*************************************************
-
-Overfull \hbox (85.9102pt too wide) in paragraph at lines 47--63
- [] 
+Underfull \hbox (badness 6157) in paragraph at lines 137--137
+ \EU1/Avenir(4)/m/n/10 dition to the zero lepton preselection in Table [][]10.1
+[][].| 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[209] (./tables/syst/wSysts.tex
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 141.
+
+[209]
+File: figures/QCDJetSmearing/VRqC/RISR_36500.eps Graphic file (type eps)
+ <figures/QCDJetSmearing/VRqC/RISR_36500.eps>
+File: figures/QCDJetSmearing/VRqC/dphiISRI_36500.eps Graphic file (type eps)
+
+<figures/QCDJetSmearing/VRqC/dphiISRI_36500.eps>
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 147.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 147.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 147.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[210]
+
+LaTeX Warning: Reference `tab:QCD:SRyield' on page 211 undefined on input line 
+158.
+
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Avenir does not contain any OpenType `Script' information.
+.................................................
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
+* with script '' and language ''.
+*************************************************
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
+* 'Avenir' with script '' and language ''.
+*************************************************
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 163.
+
+
+Overfull \hbox (74.835pt too wide) in paragraph at lines 162--166
+ [] 
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 166--166
+ []\EU1/Avenir(4)/m/n/10 Table 12.15: |Expected yields of the QCD multijet back
+grounds in SR.| 
+ []
+
+)) [211] [212] [213] [214]
+\openout2 = `chapters/Statistics.aux'.
+
+ (./chapters/Statistics.tex
+Chapter 13.
+[215
+
+
+
+]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 30.
+
+[216] [217] [218]
+File: ./figures/statistics/CR_VR_SR.pdf Graphic file (type QTm)
+ <use  "./figures/statistics/CR_VR_SR.pdf" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[219] [220] [221] [222]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 126.
+
+[223]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 134.
+
+[224]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 143.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 143.
+
+[225]) [226]
+\openout2 = `chapters/Systematics.aux'.
+
+ (./chapters/Systematics.tex
+Chapter 14.
+[227
+
+
+
+] [228]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 19.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 19.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 21.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 21.
+
+
+LaTeX Warning: Reference `table.results.bkgestimate.uncertainties.SRC4_SRC5' on
+ page 229 undefined on input line 23.
+
+(./HistFitterStuff/SysTable.SRC.tex)
+File: HistFitterStuff/pullPlot.pdf Graphic file (type QTm)
+ <use  "HistFitterStuff/pullPlot.pdf" >
+LaTeX Font Info:    Font shape `EU1/Avenir(5)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 52.
+
+(./chapters/detSystematics.tex [229] [230] [231]
+File: figures/JetCalib/JES_pt.pdf Graphic file (type QTm)
+
+<use  "figures/JetCalib/JES_pt.pdf" >
+File: figures/JetCalib/JES_eta.pdf Graphic file (type QTm)
+ <use  "figures/JetCalib/JES_eta.pdf" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[232]
+
+LaTeX Warning: Text page 233 contains only floats.
+
+
+Overfull \vbox (0.6337pt too high) has occurred while \output is active []
+
+
+[233]
+File: figures/JetCalib/JER_pt.png Graphic file (type QTm)
+ <use  "figures/JetCalib/JER_pt.png" >
+File: figures/JetCalib/JER_eta.png Graphic file (type QTm)
+
+<use  "figures/JetCalib/JER_eta.png" >
+
+LaTeX Warning: Float too large for page by 5.35286pt on input line 36.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 38.
+
+File: figures/JetCalib/MV20c10_btaggingEff.eps Graphic file (type eps)
+<figures/JetCalib/MV20c10_btaggingEff.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 54.
+
+[234]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 59.
+
+File: figures/METCalib/MET_TST_tt.eps Graphic file (type eps)
+<figures/METCalib/MET_TST_tt.eps>
+Underfull \hbox (badness 2644) in paragraph at lines 70--70
+ []\EU1/Avenir(4)/m/n/10 Figure 14.5: |Uncertainty on the $[][]$ track soft ter
+m as a func- 
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 70--70
+ \EU1/Avenir(4)/m/n/10 tion the number of reconstructed vertexes. More reconstr
+ucted 
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 70--70
+ \EU1/Avenir(4)/m/n/10 vertexes means more pileup interactions are in the event
+.| 
+ []
+
+[235]) (./chapters/theorySystematics.tex [236]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 23.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 23.
+
+[237] [238]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 48.
+
+[239]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 57.
+
+
+Overfull \hbox (23.87975pt too wide) in paragraph at lines 57--57
+[]$[][]$ \EU1/Avenir(2)/m/n/10.95 refer to the transfer factors defined in equa
+tion [][]14.2[][] for the nominal $[][][][][][][][][][][][]$ 
+ []
+
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Avenir does not contain any OpenType `Script' information.
+.................................................
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
+* with script '' and language ''.
+*************************************************
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
+* 'Avenir' with script '' and language ''.
+*************************************************
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Avenir does not contain any OpenType `Script' information.
+.................................................
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
+* with script '' and language ''.
+*************************************************
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
+* 'Avenir' with script '' and language ''.
+*************************************************
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.82538pt
+(hyperref)                removed on input line 108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.82538pt
+(hyperref)                removed on input line 108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 108.
+
+(./tables/syst/wSysts.tex
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -5499,7 +5932,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[210] [211]
+[240]
+Overfull \vbox (29.24725pt too high) has occurred while \output is active []
+
+
+[241] [242]
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -5519,21 +5956,43 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 * 'Avenir' with script '' and language ''.
 *************************************************
 
-Overfull \hbox (183.53131pt too wide) in paragraph at lines 100--116
+Overfull \hbox (62.01593pt too wide) in paragraph at lines 142--159
  [] 
  []
 
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Avenir does not contain any OpenType `Script' information.
+.................................................
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Numbers=OldStyle' (+onum) not available for font 'Avenir'
+* with script '' and language ''.
+*************************************************
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Ligatures=Common, TeX' (+liga) not available for font
+* 'Avenir' with script '' and language ''.
+*************************************************
 
-LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/sc' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 123.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 184.
 
 
-LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/sc' will be
-(Font)              scaled to size 10.6763pt on input line 123.
-[212]
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 184.
 
-LaTeX Warning: Reference `ab:ttbarZ_unc1' on page 213 undefined on input line 1
-25.
+
+Package natbib Warning: Citation `sherpa.OpenLoops' on page 243 undefined on in
+put line 186.
+
+[243]
+
+LaTeX Warning: Reference `ab:ttbarZ_unc1' on page 244 undefined on input line 1
+88.
 
 (./tables/syst/ttVSyst.tex
 .................................................
@@ -5555,76 +6014,83 @@ LaTeX Warning: Reference `ab:ttbarZ_unc1' on page 213 undefined on input line 1
 * 'Avenir' with script '' and language ''.
 *************************************************
 )
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)) [213] [214]
-\openout2 = `chapters/Statistics.aux'.
-
- (./chapters/Statistics.tex
-Chapter 14.
-[215
+Underfull \hbox (badness 1077) in paragraph at lines 194--194
+ \EU1/Avenir(4)/m/n/10 production obtained on the transfer factor. The uncertai
+nties are sym- 
+ []
 
 
+Underfull \hbox (badness 1275) in paragraph at lines 194--194
+ \EU1/Avenir(4)/m/n/10 metrical and are quantified as percentage of total backg
+round yield.| 
+ []
 
-]
+[244]
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 30.
-
-[216] [217] [218]
-File: ./figures/statistics/CR_VR_SR.pdf Graphic file (type QTm)
- <use  "./figures/statistics/CR_VR_SR.pdf" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[219] [220] [221]
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 123.
-
-[222]
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 131.
-
-[223]
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 140.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 202.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 140.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 202.
 
-[224]) [225]
+)) [245] [246] [247] [248]
 \openout2 = `chapters/Results.aux'.
 
  (./chapters/Results.tex
 Chapter 15.
 File: figures/SRC/CA_RISR_SRC1_5.eps Graphic file (type eps)
 <figures/SRC/CA_RISR_SRC1_5.eps>
+Underfull \hbox (badness 1418) in paragraph at lines 11--11
+ []\EU1/Avenir(4)/m/n/10 Figure 15.1: |Unblinded $[][]$ distributions for SRC1-
+5 for $[][]\OML/cmm/m/it/10 :[][]$ []\EU1/Avenir(4)/m/n/10 .| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 16.
 
-[226
+[249
 
 
 
-] [227] (./HistFitterStuff/YieldsTable.SRC1to3.tex)
-(./HistFitterStuff/YieldsTable.SRC4to5.tex)
+] (./HistFitterStuff/YieldsTable.SRC.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 21.
 
-(./HistFitterStuff/UpperLimitTable.tex)) [228] [229] [230]
-\openout2 = `chapters/Interpretation.aux'.
+[250] (./HistFitterStuff/UpperLimitTable.tex
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./chapters/Interpretation.tex
-Chapter 16.
+) (./chapters/Interpretation.tex
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 4.
 
-[231
+[251]
+File: HistFitterStuff/SRC_exclusion.pdf Graphic file (type QTm)
+ <use  "HistFitterStuff/SRC_exclusion.pdf" >
+Overfull \hbox (13.95715pt too wide) in paragraph at lines 8--9
+ [] 
+ []
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-]
+[252]
+
+LaTeX Warning: Text page 253 contains only floats.
+
+[253]
+
+Package natbib Warning: Citation `stop0Lmoriond' on page 254 undefined on input
+ line 18.
+
 File: figures/fit/atlascls_m0m12_wband1_showcms0_StopZL2016_SRABC_Tt_directTTpl
 usbWN_all_Output_fixSigXSecNominal_hypotest__1_harvest_list.eps Graphic file (t
 ype eps)
@@ -5632,54 +6098,56 @@ ype eps)
 <figures/fit/atlascls_m0m12_wband1_showcms0_StopZL2016_SRABC_Tt_directTTplusbWN
 _all_Output_fixSigXSecNominal_hypotest__1_harvest_list.eps>
 
-Package natbib Warning: Citation `stop0Lmoriond' on page 232 undefined on input
- line 16.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[232]
-File: figures/fit/atlascls_m0m12_wband1_showcms0_StopZL2016_SRABC_Tt_directTTpl
-usbWN_all_Output_fixSigXSecNominal_hypotest__1_harvest_list.eps Graphic file (t
-ype eps)
 
-<figures/fit/atlascls_m0m12_wband1_showcms0_StopZL2016_SRABC_Tt_directTTplusbWN
-_all_Output_fixSigXSecNominal_hypotest__1_harvest_list.eps>
+Package natbib Warning: Citation `stop0Lmoriond' on page 254 undefined on input
+ line 32.
 
-Package natbib Warning: Citation `stop0Lmoriond' on page 233 undefined on input
- line 26.
+[254]
 
+LaTeX Warning: Text page 255 contains only floats.
+
+
+Overfull \vbox (1.4155pt too high) has occurred while \output is active []
+
+
+[255]
 File: figures/fit//SRABCD_mixed_dm1.eps Graphic file (type eps)
-<figures/fit//SRABCD_mixed_dm1.eps>) [233] [234] [235]
+ <figures/fit//SRABCD_mixed_dm1.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) [256]
+
+LaTeX Warning: Text page 257 contains only floats.
+
+[257]
 \openout2 = `chapters/conclusion.aux'.
 
+ (./chapters/conclusion.tex
+Chapter 16.
 
-(./chapters/conclusion.tex
-Chapter 17.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 7.
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 5.
-
-[236
-
+[258
 
 
-]
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 11.
+] [259]
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 15.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 11.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 15.
 
-[237]
-Overfull \hbox (2.2544pt too wide) in paragraph at lines 15--15
+[260]
+Overfull \hbox (2.2544pt too wide) in paragraph at lines 25--25
 []\EU1/Avenir(2)/m/n/10.95 This analysis serves also as a demonstration of the 
 general strategy of using events 
  []
 
-[238]
-Overfull \hbox (3.01106pt too wide) in paragraph at lines 19--19
-\EU1/Avenir(2)/m/n/10.95 produced with around $[][][][]$ of ISR pt from ttbar w
-ith little ISR pt as demonstrated 
- []
-
-[239]) [240]
+[261]) [262]
 \openout2 = `chapters/appendixA.aux'.
 
  (./chapters/appendixA.tex) (./endmatter/personalize.tex)
@@ -5694,7 +6162,7 @@ LaTeX Font Info:    Font shape `EU1/Avenir(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 42.
 LaTeX Font Info:    Font shape `EU1/Avenir(2)/m/it' will be
 (Font)              scaled to size 6.0pt on input line 42.
-[241
+[263
 
 
 
@@ -5703,13 +6171,13 @@ LaTeX Font Info:    Font shape `EU1/Avenir(2)/m/it' will be
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 86.
 
-[242] [243]
-Underfull \hbox (badness 1270) in paragraph at lines 238--244
+[264] [265] [266]
+Underfull \hbox (badness 1270) in paragraph at lines 245--251
 []\EU1/Avenir(2)/m/n/10.95 Cornelissen, T., Elsing, M., Fleischmann, S., Liebig
 , W., Moyse, E., & 
  []
 
-[244] [245]) [246]
+[267]) [268]
 
 Package natbib Warning: There were undefined citations.
 
@@ -5720,10 +6188,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
 (./chapters/Reconstruction.aux) (./chapters/Trigger.aux)
 (./chapters/ObjectDef.aux) (./chapters/MCSimulation.aux) (./chapters/Jigsaw.aux
 ) (./chapters/EventSelection.aux) (./chapters/SignalRegion.aux)
-(./chapters/Background.aux) (./chapters/Systematics.aux)
-(./chapters/Statistics.aux) (./chapters/Results.aux)
-(./chapters/Interpretation.aux) (./chapters/conclusion.aux)
-(./chapters/appendixA.aux))
+(./chapters/Background.aux) (./chapters/Statistics.aux)
+(./chapters/Systematics.aux) (./chapters/Results.aux)
+(./chapters/conclusion.aux) (./chapters/appendixA.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 57.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 57.
 
@@ -5739,12 +6206,12 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 30588 strings out of 493591
- 534526 string characters out of 6143546
- 641813 words of memory out of 5000000
- 33122 multiletter control sequences out of 15000+600000
- 19745 words of font info for 147 fonts, out of 8000000 for 9000
+ 30617 strings out of 493591
+ 535281 string characters out of 6143546
+ 630784 words of memory out of 5000000
+ 33162 multiletter control sequences out of 15000+600000
+ 19769 words of font info for 150 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 51i,15n,107p,10469b,605s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,15n,107p,10469b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (264 pages).
+Output written on dissertation.pdf (283 pages).

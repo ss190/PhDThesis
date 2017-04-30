@@ -98,6 +98,13 @@
   the 2015 LHC proton-proton collision data}}.
 \newblock Technical Report ATLAS-CONF-2016-024, CERN, Geneva.
 
+\bibitem[ttb, 2016]{ttbarDiffCross}
+ (2016).
+\newblock {\em {Measurements of top-quark pair differential cross-sections in
+  the lepton+jets channel in pp collisions at $\sqrt{s}=13$ TeV using the ATLAS
+  detector}}.
+\newblock Technical Report ATLAS-CONF-2016-040, CERN, Geneva.
+
 \bibitem[bta, 2016]{btagging2016}
  (2016).
 \newblock {\em {Optimisation of the ATLAS $b$-tagging performance for the 2016
@@ -109,18 +116,18 @@
 \newblock {\em {Photon identification in 2015 ATLAS data}}.
 \newblock Technical Report ATL-PHYS-PUB-2016-014, CERN, Geneva.
 
-\bibitem[HLL, 2016]{HLLHC_stop}
- (2016).
-\newblock {\em {Prospects for a search for direct pair production of top
-  squarks in scenarios with compressed mass spectra at the high luminosity LHC
-  with the ATLAS Detector}}.
-\newblock Technical Report ATL-PHYS-PUB-2016-022, CERN, Geneva.
-
 \bibitem[sto, 2017]{stop0LCONF}
  (2017).
 \newblock {\em {Search for a Scalar Partner of the Top Quark in the Jets+ETmiss
   Final State at $\sqrt{s}$ = 13 TeV with the ATLAS detector}}.
 \newblock Technical Report ATLAS-CONF-2017-020, CERN, Geneva.
+
+\bibitem[SUS, 2017]{SUSYinclusive0L}
+ (2017).
+\newblock {\em {Search for squarks and gluinos in final states with jets and
+  missing transverse momentum using 36 fb$^{?1}$ of $\sqrt{s} =13$ TeV pp
+  collision data with the ATLAS detector}}.
+\newblock Technical Report ATLAS-CONF-2017-022, CERN, Geneva.
 
 \bibitem[Tri, 2017]{Trigger2016}
  (2017).
@@ -258,6 +265,12 @@ Fruhwirth, R., Waltenberger, W., \& Vanlaer, P. (2007).
 \newblock {Adaptive vertex fitting}.
 \newblock {\em J. Phys.}, G34, N343.
 
+\bibitem[Gleisberg et~al., 2009]{sherpa}
+Gleisberg, T., Hoeche, S., Krauss, F., Schonherr, M., Schumann, S., Siegert,
+  F., \& Winter, J. (2009).
+\newblock {Event generation with SHERPA 1.1}.
+\newblock {\em JHEP}, 02, 007.
+
 \bibitem[{Hoecker} et~al., 2007]{TMVA}
 {Hoecker}, A., {Speckmayer}, P., {Stelzer}, J., {Therhaag}, J., {von Toerne},
   E., {Voss}, H., {Backes}, M., {Carli}, T., {Cohen}, O., {Christov}, A.,
@@ -313,11 +326,6 @@ Owen, S. (2012).
   searches with jets and missing transverse momentum at ATLAS using jet
   smearing}}.
 \newblock Technical Report ATL-PHYS-INT-2012-008, CERN, Geneva.
-
-\bibitem[Pequenao \& Schaffner, 2013]{ATLASSig}
-Pequenao, J. \& Schaffner, P. (2013).
-\newblock {An computer generated image representing how ATLAS detects
-  particles}.
 
 \bibitem[Pumplin et~al., 2002]{CTEQ6L1}
 Pumplin, J., Stump, D.~R., Huston, J., Lai, H.-L., Nadolsky, P., \& Tung, W.-K.

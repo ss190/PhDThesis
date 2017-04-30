@@ -27,7 +27,7 @@ M(\vec{z})=-\ln(({\mathcal{L}}(\vec{z})) = -{\displaystyle\sum_{i=1}^{n}} \ln( P
 {\mathcal{L}}(\vec{z}) = \{ \frac{\exp^{-\lambda}{\lambda}^n}{n!} \}  {\displaystyle\prod_{i=1}^{n}} P(x_i|\vec{z})
 \end{equation}
 
-\indent For this particular analysis we perform a binned fit to the $\RISR$ distribution in the SR.  Therefore the fitted PDF $(x_i|\vec{z})$ is not a full continuous function but a series of expected values in discrete bins.  The binned $P(x|\vec{z})$ can be written as equation \ref{eqn:binnedPDF}. \\
+\indent For this particular analysis we perform a binned fit to the $\RISR$ distribution in the signal region.  Therefore the fitted PDF $(x_i|\vec{z})$ is not a full continuous function but a series of expected values in discrete bins.  The binned $P(x|\vec{z})$ can be written as equation \ref{eqn:binnedPDF}. \\
 
 \begin{equation}
 \label{eqn:binnedPDF}
@@ -59,36 +59,39 @@ M(\vec{z})=-\ln(({\mathcal{L}}(\vec{z})) = -{\displaystyle\sum_{i=1}^{n_{bins}}}
 M(\vec{z})=-\ln(({\mathcal{L}}(\vec{z})) = -{\displaystyle\sum_{i=1}^{n_{bins}}} ( N^{data}_{b_i} \ln( N^{MC}_{b_i} ) - N^{MC}_{b_i} - \ln{N^{data}_{b_i}!} )
 \end{equation}
 
-\indent In this analysis we perform a simultaneous fit to multiple CR and SR to extract the best fit signal strength.  We perform a simultaneous fit to multiple regions by maximizing the total NLL of all fitted regions.  The total NLL is simply a sum of the individual NLL for each region.  \\
+\indent In this analysis we perform a simultaneous fit to multiple control and signal regions to extract the best fit signal strength.  We perform a simultaneous fit to multiple regions by maximizing the total NLL of all fitted regions.  The total NLL is simply a sum of the individual NLL for each region.  \\
 
 \section{Overview of Fitting to Control Regions and Signal Regions}
 \label{sec:stat:Bkg}
 
-\indent In this analysis we use a SR to isolate signal from background.  At the same time, we use multiple CRs that are kinematically similar to SR but have high background purity to estimate the background.  The signal strength and expected background rate are both extracted through a simultaneous fit to all CRs and SR.  \\
+\indent In this analysis we use a signal region to isolate signal from background.  At the same time, we use multiple control regions that are kinematically similar to the signal region but have high background purity to estimate the background.  The signal strength and expected background rate are both extracted through a simultaneous fit to all control regions and signal region.  \\
 
 %\indent We normalize backgrounds to data in control regions dominated by background but are kinematically similar to the signal region.  The background normalization is allowed to float and the fit will extract the total amount of background that best describe the data in all the different control regions. All backgrounds that form a statistically significant contribution to the total background in SR has a corresponding CR.  The background estimation techniques and definitions of these CRs are given in chapter \ref{chap:backgrounds}.  \\
 
-\indent The amount of MC background in both the CR and SR will fluctuate with experimental and theoretical systematics before the fit.  However after the fit the total amount of background will be normalized to the CR.  If the MC yield for background fluctuate down for a given systematic then the normalization scale factor will increase.  The increased normalization scale factor will compensate for any simultaneous drop in SR MC yield.  This partial cancelation of fluctuations between CR and SR can lead to smaller systematic uncertainties.  In effect, the CR reduces systematic uncertainty by directly measuring the amount of background in from data instead of relying solely on MC simulations.  \\
+\indent The amount of MC background in both the control and signal regions will vary with experimental and theoretical systematics before the fit.  However after the fit the total amount of background will be normalized to the control.  If the MC yield for background has a downward variation for a given systematic then the normalization scale factor will increase.  The increased normalization scale factor will compensate for any simultaneous drop in signal region MC yield.  This partial cancelation of variations between control and signal regions can lead to smaller systematic uncertainties.  In effect, the control region reduces the systematic uncertainty by directly measuring the amount of background in from data instead of relying solely on MC simulations.  \\
 
-\indent The more kinematically similar the definition of the CR to the SR, the better the cancelation.  Any extrapolation between CR and SR must be across well modeled variables.  Otherwise large systematic uncertainties can arise or worse the background predictions in SR maybe wrong.  \\
+\indent The more kinematically similar the definition of the control region to the signal region, the better the cancelation.  Any extrapolation between control and signal region must be across well modeled variables.  Otherwise large systematic uncertainties can arise or worse the background predictions in the signal region maybe wrong.  \\
 
-\indent We can also check the result of our background predictions without unblinding the SR in validation regions.  VRs receive the background normalization scale factors from the fit to CRs but do not participate in the fit.   The VRs are designed to be kinematically similar to the SRs while keeping signal contaminations low.  In this way, the VRs serves as a mid-point to check the extrapolation between CR and SR.  \\
+\indent We can also check the result of our background predictions without unblinding the signal region in validation regions.  Validation regions receive the background normalization scale factors from the fit to control regions but do not participate in the fit.   Validation regions are designed to be kinematically similar to the signal regions while keeping signal contaminations low.  In this way, validation regions serve as a mid-point to check the extrapolation between the control and signal regions.  \\
 
-\indent The relationship between CR, SR and VR is graphically depicted in figure \ref{fig:CR_VR_SR_stat}. \\
+\indent The relationship between control, validation and signal regions is graphically depicted in Figure \ref{fig:CR_VR_SR_stat}. \\
 
 \begin{figure}[h!]
   \centering
 	\includegraphics[width=0.65\textwidth]{./figures/statistics/CR_VR_SR.pdf}
-\caption{\label{fig:CR_VR_SR_stat}{Basic diagram of data driven background estimation techniques.  We define control regions (CR) that is dominated by background and have little signal.  We can estimate the amount of background we expect in the signal region (SR) by measuring the amount of background in the CR and extrapolating to the SR using MC predictions. }}
+\caption[Schematic representation of the relationship between control, validation and signal regions]{Schematic representation of the data driven background estimation technique of using control regions to estimate backgrounds in the signal region and using validation regions to validate those estimates.  We define control regions (CR) that are dominated by background and have little signal.  We can estimate the amount of background we expect in the signal region by measuring the amount of background in the control region.  We then using MC simulation to extrapolate between the control region and the signal region. Validation regions are between control regions and the signal regions and serve to validate the extrapolation between the control and signal regions.  }
+\label{fig:CR_VR_SR_stat}
 \end{figure}
 
-\indent If an excess were to exist in the SR, a simultaneous fit to all CR and SR is performed to calculate the statistical significance of any potential excess (discovery fit).   If no excess were found, then a simultaneous fit to all CR and SR is also performed quantify the maximum amount of signal cross-section that can be excluded (exclusion fit).  \\
+\indent The data in the signal region is originally blinded to avoid any bias for or against discovery.  We first check the agreement between MC simulation and background predictions in the control and validation regions.  We unblind the signal region only after we decide the background prediction in the signal region is well understood based on these observations in the control regions and validation regions. \\
 
-\indent We also quantify the expected background rate and the systematic uncertainty in SR by performing a background only fit.  In this case, only the CRs are fitted and the SR acts like another VR, receiving the fitted background normalization but not participating in the fit.  The background only fit may give a different predicted background rate from the exclusion or discovery fit because the SR is not simultaneously fitted.  However, the difference is expected to be small because the CRs are designed to have much greater constraining power on background rates then SR.  \\
+\indent If an excess were to exist in the signal region, a simultaneous fit to all control and signal region is performed to calculate the statistical significance of any potential excess (discovery fit).   If no excess were found, then a simultaneous fit to all control and signal regions is also performed quantify the maximum amount of signal cross-section that can be excluded (exclusion fit).  \\
+
+\indent We also quantify the expected background rate and the systematic uncertainty in the signal region by performing a background only fit.  In this case, only the control regions are fitted and the signal region acts like another validation region, receiving the fitted background normalization but not participating in the fit.  The background only fit may give a different predicted background rate from the exclusion or discovery fit because the signal region is not simultaneously fitted.  However, the difference is expected to be small because the control regions are designed to have much greater constraining power on background rates then the signal region.  \\
 
 \indent These three type of fits, the background only fit, the discovery fit and the exclusion fit are covered in more detail in sections \ref{sec:stat:bkgonly} to \ref{sec:stat:limit}. The parameterization of systematics as constrained nuisance parameters is covered in section \ref{sec:stat:sys}. \\
 
-\indent We use the software package $\HistFitter$ (version {\tt HistFitter-00-00-53} ) to perform the statistical analysis.\cite{HistFitter}  At its core $\HistFitter$ is still performing log likelihood fitting based on the principle introduced in section \ref{sec:stat:likelihood} but \HistFitter provide many tools to easily manage and integrate multiple CR, VR, SR, signal samples, backgrounds, and systematics.  $\HistFitter$ is built upon other statistical analysis software including \RooFit.\cite{RooFit}
+\indent We use the software package $\HistFitter$ (version {\tt HistFitter-00-00-53} ) to perform the statistical analysis.\cite{HistFitter}  At its core $\HistFitter$ is still performing log likelihood fitting based on the principle introduced in section \ref{sec:stat:likelihood} but \HistFitter provide many tools to easily manage and integrate multiple control region, validation region, signal region, signal samples, backgrounds, and systematics.  $\HistFitter$ is built upon other statistical analysis software including \RooFit.\cite{RooFit}
 
 \section{Parameterization of Systematics as Gaussian Constraints}
 \label{sec:stat:sys}
@@ -111,16 +114,16 @@ M(\vec{z})=-\ln(({\mathcal{L}}(\vec{z})) = -{\displaystyle\sum_{i=1}^{n_{bins}}}
 \section{Background Only Fit and Background Estimation}
 \label{sec:stat:bkgonly}
 
-\indent The background rates are normalized to data through a simultaneous fit to CRs for the background only fit.  The fitted background normalizations derived from the fit are then applied to the SR but the SR is not simultaneously fitted.  No signal sample is included in the fit and any potential signal contamination in the CR is ignored.  This fit has the advantage of being able to quantify the expected background rate and systematic uncertainties while the SR is blinded. \\
+\indent The background rates are normalized to data through a simultaneous fit to CRs for the background only fit.  The fitted background normalizations derived from the fit are then applied to the SR but the signal region is not simultaneously fitted.  No signal sample is included in the fit and any potential signal contamination in the CR is ignored.  This fit has the advantage of being able to quantify the expected background rate and systematic uncertainties while the signal region is blinded. \\
 
-%The background only fit is performed to estimate the background systematic uncertainties and the expected background rate in SR.  \\
+%The background only fit is performed to estimate the background systematic uncertainties and the expected background rate in signal region.  \\
 
-\indent The background normalizations predicted in the background only fit may differ from the discovery and exclusion fits because the SR is simultaneously fitted in those fits. This difference should be small as long as the CRs have high background purity and significantly higher statistics then SR.  \\
+\indent The background normalizations predicted in the background only fit may differ from the discovery and exclusion fits because the signal region is simultaneously fitted in those fits. This difference should be small as long as the CRs have high background purity and significantly higher statistics then the signal region.  \\
 
 \section{Exclusion Fit and Exclusion Limit Calculation}
 \label{sec:stat:limit}
 
-\indent The exclusion fit is performed as a simultaneous fit to all CRs and all five SR $\RISR$ bins. The signal sample is included in both CR and SR and normalized to the fitted signal strength parameter.   \\
+\indent The exclusion fit is performed as a simultaneous fit to all CRs and all five SR $\RISR$ bins. The signal sample is included in both the control and signal regions and normalized to the fitted signal strength parameter.   \\
 
 \indent The best fit signal strength is found when the negative log likelihood (NLL) is at a minimum after fitting to data.  As the signal strength deviates from the best fit value, the NLL increases and we are more confident that the signal strength is not supported by data.  We use the difference in NLL as our test statistic.  The relationship between the test statistic and statistical significance is approximated by a parabola in the asymptotic high statistics case. \\
 
@@ -128,14 +131,14 @@ M(\vec{z})=-\ln(({\mathcal{L}}(\vec{z})) = -{\displaystyle\sum_{i=1}^{n_{bins}}}
 
 \indent We calculate the CL$_s$ corresponding to a grid of signal models each with a different stop and neutralino mass.  The CL$_s$ are plotted in a 2D graph with the stop mass along the x-axis and the neutralino mass along the y-axis.  These CL$_s$ are then interpolated over to form a 2D contour plot.  The contour corresponding to the 95 percent CL$_s$ defines the parameter space excluded by the search. \\
 
-\indent We can also find the 95 percent confidence limit on the observed signal cross-section in each $\RISR$ bin.  The observed signal cross-section is defined as the number of signal events predicted to exist in SR for any particular signal model and is equivalent to selection efficiency times the signal production cross-section.  The limit on the observed cross-section is completely theory independent.  It is simply a statement on the maximum additional BSM rate that can exist in SR without being ruled out to 95 percent confidence.  \\
+\indent We can also find the 95 percent confidence limit on the observed signal cross-section in each $\RISR$ bin.  The observed signal cross-section is defined as the number of signal events predicted to exist in SR for any particular signal model and is equivalent to selection efficiency times the signal production cross-section.  The limit on the observed cross-section is completely theory independent.  It is simply a statement on the maximum additional BSM rate that can exist in the signal without being ruled out to 95 percent confidence.  \\
 
 \section{Discovery Fit and Discovery Significance Calculation}
 \label{sec:stat:discovery}
 
-\indent The discovery fit is also performed as a simultaneous fit to all CRs and SR.  The signal sample is included only in the SR but not to the CR in the fit.  Excluding the signal sample from the CR gives a more conservative estimate.  If a signal is present in nature, the signal contamination would still contribute to the CR yield in data.  The higher data yield will in turn increase background normalizations in CR.  Hence, any potential signal contamination is considered essentially as additional background in CR. \\
+\indent The discovery fit is also performed as a simultaneous fit to all control regions and signal region.  The signal sample is included only in the signal but not to the control in the fit.  Excluding the signal sample from the control region gives a more conservative estimate.  If a signal is present in nature, the signal contamination would still contribute to the control region yield in data.  The higher data yield will in turn increase background normalizations in the control region.  Hence, any potential signal contamination is considered essentially as additional background in the control region. \\
 
-\indent  Again, a well designed CR has little signal contamination so the difference between this approach and exclusion fit should be small.  Our signal contamination is less then 12 percent for all relevant signal samples.  The signal contamination drops to below 10 percent for all stop masses above 300 GeV.  \\  
+\indent  Again, a well designed control region has little signal contamination so the difference between this approach and exclusion fit should be small.  Our signal contamination is less then 12 percent for all relevant signal samples.  The signal contamination drops to below 10 percent for all stop masses above 300 GeV.  \\  
 
 \indent We do not statically combine the 5 $\RISR$ bins for the discovery fit.  The single $\RISR$ bin with the best significance is used to calculate the discovery significance.  Again this is a conservative approach and gives us worse discovery significances but it makes the analysis less sensitive to potential shape uncertainties in signal.  \\
 

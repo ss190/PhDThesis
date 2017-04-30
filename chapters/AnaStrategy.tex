@@ -12,7 +12,7 @@
 %\begin{center}
 \centering
     \includegraphics[width=0.85\textwidth]{figures/preselection/Met_preCutSRPlot_withRatio_log.eps}\hspace{0.05\textwidth}
-\caption{ $\met$ distribution for $(m_{\stop}, m_{\ninoone}) = (1000 \gev,1 \gev)$ and $(600 \gev, 300 \gev)$ stop signal and expected SM background.  The signal cross section has been scaled up by 150 and 15 respectively for better visibility.  Basic selections ensuring well reconstructed $\met$, no leptons, and minimal jet multiplicity requirements are applied.  Details on selections can be found in \cite{stop0LCONF} }
+\caption[Stop signal with $m_{\stop}-m_{\ninoone} >> m_t$ and SM background $\met$ distribution after loose preliminary selections for $\met>250 \gev$, zero leptons and at least four jets]{ $\met$ distribution for $(m_{\stop}, m_{\ninoone}) = (1000 \gev,1 \gev)$ and $(600 \gev, 300 \gev)$ stop signal and expected SM background.  The signal cross section has been scaled up by 150 and 15 respectively for better visibility.  Basic selections ensuring well reconstructed $\met$, no leptons, and minimal jet multiplicity requirements are applied.  Details on selections can be found in \cite{stop0LCONF} }
 \label{fig:presel:MET1}
 %\end{center}
 \end{figure}
@@ -35,7 +35,7 @@ m_{eff} =  \met + \sum_{visible~objects} \pt
 
 \indent $\mtbmax$ is the transverse mass between $\met$ and the b-jet that is furthest away in $\phi$ from $\met$.  $m_{eff}$ is the scalar sum of all visible object $\pt$ and $\met$.  While both variables capture additional kinematic information, both are very correlated with the total magnitude of $\met$.  The $\mtbmax$ distribution for $(m_{\stop}, m_{\ninoone}) = (1000 \gev,1 \gev)$ and $(600 \gev, 300 \gev)$ stop samples is shown in figure \ref{fig:stopMtbmin}.  The $m_{eff}$ distribution for gluinos is shown in figure \ref{fig:gluino_meff}.  SM backgrounds correspond to the solid stacked histograms. \\
 
-\begin{figure}[htb]
+\begin{figure}[h!]
   \begin{center}
     \begin{subfigure}[a]{0.33\textwidth}
         \includegraphics[width=\textwidth]{figures/feynDiag/stst-bqqbqqN1N1-tt.eps}%\hspace{0.05\textwidth}
@@ -45,12 +45,12 @@ m_{eff} =  \met + \sum_{visible~objects} \pt
         \includegraphics[width=\textwidth]{figures/preselection/MtBMax_preCutSRPlot_withRatio.eps}
                 \caption{ }
     \end{subfigure}
-\caption{ (a) Feynman diagram for stop production and decay. (b) \mtbmax distribution for $(m_{\stop}, m_{\ninoone}) = (1000 \gev,1 \gev)$ and $(600 \gev, 300 \gev)$ samples after lose selections for $\met>250 \gev$, zero leptons and at least four jets.  \cite{stop0LCONF} }
+\caption[Stop signal with $m_{\stop}-m_{\ninoone} >> m_t$ and SM background $\mtbmax$ distribution after loose preliminary selections for $\met>250 \gev$, zero leptons and at least four jets]{ (a) Feynman diagram for stop production and decay. (b) \mtbmax distribution for $(m_{\stop}, m_{\ninoone}) = (1000 \gev,1 \gev)$ and $(600 \gev, 300 \gev)$ samples after lose selections for $\met>250 \gev$, zero leptons and at least four jets.  \cite{stop0LCONF} }
 \end{center}
 \label{fig:stopMtbmin} 
 \end{figure}
 
-\begin{figure}[htb]
+\begin{figure}[h!]
   \begin{center}
     \begin{subfigure}[a]{0.33\textwidth}
         \includegraphics[width=\textwidth]{figures/feynDiag/gluino_onestep.png}%\hspace{0.05\textwidth}
@@ -60,7 +60,7 @@ m_{eff} =  \met + \sum_{visible~objects} \pt
         \includegraphics[width=\textwidth]{figures/strategy/gluino_meff.png}
                 \caption{ }
     \end{subfigure}
-\caption{ (a) Feynman diagram for gluino production and decay. (b) $m_{eff}$ distribution for gluino $(m_{\gluino}, m_{\chinopm}, m_{\ninoone}) = (1865 \gev, 945 \gev, 25 \gev)$ after lose selections for $\met>250 \gev$, zero leptons and at least six jets.\cite{SUSYinclusive0L} }
+\caption[Gluino signal with large mass splittings and SM background $m_{eff}$ distribution after loose preliminary selections for $\met>250 \gev$, zero leptons and at least six jets]{ (a) Feynman diagram for gluino production and decay. (b) $m_{eff}$ distribution for gluino $(m_{\gluino}, m_{\chinopm}, m_{\ninoone}) = (1865 \gev, 945 \gev, 25 \gev)$ after lose selections for $\met>250 \gev$, zero leptons and at least six jets.\cite{SUSYinclusive0L} }
 \end{center}
 \label{fig:gluino_meff} 
 \end{figure}
@@ -108,7 +108,7 @@ m_{eff} =  \met + \sum_{visible~objects} \pt
 \begin{figure}[h!]
   \centering
 	\includegraphics[width=0.65\textwidth]{./figures/strategy/RISR_truth.png}
-\caption{Correlation between the $\RISR$ ratio in simulation for two different stop masses.  Both stop samples peak sharply at $m_{\ninoone}/m_{\stop}$ with only a gaussian width of 4 percent.  Deviation from the preferred ratio is limited by the top width, as the top must be pulled off shell to generate phase space. No detector resolution effects where included and only the all hadronic decay channel was considered.}
+\caption[$\RISR = \met/\PTISR$ distributions for stop signals with $m_{\stop} - m_{\ninoone} \sim m_t$ in MC simulation]{The $\RISR = \met/\PTISR $ distribution for two different stop samples both with $m_{\stop} - m_{\ninoone} \sim m_t$.  Both stop MC samples peak sharply at $m_{\ninoone}/m_{\stop}$ with only a gaussian width of 4 percent.  Deviation from the preferred ratio is limited by the top width, as the top must be pulled off shell to generate phase space. No detector resolution effects where included and only the all hadronic decay channel was considered.}
 \label{fig:stop_400_227_ISR_MET_truth}
 \end{figure}
 
@@ -123,7 +123,7 @@ m_{eff} =  \met + \sum_{visible~objects} \pt
 \begin{figure}[h!]
   \centering
 	\includegraphics[width=0.85\textwidth]{./figures/strategy/ISR_signal.png}
-	\caption{Schematic depictions of stop plus strong ISR event kinematics.  The thrust axis approximates the direction of back-to-back boost between ISR and stop decay products.  The hemisphere containing $\met$ also contains most of the other stop decay products.  The hemisphere opposite the $\met$ contains the energetic ISR jets. }
+	\caption[Schematic depictions of stop plus strong ISR event kinematics]{Schematic depictions of stop plus strong ISR event kinematics.  The thrust axis approximates the direction of back-to-back boost between ISR and stop decay products.  The hemisphere containing $\met$ also contains most of the other stop decay products.  The hemisphere opposite the $\met$ contains the energetic ISR jets. }
 	\label{fig:ISR:ttbar_sig_example}
 \end{figure}
 
@@ -131,7 +131,7 @@ m_{eff} =  \met + \sum_{visible~objects} \pt
 
 \indent Other kinematic properties of the two hemispheres can also be used to separate signal from background.  For example the number of jets in the sparticle system $\NjV$ and the total transverse mass $\MS$ of the sparticle hemisphere are both expected to be larger in signal.  The $\NjV$ and $\MS$ distributions for signal and SM backgrounds are shown in figure \ref{fig:presel:NjV} \ref{fig:presel:MS}. \\
 
-\begin{figure}[htb]
+\begin{figure}[h]
   \begin{center}
     \begin{subfigure}[a]{0.45\textwidth}
         \includegraphics[width=\textwidth]{figures/plotSR/SR_ND1_NjV_0SR.eps}%\hspace{0.05\textwidth}
@@ -141,7 +141,7 @@ m_{eff} =  \met + \sum_{visible~objects} \pt
         \includegraphics[width=\textwidth]{figures/plotSR/SR_ND1_MS_0SR.eps}%\hspace{0.05\textwidth}
                 \caption{ }
     \end{subfigure}
-\caption{ (a) $\NjV$ distribution for stop signal and SM background after loose selections for $\met>250 \gev$, zero leptons and at least 4 jets.  (b) $\MS$ distribution for stop signal and background after lose selections for $\met>250 \gev$, zero leptons and at least four jets.  }
+\caption[$\NjV$ and $\MS$ distributions for stop signal and SM background after lose selections for $\met>250 \gev$, zero leptons and at least four jets]{ (a) $\NjV$ distribution for stop signal and SM background after loose selections for $\met>250 \gev$, zero leptons and at least 4 jets.  (b) $\MS$ distribution for stop signal and SM background after lose selections for $\met>250 \gev$, zero leptons and at least four jets. Details on preliminary selections can be found in chapter \ref{chap:Selection_EventPreselection} }
 \end{center}
 \label{fig:gluino_meff} 
 \end{figure}
@@ -151,23 +151,24 @@ m_{eff} =  \met + \sum_{visible~objects} \pt
 \begin{figure}[h!]
   \centering
 	\includegraphics[width=0.85\textwidth]{./figures/strategy/ttbarb2b_stop.png}
-	\caption{Schematic depictions of a ttbar top/anti-top back-to-back recoil event and a stop plus strong ISR event.  The thrust axis approximates the direction of back-to-back boost between ISR and stop decay products in signal and the back-to-back boost between the top and anti-top in ttbar background.  This leads to the hemisphere containing $\met$ has greater jet multiplicity $\NjV$ and total transverse mass $\MS$ in signal. }
+	\caption[Schematic depictions of the kinematics of a ttbar event with the top recoiling against the anti-top in a back-to-back manner and a stop plus strong ISR event]{Schematic depictions of the kinematics of a ttbar event with the top recoiling against the anti-top in a back-to-back manner and a stop plus strong ISR event.  The thrust axis approximates the direction of back-to-back boost between ISR and stop decay products in signal and the back-to-back boost between the top and anti-top in ttbar background.  This leads to the hemisphere containing $\met$ has greater jet multiplicity $\NjV$ and total transverse mass $\MS$ in signal. }
 	\label{fig:ISR:ttbarb2b_sig}
 \end{figure}
 
 \indent Chapter \ref{chap:jigsaw} defines the kinematic variables on the sparticle and ISR hemispheres and explains the ISR identification algorithm in greater detail. \\
 
-\indent Selections are made on these sensitive variables forming a signal region (SR) that is optimized to maximize signal sensitivity.  The expected background rates in SR are predicted using a combination of MC and data driven techniques.  One common technique involves making kinematically similar control regions (CR) and validation regions (VR). The CRs are designed to mimic the background kinematics in SR but are orthogonal to SR and are low expected signal rate.  We directly measure the rate of background in the CRs and use simulation to extrapolate background predictions to the SR.  VRs are even closer in kinematic selections to SR and form an independent cross check on the extrapolation between CR and SR. \\
+\indent Selections are made on these sensitive variables forming a signal region (SR) that is optimized to maximize signal sensitivity.  The expected background rates in SR are predicted using a combination of MC and data driven techniques.  One common technique involves making kinematically similar control regions (CR) and validation regions (VR). All expected background rates in the signal region have been normalized to control regions defined in chapter \ref{chap:backgrounds}.  The control regions are designed to mimic the background kinematics in the signal region but are orthogonal to the signal region and have low expected signal rate.  We directly measure the background rate using data in the control regions and use simulation to extrapolate background predictions from the control region to the signal region. The validation regions are even closer in kinematic selections to the signal and form an independent cross check on the extrapolation between the control and signal regions. \\
 
-\indent The relationship between CR, SR and VR is graphically depicted in figure \ref{fig:CR_VR_SR_stat1}.  Details on SR selections can be found in chapter \ref{chap:SignalRegion}.  Details on background estimation, CRs and VRs can be found in chapter \ref{chap:backgrounds}. \\
+\indent The relationship between control, validation, and signal regions is graphically depicted in figure \ref{fig:CR_VR_SR_stat1}.  Details on signal region selections can be found in chapter \ref{chap:SignalRegion}.  Details on background estimation, control regions and validation regions can be found in chapter \ref{chap:backgrounds}. \\
 
 \begin{figure}[h!]
   \centering
 	\includegraphics[width=0.65\textwidth]{./figures/statistics/CR_VR_SR.pdf}
-\caption{Basic diagram demonstrating the use of control regions (CR) to estimate background rates in the signal region (SR).  We define CR that is dominated by background and have little signal.  We can estimate the amount of background we expect in the SR by measuring the amount of background in the CR and extrapolating to the SR using MC predictions. VRs exist between CRs and SRs and serve as an independent region to validate background predictions.  }
+\caption[Schematic diagram demonstrating the use of control regions to estimate background rates in the signal region]{Schematic diagram demonstrating the use of control regions (CR) to estimate background rates in the signal region (SR).  Control regions are dominated by background and have little expected signal rates.  We can estimate the amount of background we expect in the signal region by measuring the amount of background in the control region and extrapolating to the signal region using MC predictions. validation regions exist between control regions and signal regions and serve as an independent region to validate background predictions.  }
 \label{fig:CR_VR_SR_stat1}
 \end{figure}
 
-\indent The data in SR is originally blinded to avoid any bias for or against discovery.  We unblind the SR only after we decide the background prediction in SR is well understood based on observations in CRs and VRs. \\
+\indent The data in the signal region is originally blinded to avoid any bias for or against discovery.  We unblind the signal region only after we decide the background prediction in the signal region is well understood based on observations in the control regions and validation regions. \\
 
-\indent If an excess of data was found in the SR after unblinding then a simultaneous fit to all CR and SR is performed to calculate the statistical significance of any potential excess.   If no excess were found, then a simultaneous fit to all CR and SR is also performed quantify the maximum amount of signal cross-section that can be excluded.  \\
+%awkward sentence
+\indent If an excess of data is found in the signal region after unblinding then a simultaneous fit to all the control regions and the signal region is performed to calculate the statistical significance of any potential excess.   If no excess is found, then a simultaneous fit to all the control regions and the signal region is also performed to quantify the maximum signal cross-section that can be excluded.  \\

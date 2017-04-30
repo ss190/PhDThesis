@@ -1,23 +1,23 @@
 \subsection{Standard Model W+Jets}
 \label{sec:Bkg:wjet}
 
-\indent A $W$ boson produced in conjunction with QCD jets ($W$+jets) consists our largest sub-dominant background.  $W$+jets makes up 5 percent of the total background in the SR.  However the distribution of $W$+jets is not uniform across $\RISR$.  $W$+jets can reach around 15 percent of all background in the SR bins with the largest $\RISR$.  This means the $W$+jets contribution mostly affects high stop mass samples because those signal samples peak at high $\RISR$. \\
+\indent A $W$ boson produced in conjunction with QCD jets ($W$+jets) is our largest subdominant background.  $W$+jets comprises 9 percent of the total background in the signal region.  However the distribution of $W$+jets is not uniform across $\RISR$.  $W$+jets can reach 20-25 percent of all backgrounds in signal region bins with the largest $\RISR$.  This means the $W$+jets contribution mostly affects high stop mass samples because those signal samples peak at high $\RISR$. \\
 
-\indent We estimate $W$+Jets using an one lepton control region defined in table \ref{tab:WJetCR}..  The one lepton $W$+jet CR is designed to ensure high $W$+jet purity.   All one lepton CRs are mutually exclusive including the ttbar, $W$+jets and single top CR. \\
+\indent We estimate $W$+jets using an one lepton control region defined in table \ref{tab:WJetCR}..  The one lepton $W$+jet control region is designed to ensure high $W$+jet purity.   All one lepton control regions are mutually exclusive including the ttbar, $W$+jets and single top control region. \\
 
-\begin{table}[htpb]
+\begin{table}[h!]
   \begin{center}
-    \begin{tabular}{c|c}
+    \begin{tabular}{c||c}
       \hline \hline
-                                      & CRW                \\ \hline
-      Number of leptons             & 1                                          \\ \hline
-      Number of jets (incl. lepton) & $\geq 4$                                     \\ \hline
-      $\pt$ of jets (incl. lepton)  & (80,80,40,40) GeV                            \\ \hline
-      \mindphijettwomet             & $> 0.4$                                      \\ \hline
-      $\met$                        & $>250$ GeV                                   \\ \hline
-      \mtlepmet                     & ($>30, <100$ GeV) \\ \hline
-      Number of $b$-jets            & $=1$                            \\ \hline
-      \mantikttwelvezero            & $<60\,$GeV         \\ \hline
+          {\bf Variables }                           & $W$+jets control region                \\ \hline \hline
+      Number of leptons             & 1                                          \\ 
+      Number of jets (incl. lepton) & $\geq 4$                                     \\ 
+      $\pt$ of jets (incl. lepton)  & (80,80,40,40) GeV                            \\ 
+      \mindphijettwomet             & $> 0.4$                                      \\ 
+      $\met$                        & $>250$ GeV                                   \\ 
+      \mtlepmet                     & ($>30, <100$ GeV) \\ 
+      Number of $b$-jets            & $=1$                            \\ 
+      \mantikttwelvezero            & $<60\,$GeV         \\ 
       \mindrblep                    & $>2.0$             \\ \hline \hline
     \end{tabular}
   \end{center}
@@ -25,29 +25,36 @@
   \label{tab:WJetCR}
 \end{table}
 
-\indent The {\tt Signal} lepton is treated as a jet for the jet multiplicity and the jet $\pt$ requirements.  The mass requirement on the large R jet $\mantikttwelvezero < 60 \gev$ rejects events with reconstructed boosted tops.  The $\mtlepmet$ selection ensures that the transverse mass is consistent with those originating from a $W$ boson.  \\
+\indent The lepton is treated as a jet for the jet multiplicity and the jet $\pt$ requirements.  Similar to the one lepton $\ttbar$ control region, the lepton is meant to play the role of a hadronic tau jet in the zero-lepton signal region.  \\
 
-\indent Orthogonality between the $W$+jet CR and the single top CR is ensured by the requirement on the number of $b$-jets.  Orthogonality between ttbar CR and $W$+jet CR is ensured by the selection on $\Delta R(b_{0,1},\ell)_{\mathrm{min}}$, defined as the minimum $\Delta R$ between the two jets with the highest b-tag value and the selected lepton.  \\
+\indent $\mtlepmet$ is defined in equation \ref{eqn:mtlep} as the transverse mass of the lepton and the $\met$.  The $\mtlepmet$ selection ensures that the transverse mass is consistent with those originating from a $W$ boson.  \\
 
-\indent  Distributions of select kinematic variables in the $\Wjets$ control region are shown in figure ~\ref{fig:CRWpts}.  The MC background has been normalized to data by performing a simultaneous fit to all CRs.  The hashed bands on the total SM background correspond to the total experimental systematical uncertainty plus the MC statistical uncertainty.  The yield in the $\Wjets$ CR is given in table~\ref{tab:CRW_yields}.  \\
+\indent Orthogonality between the $W$+jet control region and the single top control region is ensured by the requirement on the number of $b$-jets.  Orthogonality between $\ttbar$ control region and $W$+jet control region is ensured by the selection on $\mindrblep$.  $\mindrblep$ is defined in equation \ref{eqn:mindrblep} as the minimum $\Delta R$ between the two jets with the highest b-tag value and the selected lepton. \\
 
-\indent  Data and MC are compatible to within statistical uncertainty.  No strong trends are observed in the data to MC ratios in any of the distributions. \\
+\indent $\mantikttwelvezero$ is defined as the mass of an $\antikt$ jet built with a distance parameter of $R=1.2$ instead of regular $R=0.4$.  The $\antikt$ algorithm clusters calorimeter energy into a jet according to the distance metric $R$ and is covered in detail in section \ref{sec:jet:reco}.  The $\antikt$ algorithm will form a perfectly conical jet of radius $R$ if no other hard objects are found within a cone of $2R$.  If two hard objects exist within $R<\Delta R<2R$ of one another then two jets will be formed splitting the energy cells between them.  \\
 
-\begin{table}[!htb]
-  \centering
-  \input{chapters/Background/yields/CRWYields.tex}
-  \caption{Yields in the $\Wjets$ CR with \intlumi\ \ifb\ of data.  }
-  \label{tab:CRW_yields}
-\end{table}
+\indent The large R=1.2 jet is designed to cluster all the energy of a boosted top quark into a single jet.  If the jet contains a boosted top, the invariant mass of jet should be close to $\sim m_t$. The $\mantikttwelvezero < 60 \gev$ is designed to reject events with reconstructed boosted tops.  \\
 
-\begin{figure}[!htb]
+\indent  Distributions of select kinematic variables in the $\Wjets$ control region are shown in Figure ~\ref{fig:CRWpts}.  The MC background has been normalized to data by performing a simultaneous fit to all control regions.  The hashed bands on the total SM background correspond to the total experimental systematical uncertainty plus the MC statistical uncertainty.  The yield in the $\Wjets$ control region is given in Table~\ref{table.bkgonly.CRW}.  \\
+
+\indent  The fitted $W$+jets normalization scale factor is $1.27 \pm 0.15$.  Data and MC are compatible to within statistical uncertainty.  No strong trends are observed in the data to MC ratios in any of the distributions. \\
+
+\begin{figure}[!h]
   \centering
   \includegraphics[width=0.45\textwidth]{figures/wJets/postfit/Met_CRW_log.eps}
     \includegraphics[width=0.45\textwidth]{figures/wJets/postfit/AntiKt12M_0__CRW.eps}
   \includegraphics[width=0.45\textwidth]{figures/wJets/postfit/NJets_CRW_log.eps}
   \includegraphics[width=0.45\textwidth]{figures/wJets/postfit/MinDRBLep_CRW.eps}]
-  \caption{Postfit data/MC comparisons in the $\Wjets$ CR. From left to right and top to bottom, the variables shown are $\met$, $\mtlepmet$, $\mantikttwelvezero$ and $\mindrblep$. The expected SM background has been normalized to data in the CR by performing a simultaneous fit to all background CR.  The hatched band on the total SM background correspond to the total experimental systematic uncertainty plus the MC statistical uncertainty.}
+  \caption[Kinematic distributions in the $\Wjets$ control region after the background only fit to $\intlumi$ $\ifb$ of data]{Kinematic distributions in the $\Wjets$ control region after the background only fit to $\intlumi$ $\ifb$ of data. From left to right and top to bottom, the variables shown are $\met$, $\mtlepmet$, $\mantikttwelvezero$ and the number of jets and $\mindrblep$. The expected SM background has been normalized to the data by performing a simultaneous fit to all control regions.  The hatched band on the total SM background correspond to the total experimental systematic uncertainty plus the MC statistical uncertainty.}
   \label{fig:CRWpts}
 \end{figure}
 
+\input{tables/bkg/YieldsTable.CRW.tex}
+
+%\begin{table}[!h]
+%  \centering
+%  \input{chapters/Background/yields/CRWYields.tex}
+%  \caption{Yields in the $\Wjets$ CR with \intlumi\ \ifb\ of data.  }
+%  \label{tab:CRW_yields}
+%\end{table}
 

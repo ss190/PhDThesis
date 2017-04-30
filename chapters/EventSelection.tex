@@ -42,80 +42,101 @@
 \chapter{Event Preselection}
 \label{chap:Selection_EventPreselection}
 
-\indent After requirements on the Good Run List described in section \ref{EventSel:GRL}.  We require that the event pass a few basic selections to ensure that the events do not have large amounts of calorimeter noise or non-collision backgrounds.  These basic selections are applied to all control regions (CR), validation regions (VR), and signal regions (SR).  Together these basic selections are referred to as event cleaning and jet cleaning.  \\
+\indent After requirements on the Good Run List described in section \ref{EventSel:GRL}.  We require that the event pass a few basic selections designed to reject non-collision backgrounds and events with large amounts of calorimeter noise.  Together these basic selections are referred to as event cleaning and jet cleaning.  \\ %These basic selections are applied to all regions.  
 
 \indent A brief description of the preselection requirements is given below: Details on all object definitions can be found in chapter \ref{chap:objects}. \\
 
 \begin{description}
-\item[Cut 1] Data events must be in accepted according to the Good Runs List (GRL) described in chapter \ref{EventSel:GRL}.  This ensures all relevant subdetector of ATLAS are operating normally during data taking. 
-\item[Cut 2] Remove events with noise bursts and possible incomplete events due to the TTC reset procedure from the data. Data events must have no error flags in the calorimeter and ID.  The following error flags must be set to zero: larError $== 0$, tileError $== 0$, SCT error $==0$, and coreFlags $\&0x4000 == 0$.
-\item[Cut 4] Require that at least one reconstructed primary vertex must exist.
+\item[Cut 1] Data events must satisfy the Good Runs List (GRL) requirement described in chapter \ref{EventSel:GRL}.  This ensures all relevant subdetector of ATLAS are operating normally during data taking. 
+\item[Cut 2] Remove events with noise bursts and possible incomplete events due to the TTC reset procedure from the data. Data events must have no errors flagged in the calorimeter and ID.  The following error flags must be zero: larError $== 0$, tileError $== 0$, SCT error $==0$, and coreFlags $\&0x4000 == 0$.
+\item[Cut 4] Require that at least one reconstructed primary vertex exists.
 \item[Cut 5] Events must not contain any {\tt BadLoose} jets with $\pT > 20 \gev$ (at any \eta\ range). Bad quality jets indicate the presence of calorimeter noise or non-collision backgrounds. Both can lead to poor $\met$ reconstruction. Hence, the whole event is rejected.  {\tt BadLoose} jets are defined in jet quality selection in section \ref{sec:jet:quality}.  
 \item[Cut 6] The event must not contain any cosmic muons.  Cosmic muons are identified as muons with large impact parameters  ($|z_0| > 1$ mm and $|d_0| > 0.2$ mm).  Only {\tt Baseline} muons after overlap removal are considered in cosmic muon identification.
-\item[Cut 7] The event must not contain any muons with $?(q/p)/|(q/p)| > 0.2$.  Muons with large fractional uncertainty often result from kaon decays or poorly reconstructed inner detector tracks that are incorrectly matched to muon spectrometer segments. These muons may result in misreconstructed $\met$ so the whole event is rejected.
+\item[Cut 7] The event must not contain any {\tt Baseline} muons with $|\sigma(q/p)/|(q/p)| > 0.2$.  Muons with large fractional uncertainty often result from kaon decays or poorly reconstructed inner detector tracks that are incorrectly matched to muon spectrometer segments. These muons may result in misreconstructed $\met$ so the whole event is rejected.
 \end{description}
 
-\indent On top of these basic requirements, additional preselection requirement are applied to each CR, VR and SR depending on the number of leptons required in the respective region.  \\
+%\indent On top of these basic requirements, additional preselection requirement are applied to each control region, VR and signal region depending on the number of leptons required in the respective region.  \\
 
-\section{Zero Lepton Pre-Selection}
+\section{Zero Lepton Preselection}
 
-\indent Any zero lepton region requires the selections given in table \ref{tab:0Lcommon}. \\
+\indent All zero lepton regions require the following set of preselections given in table \ref{tab:0Lcommon}.  A requirement of exactly zero {\tt Baseline} leptons votes events containing electrons and muons with high efficiency.  \\
+
+\indent All zero lepton regions trigger on $\met$ using the lowest unprescaled $\met$ trigger for that data period.  An offline selection of $\met > 250 \gev$ is required to ensure that all accepted events are on the trigger efficiency plateau.  The trigger efficiency curve as a function of offline $\met$ for select $\met$ triggers can be seen in figure \ref{fig:trigTurnON}. \\
 
 \begin{table}[htbp]
   \begin{center}
-    \begin{tabular}{l|c} \hline\hline
+    \begin{tabular}{lc} \hline\hline
       \multicolumn{2}{c}{GRL, Event Cleaning and Jet Cleaning} \\ \hline
       \multicolumn{2}{c}{$\met$ Trigger}   \\ \hline
-      $\met$ & $> 250\GeV$ \\ \hline
-      $N_{\rm{{\tt Baseline}~lep}}$ & 0 \\ \hline
-      \antikt\ $R=0.4$ {\tt Signal} jets & $\ge 4,~\pt>80,80,40,40 \gev$ \\ \hline
-      $b$-tagged {\tt Signal} jets & $\ge1$ \\ \hline
+      $\met$ & $> 250\GeV$ \\ 
+      $N_{\rm{{\tt Baseline}~lep}}$ & 0 \\ 
+      \antikt\ $R=0.4$ {\tt Signal} jets & $\ge 4,~\pt>80,80,40,40 \gev$ \\ 
+      $b$-tagged {\tt Signal} jets & $\ge1$ \\ 
       % $\dphijettwomet$ & $> \pi/5$ \\ 
+        & \\ [-2.5ex] 
       $\dphijettwomet$ & $> 0.4$ \\ 
-              & \\ [-2.5ex] \hline
-      $\mettrk$  & $> 30 \gev$ \\ \hline 
-      % & \\ [-2.5ex]
-      $\dphimettrk$ & $<\pi/3$ \\ \hline
+              & \\ [-2.5ex] 
+      $\mettrk$  & $> 30 \gev$ \\ 
+       & \\ [-2.5ex]
+      $\dphimettrk$ & $<\pi/3$ \\ 
       % & \\ [-2.5ex] \hline
       % $\tau$ veto & yes \\ \hline
       % $\mtbmetmindphi$ & $> 175 \gev$ \\ \hline \hline
     \end{tabular}
-  \caption{ Zero lepton preselection criteria common to all zero lepton signal and validation regions.}
-  \end{center}
+  \caption{ Zero lepton preselection criteria common to all zero lepton regions.}
   \label{tab:0Lcommon}
+  \end{center}
 \end{table}
 
-\indent All zero lepton regions trigger on $\met$ using the lowest unprescaled $\met$ trigger for that data period.  An offline selection of $\met > 250 \gev$ is required to ensure that all accepted events are on the trigger efficiency plateau.  The trigger efficiency curve as a function of offline $\met$ for select $\met$ triggers can be seen in figure \ref{fig:trigTurnON}.  \\
+\indent We also require at least four {\tt Signal} jets with a minimum $\pt$ of $(80,80,40,40) \gev$ in the event.  At least one {\tt Signal} jet must be b-tagged at the 77 percent working point.  These jet energy and multiplicity requirements are loose and will be superseded by more stringent selections. \\
 
-\indent We require that the event contains exactly zero {\tt Baseline} leptons.  We also require at least four {\tt Signal} jets with a minimum $\pt$ of $(80,80,40,40) \gev$ in the event.  At least one {\tt Signal} jet must be b-tagged at the 77 percent working point.  These jet energy and multiplicity requirements are loose and will be superseded by more stringent selections in the SR, VRs and CRs.  \\
+%Any zero lepton region requires the selections given in table \ref{tab:0Lcommon}. \\
 
-\indent For our analysis the primary reason that QCD multijet background is able to pass the SR selections is due to misreconstructed jets.  QCD multijet produces little intrinsic $\met$.  In order to pass the 250 $\gev$ $\met$ requirement, multijet background need additional fake $\met$ from mis-measured jets.  For example, an extremely energetic jet may punch through the calorimeter and be reconstructed with a small $E_T$.  This lost $E_T$ maybe reconstructed as $\met$.  \\
+\indent We also include a number of selections aimed specifically at rejecting QCD multijet background.  The primary reason that QCD multijet background can pass the $\met > 250 \gev$ requirement is due to misreconstructed jets.  QCD multijet processes produce little intrinsic $\met$ but multijet background can have large reconstructed $\met$ if mis-measured jets are mismeasured.  For example, an extremely energetic jet may punch through the calorimeter and be reconstructed with a small $E_T$.  This lost $E_T$ maybe reconstructed as $\met$.  \\
 
-\indent The $\dphijettwomet > 0.4$ requirement ensures that the $\met$ is not collinear with the most energetic jets in the event.  This provides strong rejection against fake $\met$ resulting from a single misreconstructed energetic jet.  Requirements on a loose agreement between $\met$ and $\mettrk$ also discriminate against $\met$ resulting from misreconstructed jets and therefore QCD multijet. \\
+\indent The $\dphijettwomet$ greater than $0.4$ requirement ensures that the $\met$ is not collinear with either of the two most energetic jets in the event.  $\dphijettwomet$ is defined in equation \ref{eqn:dphijetmet}. \\
 
-\section{One Lepton Pre-Selection}
+\begin{equation}
+\dphijettwomet = \min_{2~highest~pt~jets} |\Delta \phi ( jet, \met ) |
+\label{eqn:dphijetmet}
+\end{equation}
 
-\indent The one lepton preselection is similar to the zero lepton preselection except for several important requirements.  The one lepton preselection is summarized in table \ref{tab:1Lcommon}. \\
+\indent This provides strong rejection against fake $\met$ resulting from a single misreconstructed energetic jet.  \\
+
+\indent In addition we require a loose agreement between two methods of reconstructing missing transverse energy, $\met$ and $\mettrk$.  $\mettrk$, defined in equation \ref{eqn:mettrkReco}, is reconstructed using a negative vector sum of all accepted ID tracks.  Track $\met$ is very robust against pileup conditions as ID tracks can be matched to primary vertexes but $\mettrk$ neglects the presence of neutral particles.  We found that a loose requirement of $\mettrk > 30 \gev$ and a loose agreement between $\met$ and $\mettrk$ in $\phi$ forms an efficient discriminate against QCD multijet background. \\
+
+\section{One Lepton Preselection}
+
+\indent We use one lepton regions as control regions to estimate the background in the zero lepton signal region.  The MC is normalized to data in the control region through a combined fit to all CRs. This normalization is also applied to the background MC in the signal region.  In this way, we directly measure the amount of background in the control region from data and only rely on simulation to extrapolate between the control region and the signal region.  As such, one lepton control regions are designed to be kinematically similar to the zero lepton signal region.  This minimizes the extrapolation between the two regions and minimizes the uncertainty on the expected background rates in the signal region. \\
+
+\indent For this reason, the preselection for one lepton regions is similar to the zero lepton preselection.  Both zero and one lepton regions trigger using the $\met$ triggers defined in chapter \ref{chap:trigger}.  We also require $\met > 250 \gev$ to ensure that we are on the trigger efficiency plateau.  \\
+
+\indent The one lepton selections use {\tt Signal} leptons instead of the {\tt Baseline} leptons used in zero lepton regions.  The one lepton regions use lepton momentum information and therefore require higher quality leptons. \\
+
+\indent The one lepton preselection is summarized in table \ref{tab:1Lcommon}. \\
 
 \begin{table}[htbp]
   \begin{center}
-    \begin{tabular}{l|c} \hline\hline
+    \begin{tabular}{lc} \hline\hline
       \multicolumn{2}{c}{GRL, Event Cleaning and Jet Cleaning} \\ \hline
       \multicolumn{2}{c}{$\met$ Trigger} \\ \hline
-      $\met$ & $> 250\GeV$ \\ \hline
-      $N_{\rm{{\tt Signal}~lep}}$ & 1 \\ \hline
-    $N_{jets}$ & $\ge 4$ \\ \hline
-      $b$-tagged {\tt Signal} jets & $\ge1$ \\ \hline
+      $\met$ & $> 250\GeV$ \\ 
+      $N_{\rm{{\tt Signal}~lep}}$ & 1 \\
+    $N_{jets}$ & $\ge 4$ \\ 
+      $b$-tagged {\tt Signal} jets & $\ge1$ \\ 
+                   & \\ [-2.5ex] 
       $\dphijettwomet$ & $> 0.4$ \\
-              & \\ [-2.5ex] \hline
+             & \\ [-2.5ex] \hline
     \end{tabular}
-  \caption{ One lepton pre-selection criteria common to all one lepton signal and validation regions.}
-  \end{center}
+  \caption{ One lepton preselection criteria common to all one lepton regions.}
   \label{tab:1Lcommon}
+  \end{center}
 \end{table}
 
-\indent First, the one lepton selections use {\tt Signal} leptons unlike the {\tt Baseline} leptons used in zero lepton regions.  The one lepton regions use lepton momentum information and therefore require higher quality leptons.  \\
+\indent The biggest background in signal region come from SM ttbar where one top decays via the hadronic tau channel and the other decays via the all hadronic channel.  The $W$ from $W$+jets and single top backgrounds in signal region also decays predominantly through the hadronic tau channel.  For this reason, the majority of SM backgrounds in the signal region contains a hadronic tau.  \\
 
-\indent Next, both {\tt Signal} leptons and {\tt Signal} jets are counted as ``jets'' in one lepton regions.  This is because one lepton regions serve as CRs and VRs for this analysis and are designed to model the background in the SR.  The biggest background contributions in SR come from backgrounds that decay through the hadronic tau channel.  As such, we use the electron or muon in the one lepton CR and VR to model the hadronic tau in the zero lepton SR.  \\
+\indent We expect many parallels between the electron and muon decay channels and the tau decay channel because of lepton universality.  Therefore, we use the electron or muon in the one lepton channel to mimic the hadronic tau in the signal region.  Since we do not distinguish between hadronic tau jets and other jets in the signal region, both {\tt Signal} leptons and {\tt Signal} jets are counted as ``jets'' in one lepton regions. \\
 
-\indent The $\mettrk > 30 \gev$ and $\dphimettrk < \pi/3$ requirements are removed because the QCD multijet contribution to one lepton regions is negligible.  The $\dphijettwomet > 0.4$ selection is kept because it provides a closer modeling of the phase space in SR. \\
+\indent The $\mettrk > 30 \gev$ and $\dphimettrk < \pi/3$ requirements are removed because the QCD multijet contribution to one lepton regions is negligible.  The $\dphijettwomet > 0.4$ selection is kept because it provides a closer modeling of the phase space in the signal region. \\
+
+

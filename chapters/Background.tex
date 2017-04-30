@@ -1,14 +1,38 @@
 \chapter{Standard Model Backgrounds}
 \label{chap:backgrounds}
 
-\section{Common Background Estimation and Validation Techniques}
+\section{Signal Region Background Composition}
+\label{sec:Bkg:Compositiion}
+
+The dominant background in all signal region bins is SM $\ttbar$, accounting for $70$ percent of all backgrounds in the signal region.  The next most prevalent background is W+jets which accounts for 9\% of all signal region backgrounds but can reach up to 24\% percent in high $\RISR$ bins. The breakdown of background composition is given in Table \ref{tab:SRBkg} \\
+
+\begin{table}[htpb]
+  \begin{center}
+    \def\arraystretch{1.4}%
+    \begin{tabular}{c||c|c|c|c|c|c|} \hline\hline
+      \RISR Range  & 0.3-0.4 & 0.4-0.5 & 0.5-0.6 & 0.6-0.7 & 0.7-0.8 \\  \hline
+      t\tbar         &  61\% & 78\% & 74\% & 60\% & 64\%  \\  \hline
+      $W$+jets  &  4\%   & 7\%   & 10\% & 24\% & 21\%  \\  \hline 
+      $Z$+jets   &  2\%   & 3\%   & 4\%  & 6\%    & 9\%  \\  \hline
+      Single top & 2\%    & 4\%   & 6\%  & 9\%    & 6\% \\ \hline
+      $\ttV$        & 1\%   & 2\%    & 3\%  & 1\%    & 0\%  \\ \hline
+      QCD         & 22\% &  5\%   & 2\%  & 0\%    & 0\%  \\ \hline
+      dibosons  & 8\%    & 1\%    &  1\% & 0\%    & 0\%  \\ \hline \hline
+    \end{tabular}
+  \caption{Standard Model background composition in the signal region ~\ref{tab:SRBkg}.   }
+  \end{center}
+  \label{tab:SignalRegion}
+\end{table}%
+
+
+\section{Using Control and Validation Regions to Estimate Background in the Signal Region}
 \label{sec:Bkg:Tech}
 
-\indent We use both data and MC based background estimation technique for estimating background in the SR.  A common partially data driven technique directly measures the amount of background in kinematically similar control regions (CR) in data.  Once we know the amount of background in the CR, we can then extrapolate to the SR using MC predictions. \\
+\indent We use both data and MC based background estimation technique for estimating background rates in the signal region.  A common partially data driven technique directly measures the amount of background in kinematically similar control regions in data.  Once we know the background rates in the control region in data, we can then extrapolate to the signal region using MC predictions. \\
 
-\indent We determined the background rate through a simultaneous fit to all SR and CRs when setting limits or calculating discovery significances.  The background rate will be mainly constrained by the CRs because the CRs have significantly higher statistics then SR.  \\
+\indent We determined the background rate through a simultaneous fit to all control regions and signal region when setting limits or calculating discovery significances.  The background rate will be mainly constrained by the control regions because the control regions have significantly higher statistics then the signal region.  \\
 
-\indent We also perform a background only fit to estimate the background rates.  The background only fit extracts a normalization factor for each background by simultaneously fit all control regions.  The normalization factors are then applied to the expected background rates in SR.  The background only fit results may differ from the combined fit. However the two estimate should be similar as long as the CRs are well designed.   A more detailed explanation of CR, SR and fitting procedures are covered in the statistical analysis chapter \ref{chap:statistics}.  \\
+\indent We also perform a background only fit to estimate the background rates.  The background only fit extracts a normalization factor for each background by simultaneously fitting all control regions.  The normalization factors are then applied to the expected background rates in the signal region.  The background only fit results may differ from the combined fit. However the two estimate should be similar as long as the control regions are well designed.   A more detailed explanation of the control regions, signal region and fitting procedures are covered in the statistical analysis Chapter \ref{chap:statistics}.  \\
 
 %\indent We can get a quick estimate of the amount of background in the SR by calculating the transfer factor and normalization factor defined in equation \ref{eqn:TF} and \ref{eqn:mu}. \\
 
@@ -21,21 +45,23 @@
 %\label{eqn:mu}
 %\end{equation}
 
-%\indent We normalize the MC in CR to data with a normalization scale factor $\mu$ defined in equation \ref{eqn:mu}.  We then apply the transfer factor to predict the amount of ttbar we expect to see in the SR.  This is mathematically equivalent to simply normalizing the amount of ttbar MC in the SR by the scale factor derived in the CR because the transfer factor is the just the relative rates of MC in the SR and CR.   \\
+%\indent We normalize the MC in CR to data with a normalization scale factor $\mu$ defined in equation \ref{eqn:mu}.  We then apply the transfer factor to predict the amount of $\ttbar$ we expect to see in the SR.  This is mathematically equivalent to simply normalizing the amount of $\ttbar$ MC in the SR by the scale factor derived in the CR because the transfer factor is the just the relative rates of MC in the SR and CR.   \\
 
 %\indent This simplified result may differ slightly from the combined fit.  However the two estimate should be similar as long as the CRs are well designed and consists mainly of a single type of background. \\
 
-\indent We use control regions to estimate the dominant ttbar background and subdominant W+jet, single top, and ttV backgrounds.  Z+jets and diboson backgrounds are estimated using MC alone.  Z+jets and dibosons contribute less then 5 percent of all backgrounds in the SR and we allow for an additional 100 percent theory uncertainty for these two samples.   Finally QCD multijet background is estimated using the jet smearing method described in section \ref{sec:Bkg:QCD}. Details on the ttbar background is found in section \ref{sec:Bkg:ttbar}. Details on the treatment of each sub dominant background can be found in section \ref{sec:Bkg:sub}.\\
+\indent We use control regions to estimate the dominant $\ttbar$ background and subdominant $W$+jet, single top, and ttV backgrounds.  Details on the $\ttbar$ background is found in section \ref{sec:Bkg:ttbar}.  \\
 
-\indent The scale factors for each background derived from the simultaneous fit to the CR are given in table \ref{table.scale.factors}. ttbar background is scaled down by 0.707 because the MC over estimates the amount of ttbar that is produced with strong ISR. \\
+\indent $Z$+jets and dibosons contribute less then 5 percent of all backgrounds in the signal region.  Therefore these backgrounds are estimated using MC alone and apply an additional 50 percent theory uncertainty for these two samples.  Finally QCD multijet background is estimated using the {\tt Jet Smearing} method described in section \ref{sec:Bkg:QCD}.  Details on the treatment of each subdominant background can be found in section \ref{sec:Bkg:sub}.\\
 
-\begin{table}
-  \begin{center}
-    \input{sfs.tex}
-  \end{center}
-  \caption{MC scale factors for SM backgrounds.  Scale factors are derived by simultaneously fitting to all background CR using \intlumi\ \ifb of data.}
-  \label{table.scale.factors}
-\end{table}
+%\indent The scale factors for each background derived from the simultaneous fit to the CR are given in table \ref{table.scale.factors}. $\ttbar$ background is scaled down by 0.707 because the MC over estimates the amount of $\ttbar$ that is produced with strong ISR. \\
+
+%\begin{table}
+%  \begin{center}
+ %   \input{tables/bkg/sfs.tex}
+%  \end{center}
+%  \caption{MC scale factors for SM backgrounds.  Scale factors are derived by simultaneously fitting to all background CR using \intlumi\ \ifb of data.}
+%  \label{table.scale.factors}
+%\end{table}
 
 \input{chapters/Background/ttbar.tex}
 
