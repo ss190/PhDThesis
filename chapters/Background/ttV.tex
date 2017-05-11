@@ -1,13 +1,13 @@
 \subsection{Standard Model \ttbar+Z}
 \label{sec:Bkg:ttV}
 
-\indent $\ttbar$ produced in conjunction with a Z boson consist of about one percent of the background in the signal region.  We estimate the amount of $\ttbar+\Zboson$ using a $\ttbar+\gamma$ control region. \\
+\indent $\ttbar$ produced in conjunction with a $Z$ boson consists of about 1\% of the background in the signal region.  We estimate the amount of $\ttbar+\Zboson$ using a $\ttbar+\gamma$ control region. \\
 
-\indent Using the charged leptonic $Z$ boson decays to design a control region to estimate the $\ttbar+Z$ background would produce a control region with small systematic uncertainty. However, such a control region tend to have low statistics because of the small branching fraction to electrons/muons compared to the branching fraction of neutrinos.  A dilepton control region also contain a large contribution from SM $\ttbar$ and $Z$ + jets. \\
+\indent Using the charged leptonic $Z$ boson decays to design a control region to estimate the $\ttbar+Z$ background would produce a control region with small systematic uncertainty. However, such a control region tends to have low statistics because $Z \rightarrow ee/\mu\mu$ has a lower branching fraction than $Z \rightarrow \nu\nu$.  A dilepton control region also contains a large contribution from SM $\ttbar$ and $Z$ + jets. \\
 
 \indent We take another data driven approach by building a one-lepton control region for $\ttbar+\gamma$.  $\ttbar+\gamma$ mimics $\ttbar+Z$ as the photon is in many ways like a lighter $Z$ boson.  The control region is designed to minimize theoretical uncertainties due to the extrapolation from the $\gamma$ in the control region to the $\Zboson$ in the signal region. \\
 
-\indent We require exactly one {\tt Signal} photon and one {\tt Signal} lepton.  The lepton is not treated as a jet for the purpose of jet multiplicity and jet $\pt$ requirements unlike in the other one lepton control regions.  We also trigger on leptons instead of $\met$ in this region. The lepton triggers used are defined in table \ref{tb:lepTriggers}.  \\
+\indent We require exactly one {\tt Signal} photon and one {\tt Signal} lepton.  The lepton is not treated as a jet for the purpose of jet multiplicity and jet $\pt$ requirements unlike in the other one lepton control regions.  We also trigger on leptons instead of $\met$ in this region. The lepton triggers used are defined in Table \ref{tb:lepTriggers}.  \\
 
 \begin{table}[h!]
   \begin{center}
@@ -33,8 +33,9 @@
   \label{tb:lepTriggers}
 \end{table}
 
+\indent We require the photon $\pt$ be greater than $150\gev$.  The high $\pt$ photon ensures that we are in a region of phase space where the $\gamma$ $\pt$ shape will mimic the heavier $\Zboson$ $\pt$ distribution.  The true $\gamma$ $\pt$ and the $\Zboson$ $\pt$ distributions are shown in Figure \ref{fig:ttZ_vs_ttGamma_pt} after selecting for a boson $\pt$ with greater than $150 \gev$.  We add a systematic uncertainty to account for the difference between the $\gamma$ and $\Zboson$ $\pt$ spectrum. \\
 
-\indent We require a hight $\pt$ photon with $\pt$ greater than $150\gev$.  The high $\pt$ gamma ensures that we are in a region of phase space where the $\gamma$ $\pt$ shape will mimic the heavier $\Zboson$ $\pt$.  The true $\gamma$ $\pt$ and the $\Zboson$ $\pt$ distributions is shown in figure \ref{fig:ttZ_vs_ttGamma_pt} after selecting for a boson $\pt$ with greater then $150 \gev$.  We add a systematic uncertainty to account for the difference between the $\gamma$ and $\Zboson$ $\pt$ spectrum. \\
+\pagebreak
 
 \begin{figure}[h!]
 \centering
@@ -44,7 +45,6 @@
 \end{figure}
 
 \indent The $\ttbar+\gamma$ control region is defined in Table~\ref{tb:ttG_1lepSel}.  The expected background and data yields in the $\ttbar+\gamma$ control region is given in Table \ref{table.bkgonly.CRTTgamma}. \\
-
 
 \begin{table}[h!]
   \begin{center}
@@ -75,26 +75,39 @@
 \end{table}
 
 
-%\begin{table}[h!]
-%  \caption{Background composition of $t\bar{t}\gamma$ control region.}
-%  \begin{center}
-%\input{chapters/Background/yields/CRTTGammaYields.tex}
-%    
-%  \end{center}
-%  \label{tb:ttVCR_2bj}
-%\end{table}
+\input{tables/bkg/YieldsTable.CRTTgamma.tex}
 
 \indent Kinematic distributions in the $\ttbar+\gamma$ control region are shown in Figure ~\ref{fig:ttgamma}  The MC background has been normalized to data by performing a simultaneous fit to all the control regions.  The hashed bands on the total SM background correspond to the total experimental systematical uncertainty plus the MC statistical uncertainty.   \\
 
+\pagebreak
+
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/Met_CRTTGamma_withRatio_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/NJets_CRTTGamma_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/JetPt_1__CRTTGamma_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/JetPt_4__CRTTGamma_log.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/postfit/AntiKt12M_0__CRTTGamma.eps}
-\includegraphics[width=0.49\textwidth]{figures/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps}
-\caption[Distributions of select kinematic variables in the $\ttbar+\gamma$ control region]{ Distributions of select kinematic variables in the $\ttbar+\gamma$ control region. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
+      \begin{subfigure}[b]{0.40\textwidth}    
+\includegraphics[width=\textwidth]{figures/ttGamma/Met_CRTTGamma_withRatio_log.eps}
+                 \caption{ }
+    \end{subfigure}
+      \begin{subfigure}[b]{0.40\textwidth}    
+      \includegraphics[width=\textwidth]{figures/ttGamma/postfit/NJets_CRTTGamma_log.eps}
+                 \caption{ }
+    \end{subfigure}
+      \begin{subfigure}[b]{0.40\textwidth}    
+\includegraphics[width=\textwidth]{figures/ttGamma/postfit/JetPt_1__CRTTGamma_log.eps}
+                 \caption{ }
+    \end{subfigure}
+      \begin{subfigure}[b]{0.40\textwidth}    
+\includegraphics[width=\textwidth]{figures/ttGamma/postfit/JetPt_4__CRTTGamma_log.eps}
+                 \caption{ }
+    \end{subfigure}
+%      \begin{subfigure}[b]{0.40\textwidth}    
+%\includegraphics[width=\textwidth]{figures/ttGamma/postfit/AntiKt12M_0__CRTTGamma.eps}
+%                 \caption{ }
+%    \end{subfigure}
+%      \begin{subfigure}[b]{0.40\textwidth}    
+%\includegraphics[width=\textwidth]{figures/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps}
+%                 \caption{ }
+%    \end{subfigure}
+\caption[Distributions of select kinematic variables in the $\ttbar+\gamma$ control region]{ Distributions of select kinematic variables in the $\ttbar+\gamma$ control region. Kinematic variables shown include (a) $\met$ (b) number of jets (c) $\pt$ of the 2nd highest $\pt$ jet (d) $\pt$ of the 5th highest $\pt$ jet. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
 \label{fig:ttgamma}
 \end{center}
 \end{figure}

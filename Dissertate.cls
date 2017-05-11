@@ -74,9 +74,11 @@
 
 \usepackage{epsfig}
 \usepackage{epstopdf}
-%\usepackage{subfig}   subfig cannot be used in cooperation with subcaption 
+%\usepackage{subfig}   %subfig cannot be used in cooperation with subcaption 
 %\usepackage[update]{epstopdf}
 \usepackage{subcaption}
+\usepackage{float}
+\usepackage{subfloat}
 \usepackage{longtable}
 %\usepackage{enumerate}
 \usepackage{rotating} %GR added

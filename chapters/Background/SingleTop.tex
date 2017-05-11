@@ -1,13 +1,13 @@
-\subsection{Standard Model Single Top}
+\subsection{Standard Model Single-Top}
 \label{sec:Bkg:SingleTop}
 
-\indent Standard Model single top consists of 2 to 9 percent of the background in any one signal region $\RISR$ bin. Single top consist of 6 percent of the total background in the signal region.  A one lepton single top control region is defined in Table \ref{tab:ST1LCR}.  The single top control region is orthogonal to both the one lepton $W$+jets control region and $\ttbar$ control region.  \\
+\indent Standard Model single-top consists of 6\% of the total background in the signal region.  This rate varies between 2-9\% for any one signal region $\RISR$ bin.  A one lepton single-top control region is defined in Table \ref{tab:ST1LCR}.  The single-top control region is orthogonal to both the one lepton $W$+jets control region and $\ttbar$ control region.  \\
 
 \begin{table}[h!]
   \begin{center}
     \begin{tabular}{c|c}
       \hline \hline
-       { \bf Variables } & Single top 1 lepton control region           \\ \hline
+       { \bf Variables } & Single-top 1 lepton control region           \\ \hline
       Number of leptons             & 1                                            \\ 
       Number of jets (incl. lepton) & $\geq 4$                                     \\ 
       $\pt$ of jets (incl. lepton)  & (80,80,40,40) GeV                            \\ 
@@ -21,26 +21,26 @@
       \drbjetbjet                   & $>1.5$               \\ \hline \hline
     \end{tabular}
   \end{center}
-  \caption{Selection for the one lepton single top control region.  The one lepton preselection defined in Table \ref{tab:1Lcommon} is also applied.}
+  \caption{Selection for the one lepton single-top control region.  The one lepton preselection defined in Table \ref{tab:1Lcommon} is also applied.}
   \label{tab:ST1LCR}
 \end{table}
 
-\indent The lepton is treated as a jet for the jet multiplicity and the jet $\pt$ requirement as well as for the top reconstruction.  Similar to the one lepton $\ttbar$ control region, the lepton is meant to play the role of a hadronic tau jet in the zero-lepton signal region. \\
+\indent The lepton is treated as a jet for the jet multiplicity and the jet $\pt$ requirements as well as for the top reconstruction.  Similar to the one lepton $\ttbar$ control region, the lepton is meant to play the role of a hadronic tau jet in the zero-lepton signal region. \\
 
 \indent $\mtlepmet$ is defined in equation \ref{eqn:mtlep} as the transverse mass of the lepton and the $\met$.  The $\mtlepmet$ selection ensures that the transverse mass is consistent with a $W$ decay.  \\
 
-\indent The $\drbjetbjet$ variable is defined in equation \ref{eqn:drbb} as the $\Delta R$ between the two b-jets with the highest b-tagging values.  $\drbjetbjet > 1.5$ isolates single top events and rejects $\ttbar$.  This gives the single top control region a purity of $\sim50\%$. \\
+\indent The $\drbjetbjet$ variable is defined in equation \ref{eqn:drbb} as the $\Delta R$ between the two b-jets with the highest b-tagging values.  $\drbjetbjet > 1.5$ isolates single-top events and rejects $\ttbar$.  This gives the single-top control region a purity of $\sim50\%$. \\
 
 \begin{equation}
 \mindrblep = \sqrt{ \Delta\eta(b_1, b_2)^2 + \Delta\phi(b_1, b_2)^2}
-\label{eqn:mindrblep}
+\label{eqn:drbb}
 \end{equation}
 
 \indent The $\mantikttwelvezero > 120 \gev$ requirement selects for events with reconstructed boosted tops and ensures orthogonality with the $\Wjets$ control region.  $\mantikttwelvezero$ is defined as the mass of an $\antikt$ jet built with a distance parameter of $R=1.2$ instead of regular $R=0.4$.  The $\antikt$ algorithm clusters calorimeter energy into a jet according to the distance metric $R$ and is covered in detail in section \ref{sec:jet:reco}.  The large $R=1.2$ jet is designed to cluster all the energy of a boosted top quark into a single jet.  If the jet contains a boosted top, the invariant mass of jet should be close to $\sim m_t$.  \\
 
 \indent $\mindrblep$ is defined in equation \ref{eqn:mindrblep} as the minimum $\Delta R$ between the two jets with the highest b-tag value and the selected lepton.  The $\mindrblep$ selection ensures orthogonality with the $\ttbar$ control region.  \\
 
-\indent Kinematic distributions in the single control region are shown in figure ~\ref{fig:CRST}.  The MC background has been normalized to data by performing a simultaneous fit to all control regions.  The hashed bands on the total SM background correspond to the total experimental systematical uncertainty plus the MC statistical uncertainty.  The yield in the single top control region is given in table~\ref{table.bkgonly.CRST}.  \\
+\indent Kinematic distributions in the single control region are shown in Figure \ref{fig:CRST} and \ref{fig:CRST1}.  The MC background has been normalized to data by performing a simultaneous fit to all control regions.  The hashed bands on the total SM background correspond to the total experimental systematical uncertainty plus the MC statistical uncertainty.  The yield in the single-top control region is given in table~\ref{table.bkgonly.CRST}.  \\
 
 \indent  Data and MC are compatible to within statistical uncertainty.  No strong trends are observed in the data to MC ratios in any of the distribution. \\
 
@@ -51,21 +51,78 @@
 %  \label{tab:CRST}
 %\end{table}
 
+\pagebreak
+ 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/Met_CRST_log.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/NJets_CRST_log.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/AntiKt12M_0__CRST.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/MtBMin_CRST.eps}
-%\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/MtBMax_CRST.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/MinDRBLep_CRST.eps}
-\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/DRBB_CRST.eps}
-%\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/Ht_CRST_log.eps}
-%\includegraphics[width=0.45\textwidth]{figures/singleTop/postfit/HtSig_CRST_log.eps}
+      \begin{subfigure}[b]{0.40\textwidth}    
+\includegraphics[width=\textwidth]{figures/singleTop/postfit/Met_CRST_log.eps}
+                 \caption{ }
+    \end{subfigure}
+     \begin{subfigure}[b]{0.40\textwidth}    
+\includegraphics[width=\textwidth]{figures/singleTop/postfit/NJets_CRST_log.eps}
+                \caption{ }
+    \end{subfigure}
+      \begin{subfigure}[b]{0.40\textwidth}    
+\includegraphics[width=\textwidth]{figures/singleTop/postfit/AntiKt12M_0__CRST.eps}
+                \caption{ }
+    \end{subfigure}
+      \begin{subfigure}[b]{0.40\textwidth}    
+\includegraphics[width=\textwidth]{figures/singleTop/postfit/MtBMin_CRST.eps}
+                \caption{ }
+    \end{subfigure}
+%      \begin{subfigure}[b]{0.40\textwidth}    
+%\includegraphics[width=\textwidth]{figures/singleTop/postfit/MtBMax_CRST.eps}
+      \begin{subfigure}[b]{0.40\textwidth}    
+\includegraphics[width=\textwidth]{figures/singleTop/postfit/MinDRBLep_CRST.eps}
+                \caption{ }
+    \end{subfigure}
+      \begin{subfigure}[b]{0.40\textwidth}    
+\includegraphics[width=\textwidth]{figures/singleTop/postfit/DRBB_CRST.eps}
+                \caption{ }
+    \end{subfigure}
+%\includegraphics[width=\textwidth]{figures/singleTop/postfit/Ht_CRST_log.eps}
+%\includegraphics[width=\textwidth]{figures/singleTop/postfit/HtSig_CRST_log.eps}
 \end{center}
-\caption[Single top control region distributions for $\intlumi$ $\ifb$ of data after a simultaneous fit to all control regions]{Single top control region distributions for \intlumi\ \ifb\ of data after a simultaneous fit to all control regions. The ratio between data and MC is shown in the bottom panel. The hashed area on the expected SM background represent the uncertainty due to experimental systematics and MC statistics.}
+\caption[Single-top control region distributions for $\intlumi$ $\ifb$ of data after a simultaneous fit to all control regions]{Single-top control region distributions for $\intlumi$ $\ifb$ of data after a simultaneous fit to all control regions. The kinematic variables include (a) $\met$ (b) number of jets (c) $\mantikttwelvezero$ (d) $\mtbmin$ (e) $\mindrblep$ (f) $\drbjetbjet$. The ratio between data and MC is shown in the bottom panel. The hashed area on the expected SM background represents the uncertainty due to experimental systematics and MC statistics.}
 \label{fig:CRST}
 \end{figure}
 
-\input{tables/bkg/YieldsTable.CRW.tex}
+\pagebreak
+
+\begin{figure}[h!]
+  \begin{center}
+      \begin{subfigure}[b]{0.40\textwidth}    
+    	 \includegraphics[width=\textwidth]{figures/plotRegion/CA_RISR_CRST_log.eps}
+                \caption{ }
+    \end{subfigure}
+        \begin{subfigure}[b]{0.40\textwidth}    
+    	 \includegraphics[width=\textwidth]{figures/plotRegion/CA_PTISR_CRST_log.eps}
+                \caption{ }
+    \end{subfigure}
+    \begin{subfigure}[b]{0.40\textwidth}    
+    	 \includegraphics[width=\textwidth]{figures/plotRegion/CA_dphiISRI_CRST_log.eps}
+                \caption{ }
+    \end{subfigure}
+    \begin{subfigure}[b]{0.40\textwidth}    
+    	 \includegraphics[width=\textwidth]{figures/plotRegion/CA_NjV_CRST_log.eps}
+                \caption{ }
+    \end{subfigure}
+    \begin{subfigure}[b]{0.40\textwidth}    
+    	 \includegraphics[width=\textwidth]{figures/plotRegion/CA_MS_CRST_log.eps}
+                \caption{ }
+    \end{subfigure}
+    \begin{subfigure}[b]{0.40\textwidth}    
+    	 \includegraphics[width=\textwidth]{figures/plotRegion/CA_pTjV4_CRST_log.eps}
+               \caption{ }
+    \end{subfigure}
+     \caption[Single-top control region distributions for \intlumi\ \ifb\ of data after a simultaneous fit to all control regions.]{ Single-top control region distributions for \intlumi\ \ifb\ of data after a simultaneous fit to all control regions. The kinematic variables include (a) $\RISR$ (b) $\PTISR$ (c) $\dphiISRI$ (d) $\NjV$ (e) $\MS$ (f) $\pTjV$.  The ratio between data and MC is shown in the bottom panel. The hashed area on the expected SM background represents the uncertainty due to experimental systematics and MC statistics.
+     }
+  \label{fig:CRST1}
+    \end{center}
+\end{figure}
+
+\pagebreak
+
+\input{tables/bkg/YieldsTable.CRST.tex}
 

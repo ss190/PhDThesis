@@ -117,29 +117,35 @@
 
 \indent The ISR identification algorithm is completely general and can be used to identify ISR for SM processes as well as other BSM searches.  The performance of the ISR identification algorithm in stop and SM ttbar events can be seen in figure \ref{fig:ISRPerformanceIntro}.  In summary, the algorithm can achieve a 9 percent uncertainty on the reconstructed ISR $\pt$ in stop and ttbar events with at least 400 $\gev$ of true ISR $\pt$. This uncertainty includes any detector uncertainties due to the reconstruction of jets, $\met$ and other physics objects.  \\
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
-\includegraphics[width=0.45\textwidth]{./figures/strategy/ThrustAlgoEfficiency.eps}
-\includegraphics[width=0.45\textwidth]{./figures/strategy/ThrustAlgoEfficiency_ttbar.eps}
+    \begin{subfigure}[b]{0.40\textwidth}
+    \includegraphics[width=\textwidth]{./figures/strategy/ThrustAlgoEfficiency.eps}
+        \caption{ }
+    \end{subfigure}
+    \begin{subfigure}[b]{0.40\textwidth}
+\includegraphics[width=\textwidth]{./figures/strategy/ThrustAlgoEfficiency_ttbar.eps}
+        \caption{ }
+    \end{subfigure}
 \caption[Distributions of the reconstructed ISR $\pt$ over true ISR $\pt$ ratio for stop signal and ttbar background in simulation]{Distributions of the reconstructed ISR $\pt$ over true ISR $\pt$ ratio for stop signal and ttbar background in simulation.  Only events with at least $400$ GeV of true ISR $\pt$ are accepted.  The red distribution is formed when the whole ISR system is equated to just the highest $\pt$ jet.  The blue distribution uses the thrust based ISR identification system. Detector resolution effects are included in the simulation. }
  \label{fig:ISRPerformanceIntro}
 \end{figure}
 
-\indent The ISR based search has allowed us to finally make a definitive statement on the existence of stops in a region with no previous exclusion sensitivity.  Using the $\intlumi$ $\ifb$ 2015 and 2016 $\sqrt{s}=13 \tev$ dataset, we were able to exclude stops in this compressed region with masses between 225 and 600 $\gev$ to 95 percent confidence.  We were able to achieve expected exclusion confidence limits of less then $5 \times 10^{-4}$ for stop masses between 250 and 400 $\gev$.  \\
+%\indent The ISR based search has allowed us to finally make a definitive statement on the existence of stops in a region with no previous exclusion sensitivity.  Using the $\intlumi$ $\ifb$ 2015 and 2016 $\sqrt{s}=13 \tev$ dataset, we were able to exclude stops in this compressed region with masses between 225 and 600 $\gev$ to 95 percent confidence.  We were able to achieve expected exclusion confidence limits of less then $5 \times 10^{-4}$ for stop masses between 250 and 400 $\gev$.  \\
 
-\indent The 95\% confidence limit for the analysis is shown in figure \ref{figure.exclusion.All2016}.  The compressed analysis is responsible for the orange region covering the $m_{\stop}-m_{\ninoone} = m_t$ diagonal line.  The compressed analysis also has sensitivity to much of the region between $m_{\stop}-m_{\ninoone} = m_W + m_b$ and $m_{\stop}-m_{\ninoone} = m_t + 30 \gev$.  The sensitivity to this diagonal line complements the two lepton search in purple to the left and the zero lepton high mass splitting search to the right.  \\
+%\indent The 95\% confidence limit for the analysis is shown in figure \ref{figure.exclusion.All2016}.  The compressed analysis is responsible for the orange region covering the $m_{\stop}-m_{\ninoone} = m_t$ diagonal line.  The compressed analysis also has sensitivity to much of the region between $m_{\stop}-m_{\ninoone} = m_W + m_b$ and $m_{\stop}-m_{\ninoone} = m_t + 30 \gev$.  The sensitivity to this diagonal line complements the two lepton search in purple to the left and the zero lepton high mass splitting search to the right.  \\
 
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width=0.85\textwidth]{figures/8TeV/ATLAS_SUSY_Stop_tLSP.png}
-		\caption[95\% confidence limit on stop parameter space resulting from all ATLAS stop searches on the 2015+2016 dataset]{95\% confidence limit on stop parameter space resulting from all ATLAS stop searches on the 2015+2016 dataset.  The compressed analysis is responsible for the orange region covering much of the $m_{\stop}-m_{\ninoone} = m_t$ diagonal line.  The compressed analysis also has sensitivity to much of the region between $m_{\stop}-m_{\ninoone} = m_W + m_b$ and $m_{\stop}-m_{\ninoone} = m_t + 30 \gev$.  The compress analysis covers the region between the 2 lepton analysis in purple and zero lepton high mass splitting search that is also in orange and covers stop mass to 950 $\gev$.  8 $\tev$ ATLAS results are shown in light blue for comparison.  }
-		\label{figure.exclusion.All2016}
-	\end{center}
-\end{figure}
+%\begin{figure}[h!]
+%	\begin{center}
+%		\includegraphics[width=0.85\textwidth]{figures/8TeV/ATLAS_SUSY_Stop_tLSP.png}
+%		\caption[95\% confidence limit on stop parameter space resulting from all ATLAS stop searches on the 2015+2016 dataset]{95\% confidence limit on stop parameter space resulting from all ATLAS stop searches on the 2015+2016 dataset.  The compressed analysis is responsible for the orange region covering much of the $m_{\stop}-m_{\ninoone} = m_t$ diagonal line.  The compressed analysis also has sensitivity to much of the region between $m_{\stop}-m_{\ninoone} = m_W + m_b$ and $m_{\stop}-m_{\ninoone} = m_t + 30 \gev$.  The compress analysis covers the region between the 2 lepton analysis in purple and zero lepton high mass splitting search that is also in orange and covers stop mass to 950 $\gev$.  8 $\tev$ ATLAS results are shown in light blue for comparison.  }
+%		\label{figure.exclusion.All2016}
+%	\end{center}
+%\end{figure}
 
 \indent The methods demonstrated in this thesis can be applied to other compressed region searches and searches involving ISR such as dark matter searches.  The accurate ISR identification algorithm can also directly measure the amount of ISR produced in conjunction with SM particles. Potential applications include measuring the SM ttbar ISR $\pt$ spectrum. \\
 
-\indent  The increase in center-of-mass energy from 8 to 13 TeV translates to approximately an order of magnitude increase in the production cross section of heavy sparticles with strong ISR.  The 13 TeV dataset presents a golden opportunity to search for many experimentally difficult physics processes that need a boost from strong ISR in order to be detected. \\
+\indent  The increase in center-of-mass energy from 8 to 13 TeV translates to approximately an order of magnitude increase in the production cross section of heavy sparticles with strong ISR.  The 13 TeV dataset presents a golden opportunity to search for many experimentally difficult physics processes that need a boost from strong ISR in order to be detected.  This ISR based approach allowed us to finally make a definitive statement on the existence of stops in a region with no previous exclusion sensitivity.  \\
 
 \indent The thesis is organized as follows.  Chapter \ref{chap:motivation} presents an overview of the standard model and theoretical motivations for supersymmetry. Chapter \ref{chap:AnaStrategy} concerns the general strategy used in SUSY searches targeting regions with large mass splittings and the general strategy of using ISR to separate signal from background in compressed regions.  \\
 

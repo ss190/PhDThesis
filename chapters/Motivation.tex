@@ -5,7 +5,7 @@
 
 \indent  The standard model (SM) describes our current understanding of the interactions of all known elementary particles.  SM is composed of 3 parts; fermions with spin 1/2 that make up the visible matter in our universe; vector bosons with spin 1 that mediates the interactions between the fermions; and a scalar spin 0 Higgs boson that gives mass to the massive fermions and the $W$ and $Z$ vector bosons.  The fermions are organized in two groups, the quarks and leptons, with three families of increasing mass.  The force mediators, the photon, $W/Z$ boson, and gluon are respectively responsible for the electromagnetic, weak, and strong interactions.  A diagram displaying the SM particles is shown in figure \ref{fig:SM:part}. \\
 
-\begin{figure}[htbp]
+\begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=0.85\textwidth]{figures/theory/Standard_Model_of_Elementary_Particles.png}
 		\caption{List of standard model elementary particles}
@@ -44,12 +44,20 @@ V(H) = m_H^2 |H|^2 +\lambda |H|^4
 \Delta m_H^2 = - \frac{|\lambda_f|^2}{8\pi^2}\Lambda^2_{UV} + ....
 \end{equation}
 
-\begin{figure}[htbp]
+\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=0.45\textwidth]{figures/theory/loopf.png}
-		\includegraphics[width=0.45\textwidth]{figures/theory/loopS.png}
-		\caption{One-Loop corrections due to a Dirac fermion $f$ and a scalar $\tilde{f}$ to the Higgs mass parameter $m_H^2$}
-		\label{fig:SM:Loopf}
+	 \begin{subfigure}[b]{0.40\textwidth}
+		\includegraphics[width=\textwidth]{figures/theory/loopf.png}
+		 \caption{ }
+		 \label{fig:SM:Loopf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.40\textwidth}
+	    	\includegraphics[width=\textwidth]{figures/theory/loopS.png}
+                \caption{ }
+		\label{fig:SM:Loopftilde}
+    \end{subfigure}
+    		\caption{One-Loop corrections to the Higgs mass due to (a) a Dirac fermion $f$ and (b) a scalar $\tilde{f}$ to the Higgs mass parameter $m_H^2$}
+		\label{fig:SM:Loop}
 	\end{center}
 \end{figure}
 
@@ -81,7 +89,7 @@ Q\ket{Boson} = \ket{Fermion} ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Q\ket{Fermion} = \ket{
 
 %\indent For the purpose of this document, we will only look at the phenomenological consequences of heavy superpartners and not be concerned with the exact SUSY breaking method.  \\
 
-\indent In general, if a complex scalar particle $\tilde{f}$~with mass $m_{\tilde{f}}$~exists and couples to the Higgs according to the term $-\lambda_S|H|^2|\tilde{f}|^2$ then correction to the Higgs mass due to the loop diagram in figure \ref{fig:SM:Loopf} is given in equation \ref{eqn:Higgs:LoopS}. \\
+\indent In general, if a complex scalar particle $\tilde{f}$~with mass $m_{\tilde{f}}$~exists and couples to the Higgs according to the term $-\lambda_S|H|^2|\tilde{f}|^2$ then correction to the Higgs mass due to the loop diagram in Figure \ref{fig:SM:Loopftilde} is given in equation \ref{eqn:Higgs:LoopS}. \\
 
 \begin{equation}
 \label{eqn:Higgs:LoopS}

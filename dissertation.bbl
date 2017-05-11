@@ -152,6 +152,11 @@ Achenbach, R., Adragna, P., Andrei, V., Apostologlou, P., Åsman, B., Ay, C.,
 \newblock The atlas level-1 calorimeter trigger.
 \newblock {\em Journal of Instrumentation}, 3(03), P03001.
 
+\bibitem[Agostinelli et~al., 2003]{Geant}
+Agostinelli, S. et~al. (2003).
+\newblock {GEANT4: A Simulation toolkit}.
+\newblock {\em Nucl. Instrum. Meth.}, A506, 250--303.
+
 \bibitem[Alioli et~al., 2012]{PowhegTTbar}
 Alioli, S., Moch, S.-O., \& Uwer, P. (2012).
 \newblock Hadronic top-quark pair-production with one jet and parton showering.
@@ -183,12 +188,27 @@ Artoisenet, P., Frederix, R., Mattelaer, O., \& Rietkerk, R. (2013).
   simulations.
 \newblock {\em Journal of High Energy Physics}, 2013(3), 15.
 
+\bibitem[B{\"a}hr et~al., 2008]{Herwigg}
+B{\"a}hr, M., Gieseke, S., Gigg, M.~A., Grellscheid, D., Hamilton, K.,
+  Latunde-Dada, O., Pl{\"a}tzer, S., Richardson, P., Seymour, M.~H., Sherstnev,
+  A., \& Webber, B.~R. (2008).
+\newblock Herwig++ physics and manual.
+\newblock {\em The European Physical Journal C}, 58(4), 639--707.
+
 \bibitem[Ball et~al., 2015]{NNPDF3.0}
 Ball, R.~D., Bertone, V., Carrazza, S., Deans, C.~S., Del~Debbio, L., Forte,
   S., Guffanti, A., Hartland, N.~P., Latorre, J.~I., Rojo, J., \& Ubiali, M.
   (2015).
 \newblock Parton distributions for the lhc run ii.
 \newblock {\em Journal of High Energy Physics}, 2015(4), 40.
+
+\bibitem[Barberio et~al., 2008]{ATLFAST}
+Barberio, E., Boudreau, J., Butler, B., Cheung, S.~L., Dell'Acqua, A., Simone,
+  A.~D., Ehrenfeld, W., Gallas, M.~V., Glazov, A., Marshall, Z., Mueller, J.,
+  Plačakytė, R., Rimoldi, A., Savard, P., Tsulaia, V., Waugh, A., \& Young,
+  C.~C. (2008).
+\newblock Fast shower simulation in the atlas calorimeter.
+\newblock {\em Journal of Physics: Conference Series}, 119(3), 032008.
 
 \bibitem[Besjes et~al., 2015]{HistFitter}
 Besjes, G.~J., Baak, M., C{\^o}t{\'e}, D., Koutsman, A., Lorenz, J.~M., \&
@@ -214,6 +234,11 @@ Capeans, M., Darbo, G., Einsweiller, K., Elsing, M., Flick, T.,
   (2010).
 \newblock {\em {ATLAS Insertable B-Layer Technical Design Report}}.
 \newblock Technical Report CERN-LHCC-2010-013. ATLAS-TDR-19.
+
+\bibitem[Cascioli et~al., 2012]{OpenLoops}
+Cascioli, F., Maierh\"ofer, P., \& Pozzorini, S. (2012).
+\newblock Scattering amplitudes with open loops.
+\newblock {\em Phys. Rev. Lett.}, 108, 111601.
 
 \bibitem[Collaboration, 2014]{EMReco8TeV}
 Collaboration, A. (2014).

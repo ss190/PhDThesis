@@ -2,13 +2,13 @@
 \chapter{Trigger}
 \label{chap:trigger}
 
-\indent Due to the large volume of data produce at the LHC, a efficient and robust triggering system is essential in deciding which events are potentially interesting and recorded for later study.  The ATLAS trigger system is divided into two levels in Run 2.  The first-level trigger (Level1 or L1 trigger) is hardware based and uses a subset of detector information to quickly reduce the rate of accepted events from the initial 40 MHz to 100 kHz.  Afterwards, the software based high-level trigger (HLT) further reduces the event rate to 1 kHz.  Any events passing the HLT are recorded by ATLAS for further reconstruction and offline analysis. \\
+\indent Due to the large volume of data produce at the LHC, an efficient and robust triggering system is essential in deciding which events are potentially interesting and recorded for later study.  The ATLAS trigger system is divided into two levels in Run 2.  The first-level trigger (Level1 or L1 trigger) is hardware based and uses a subset of detector information to quickly reduce the rate of accepted events from the initial 40 MHz to 100 kHz.  Afterwards, the software based high-level trigger (HLT) further reduces the event rate to 1 kHz.  Any events passing the HLT are recorded by ATLAS for further reconstruction and offline analysis. \\
 
 \indent Object reconstruct at the HLT is done only to the precision required by the executed trigger algorithms.  The online reconstruction algorithms tend to be less precise then the offline reconstruction algorithms described in chapter \ref{chap:reconstruction} but are significantly faster. \\
 
 \indent A schematic showing the different ATLAS trigger components is given in figure \ref{fig:trigScheme}.  Only components relevant to the triggers used in this analysis will be discussed in detail.  Further detail can be found in \cite{Trigger2015}.
 
-\begin{figure}[htb]
+\begin{figure}[h!]
   \begin{center}
     \includegraphics[width=0.90\textwidth]{figures/trigger/tdaq-schematic.png}\hspace{0.05\textwidth}
 \end{center}
@@ -42,7 +42,7 @@
 
 \indent Trigger turn on curves as a function of offline $\met$ can be seen in figure \ref{fig:trigTurnON}.  The poorer online $\met$ resolution leads to a more gradual turn on curve. \\
 
-\begin{figure}[htb]
+\begin{figure}[h!]
   \begin{center}
     \includegraphics[width=0.65\textwidth]{figures/trigger/2016-05-16-UpdatedTurnOns.png}\hspace{0.05\textwidth}
 \end{center}
@@ -57,7 +57,7 @@
 
 \indent The pedestal's dependence on bunch-crossing location was corrected offline but not at the trigger level in Run 1.  However in Run 2, a dynamic bunch-by-bunch pedestal correction was implemented at the trigger level.  This lead to a significant reduction in L1 $\met$ trigger rate as shown in figure \ref{fig:L1METImprove}. \\
 
-\begin{figure}[htb]
+\begin{figure}[h!]
   \begin{center}
     \includegraphics[width=0.65\textwidth]{figures/trigger/L1_XE50.png}\hspace{0.05\textwidth}
 \end{center}

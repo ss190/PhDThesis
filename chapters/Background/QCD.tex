@@ -1,11 +1,11 @@
 \subsection{Standard Model QCD Multijet}
 \label{sec:Bkg:QCD}
 
-\indent  QCD multijet events form a significant contribution to background rates in signal region bins with $\RISR < 0.4$ and we estimated the QCD using the data driven {\tt Jet Smearing} method.  The QCD multijet process creates little intrinsic $\met$ from actual neutrinos. Instead, misreconstructed jets are the primary reason why QCD multijet events are able to pass the $\met > 250 \gev$ requirement and the signal region selections.  Misreconstructed jets can cause an imbalance in the total event $E_t$ and lead to events with a large reconstructed $\met$ even if the event has little intrinsic $\met$.   \\
+\indent  QCD multijet events form a significant contribution to background rates in signal region bins with $\RISR < 0.4$.  The QCD multijet process creates little intrinsic $\met$ from actual neutrinos. Instead, misreconstructed jets are the primary reason why some QCD multijet events are able to pass the $\met > 250 \gev$ requirement and the signal region selections.  Misreconstructed jets can cause an imbalance in the total event $E_t$ and lead to events with a large reconstructed $\met$ even if the event has little intrinsic $\met$.  We estimated the QCD background using the data driven {\tt Jet Smearing} method.   \\
 
 \subsubsection{The {\tt Jet Smearing} Method of Estimating QCD Background}
 
-\indent The {\tt Jet Smearing} method first selects seed events from data with well reconstructed jets and little $\met$.  We then repeatedly smear the seed events' jets with a predetermined jet energy response.  The resulting {\tt pesudo-data} events can have potentially large $\met$ due to the smeared jets.  A schematic demonstrating the {\tt jet smearing} method is shown in figure \ref{fig:jetsmearing}.\\
+\indent The {\tt Jet Smearing} method first selects seed events from data with well reconstructed jets and little $\met$.  We then repeatedly smear the seed events' jets with a predetermined jet energy response.  The resulting {\tt pesudo-data} events can have potentially large $\met$ due to the smeared jets.  A schematic demonstrating the {\tt jet smearing} method is shown in Figure \ref{fig:jetsmearing}.\\
 
 \begin{figure}[h!]
 \begin{center}
@@ -20,22 +20,22 @@
 \begin{itemize}
 \item The jet response captures all sources of jet $\pt$ measurement fluctuations
 \item The $\met$ in multijet events result predominately from mis-measured jets
-\item Jet response are independent on the presence of other jet and jet smearing can be applied on a jet-by-jet basis
+\item Jet response is independent on the presence of other jets and jet smearing can be applied on a jet-by-jet basis
 \end{itemize}
 
-\indent These assumptions seem be well satisfied in the high $\met$, high jet multiplicity region of the signal region.   We also validate QCD predictions in a QCD validation region defined in section \ref{sec:QCD:CR}.\\
+\indent These assumptions seem to be well satisfied in the high $\met$, high jet multiplicity environment of the signal region.  Other sources of $\met$ not taken into account by the jet smearing method such as $\met$ from pileup jets, mis-reconstructed soft term of the $\met$ and object overlap removal are assumed to be negligible in the signal region. \\
 
-\indent Other sources of $\met$ not taken into account by the jet smearing method such as $\met$ from pileup jets, mis-reconstructed soft term of the $\met$ and object overlap removal are assumed to be negligible in the signal region. \\
+\indent We then define a QCD control region that is kinematic similar to the signal region but dominated by QCD background.  We normalize the predicted QCD rate to the amount of data in the control region.  The normalization factor is then applied to predicted QCD rates in the signal region.  We also validate the QCD predictions using a QCD validation region.  The QCD control and validation regions are covered in greater details in section \ref{sec:QCD:CR}. \\
 
 \subsubsection{{\tt Jet Smearing} Seed Event Selection and Jet Response Function}
 
 \indent We select for events with multiple well reconstructed jets and no leptons as seed events.  Because QCD multijet events have low intrinsic $\met$, seed events must have low $\met$ relative to the total reconstructed $E_T$ in the event. \\ 
 
-\indent Some $\met$ is expected even in well reconstructed multijet events because both the electromagnetic and hadronic calorimeters at ATLAS are sampling calorimeters.  The energy deposited in the absorber material is effectively lost because the absorber do not actively record a signal.  Therefore the energy measured using the active material must be scaled up to compensate for this loss.  The statistical nature of sampling only the energy in the active material layers means the uncertainty $\sigma E_T$ for jets is correlated with the total $E_T$.   \\
+\indent Some $\met$ is expected even in well reconstructed multijet events because both the electromagnetic and hadronic calorimeters at ATLAS are sampling calorimeters.  The energy deposited in the absorber material is effectively lost because the absorber does not actively record a signal.  Therefore the energy measured using the active material must be scaled up to compensate for this loss.  The statistical nature of the sampling process means the uncertainty, $\sigma E_T$, for jets depend on the total $E_T$.   \\
 
-\indent The quantity $\met\rm{sig.}=\frac{ \met-8\rm{\,GeV} } {\sum E_\mathrm{T} }$ measures the significance of $\met$ relative to total hadronic activity in an event.  An event with low $\met\rm{sig.}$ has an $E_T$ imbalance that is consistent with only the expected uncertainty on calorimeter energy measurements.   Therefore, well reconstructed QCD multijet events has low $\met\rm{sig.}$ .  \\
+\indent The quantity $\met\rm{sig.}=\frac{ \met-8\rm{\,GeV} } {\sum E_\mathrm{T} }$ measures the significance of $\met$ relative to total hadronic activity in an event.  An event with low $\met\rm{sig.}$ has a low amount of $E_T$ imbalance relative to the total amount of calorimeter activity in the event.  In this case, the amount of $E_T$ imbalance is consistent with the expected uncertainty on calorimeter energy measurements.  If $\met\rm{sig.}$ is high then the $\met$ is inconsistent with the expected uncertainty on calorimeter measurements and the probability of having energetic weakly interacting particles in the event is high.   \\
 
-\indent Seed events are selected according to the criteria listed in table \ref{tab:qcd:seed}. \\
+\indent QCD multijet events are expected to produce very few energetic neutrinos and therefore, we select for well reconstructed seed events by requiring low $\met\rm{sig.}$. Seed events are selected according to the criteria listed in Table \ref{tb:seed_events_presel}. \\
 
  \begin{table}[h!]
  \begin{center}
@@ -56,14 +56,14 @@
  \label{tb:seed_events_presel}
  \end{table}
 
-\indent The $\met\rm{sig.} < 0.3 + 0.1\cdot n_{\textup{n-bjets}}$ requirement depends on the number of b-jets because b-quarks can emit significant portions of their energy in the form of neutrinos.  We therefore expect larger $\met\rm{sig.}$ in events with more b-jets.  B-jets also have a different jet response function then light quark jets to account for this effect. \\
+\indent The $\met\rm{sig.} < 0.3 + 0.1\cdot n_{\textup{n-bjets}}$ requirement depends on the number of b-jets because b-quarks can emit significant portions of their energy in the form of neutrinos.  We therefore expect larger $\met\rm{sig.}$ in events with more b-jets.  B-jets also have a different jet response function than light quark jets to account for this effect. \\
 
-\indent The jet response function used in {\tt Jet Smearing} include contributions from the following effects: \\
+\indent The jet response function used in {\tt Jet Smearing} includes contributions from the following effects: \\
 
 \begin{itemize}
 \item Limited calorimeter granularity
-\item Hadronic energy falling outside of the jet radius or failed to be clustered correctly by jet reconstruction.
-\item Additional energy clustered into the jet that result from other sources.
+\item Hadronic energy falling outside of the jet radius or failing to be clustered correctly by jet reconstruction.
+\item Additional energy clustered into the jet that results from other sources.
 \item Energetic jet punching through the calorimeter.
 \item Dead material in the calorimeter.
 \item b-quark generating real $\met$ through decay to neutrinos.  
@@ -81,7 +81,7 @@
 \label{eqn:dphijetmet}
 \end{equation}
 
-%This region is dominated by QCD backgrounds with high $\met$ due to a single mis-reconstructed energetic jet but with the same jet multiplicity and jet kinematics required in the SR. \\
+%This region is dominated by QCD backgrounds with high $\met$ due to a single mis-reconstructed energetic jet but with the same jet multiplicity and jet kinematics required in the signal region. \\
 
 \indent The pseudo-data resulting from the {\tt Jet Smearing} processes is then normalized to data using the QCD control region defined in Table \ref{tab:QCDCR}.  
 
@@ -104,19 +104,28 @@
   \end{center}
 \end{table}%
 
-\indent Data vs QCD pseudo-data distributions for the $\PTISR$, $\dphiISRI$ and $\MS$ variables in the QCD control region can be seen in Figure \ref{fig:QCD:CR}.  We extrapolate over these variables between control region and signal region. \\
+\indent Data vs QCD pseudo-data distributions for the $\PTISR$, $\dphiISRI$ and $\MS$ variables in the QCD control region can be seen in Figure \ref{fig:QCD:CR}.  We extrapolate over these variables between the control and signal regions. \\
 
-\begin{figure}[!htbp]
+\begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.48\textwidth]{figures/QCDJetSmearing/CRQC/dphiISRI_36500.eps}
-\includegraphics[width=0.48\textwidth]{figures/QCDJetSmearing/CRQC/PTISR_36500}
-\includegraphics[width=0.48\textwidth]{figures/QCDJetSmearing/CRQC/MV_36500}
+    \begin{subfigure}[b]{0.40\textwidth}  
+    \includegraphics[width=\textwidth]{figures/QCDJetSmearing/CRQC/dphiISRI_36500.eps}
+                \caption{ }
+    \end{subfigure}
+    \begin{subfigure}[b]{0.40\textwidth}  
+    \includegraphics[width=\textwidth]{figures/QCDJetSmearing/CRQC/PTISR_36500}
+                \caption{ }
+    \end{subfigure}
+        \begin{subfigure}[b]{0.40\textwidth}  
+    \includegraphics[width=\textwidth]{figures/QCDJetSmearing/CRQC/MV_36500}
+                    \caption{ }
+    \end{subfigure}
 \caption[$\PTISR$, $\dphiISRI$ and $\MS$ distributions in the QCD control region]{$\PTISR$, $\dphiISRI$ and $\MS$ distributions in the QCD control region}
 \label{fig:QCD:CR}
 \end{center}
 \end{figure}
 
-\indent The QCD multijet prediction after normalizing to the control region can be checked in the QCD validation region defined in Table \ref{tab:QCDVR}.   The QCD validation region has the exact same kinematic selection as the SR except a lower $\mindphijettwomet$ requirement of between $0.1$ and $0.2$.  $\RISR$ is also required to be below $0.4$ as we don't expect significant QCD contribution at higher $\RISR$.  \\
+\indent The QCD multijet prediction after normalizing to the control region can be checked in the QCD validation region defined in Table \ref{tab:QCDVR}.   The QCD validation region has the exact same kinematic selection as the signal region except a lower $\mindphijettwomet$ requirement of between $0.1$ and $0.2$.  $\RISR$ is also required to be below $0.4$ as we don't expect significant QCD contribution at higher $\RISR$.  \\
 
 \begin{table}[h!]
   \begin{center}
@@ -142,8 +151,14 @@
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.48\textwidth]{figures/QCDJetSmearing/VRqC/RISR_36500} 
-\includegraphics[width=0.48\textwidth]{figures/QCDJetSmearing/VRqC/dphiISRI_36500.eps}
+    \begin{subfigure}[b]{0.40\textwidth}  
+    \includegraphics[width=\textwidth]{figures/QCDJetSmearing/VRqC/RISR_36500} 
+                \caption{ }
+    \end{subfigure}
+    \begin{subfigure}[b]{0.40\textwidth}  
+    \includegraphics[width=\textwidth]{figures/QCDJetSmearing/VRqC/dphiISRI_36500.eps}
+                \caption{ }
+    \end{subfigure}
 \caption[$\RISR$ and $\dphiISRI$ distributions in the QCD validation regions]{$\RISR$ and $\dphiISRI$ distributions in the QCD validation region.}
 \label{fig:QCD:VR}
 \end{center}
@@ -155,15 +170,19 @@
 
 \indent An upward error corresponds to using seed events requiring $\met\rm{sig.} < 0.6 + 0.2\cdot n_{\textup{n-bjets}}$ and an lower error corresponds to using seed events requiring $\met\rm{sig.} < 0.2 + 0.05\cdot n_{\textup{n-bjets}}$. QCD multijet events with better reconstructed jets tend to have a smaller $\met\rm{sig.}$. \\
 
-\indent The expected QCD yield and uncertainty in the signal region is given in Table \ref{tab:QCD:SRyield}
+\indent The expected QCD yield and uncertainty in the signal region is given in Table \ref{tab:QCDYields}.\\
 
 \begin{table}[!h]
   \begin{center}
-    \begin{tabular}{c|c|c|c|c|c} \hline\hline
-SR $\RISR$ Region       & 0.3-0.4              & 0.4-0.5              & 0.5-0.6              & 0.6-0.7             & 0.7-0.8 \\ \hline
-QCD expected yield & $4.56\pm2.38$ & $1.58\pm0.77$ & $0.32\pm0.17$ & $0.04\pm0.02$ & $0.00\pm0.00$ \\ \hline \hline
+    \begin{tabular}{c|c|c|c} \hline\hline
+SR $\RISR$ Region       & 0.3-0.4              & 0.4-0.5              & 0.5-0.6              \\ \hline
+QCD expected yield & $4.56\pm2.38$ & $1.58\pm0.77$ & $0.32\pm0.17$  \\ \hline \hline
     \end{tabular}
-  \caption{Expected yields of the QCD multijet backgrounds in SR.}
+        \begin{tabular}{c|c|c} \hline\hline
+SR $\RISR$ Region         & 0.6-0.7             & 0.7-0.8 \\ \hline
+QCD expected yield       & $0.04\pm0.02$ & $0.00\pm0.00$ \\ \hline \hline
+    \end{tabular}
+  \caption{Expected yields of the QCD multijet backgrounds in the signal region.}
   \label{tab:QCDYields}
   \end{center}
 \end{table}%

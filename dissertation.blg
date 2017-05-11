@@ -32,17 +32,7 @@ I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Calibartion13TeV"
 Warning--I didn't find a database entry for "topoCalib"
 Warning--I didn't find a database entry for "antikt"
-Warning--I didn't find a database entry for "Herwig"
-Warning--I didn't find a database entry for "Geant"
-Warning--I didn't find a database entry for "sherpa.OpenLoops"
 Warning--I didn't find a database entry for "stop0Lmoriond"
-Warning--to sort, need author or key in JES_dijet
-Warning--to sort, need author or key in JVT
-Warning--to sort, need author or key in btagging2016
-Warning--to sort, need author or key in EleID
-Warning--to sort, need author or key in EMReco13TeV
-Warning--to sort, need author or key in METReco
-Warning--to sort, need author or key in Trigger2016
 Warning--to sort, need author or key in stop0LCONF
 Warning--to sort, need author or key in SUSYinclusive0L
 Warning--to sort, need author or key in VertexReco
@@ -52,9 +42,16 @@ Warning--to sort, need author or key in pileupsub
 Warning--to sort, need author or key in JetCalibartion13TeV
 Warning--to sort, need author or key in jet_GSC
 Warning--to sort, need author or key in JES_ZGamma
+Warning--to sort, need author or key in JES_dijet
+Warning--to sort, need author or key in JVT
 Warning--to sort, need author or key in JetCleaning
+Warning--to sort, need author or key in btagging2016
 Warning--to sort, need author or key in btagging2015
+Warning--to sort, need author or key in EMReco13TeV
+Warning--to sort, need author or key in EleID
 Warning--to sort, need author or key in photonID
+Warning--to sort, need author or key in METReco
+Warning--to sort, need author or key in Trigger2016
 Warning--to sort, need author or key in Pythia8tunes
 Warning--to sort, need author or key in ttbarDiffCross
 Warning--to sort, need author or key in METPerform
@@ -82,45 +79,45 @@ Warning--empty author in SUSYinclusive0L
 Warning--empty author in Trigger2016
 Warning--empty institution in IBL_TDR
 Warning--empty journal in MartinSUSY
-You've used 57 entries,
+You've used 61 entries,
             2229 wiz_defined-function locations,
-            856 strings with 15105 characters,
-and the built_in function-call counts, 22449 in all, are:
-= -- 2008
-> -- 1236
-< -- 40
-+ -- 474
-- -- 456
-* -- 2230
-:= -- 4000
-add.period$ -- 173
-call.type$ -- 57
-change.case$ -- 487
-chr.to.int$ -- 53
-cite$ -- 125
-duplicate$ -- 770
-empty$ -- 1361
-format.name$ -- 501
-if$ -- 4153
+            874 strings with 15847 characters,
+and the built_in function-call counts, 24753 in all, are:
+= -- 2210
+> -- 1413
+< -- 41
++ -- 540
+- -- 522
+* -- 2465
+:= -- 4417
+add.period$ -- 185
+call.type$ -- 61
+change.case$ -- 539
+chr.to.int$ -- 57
+cite$ -- 129
+duplicate$ -- 826
+empty$ -- 1477
+format.name$ -- 572
+if$ -- 4578
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 31
-newline$ -- 290
-num.names$ -- 105
-pop$ -- 412
+missing$ -- 35
+newline$ -- 310
+num.names$ -- 117
+pop$ -- 455
 preamble$ -- 1
-purify$ -- 513
+purify$ -- 565
 quote$ -- 0
-skip$ -- 507
+skip$ -- 549
 stack$ -- 0
-substring$ -- 1119
-swap$ -- 82
+substring$ -- 1249
+swap$ -- 86
 text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 342
+type$ -- 366
 warning$ -- 46
-while$ -- 99
+while$ -- 112
 width$ -- 0
-write$ -- 747
+write$ -- 799
 (There were 2 error messages)
