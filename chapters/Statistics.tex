@@ -20,7 +20,7 @@
 M(\vec{z})=-\ln(({\mathcal{L}}(\vec{z})) = -{\displaystyle\sum_{i=1}^{n}} \ln( P(x_i|\vec{z}) )
 \end{equation}
 
-\indent In collider physics we do not know the total number of observed events a priori.  Instead, we have an expected value of events proportional to the cross-section times the luminosity.  The actual number of measured events can vary according to a Poisson distribution.  We include the uncertainty on the number of observed events by multiplying a the log likelihood and a Poisson distribution with expected rate $\lambda$; resulting in equation \ref{eqn:ExtLikelihood}.  \\
+\indent In collider physics we do not know the total number of observed events a priori.  Instead, we have an expected value of events proportional to the cross-section times the luminosity.  The actual number of measured events can vary according to a Poisson distribution.  We include the uncertainty on the number of observed events by multiplying the log likelihood and a Poisson distribution with expected rate $\lambda$; resulting in equation \ref{eqn:ExtLikelihood}.  \\
 
 \begin{equation}
 \label{eqn:ExtLikelihood}
@@ -68,9 +68,9 @@ M(\vec{z})=-\ln(({\mathcal{L}}(\vec{z})) = -{\displaystyle\sum_{i=1}^{n_{bins}}}
 
 %\indent We normalize backgrounds to data in control regions dominated by background but are kinematically similar to the signal region.  The background normalization is allowed to float and the fit will extract the total amount of background that best describe the data in all the different control regions. All backgrounds that form a statistically significant contribution to the total background in the signal region has a corresponding control region.  The background estimation techniques and definitions of these control regions are given in chapter \ref{chap:backgrounds}.  \\
 
-\indent The amount of MC background in both the control and signal regions will vary with experimental and theoretical systematics before the fit.  However after the fit the total amount of background will be normalized to the control.  If the MC yield for background has a downward variation for a given systematic then the normalization scale factor will increase.  The increased normalization scale factor will compensate for any simultaneous drops in signal region MC yield.  This partial cancelation of variations between control and signal regions can lead to smaller systematic uncertainties.  In summary, the control region reduces the systematic uncertainty by directly measuring the amount of background in from data instead of relying solely on MC simulations.  \\
+\indent The amount of MC background in both the control and signal regions will vary with experimental and theoretical systematics before the fit.  However, after the fit, the total amount of background will be normalized to the control.  If the MC yield for background has a downward variation for a given systematic then the normalization scale factor will increase.  The increased normalization scale factor will compensate for any simultaneous drops in signal region MC yield.  This partial cancellation of variations between control and signal regions can lead to smaller systematic uncertainties.  In summary, the control regions reduce the systematic uncertainty by directly measuring the amount of background in data instead of relying solely on MC simulations.  \\
 
-\indent The more kinematically similar the definition of the control region to the signal region, the better the cancelation.  Any extrapolation between control and signal region must be across well modeled variables.  Otherwise large systematic uncertainties can arise and the background predictions in the signal region may be wrong.  \\
+\indent The more kinematically similar the definition of the control region to the signal region, the better the cancelation.  Any extrapolation between control and signal region must be across well modeled variables.  Otherwise, large systematic uncertainties can arise and the background predictions in the signal region may be wrong.  \\
 
 \indent We can also check the result of our background predictions without unblinding the signal region in validation regions.  Validation regions receive the background normalization scale factors from the fit to control regions but do not participate in the fit.   Validation regions are designed to be kinematically similar to the signal regions while keeping signal contaminations low.  In this way, validation regions serve as a mid-point to check the extrapolation between the control and signal regions.  \\
 
@@ -79,7 +79,7 @@ M(\vec{z})=-\ln(({\mathcal{L}}(\vec{z})) = -{\displaystyle\sum_{i=1}^{n_{bins}}}
 \begin{figure}[h!]
   \centering
 	\includegraphics[width=0.65\textwidth]{./figures/statistics/CR_VR_SR.pdf}
-\caption[Schematic representation of the relationship between control, validation and signal regions]{Schematic representation of the data driven background estimation technique of using control regions to estimate backgrounds in the signal region and using validation regions to validate those estimates.  We define control regions (CR) that are dominated by background and have little signal.  We can estimate the amount of background we expect in the signal region by measuring the amount of background in the control region.  We then using MC simulation to extrapolate between the control region and the signal region. Validation regions are between control regions and the signal regions and serve to validate the extrapolation between the control and signal regions.  }
+\caption[Schematic representation of the relationship between control, validation and signal regions]{Schematic representation of the data driven background estimation technique which uses control regions to estimate background rates in the signal region and uses validation regions to validate those estimates.  We define control regions (CR) that are dominated by background and have little signal.  We can estimate the amount of background we expect in the signal region by measuring the amount of background in the control region.  We then use MC simulation to extrapolate between the control region and the signal region. Validation regions are in between control regions and the signal regions and serve to validate the extrapolation between the control and signal regions.  }
 \label{fig:CR_VR_SR_stat}
 \end{figure}
 
@@ -91,12 +91,12 @@ M(\vec{z})=-\ln(({\mathcal{L}}(\vec{z})) = -{\displaystyle\sum_{i=1}^{n_{bins}}}
 
 \indent These three types of fits, the background only fit, the discovery fit and the exclusion fit are covered in more detail in sections \ref{sec:stat:bkgonly} to \ref{sec:stat:limit}. The parameterization of systematics as constrained nuisance parameters is covered in section \ref{sec:stat:sys}. \\
 
-\indent We use the software package $\HistFitter$ (version {\tt HistFitter-00-00-53} ) to perform the statistical analysis.\cite{HistFitter}  At its core $\HistFitter$ is still performing log likelihood fitting based on the principle introduced in section \ref{sec:stat:likelihood} but \HistFitter provide many tools to easily manage and integrate multiple control region, validation region, signal region, signal samples, backgrounds, and systematics.  $\HistFitter$ is built upon other statistical analysis software including \RooFit.\cite{RooFit}
+\indent We use the software package $\HistFitter$ (version {\tt HistFitter-00-00-53} ) to perform the statistical analysis.\cite{HistFitter}  At its core, $\HistFitter$ is still performing log likelihood fitting based on the principle introduced in section \ref{sec:stat:likelihood}, but $\HistFitter$ provides many tools to easily manage and integrate multiple control region, validation region, signal region, signal samples, backgrounds, and systematics.  $\HistFitter$ is built upon other statistical analysis software including \RooFit.\cite{RooFit}
 
 \section{Parameterization of Systematics as Gaussian Constraints}
 \label{sec:stat:sys}
 
-\indent Systematics uncertainties are parameterized as fitted parameters called nuisance parameters.  In general, the nuisance parameter $\alpha$, is constrained to a particular value by a constraint function $C(\alpha)$.   The constraint function $C(\alpha)$ is multiplied by the likelihood as shown in equation \ref{eqn:stat:sys}.  The fitted PDF $P(x|\vec{z},\alpha)$ can depend on the unconstrained fitted parameters $\vec{z}$ and the constrained $\alpha$.  
+\indent Systematics uncertainties are parameterized as fitted parameters called nuisance parameters.  In general, the nuisance parameter $\alpha$ is constrained to a particular value by a constraint function $C(\alpha)$.   The constraint function $C(\alpha)$ is multiplied by the likelihood as shown in equation \ref{eqn:stat:sys}.  The fitted PDF $P(x|\vec{z},\alpha)$ can depend on the unconstrained fitted parameters $\vec{z}$ and the constrained $\alpha$.  
 
 \begin{equation}
 \label{eqn:stat:sys}
@@ -114,7 +114,7 @@ M(\vec{z})=-\ln(({\mathcal{L}}(\vec{z})) = -{\displaystyle\sum_{i=1}^{n_{bins}}}
 \section{Background Only Fit and Background Estimation}
 \label{sec:stat:bkgonly}
 
-\indent The background rates are normalized to data through a simultaneous fit to all control regions for the background only fit.  The fitted background normalizations derived from the fit are then applied to the signal region but the signal region is not simultaneously fitted.  No signal sample is included in the fit and any potential signal contamination in the control region is ignored.  This fit has the advantage of being able to quantify the expected background rate and systematic uncertainties while the signal region is blinded. \\
+\indent The background rates are normalized to data through a simultaneous fit to all control regions for the background only fit.  The fitted background normalizations derived from the fit are then applied to the signal region but the signal region is not simultaneously fitted.  No signal sample is included in the fit and any potential signal contamination in the control regions are ignored.  This fit has the advantage of being able to quantify the expected background rate and systematic uncertainties while the signal region is blinded. \\
 
 %The background only fit is performed to estimate the background systematic uncertainties and the expected background rate in signal region.  \\
 
@@ -136,7 +136,7 @@ M(\vec{z})=-\ln(({\mathcal{L}}(\vec{z})) = -{\displaystyle\sum_{i=1}^{n_{bins}}}
 \section{Discovery Fit and Discovery Significance Calculation}
 \label{sec:stat:discovery}
 
-\indent The discovery fit is also performed as a simultaneous fit to all control regions and signal region.  The signal sample is included only in the signal but not to the control in the fit.  Excluding the signal sample from the control region gives a more conservative estimate.  If a signal is present in nature, the signal contamination would still contribute to the control region yield in data.  The higher data yield will in turn increase background normalizations in the control region.  Hence, any potential signal contamination is considered essentially as additional background in the control region. \\
+\indent The discovery fit is also performed as a simultaneous fit to all control and signal regions.  The signal sample is included only in the signal but not to the control in the fit.  Excluding the signal sample from the control regions gives a more conservative estimate.  If a signal is present in nature, the signal contamination would still contribute to the control region yield in data.  The higher data yield will in turn increase background normalizations in the control region.  Hence, any potential signal contamination is considered essentially as additional background in the control regions. \\
 
 \indent  Again, a well designed control region has little signal contamination so the difference between this approach and exclusion fit should be small.  Our signal contamination is less then 12\% for all relevant signal samples.  The signal contamination drops to below 10\% for all $\stop$ masses above 300 GeV.  \\  
 

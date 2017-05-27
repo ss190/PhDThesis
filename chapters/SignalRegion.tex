@@ -3,7 +3,7 @@
 \chapter{Signal Region Definition}
 \label{chap:SignalRegion}
 
-\indent The kinematic selections in the signal region are designed to maximize signal acceptance and reject SM $\ttbar$ events.  SM $\ttbar$ is the dominant background for this analysis and comprises $70$\% of backgrounds in the signal region.  The signal region selections are also effective at rejecting subdominant backgrounds, including $W$+jets, single top, $Z$+jets and QCD multijet backgrounds.  \\
+\indent The kinematic selections in the signal region are designed to maximize signal acceptance and reject SM $\ttbar$ events.  SM $\ttbar$ is the dominant background for this analysis and comprises $70$\% of backgrounds in the signal region.  The signal region selections are also effective at rejecting subdominant backgrounds, including $W$+jets, single-top, $Z$+jets and QCD multijet backgrounds.  \\
 
 \indent This chapter first builds physical intuition on the dominant SM $\ttbar$ in section \ref{sec:SR:physical} and explains how the signal region selections reject background.  The signal region kinematic selections are defined in section \ref{sec:SR:Selections}.  A back-of-the-envelope estimation of the signal region background rejection power and an order-of-magnitude estimation of how the signal over background ratio improves with the signal region selections is given in section \ref{sec:SR:estimate}. Lastly, the signal region yields and background composition are covered in sections \ref{sec:SR:Yields} and \ref{sec:Bkg:Compositiion}.  \\
 
@@ -57,16 +57,19 @@
 
 \indent  After preselection, 90\% of all $\ttbar$ events belong to the $\ttbar$ back-to-back population.  Boosting one top against the other top simply requires less center-of-mass energy than boosting both tops with additional hard ISR.  \\
 
-\indent In the $\ttbar$ back-to-back population, the hadronic top's decay products will be mainly in the hemisphere not containing $\met$.  The reconstructed ISR $\pt$ will therefore be approximately the hadronic top $\pt$.  The leptonic top and hadronic top have roughly equal $\pt$ because the two tops are back-to-back.  The leptonic top will have its $\pt$ split between its decay products.  For this reason, we would expect the $\RISR$ to be approximately 1/3 as the neutrino would be expected to carry about 1/3 the leptonic top $\pt$ if no selections were applied. Some $\ttbar$ events will have a high $\RISR$ ratio because the neutrino carries a higher fraction of the leptonic top $\pt$ because of specific alignments between the top boost and the decay axes. \\
+\indent In the $\ttbar$ back-to-back population, the hadronic top's decay products will be mainly in the hemisphere not containing $\met$.  The reconstructed ISR $\pt$ will therefore be approximately the hadronic top $\pt$.  The leptonic top and hadronic top have roughly equal $\pt$ because the two tops are back-to-back.  The leptonic top will have its $\pt$ split between its decay products.  For this reason, we would expect the $\RISR$ to be approximately 1/3 as the neutrino would be expected to carry about 1/3 the leptonic top $\pt$ if no selections were applied. Some $\ttbar$ events will have a high $\RISR$ ratio because the neutrino carries a higher fraction of the leptonic top $\pt$ because of specific alignments between the top boost and the decay axes. However, the $\met > 250 \gev$ requirement preferentially selects for neutrinos that gain a large fraction of the top $\pt$.  This leads to a higher $\RISR$ peak at $\sim0.75$ for the $\ttbar$ back-to-back population. \\
 
-\indent However, the $\ttbar$ differential cross section as a function of $m^{t\tbar}$, shown in Figure \ref{fig:ttbar:mtt}, falls exponentially.  $m^{t\tbar}$ is directly related to the amount of back-to-back boost between the two tops and the $\pt$ of each top.  After the $\met > 250 \gev$ requirement, most $\ttbar$ events have a low $m^{t\tbar}$ but the neutrino receives a large fraction of the top $\pt$ instead of having a high $m^{t\tbar}$ and the neutrino receiving a small fraction of the top $\pt$.  This leads to a higher $\RISR$ peak at $\sim0.75$ for the $\ttbar$ back-to-back population. \\
+%\indent However, the $\ttbar$ differential cross section as a function of $m^{t\tbar}$, shown in Figure \ref{fig:ttbar:mtt}, falls exponentially.  $m^{t\tbar}$ is directly related to the amount of back-to-back boost between the two tops and the $\pt$ of each top.  .  Thereby the neutrino is able to gain enough momentum to pass the $\met > 250 \gev$ requirement while the total amount of $m^{\ttbar}$ remains low.
 
-\begin{figure}[h!]
-  \centering
-	\includegraphics[width=0.70\textwidth]{./figures/strategy/ttbar_mtt.png}
-	\caption[Normalized $\ttbar$ differential cross section as a function of $m^{t\tbar}$]{Normalized $\ttbar$ differential cross-section as a function of $m^{t\tbar}$.  $m^{t\tbar}$ distribution falls exponentially and the $m^{t\tbar}$ is directly related to the amount of back-to-back boost between the two tops. \cite{ttbarDiffCross} }
-\label{fig:ttbar:mtt}
-\end{figure}
+
+%After the $\met > 250 \gev$ requirement the neutrino must a certain $\pt$ to pass the $\met$ requirement. In order to meet the $\pt$ requirement, the neutrino perfermost $\ttbar$ events have a low $m^{t\tbar}$ but the neutrino receives a large fraction of the top $\pt$ instead of having a high $m^{t\tbar}$ and the neutrino receiving a small fraction of the top $\pt$.   \\
+
+%\begin{figure}[h!]
+%  \centering
+%	\includegraphics[width=0.70\textwidth]{./figures/strategy/ttbar_mtt.png}
+%	\caption[Normalized $\ttbar$ differential cross section as a function of $m^{t\tbar}$]{Normalized $\ttbar$ differential cross-section as a function of $m^{t\tbar}$.  $m^{t\tbar}$ distribution falls exponentially and the $m^{t\tbar}$ is directly related to the amount of back-to-back boost between the two tops. \cite{ttbarDiffCross} }
+%\label{fig:ttbar:mtt}
+%\end{figure}
 
 \indent Figure \ref{fig:ttbar:3pop} illustrates example events from the two $\ttbar$ populations alongside a stop signal event for comparison.  We line up all three events according to their thrust axis and the hemisphere containing the $\MET$ is displayed in the upper half of the figure.  \\
 
@@ -127,7 +130,7 @@
 
 \indent After zero-lepton preselection, the S/B ratio is $1$:$40$ for a stop mass of 400 GeV.  After signal region selection, the S/B ratio improves to approximately $2$:$1$ for the same mass point.  A quantitative breakdown of signal region selections and yields is given in sections \ref{sec:SR:Selections} and \ref{sec:SR:Yields}.  \\
 
-\indent At the same time, the same kinematic selections on jet multiplicity and total energy are also difficult for subdominant backgrounds to satisfy.  In general, it is difficult for processes such as $W$+jets, $Z$+jets, single top and QCD multijets to produce such high jet multiplicity and total energy in the same half of the event as the $\MET$.   Processes such as $W$+jets and $Z$+jets normally have the $\MET$ recoiling against other energetic jets.  Therefore, energetic jets in these processes tend to lie in the hemisphere opposite the $\MET$.  After the signal region selections, the total subdominant background contribution is around 20 to 40\% depending on $\RISR$ region.  \\
+\indent At the same time, the same kinematic selections on jet multiplicity and total energy are also difficult for subdominant backgrounds to satisfy.  In general, it is difficult for processes such as $W$+jets, $Z$+jets, single-top and QCD multijets to produce such high jet multiplicity and total energy in the same half of the event as the $\MET$.   Processes such as $W$+jets and $Z$+jets normally have the $\MET$ recoiling against other energetic jets.  Therefore, energetic jets in these processes tend to lie in the hemisphere opposite the $\MET$.  After the signal region selections, the total subdominant background contribution is around 20 to 40\% depending on $\RISR$ region.  \\
 
 %\section{Kinematic Variables Definitions}
 %\label{sec:SR:Definitions}
@@ -160,6 +163,8 @@
 \indent We also construct variables that measure kinematic properties of both the ISR and sparticle hemispheres.  These include $\NjV$ and $\NbV$, the number of jets and b-tagged jets in the sparticle system.  $\MS$, $\pTjV$, and $\pTSBZero$ are all related to the total energy in the sparticle system.  $\MS$ is the total transverse mass of the sparticle system.  $\pTjV$ is the $\pt$ of the fourth highest $\pt$ jet in the sparticle system.  $\pTSBZero$ is the $\pt$ of the highest $\pt$ b-tagged jet in the sparticle system.  $\pTISR$ corresponds to the total $\pt$ of the ISR system.  Finally $\RISR = \met/\PTISR$ and $\dphiISRI$ quantify the correlation between the ISR system and $\MET$ in both magnitude and direction. \\
 
 \begin{table}[h!]
+  \caption{Signal region definitions, in addition to the preselection requirements presented in Table~\ref{tab:0Lcommon}. }
+  \label{tab:SignalRegionC}
   \begin{center}
     \def\arraystretch{1.4}%
     \begin{tabular}{c||c|c|c|c|c} \hline\hline
@@ -173,8 +178,6 @@
       \dPhiISRMET & \multicolumn{5}{c}{$>3.00$}  \\ \hline
       \rISR &  0.30-0.40 & 0.40-0.50 & 0.50-0.60 & 0.60-0.70 & 0.70-0.80\\  \hline \hline
     \end{tabular}
-  \caption{Signal region definitions, in addition to the preselection requirements presented in Table~\ref{tab:0Lcommon}. }
-  \label{tab:SignalRegionC}
   \end{center}
 \end{table}%
 
@@ -227,7 +230,7 @@
     	 \includegraphics[width=\textwidth]{figures/plotSR/SR_ND1_MS_3SR.eps}
                 \caption{ }
     \end{subfigure}
-     \caption[$\MS$, $\pTjV$, and $\pTbV$ distributions for signal and background after preselection plus $\PTISR > 400 \gev$, $\NjV \ge 5$, and $\nBJetS \ge 1$ selections]{ $\MS$, $\pTjV$, and $\pTbV1$ distributions for signal and background after preselection plus $\PTISR > 400 \gev$, $\NjV \ge 5$, and $\nBJetS \ge 1$ selections.  Stop signal rate is increased by a factor of 5 for better visibility. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics.  QCD background estimation is not included.  }
+     \caption[~$\MS$, $\pTjV$, and $\pTbV$ distributions for signal and background after preselection plus $\PTISR > 400 \gev$, $\NjV \ge 5$, and $\nBJetS \ge 1$ selections]{ $\MS$, $\pTjV$, and $\pTbV1$ distributions for signal and background after preselection plus $\PTISR > 400 \gev$, $\NjV \ge 5$, and $\nBJetS \ge 1$ selections.  Stop signal rate is increased by a factor of 5 for better visibility. The hashed area in both the top and lower panel represent the uncertainty due to MC statistics.  QCD background estimation is not included.  }
   \label{fig:SR:jetMulti2}
     \end{center}
 \end{figure}
@@ -249,14 +252,14 @@
 %  \label{fig:SR:sparticleEnergy}
 %\end{figure}
 
-\indent Lastly, we make selections based on the correlations between the $\MET$ and ISR systems.  $\dPhiISRMET > 3.0$ ensures the $\MET$ and ISR systems are back-to-back.  The ISR system and $\MET$ must be nearly back-to-back in signal because the neutralino gains momentum mainly from ISR.  On the other hand, the neutrino in SM $\ttbar$ gains significant momentum from the top decay and its correlation with ISR is not as strong. This is also true for subdominant backgrounds including $W$+jet and single top. \\
+\indent Lastly, we make selections based on the correlations between the $\MET$ and ISR systems.  $\dPhiISRMET > 3.0$ ensures the $\MET$ and ISR systems are back-to-back.  The ISR system and $\MET$ must be nearly back-to-back in signal because the neutralino gains momentum mainly from ISR.  On the other hand, the neutrino in SM $\ttbar$ gains significant momentum from the top decay and its correlation with ISR is not as strong. This is also true for subdominant backgrounds including $W$+jet and single-top. \\
 
 \indent The distribution of $\dPhiISRMET$ with all previous selections on $\PTISR > 400 \gev$, sparticle hemisphere jet multiplicity, and sparticle hemisphere energy is shown in Figure \ref{fig:SR:dphiISRMET}. \\  %The $\ttbar$ MC is normalized to a 1 lepton control region with the same selections on sparticle jet multiplicity, $\pTISR$, and sparticle energy requirement.  All subdominant background are normalized to their respective CRs defined in section \ref{sec:Bkg:sub}. \\
 
 \begin{figure}[h!]
   \begin{center}
      \includegraphics[width=0.80\textwidth]{figures/plotSR/SR_ND1_dphiISRI_6SR.eps}
-  \caption[$\dPhiISRMET$ distribution after the zero-lepton preselection, $\pTISR > 400$ $\gev$, sparticle hemisphere jet multiplicity and sparticle hemisphere energy requirements]{$\dPhiISRMET$ distribution after the zero-lepton preselection, $\pTISR > 400$ $\gev$, sparticle hemisphere jet multiplicity and sparticle hemisphere energy requirements. The solid stacked histogram represents the expected SM background rates. The dashed histogram represent the expected number of signal events for several stop and neutralino masses. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
+  \caption[~$\dPhiISRMET$ distribution after the zero-lepton preselection, $\pTISR > 400$ $\gev$, sparticle hemisphere jet multiplicity and sparticle hemisphere energy requirements]{$\dPhiISRMET$ distribution after the zero-lepton preselection, $\pTISR > 400$ $\gev$, sparticle hemisphere jet multiplicity and sparticle hemisphere energy requirements. The solid stacked histogram represents the expected SM background rates. The dashed histogram represent the expected number of signal events for several stop and neutralino masses. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
   \label{fig:SR:dphiISRMET}
     \end{center}
 \end{figure}
@@ -266,7 +269,7 @@
 \begin{figure}[h!]
   \begin{center}
      \includegraphics[width=0.80\textwidth]{figures/plotSR/SR_ND1_RISR_7SR.eps}
-  \caption[$\RISR$ distribution after signal region selection corresponding to \intlumi\ \ifb\ of data]{ $\RISR$ distribution after signal region selection corresponding to \intlumi\ \ifb\ of data. The solid stacked histogram represents the expected SM background rates. The dashed histogram represent the expected number of signal events for several stop and neutralino masses. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
+  \caption[~$\RISR$ distribution after signal region selection corresponding to \intlumi\ \ifb\ of data]{ $\RISR$ distribution after signal region selection corresponding to \intlumi\ \ifb\ of data. The solid stacked histogram represents the expected SM background rates. The dashed histogram represent the expected number of signal events for several stop and neutralino masses. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
   \label{fig:SR:RISR1}
   \end{center}
 \end{figure}
@@ -296,7 +299,7 @@
 %  \label{tab:SRyield}
 %\end{table}
 
-\indent Distributions of kinematic variables in the signal region are shown in Figure \ref{fig:SR1} and \ref{fig:SR2}\\
+\indent Distributions of kinematic variables in the signal region are shown in Figure \ref{fig:SR1} and \ref{fig:SR2}.\\
 
 \begin{figure}[h!]
   \begin{center}
@@ -324,7 +327,7 @@
     	 \includegraphics[width=\textwidth]{figures/plotRegion/JetPt_3__SRC1_5.eps}
                \caption{ }
     \end{subfigure}
-     \caption[Distributions of kinematic variable after the signal region selection]{ Distributions of kinematic variable after the signal region selection; (a) $\met$ (b) number of jets (c) $\HT$ (d) $\pt$ of the highest $\pt$ jet (e) $\pt$ of the 2nd highest $\pt$ jet (f) $\pt$ of the 4th highest $\pt$ jet.  The solid stacked histogram represents the expected SM background rates. The dashed histogram represent the expected number of signal events for $m_{\stop} = 400,500$ \gev.  The hashed bars represent the size of the systematic uncertainty on the background.  The data/MC ratio is shown in the lower panel. }
+     \caption[~Distributions of kinematic variable after the signal region selection]{ Distributions of kinematic variable after the signal region selection; (a) $\met$ (b) number of jets (c) $\HT$ (d) $\pt$ of the highest $\pt$ jet (e) $\pt$ of the 2nd highest $\pt$ jet (f) $\pt$ of the 4th highest $\pt$ jet.  The solid stacked histogram represents the expected SM background rates. The dashed histogram represent the expected number of signal events for $m_{\stop} = 400,500$ \gev.  The hashed bars represent the size of the systematic uncertainty on the background.  The data/MC ratio is shown in the lower panel. }
   \label{fig:SR1}
     \end{center}
 \end{figure}
@@ -357,7 +360,7 @@
     	 \includegraphics[width=\textwidth]{figures/plotRegion/CA_pTjV4_SRC1_5.eps}
                \caption{ }
     \end{subfigure}
-     \caption[Distributions of kinematic variable after the signal region selection]{ Distributions of {\tt Recursive Jigsaw} kinematic variable after the signal region selection;  (a) $\RISR$  (b) $\PTISR$ (c) $\NjV$ (d) $\NbV$ (e) $\MS$ (f) $\pTjV$.  The solid stacked histogram represents the expected SM background rates. The dashed histogram represent the expected number of signal events for $m_{\stop} = 400,500$ \gev.  The hashed bars represent the size of the systematic uncertainty on the background.  The data/MC ratio is shown in the lower panel. }
+     \caption[~Distributions of kinematic variable after the signal region selection]{ Distributions of {\tt Recursive Jigsaw} kinematic variable after the signal region selection;  (a) $\RISR$  (b) $\PTISR$ (c) $\NjV$ (d) $\NbV$ (e) $\MS$ (f) $\pTjV$.  The solid stacked histogram represents the expected SM background rates. The dashed histogram represent the expected number of signal events for $m_{\stop} = 400,500$ \gev.  The hashed bars represent the size of the systematic uncertainty on the background.  The data/MC ratio is shown in the lower panel. }
   \label{fig:SR2}
   
    % \includegraphics[width=0.45\textwidth]{figures/plotSR/SR_ND1_RISR_7SR.eps}

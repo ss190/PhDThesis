@@ -7,8 +7,8 @@
 
 \indent We select data where all relevant subdetector parts are running without defects and the quality of data is good.  This is done by requiring the data pass a good run list (GRL).  The good run list is compiled from data that pass manual and automated checks on both detector hardware and the kinematics of reconstructed physics objects.  \\
 
-\indent The GRLs used for the 2015 dataset is {\tt \scriptsize data15\_13TeV.periodAllYear\_DetStatus-v79-repro20-02\_DQDefects-00-02-02\_PHYS\_StandardGRL\_All\_Good\_25ns.xml}.  \\
-\indent The GRL for the 2016 data is {\tt \scriptsize data16\_13TeV.periodAllYear\_DetStatus-v83-pro20-15\_DQDefects-00-02-04\_PHYS\_StandardGRL\_All\_Good\_25ns.xml}.
+\indent The GRLs used for the 2015 dataset is {\tt data15\_13TeV.periodAllYear\_DetStatus-v79-repro20-02\_DQDefects-00-02-02\_PHYS\_StandardGRL\_All\_Good\_25ns.xml}.  \\
+\indent The GRL for the 2016 data is {\tt data16\_13TeV.periodAllYear\_DetStatus-v83-pro20-15\_DQDefects-00-02-04\_PHYS\_StandardGRL\_All\_Good\_25ns.xml}.
 
 \indent The dataset after GRL selection corresponds to a total integrated luminosity of $\intlumi \pm 1.15$ $\ifb$.  The total integrated luminosity as a function of time for 2015 and 2016 before the requirement of an GRL is shown in Figure \ref{fig:data2015-2016}.\\
 
@@ -33,7 +33,7 @@
   \begin{center}
     \includegraphics[width=0.75\textwidth]{figures/Data/mu_2015_2016_LHCC.png}
 \end{center}
-\caption{Distribution of the mean number of interactions per bunch crossing weighted by integrated luminosity for 2015 and 2016 ATLAS data taking.    }
+\caption[Distribution of the mean number of interactions per bunch crossing weighted by integrated luminosity for 2015 and 2016 ATLAS data taking. ]{ Distribution of the mean number of p-p interactions per bunch crossing weighted by integrated luminosity for 2015 and 2016 ATLAS data taking.  The on average 22.9 p-p interactions occur in every bunch crossing in the 2015+2016 ATLAS dataset. }
 \label{fig:nVtx} 
 \end{figure}
 
@@ -64,7 +64,10 @@
 \indent All zero-lepton regions trigger on $\met$ using the lowest unprescaled $\met$ trigger for that data period.  An offline selection of $\met > 250 \gev$ is required to ensure that all accepted events are on the trigger efficiency plateau.  The trigger efficiency curve as a function of offline $\met$ for select $\met$ triggers can be seen in Figure \ref{fig:trigTurnON}. \\
 
 \begin{table}[h!]
+  \caption{ The zero-lepton preselection criteria common to all zero-lepton regions.}
+  \label{tab:0Lcommon}
   \begin{center}
+  \setlength{\tabcolsep}{0.0pc}
     \begin{tabular}{lc} \hline\hline
       \multicolumn{2}{c}{GRL, Event Cleaning and Jet Cleaning} \\ \hline
       \multicolumn{2}{c}{$\met$ Trigger}   \\ \hline
@@ -78,13 +81,11 @@
               & \\ [-2.5ex] 
       $\mettrk$  & $> 30 \gev$ \\ 
        & \\ [-2.5ex]
-      $\dphimettrk$ & $<\pi/3$ \\ 
+      $\dphimettrk$ & $<\pi/3$ \\  \hline
       % & \\ [-2.5ex] \hline
       % $\tau$ veto & yes \\ \hline
       % $\mtbmetmindphi$ & $> 175 \gev$ \\ \hline \hline
     \end{tabular}
-  \caption{ The zero-lepton preselection criteria common to all zero-lepton regions.}
-  \label{tab:0Lcommon}
   \end{center}
 \end{table}
 
@@ -103,7 +104,7 @@
 
 \indent This provides strong rejection against fake $\met$ resulting from a single misreconstructed energetic jet.  \\
 
-\indent In addition, we require a loose agreement between two methods of reconstructing missing transverse energy, $\met$ and $\mettrk$.  $\mettrk$, defined in equation \ref{eqn:mettrkReco}, is reconstructed using a negative vector sum of all accepted ID tracks.  Track $\met$ is very robust against pileup conditions as ID tracks can be matched to a primary vertex but $\mettrk$ neglects the presence of neutral particles.  We found that a loose requirement of $\mettrk > 30 \gev$ and a loose agreement between $\met$ and $\mettrk$ in $\phi$ form an efficient discriminate against QCD multijet background. \\
+\indent In addition, we require a loose agreement between two methods of reconstructing missing transverse energy, $\met$ and $\mettrk$.  $\mettrk$, defined in equation \ref{eqn:mettrkReco}, is reconstructed using a negative vector sum of all accepted ID tracks.  Track $\met$ is very robust against pile-up conditions as ID tracks can be matched to a primary vertex but $\mettrk$ neglects the presence of neutral particles.  We found that a loose requirement of $\mettrk > 30 \gev$ and a loose agreement between $\met$ and $\mettrk$ in $\phi$ form an efficient discriminant against QCD multijet background. \\
 
 \indent  Distributions of select kinematic variables after the zero-lepton preselection can be seen in Figure \ref{fig:presel:dist}.  The signal and background have similar $\met$ distributions.  This demonstrates that $\met$ variable provides little separation power between the signal and background. \\  
 
@@ -149,6 +150,9 @@
 \indent The one-lepton preselection is summarized in Table \ref{tab:1Lcommon}. \\
 
 \begin{table}[h!]
+  \caption{ The one-lepton preselection criteria common to all one-lepton regions.}
+  \label{tab:1Lcommon}
+  \setlength{\tabcolsep}{0.0pc}
   \begin{center}
     \begin{tabular}{lc} \hline\hline
       \multicolumn{2}{c}{GRL, Event Cleaning and Jet Cleaning} \\ \hline
@@ -161,8 +165,6 @@
       $\dphijettwomet$ & $> 0.4$ \\
              & \\ [-2.5ex] \hline
     \end{tabular}
-  \caption{ The one-lepton preselection criteria common to all one-lepton regions.}
-  \label{tab:1Lcommon}
   \end{center}
 \end{table}
 

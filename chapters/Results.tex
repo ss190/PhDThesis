@@ -1,27 +1,47 @@
-\chapter{Results}
+\chapter{Results and Conclusion}
 \label{chap:Results}
 
-\indent Unblinded signal region distributions of the kinematic variables with the most discrimination power are shown in Figure \ref{fig:SRCUnblined}.  The expected background yield have been normalized to all control regions using the background only fitting procedure described in section \ref{sec:stat:bkgonly}.  \\
+\indent The signal region $\RISR$ distribution after unblinding is shown in Figure \ref{fig:SRCUnblined}.  The solid stacked histogram corresponds to the expected SM background rate.  The expected background rates have been normalized to all control regions using the background-only fitting procedure described in section \ref{sec:stat:bkgonly}.  The hashed bars correspond to the systematic uncertainty on the total SM background rate.  \\
+
+\indent The observed data is shown as black data points. The dashed histograms correspond to the expected signal rates for stop signals with $(m_{\stop}, m_{\ninoone}) = (400 \gev, 227 \gev)$ and $(500 \gev, 327 \gev)$ with a 100\% branching fraction to the $\stop \rightarrow t \ninoone$ decay channel.  \\% The error bars on the data points correspond to the statistical uncertainty of data.  \\
 
 \begin{figure}[!h] 
 \begin{center}
 \includegraphics[width=0.85\textwidth]{figures/SRC/CA_RISR_SRC1_5}
 %\includegraphics[width=0.45\textwidth]{figures/SRC/CA_PTISR_SRC1_5}
 %\caption{Unblinded \rISR\ and \pTISR\ distributions for SRC1-5 for \intlumi\ \ifb.}
-\caption{Unblinded $\rISR$  distributions for SRC1-5 for \intlumi\ \ifb.}
-\label{fig:SRCUnblined}
 \end{center}
+\caption[Unblinded $\rISR$  distributions for SRC1-5 for \intlumi\ \ifb.]{Unblinded $\rISR$  distributions for SRC1-5 for \intlumi\ \ifb.   The solid stacked histogram corresponds to the expected SM background rate.  The expected background rates have been normalized to all control regions using the background-only fitting procedure.  The hashed bars correspond to the systematic uncertainty on the total SM background rate. The observed data is shown as black data points. The dashed histograms correspond to the expected signal rates for stop signals with $(m_{\stop}, m_{\ninoone}) = (400 \gev, 227 \gev)$ and $(500 \gev, 327 \gev)$ with a 100\% branching fraction to the $\stop \rightarrow t \ninoone$ decay channel}
+\label{fig:SRCUnblined}
 \end{figure}
 
-\indent Signal region yields with $\intlumi$ $\ifb$ of data can be seen in Table \ref{table.bkgonly.SRC1to3}.  No significant excess is observed in any region.  An under fluctuation of background is observed in the $\RISR$ bin between $0.6-0.7$ but is not statistically significant due to the low amount of expected events.  \\
+\indent The peaking feature of the signal can be clearly seen in Figure \ref{fig:SRCUnblined}.  The width of the signal peak in $\RISR$ is $\sim8$\% for all signal masses as long as the  $\Delta m = m_{\stop} - m_{\ninoone} = m_t$.  \\
+
+\indent Signal region yields with $\intlumi$ $\ifb$ of data can be seen in Table \ref{table.bkgonly.SRC1to3}.  No significant excess is observed in any region.  Only 1 data event is observed in the $\RISR$ bin between $0.6-0.7$ compared to the $\sim8$ expected events due to SM background.  However, this disagreement is not statistically significant due to the low number of expected events.  \\
 
 \input{HistFitterStuff/YieldsTable.SRC}
 %\input{HistFitterStuff/YieldsTable.SRC4to5}
 
-\indent 95 percent upper confidence limits on the observed cross-section ($\langle\epsilon\sigma\rangle_{\rm obs}^{95}$) and on the number of signal events ($S_{\rm obs}^{95}$) in each $\RISR$ bin is shown in Table \ref{table.results.exclxsec.pval.upperlimit}.  The observed signal cross-section is defined as the number of signal events predicted to exist in SR for any particular signal model and is equivalent to selection efficiency times the signal production cross-section.  The limit on the observed cross-section is completely theory independent.  It is simply a statement on the maximum additional BSM rate that can exist in the signal region without being ruled out to 95 percent confidence. \\
+%\indent Because no excess is observed, an exclusion fit is performed to set 95\% confidence limits on the signal production cross section.  The exclusion fit simultaneously fits all 5 signal region $\RISR$ bins and all control regions.  This fit is designed to capture the feature of the sharp signal $\RISR$ peak against a broad $\RISR$ background.  More details on the exclusion fit procedure is described in section \ref{sec:stat:limit}. \\
 
-\indent Observed limits are derived using the discovery fit procedure described in section \ref{sec:stat:discovery}.  Discovery p-values are calculated using the asymptotic high statistics assumption.  \\
+\indent 95\% upper confidence limits on the number of signal events ($S_{\rm obs}^{95}$) and on the observed cross section ($\langle\epsilon\sigma\rangle_{\rm obs}^{95}$) in each $\RISR$ bin is shown in Table \ref{table.results.exclxsec.pval.upperlimit}.   The limit on the number of signal events is a statement on the maximum BSM event rate that can exist in the signal region without being ruled out at the 95\% confidence level.  The limit remains the same regardless of the particular BSM physics process used to produce the signal events. As such, the limit on the number of signal events is mostly theory independent. \\
+
+\indent The observed signal cross section is defined as the number of BSM events predicted to exist in the signal region.  The observed signal cross section is equivalent to the signal region selection efficiency times the signal production cross section for any particular BSM physics model.  The limit on the observed signal cross section is also equivalent to the limit on the number of signal events divided by the integrated luminosity.  \\
+
+\indent Observed limits are derived using the discovery fit procedure described in section \ref{sec:stat:discovery}.  Discovery p-values ($p(s=0)$) are calculated using the discovery fit and are also shown in Table \ref{table.results.exclxsec.pval.upperlimit}.  \\
 
 \input{HistFitterStuff/UpperLimitTable}
 
 \input{chapters/Interpretation}
+
+\section{Broader Applications of the ISR Identification Algorithm}
+
+\indent This analysis serves as a demonstration of the general strategy of using events with hard ISR to search for other BSM signatures with $\met$.  The correlations between $\met$ and ISR in compressed regions are mainly dictated by special relativity.  If the new BSM particle has a small mass splitting between it and its decay products, its decay products will gain little momenta from the decay.  In events with hard ISR, the correlations between ISR and the decay products will be strong because the decay products are gaining the majority of their momenta from the ISR boost. \\
+
+\indent The ISR identification algorithm is also completely generalizable.  The thrust axis will mimic the axis of back-to-back recoil between ISR and hard scattering particles so long as the ISR is energetic enough to be the single largest back-to-back kick in the event.  This ISR based approach has potential applications to other searches for SUSY including searches for Higgsinos and Charginos.  \\
+
+\indent Other ISR assisted searches such as the mono-jet/mono-photon searches for dark-matter can also benefit from such an accurate ISR identification algorithm.  Even in situations where the thrust-based ISR identification algorithm doesn't improve separation power between signal and background, using the thrust based algorithm can still significantly reduce ISR/FSR uncertainties.  The thrust based ISR algorithm identifies entire ISR systems and is insensitive to uncertainties associated with a single hard ISR parton splitting into multiple jets. \\
+
+\indent At the same time, the accurate ISR identification algorithm can also be used to measure the Standard Model production of hard ISR.  The thrust based algorithm is able to effectively separate $\ttbar$ produced with around $550 \gev$ of ISR $\pt$ from $\ttbar$ with low ISR $\pt$ as demonstrated by the $\ttbar$+hard ISR control region.  Current $\ttbar$ ISR $\pt$ differential cross section measurements at ATLAS identify ISR by first attempting to reconstruct tops and then identifying all non-top jets as ISR jets.\cite{ttbarDiffCross}  Hadronic top reconstruction efficiency is extremely correlated with top $\pt$ with a top reconstruction efficiency of only ~30\% at top $\pt = 200 \gev$.  This means that $\ttbar$ ISR $\pt$ measurements that require the reconstructed tops are inherently biased towards events with high hadronic top $\pt$. \\
+
+\indent Because the ISR algorithm primarily uses the thrust axis and properties of the entire $\ttbar$ system, we can avoid reconstructing individual tops but still identify a region with high purity of $\ttbar$+hard ISR.  This means we can independently measure the $\ttbar$ ISR $\pt$ and the $\ttbar$ top $\pt$ distributions and without being biased by one or the other.  Plus we can avoid any top reconstruction inefficiencies leading to a higher acceptance of $\ttbar$ events. \\

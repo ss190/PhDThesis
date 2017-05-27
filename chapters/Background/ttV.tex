@@ -7,9 +7,11 @@
 
 \indent We take another data driven approach by building a one-lepton control region for $\ttbar+\gamma$.  $\ttbar+\gamma$ mimics $\ttbar+Z$ as the photon is in many ways like a lighter $Z$ boson.  The control region is designed to minimize theoretical uncertainties due to the extrapolation from the $\gamma$ in the control region to the $\Zboson$ in the signal region. \\
 
-\indent We require exactly one {\tt Signal} photon and one {\tt Signal} lepton.  The lepton is not treated as a jet for the purpose of jet multiplicity and jet $\pt$ requirements unlike in the other one lepton control regions.  We also trigger on leptons instead of $\met$ in this region. The lepton triggers used are defined in Table \ref{tb:lepTriggers}.  \\
+\indent We require exactly one {\tt Signal} photon and one {\tt Signal} lepton.  The lepton is not treated as a jet for the purpose of jet multiplicity and jet $\pt$ requirements unlike in the other one-lepton control regions.  We also trigger on leptons instead of $\met$ in this region. The lepton triggers used are defined in Table \ref{tb:lepTriggers}.  \\
 
 \begin{table}[h!]
+  \caption{Single Lepton triggers used in the $\ttbar+\gamma$ control region.  The electron triggers correspond to the a $\pt$ threshold of 24, 26, 60, 120, and 140 $\gev$ respectively.  The muon triggers correspond to $\pt$ thresholds of 20,26 and 50 $\gev$. }
+  \label{tb:lepTriggers}
   \begin{center}
     \begin{tabular}{c|c} \hline\hline
       Channel & Trigger \\  \hline
@@ -29,8 +31,6 @@
       \hline \hline
     \end{tabular}
   \end{center}
-  \caption{Single Lepton triggers used in the $\ttbar+\gamma$ control region.  The electron triggers correspond to the a $\pt$ threshold of 24, 26, 60, 120, and 140 $\gev$ respectively.  The muon triggers correspond to $\pt$ thresholds of 20,26 and 50 $\gev$. }
-  \label{tb:lepTriggers}
 \end{table}
 
 \indent We require the photon $\pt$ be greater than $150\gev$.  The high $\pt$ photon ensures that we are in a region of phase space where the $\gamma$ $\pt$ shape will mimic the heavier $\Zboson$ $\pt$ distribution.  The true $\gamma$ $\pt$ and the $\Zboson$ $\pt$ distributions are shown in Figure \ref{fig:ttZ_vs_ttGamma_pt} after selecting for a boson $\pt$ with greater than $150 \gev$.  We add a systematic uncertainty to account for the difference between the $\gamma$ and $\Zboson$ $\pt$ spectrum. \\
@@ -40,13 +40,15 @@
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.4, angle=270]{figures/ttGamma/TruthStudies/Pt150.pdf}
-\caption[$\gamma$ and $\Zboson$ $\pT$ distributions in MC simulation with no detector resolution effects]{$\gamma$ and $\Zboson$ $\pT$ distributions in MC simulation with no detector resolution effects.  A selection of $\pt > 150 \gev$ has been applied.}
+\caption[~$\gamma$ and $\Zboson$ $\pT$ distributions in MC simulation with no detector resolution effects]{$\gamma$ and $\Zboson$ $\pT$ distributions in MC simulation with no detector resolution effects.  A selection of $\pt > 150 \gev$ has been applied.}
 \label{fig:ttZ_vs_ttGamma_pt}
 \end{figure}
 
 \indent The $\ttbar+\gamma$ control region is defined in Table~\ref{tb:ttG_1lepSel}.  The expected background and data yields in the $\ttbar+\gamma$ control region is given in Table \ref{table.bkgonly.CRTTgamma}. \\
 
 \begin{table}[h!]
+    \caption[~Selections for the $\ttbar+\gamma$ one-lepton control region]{Selections for the $\ttbar+\gamma$ one-lepton control region. The single lepton triggers as described in Table~\ref{tb:lepTriggers}}
+      \label{tb:ttG_1lepSel}
   \begin{center}
     \begin{tabular}{c|c}
       \hline \hline
@@ -70,8 +72,6 @@
       \hline\hline
     \end{tabular}
   \end{center}
-    \caption[Selections for the $\ttbar+\gamma$ one lepton control region]{Selections for the $\ttbar+\gamma$ one lepton control region. The one lepton triggers as described in Table~\ref{tb:lepTriggers}}
-      \label{tb:ttG_1lepSel}
 \end{table}
 
 
@@ -107,7 +107,7 @@
 %\includegraphics[width=\textwidth]{figures/ttGamma/MtMetLep_CRTTGamma_withRatio_log.eps}
 %                 \caption{ }
 %    \end{subfigure}
-\caption[Distributions of select kinematic variables in the $\ttbar+\gamma$ control region]{ Distributions of select kinematic variables in the $\ttbar+\gamma$ control region. Kinematic variables shown include (a) $\met$ (b) number of jets (c) $\pt$ of the 2nd highest $\pt$ jet (d) $\pt$ of the 5th highest $\pt$ jet. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
+\caption[~Distributions of select kinematic variables in the $\ttbar+\gamma$ control region]{ Distributions of select kinematic variables in the $\ttbar+\gamma$ control region. Kinematic variables shown include (a) $\met$ (b) number of jets (c) $\pt$ of the 2nd highest $\pt$ jet (d) $\pt$ of the 5th highest $\pt$ jet. The hashed area in both the top and lower panel represents the uncertainty due to MC statistics.}
 \label{fig:ttgamma}
 \end{center}
 \end{figure}

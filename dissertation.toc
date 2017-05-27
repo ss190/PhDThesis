@@ -1,7 +1,7 @@
 \contentsline {chapter}{\numberline {0}Introduction}{1}{chapter.0}
 \contentsline {chapter}{\numberline {1}Theoretical Motivation}{16}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Standard Model}{16}{section.1.1}
-\contentsline {section}{\numberline {1.2}Introduction to Super-Symmetry}{19}{section.1.2}
+\contentsline {section}{\numberline {1.2}Introduction to Supersymmetry}{19}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}R-Parity Conservation}{24}{subsection.1.2.1}
 \contentsline {chapter}{\numberline {2}General Analysis Strategy}{26}{chapter.2}
 \contentsline {section}{\numberline {2.1} R-Parity Conserving SUSY Searches in Regions with Large Mass Splittings }{26}{section.2.1}
@@ -10,113 +10,112 @@
 \contentsline {section}{\numberline {3.1}The ATLAS Detector}{42}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1} Inner Detector }{46}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}The Calorimeter}{51}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}The Muon Spectrometer}{56}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}The Muon Spectrometer}{57}{subsection.3.1.3}
 \contentsline {chapter}{\numberline {4}Object Reconstruction at ATLAS}{62}{chapter.4}
-\contentsline {section}{\numberline {4.1}Inner Detector Track Reconstruction}{62}{section.4.1}
+\contentsline {section}{\numberline {4.1}Inner Detector Track Reconstruction}{63}{section.4.1}
 \contentsline {section}{\numberline {4.2}Vertex Reconstruction}{64}{section.4.2}
-\contentsline {section}{\numberline {4.3}Hadronic Jets}{66}{section.4.3}
+\contentsline {section}{\numberline {4.3}Hadronic Jets}{67}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Hadronic Jet Reconstruction}{67}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Jet Calibration and Systematics}{68}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Pileup Jet Rejection and Jet Vertex Tagger}{72}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Jet Quality and Jet Cleaning}{74}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Identifying Jets Originating from Heavy Flavor Hadrons}{77}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Electron and Photons}{80}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Electron and Photon Reconstruction}{80}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Electron Identification and Quality}{82}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Photon Identification and Quality}{83}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Electron and Photon Energy Calibration}{85}{subsection.4.4.4}
-\contentsline {section}{\numberline {4.5}Muons}{87}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Muon Inner Detector and Muon Spectrometer Track Reconstruction}{87}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Muon Combined Reconstruction}{89}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Muon Quality}{90}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Muon Reconstruction Efficiency and Momentum Calibration}{92}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Missing Transverse Momentum}{96}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}$\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ Reconstruction}{96}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Track $\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ Reconstruction}{98}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}$\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ Performance}{99}{subsection.4.6.3}
-\contentsline {chapter}{\numberline {5}Trigger}{101}{chapter.5}
-\contentsline {section}{\numberline {5.1}Level 1 $\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ trigger}{103}{section.5.1}
-\contentsline {section}{\numberline {5.2}HLT $\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ trigger}{104}{section.5.2}
-\contentsline {section}{\numberline {5.3}Improvements to the $\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ Trigger in Run 2}{105}{section.5.3}
-\contentsline {chapter}{\numberline {6}Physics Object Definitions}{108}{chapter.6}
-\contentsline {section}{\numberline {6.1}{\tt Baseline} and {\tt Signal} Electron Definition}{110}{section.6.1}
-\contentsline {section}{\numberline {6.2}{\tt Baseline} and {\tt Signal} Muon Definition}{111}{section.6.2}
-\contentsline {section}{\numberline {6.3}{\tt Baseline} and {\tt Signal} Jet Definitions}{112}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Calorimeter Jets}{112}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}\relax \mathversion {bold}$b$-tagged Jets}{114}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}{\tt Baseline} and {\tt Signal} Photon Definition}{114}{section.6.4}
-\contentsline {section}{\numberline {6.5}\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\ Definitions}{115}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}\relax \mathversion {bold}Calorimeter-based \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}}{115}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}\relax \mathversion {bold}Track-based \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}}{116}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Resolving overlapping objects}{116}{section.6.6}
-\contentsline {chapter}{\numberline {7}Monte Carlo Simulation of Physics Processes at ATLAS}{118}{chapter.7}
-\contentsline {section}{\numberline {7.1}Detector Simulation}{120}{section.7.1}
-\contentsline {section}{\numberline {7.2}Pile-Up Simulation}{121}{section.7.2}
-\contentsline {section}{\numberline {7.3}Signal Monte Carlo Generation}{122}{section.7.3}
-\contentsline {section}{\numberline {7.4}SM Background Monte Carlo Generation}{125}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Standard Model $\ensuremath {t\mathaccentV {bar}016{t}}$ Monte Carlo Generation}{125}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Standard Model Single-Top Monte Carlo Generation}{127}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Standard Model $\ensuremath {\ensuremath {W}\tmspace +\thinmuskip {.1667em}+\tmspace +\thinmuskip {.1667em}\mathrm {jets}}$ and $\ensuremath {\ensuremath {Z}\tmspace +\thinmuskip {.1667em}+\tmspace +\thinmuskip {.1667em}\mathrm {jets}}$ Monte Carlo Generation}{129}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {4.3.2}Jet Calibration and Systematics}{70}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Pile-up Jet Rejection and Jet Vertex Tagger}{72}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Jet Quality and Jet Cleaning}{73}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Identifying Jets Originating from Heavy Flavor Hadrons}{76}{subsection.4.3.5}
+\contentsline {section}{\numberline {4.4}Electron and Photons}{78}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Electron and Photon Reconstruction}{78}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Electron Identification and Quality}{80}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Photon Identification and Quality}{82}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Electron and Photon Energy Calibration}{83}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}Muons}{85}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Muon Inner Detector and Muon Spectrometer Track Reconstruction}{85}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Muon Combined Reconstruction}{87}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Muon Quality}{88}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Muon Reconstruction Efficiency and Momentum Calibration}{91}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Missing Transverse Momentum}{92}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}$\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ Reconstruction}{93}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Track $\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ Reconstruction}{95}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}$\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ Performance}{96}{subsection.4.6.3}
+\contentsline {chapter}{\numberline {5}Trigger}{98}{chapter.5}
+\contentsline {section}{\numberline {5.1}Level 1 $\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ trigger}{100}{section.5.1}
+\contentsline {section}{\numberline {5.2}HLT $\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ trigger}{101}{section.5.2}
+\contentsline {section}{\numberline {5.3}Improvements to the $\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ Trigger in Run 2}{103}{section.5.3}
+\contentsline {chapter}{\numberline {6}Physics Object Definitions}{106}{chapter.6}
+\contentsline {section}{\numberline {6.1}{\tt Baseline} and {\tt Signal} Electron Definition}{108}{section.6.1}
+\contentsline {section}{\numberline {6.2}{\tt Baseline} and {\tt Signal} Muon Definition}{109}{section.6.2}
+\contentsline {section}{\numberline {6.3}{\tt Baseline} and {\tt Signal} Jet Definitions}{110}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Calorimeter Jets}{110}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}\relax \mathversion {bold}$b$-tagged Jets}{112}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}{\tt Baseline} and {\tt Signal} Photon Definition}{113}{section.6.4}
+\contentsline {section}{\numberline {6.5}\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\ Definitions}{114}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}\relax \mathversion {bold}Calorimeter-based \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}}{114}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}\relax \mathversion {bold}Track-based \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}}{115}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Resolving overlapping objects}{115}{section.6.6}
+\contentsline {chapter}{\numberline {7}Monte Carlo Simulation of Physics Processes at ATLAS}{117}{chapter.7}
+\contentsline {section}{\numberline {7.1}Detector Simulation}{119}{section.7.1}
+\contentsline {section}{\numberline {7.2}Pile-Up Simulation}{120}{section.7.2}
+\contentsline {section}{\numberline {7.3}Signal Monte Carlo Generation}{121}{section.7.3}
+\contentsline {section}{\numberline {7.4}SM Background Monte Carlo Generation}{124}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Standard Model $\ensuremath {t\mathaccentV {bar}016{t}}$ Monte Carlo Generation}{124}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Standard Model Single-Top Monte Carlo Generation}{126}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Standard Model $\ensuremath {\ensuremath {W}\tmspace +\thinmuskip {.1667em}+\tmspace +\thinmuskip {.1667em}\mathrm {jets}}$ and $\ensuremath {\ensuremath {Z}\tmspace +\thinmuskip {.1667em}+\tmspace +\thinmuskip {.1667em}\mathrm {jets}}$ Monte Carlo Generation}{128}{subsection.7.4.3}
 \contentsline {subsection}{\numberline {7.4.4}Standard Model $\ensuremath {t\mathaccentV {bar}016{t}}+V$ Monte Carlo Generation}{129}{subsection.7.4.4}
-\contentsline {subsection}{\numberline {7.4.5}Standard Model $\ensuremath {t\mathaccentV {bar}016{t}}+\gamma $ Monte Carlo Generation}{130}{subsection.7.4.5}
+\contentsline {subsection}{\numberline {7.4.5}Standard Model $\ensuremath {t\mathaccentV {bar}016{t}}+\gamma $ Monte Carlo Generation}{129}{subsection.7.4.5}
 \contentsline {subsection}{\numberline {7.4.6}Standard Model Diboson Monte Carlo Generation}{130}{subsection.7.4.6}
 \contentsline {chapter}{\numberline {8}Recursive Jigsaw Reconstruction}{131}{chapter.8}
-\contentsline {section}{\numberline {8.1}Introduction to Recursive Jigsaw Algorithm on Events with $\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$}{131}{section.8.1}
-\contentsline {section}{\numberline {8.2}Recursive Jigsaw Method of Identifying Initial State Radiation}{134}{section.8.2}
-\contentsline {section}{\numberline {8.3}Performance of Initial State Radiation Identification Algorithm}{136}{section.8.3}
-\contentsline {section}{\numberline {8.4}Kinematic Variables of Initial State Radiation and Sparticle Systems}{138}{section.8.4}
-\contentsline {chapter}{\numberline {9}Collision Data Samples}{140}{chapter.9}
-\contentsline {section}{\numberline {9.1}Data Periods and Good Run List}{140}{section.9.1}
-\contentsline {chapter}{\numberline {10}Event Preselection}{143}{chapter.10}
-\contentsline {section}{\numberline {10.1}zero-lepton Preselection}{145}{section.10.1}
-\contentsline {section}{\numberline {10.2}One-Lepton Preselection}{147}{section.10.2}
-\contentsline {chapter}{\numberline {11}Signal Region Definition}{151}{chapter.11}
-\contentsline {section}{\numberline {11.1}Physical Intuition on how Signal Region Selections Reject Background}{152}{section.11.1}
-\contentsline {section}{\numberline {11.2}Order of Magnitude Estimation of how Signal Region Selections Improve Signal over Background Ratio}{161}{section.11.2}
-\contentsline {section}{\numberline {11.3}Signal Region Kinematic Selection}{164}{section.11.3}
-\contentsline {section}{\numberline {11.4}Signal Region Expected Yields and Kinematic Distributions}{170}{section.11.4}
-\contentsline {chapter}{\numberline {12}Standard Model Backgrounds}{176}{chapter.12}
-\contentsline {section}{\numberline {12.1}Signal Region Background Composition}{176}{section.12.1}
-\contentsline {section}{\numberline {12.2}Using Control and Validation Regions to Estimate Background in the Signal Region}{177}{section.12.2}
-\contentsline {section}{\numberline {12.3}Dominant Background: Standard Model $t\ensuremath {\mathaccentV {bar}016{t}}$}{179}{section.12.3}
-\contentsline {subsection}{\numberline {12.3.1}Two Kinematically Distinct Populations of $t\ensuremath {\mathaccentV {bar}016{t}}$}{179}{subsection.12.3.1}
-\contentsline {subsection}{\numberline {12.3.2}Predicting the amount of $\ensuremath {t\mathaccentV {bar}016{t}}$ in Signal Region using a One-Lepton Control Region}{182}{subsection.12.3.2}
-\contentsline {subsubsection}{Control Region CRTopC Signal Contamination}{187}{figure.caption.91}
-\contentsline {subsubsection}{$\ensuremath {t\mathaccentV {bar}016{t}}$ Control Region Yields and Distributions}{189}{figure.caption.91}
-\contentsline {subsection}{\numberline {12.3.3}Validating $\ensuremath {t\mathaccentV {bar}016{t}}$ Predictions in Signal Region using a Zero-Lepton Validation Region}{191}{subsection.12.3.3}
-\contentsline {section}{\numberline {12.4}Subdominant Backgrounds}{194}{section.12.4}
-\contentsline {subsection}{\numberline {12.4.1}Standard Model W+Jets}{194}{subsection.12.4.1}
-\contentsline {subsection}{\numberline {12.4.2}Standard Model Single-Top}{199}{subsection.12.4.2}
-\contentsline {subsection}{\numberline {12.4.3}Standard Model \ensuremath {t\mathaccentV {bar}016{t}}+Z}{202}{subsection.12.4.3}
-\contentsline {subsection}{\numberline {12.4.4}Standard Model Z+Jets}{206}{subsection.12.4.4}
-\contentsline {subsection}{\numberline {12.4.5}Standard Model Diboson}{206}{subsection.12.4.5}
-\contentsline {subsection}{\numberline {12.4.6}Standard Model QCD Multijet}{206}{subsection.12.4.6}
-\contentsline {subsubsection}{The {\tt Jet Smearing} Method of Estimating QCD Background}{207}{subsection.12.4.6}
-\contentsline {subsubsection}{{\tt Jet Smearing} Seed Event Selection and Jet Response Function}{208}{figure.caption.112}
-\contentsline {subsubsection}{QCD multijet Control Region and Validation Region}{210}{table.caption.113}
-\contentsline {subsubsection}{QCD prediction in the Signal Region}{211}{figure.caption.117}
-\contentsline {chapter}{\numberline {13}Statistical Analysis}{226}{chapter.13}
-\contentsline {section}{\numberline {13.1}Introduction to Log Likelihood Fitting}{226}{section.13.1}
-\contentsline {section}{\numberline {13.2}Overview of Fitting to Control Regions and Signal Regions}{229}{section.13.2}
-\contentsline {section}{\numberline {13.3}Parameterization of Systematics as Gaussian Constraints}{232}{section.13.3}
-\contentsline {section}{\numberline {13.4}Background Only Fit and Background Estimation}{233}{section.13.4}
-\contentsline {section}{\numberline {13.5}Exclusion Fit and Exclusion Limit Calculation}{234}{section.13.5}
-\contentsline {section}{\numberline {13.6}Discovery Fit and Discovery Significance Calculation}{235}{section.13.6}
-\contentsline {chapter}{\numberline {14}Systematic Uncertainties}{237}{chapter.14}
-\contentsline {section}{\numberline {14.1}Experimental Uncertainties}{239}{section.14.1}
-\contentsline {subsection}{\numberline {14.1.1}Uncertainties on the Jet Energy Scale and Jet Energy Resolution }{239}{subsection.14.1.1}
-\contentsline {subsection}{\numberline {14.1.2}Uncertainty on $b$-tagging Efficiency}{242}{subsection.14.1.2}
-\contentsline {subsection}{\numberline {14.1.3}Uncertainty on the $\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ Soft Term}{244}{subsection.14.1.3}
-\contentsline {subsection}{\numberline {14.1.4}Uncertainty on Lepton Reconstruction Efficiencies and Energy Scale}{249}{subsection.14.1.4}
-\contentsline {subsection}{\numberline {14.1.5}Pileup Uncertainty}{249}{subsection.14.1.5}
-\contentsline {section}{\numberline {14.2}Theoretical Uncertainties}{249}{section.14.2}
-\contentsline {subsection}{\numberline {14.2.1}$\ensuremath {t\mathaccentV {bar}016{t}}$ Theoretical Uncertainty}{251}{subsection.14.2.1}
-\contentsline {subsection}{\numberline {14.2.2}$\ensuremath {\ensuremath {W}\tmspace +\thinmuskip {.1667em}+\tmspace +\thinmuskip {.1667em}\mathrm {jets}}$ Theoretical Uncertainty}{254}{subsection.14.2.2}
-\contentsline {subsection}{\numberline {14.2.3}Single-top Theoretical Uncertainty}{255}{subsection.14.2.3}
-\contentsline {subsection}{\numberline {14.2.4}$\ensuremath {t\mathaccentV {bar}016{t}}+\ensuremath {W}/\ensuremath {Z}$ Theoretical Uncertainty}{257}{subsection.14.2.4}
-\contentsline {subsection}{\numberline {14.2.5}Dibosons Theoretical Uncertainty}{259}{subsection.14.2.5}
-\contentsline {subsection}{\numberline {14.2.6}$Z$+jets Theoretical Uncertainty}{259}{subsection.14.2.6}
-\contentsline {chapter}{\numberline {15}Results}{260}{chapter.15}
-\contentsline {section}{\numberline {15.1}Interpretation of Results on Different Stop Models}{263}{section.15.1}
-\contentsline {chapter}{\numberline {16}Conclusion}{269}{chapter.16}
-\contentsline {chapter}{References}{280}{chapter*.139}
+\contentsline {section}{\numberline {8.1}Recursive Jigsaw Method of Identifying Initial State Radiation}{133}{section.8.1}
+\contentsline {section}{\numberline {8.2}Performance of Initial State Radiation Identification Algorithm}{135}{section.8.2}
+\contentsline {section}{\numberline {8.3}Kinematic Variables of Initial State Radiation and Sparticle Systems}{137}{section.8.3}
+\contentsline {chapter}{\numberline {9}Collision Data Samples}{139}{chapter.9}
+\contentsline {section}{\numberline {9.1}Data Periods and Good Run List}{139}{section.9.1}
+\contentsline {chapter}{\numberline {10}Event Preselection}{142}{chapter.10}
+\contentsline {section}{\numberline {10.1}zero-lepton Preselection}{144}{section.10.1}
+\contentsline {section}{\numberline {10.2}One-Lepton Preselection}{146}{section.10.2}
+\contentsline {chapter}{\numberline {11}Signal Region Definition}{150}{chapter.11}
+\contentsline {section}{\numberline {11.1}Physical Intuition on how Signal Region Selections Reject Background}{151}{section.11.1}
+\contentsline {section}{\numberline {11.2}Order of Magnitude Estimation of how Signal Region Selections Improve Signal over Background Ratio}{159}{section.11.2}
+\contentsline {section}{\numberline {11.3}Signal Region Kinematic Selection}{162}{section.11.3}
+\contentsline {section}{\numberline {11.4}Signal Region Expected Yields and Kinematic Distributions}{169}{section.11.4}
+\contentsline {chapter}{\numberline {12}Standard Model Backgrounds}{174}{chapter.12}
+\contentsline {section}{\numberline {12.1}Signal Region Background Composition}{174}{section.12.1}
+\contentsline {section}{\numberline {12.2}Using Control and Validation Regions to Estimate Background in the Signal Region}{175}{section.12.2}
+\contentsline {section}{\numberline {12.3}Dominant Background: Standard Model $t\ensuremath {\mathaccentV {bar}016{t}}$}{177}{section.12.3}
+\contentsline {subsection}{\numberline {12.3.1}Two Kinematically Distinct Populations of $t\ensuremath {\mathaccentV {bar}016{t}}$}{177}{subsection.12.3.1}
+\contentsline {subsection}{\numberline {12.3.2}Predicting the amount of $\ensuremath {t\mathaccentV {bar}016{t}}$ in Signal Region using a One-Lepton Control Region}{180}{subsection.12.3.2}
+\contentsline {subsubsection}{Control Region CRTopC Signal Contamination}{185}{figure.caption.90}
+\contentsline {subsubsection}{$\ensuremath {t\mathaccentV {bar}016{t}}$ Control Region Yields and Distributions}{187}{figure.caption.90}
+\contentsline {subsection}{\numberline {12.3.3}Validating $\ensuremath {t\mathaccentV {bar}016{t}}$ Predictions in Signal Region using a Zero-Lepton Validation Region}{192}{subsection.12.3.3}
+\contentsline {section}{\numberline {12.4}Subdominant Backgrounds}{196}{section.12.4}
+\contentsline {subsection}{\numberline {12.4.1}Standard Model W+Jets}{196}{subsection.12.4.1}
+\contentsline {subsection}{\numberline {12.4.2}Standard Model Single-Top}{202}{subsection.12.4.2}
+\contentsline {subsection}{\numberline {12.4.3}Standard Model \ensuremath {t\mathaccentV {bar}016{t}}+Z}{207}{subsection.12.4.3}
+\contentsline {subsection}{\numberline {12.4.4}Standard Model Z+Jets}{211}{subsection.12.4.4}
+\contentsline {subsection}{\numberline {12.4.5}Standard Model Diboson}{212}{subsection.12.4.5}
+\contentsline {subsection}{\numberline {12.4.6}Standard Model QCD Multijet}{213}{subsection.12.4.6}
+\contentsline {subsubsection}{The {\tt Jet Smearing} Method of Estimating QCD Background}{213}{subsection.12.4.6}
+\contentsline {subsubsection}{{\tt Jet Smearing} Seed Event Selection and Jet Response Function}{215}{figure.caption.111}
+\contentsline {subsubsection}{QCD multijet Control Region and Validation Region}{217}{table.caption.112}
+\contentsline {subsubsection}{QCD prediction in the Signal Region}{220}{figure.caption.116}
+\contentsline {chapter}{\numberline {13}Statistical Analysis}{222}{chapter.13}
+\contentsline {section}{\numberline {13.1}Introduction to Log Likelihood Fitting}{222}{section.13.1}
+\contentsline {section}{\numberline {13.2}Overview of Fitting to Control Regions and Signal Regions}{225}{section.13.2}
+\contentsline {section}{\numberline {13.3}Parameterization of Systematics as Gaussian Constraints}{228}{section.13.3}
+\contentsline {section}{\numberline {13.4}Background Only Fit and Background Estimation}{229}{section.13.4}
+\contentsline {section}{\numberline {13.5}Exclusion Fit and Exclusion Limit Calculation}{230}{section.13.5}
+\contentsline {section}{\numberline {13.6}Discovery Fit and Discovery Significance Calculation}{231}{section.13.6}
+\contentsline {chapter}{\numberline {14}Systematic Uncertainties}{233}{chapter.14}
+\contentsline {section}{\numberline {14.1}Experimental Uncertainties}{235}{section.14.1}
+\contentsline {subsection}{\numberline {14.1.1}Uncertainties on the Jet Energy Scale and Jet Energy Resolution }{235}{subsection.14.1.1}
+\contentsline {subsection}{\numberline {14.1.2}Uncertainty on $b$-tagging Efficiency}{238}{subsection.14.1.2}
+\contentsline {subsection}{\numberline {14.1.3}Uncertainty on the $\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}$ Soft Term}{240}{subsection.14.1.3}
+\contentsline {subsection}{\numberline {14.1.4}Uncertainties on Lepton Reconstruction and Resolution}{245}{subsection.14.1.4}
+\contentsline {subsection}{\numberline {14.1.5}Pile-up Uncertainty}{245}{subsection.14.1.5}
+\contentsline {section}{\numberline {14.2}Theoretical Uncertainties}{245}{section.14.2}
+\contentsline {subsection}{\numberline {14.2.1}$\ensuremath {t\mathaccentV {bar}016{t}}$ Theoretical Uncertainty}{247}{subsection.14.2.1}
+\contentsline {subsection}{\numberline {14.2.2}$\ensuremath {\ensuremath {W}\tmspace +\thinmuskip {.1667em}+\tmspace +\thinmuskip {.1667em}\mathrm {jets}}$ Theoretical Uncertainty}{250}{subsection.14.2.2}
+\contentsline {subsection}{\numberline {14.2.3}Single-top Theoretical Uncertainty}{251}{subsection.14.2.3}
+\contentsline {subsection}{\numberline {14.2.4}$\ensuremath {t\mathaccentV {bar}016{t}}+\ensuremath {W}/\ensuremath {Z}$ Theoretical Uncertainty}{253}{subsection.14.2.4}
+\contentsline {subsection}{\numberline {14.2.5}Dibosons Theoretical Uncertainty}{255}{subsection.14.2.5}
+\contentsline {subsection}{\numberline {14.2.6}$Z$+jets Theoretical Uncertainty}{255}{subsection.14.2.6}
+\contentsline {chapter}{\numberline {15}Results and Conclusion}{256}{chapter.15}
+\contentsline {section}{\numberline {15.1}Interpretation of Results on Different Stop Models}{260}{section.15.1}
+\contentsline {section}{\numberline {15.2}Broader Applications of the ISR Identification Algorithm}{263}{section.15.2}
+\contentsline {chapter}{References}{274}{chapter*.138}

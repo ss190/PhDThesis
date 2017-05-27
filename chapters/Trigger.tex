@@ -2,67 +2,67 @@
 \chapter{Trigger}
 \label{chap:trigger}
 
-\indent Due to the large volume of data produce at the LHC, an efficient and robust triggering system is essential in deciding which events are potentially interesting and recorded for later study.  The ATLAS trigger system is divided into two levels in Run 2.  The first-level trigger (Level1 or L1 trigger) is hardware based and uses a subset of detector information to quickly reduce the rate of accepted events from the initial 40 MHz to 100 kHz.  Afterwards, the software based high-level trigger (HLT) further reduces the event rate to 1 kHz.  Any events passing the HLT are recorded by ATLAS for further reconstruction and offline analysis. \\
+\indent Due to the large volume of data produced at the LHC, an efficient and robust triggering system is essential for deciding which events are potentially interesting and should be recorded for later study.  The ATLAS triggering system is composed of two levels in Run 2.  The first-level trigger (Level1 or L1 trigger) is hardware based and uses a subset of detector information to quickly reduce the rate of accepted events from the initial 40 MHz to 100 kHz.  Afterwards, the software based high-level trigger (HLT) further reduces the event rate to 1 kHz.  Any events passing the HLT are recorded by ATLAS for further reconstruction and offline analysis. \\
 
-\indent Object reconstruct at the HLT is done only to the precision required by the executed trigger algorithms.  The online reconstruction algorithms tend to be less precise then the offline reconstruction algorithms described in chapter \ref{chap:reconstruction} but are significantly faster. \\
+\indent Object reconstruction at the HLT is done only to the precision required by the trigger algorithms.  The online reconstruction algorithms tend to be less precise than the offline reconstruction algorithms described in chapter \ref{chap:reconstruction} but are significantly faster. \\
 
-\indent A schematic showing the different ATLAS trigger components is given in figure \ref{fig:trigScheme}.  Only components relevant to the triggers used in this analysis will be discussed in detail.  Further detail can be found in \cite{Trigger2015}.
+\indent A schematic showing the different ATLAS trigger components is given in Figure \ref{fig:trigScheme}.  Only components relevant to the triggers used in this analysis will be discussed in detail.  Further detail can be found in reference [\cite{Trigger2015}].
 
 \begin{figure}[h!]
   \begin{center}
-    \includegraphics[width=0.90\textwidth]{figures/trigger/tdaq-schematic.png}\hspace{0.05\textwidth}
+    \includegraphics[width=0.95\textwidth]{figures/trigger/tdaq-schematic.png}\hspace{0.05\textwidth}
 \end{center}
-\caption{Schematic representation of the ATLAS trigger system and information flow.\cite{Trigger2015}}
+\caption[Schematic representation of the ATLAS trigger system and information flow]{Schematic representation of the ATLAS trigger system and information flow.\cite{Trigger2015}}
 \label{fig:trigScheme} 
 \end{figure}
 
-\indent We use the lowest un-prescaled $\met$ trigger in this analysis.  This corresponds to the {\sc HLT\_xe70\_mht\_L1XE50} trigger in 2015,  {\sc HLT\_xe90\_mht\_L1XE50} for 2016 data taking period A-D3, {\sc HLT\_xe100\_mht\_L1XE50} for the period D4-F1 and {\sc HLT\_xe110\_mht\_L1XE50} for period F2 and onward. This corresponds to HLT $\met$ thresholds of $70$, $90$, $100$, and $110$ $\gev$ respectively.  The HLT trigger thresholds increased during 2015 and 2016 to accommodate for the increasing instantaneous luminosity. \\
+\indent We use the lowest unprescaled $\met$ trigger in this analysis.  The lowest unprescaled trigger threshold increases multiple times between early 2015 to late 2016 to accommodate the increases in instantaneous luminosity during the same time period. \\
 
-\indent All HLT triggers that we use are seeded by the L1\_XE50 trigger which corresponds to a L1 $\met$ threshold of $50 \gev$.  Therefore the L1 trigger threshold did not increase during 2015 and 2016.  \\
+\indent The lowest unprescaled triggers correspond to the {\sc HLT\_xe70\_mht\_L1XE50} trigger in 2015,  the {\sc HLT\_xe90\_mht\_L1XE50} trigger for 2016 data taking period A-D3, the {\sc HLT\_xe100\_mht\_L1XE50} trigger for the period D4-F1 and the {\sc HLT\_xe110\_mht\_L1XE50} trigger for period F2 and onward. These triggers have a HLT $\met$ threshold of $70$, $90$, $100$, and $110$ $\gev$ respectively.   All HLT triggers that we use are seeded by the L1\_XE50 trigger which corresponds to  the L1 $\met$ threshold of $50 \gev$.   \\
 
-\indent A summary of the L1 and HLT $\met$ triggers used in this analysis is given in section \ref{sec:trig:L1Calo} to \ref{sec:trig:metHLT}\\
+\indent A summary of the L1 and HLT $\met$ triggers used in this analysis is given in sections \ref{sec:trig:L1Calo} and \ref{sec:trig:HLT_MET}.\\
 
 \section{Level 1 $\met$ trigger}
 \label{sec:trig:L1Calo}
 
-\indent The L1 $\met$ trigger is based on the vector sum of $E_T$ in the calorimeter and is part of the L1Calo trigger system \cite{L1Calo} shown in figure \ref{fig:trigScheme}.  The process starts with trigger towers in the electromagnetic and hadronic calorimeters.  Trigger towers are more corse then those used in offline reconstruction: Most are $0.1~\times~0.1$ in $\Delta\eta~\times~\Delta\phi$.  The trigger towers are calibrated at the electromagnetic energy scale (EM scale) which correctly reconstructs EM shower energy but underestimates hadronic showers.  \\
+\indent The L1 $\met$ trigger is based on the vector sum of $E_T$ in the calorimeter and is part of the L1Calo trigger system \cite{L1Calo} shown in Figure \ref{fig:trigScheme}.  The process starts with trigger towers in the electromagnetic and hadronic calorimeters.  Trigger towers are more coarse then those used in offline reconstruction; most are $0.1~\times~0.1$ in $\Delta\eta~\times~\Delta\phi$. \\% The trigger towers are calibrated at the electromagnetic energy scale (EM scale) which correctly reconstructs EM shower energy but underestimates hadronic showers.  \\
 
-\indent These trigger towers are then built into jet elements composed of $2~\times~2$ EM trigger towers and combined with the $2~\times~2$ hadronic trigger towers directly behind the EM towers. The jet elements are then fed to the Jet/Energy-sum Processor (JEP).  The JEP calculates the global sums of $E_t$ and $\met$ by summing the $E_x$, $E_y$, and scalar $E_t$ of all jet elements.  If the total $\met = |- \sqrt{E_x^2+E_y^2}|$ is above a certain value the event passes the $\met$ trigger and is passed to the HLT.  The L1\_XE50 $\met$ trigger has a 50 $\gev$ threshold. \\
+\indent These trigger towers are then built into jet elements composed of $2~\times~2$ EM trigger towers and combined with the $2~\times~2$ hadronic trigger towers directly behind the EM towers. The jet elements are then fed to the Jet/Energy-sum Processor (JEP).  The JEP calculates the global sums of $E_t$ and $\met$ by summing the scalar $E_t$ and the vector $<E_x, E_y>$ for all jet elements.  If the total $\met = |- \sum_{all~jet~elements} \sqrt{E_x^2+E_y^2}|$ is above a trigger threshold value then the event passes the $\met$ trigger and is passed to the HLT.  For instance, the L1\_XE50 $\met$ trigger has a 50 $\gev$ threshold. \\
 
 \section{HLT $\met$ trigger}
 \label{sec:trig:HLT_MET}
 
-\indent The reconstruction of $\met$ for the HLT also begins with identifying topo-clusters in the calorimeters.  Much like offline topo-clusters described in section \ref{sec:jet:reco}.  Seed cells with greater then $4\sigma$ signal over noise thresholds are first identified and neighboring cells with greater then $2\sigma$ thresholds are added.  Neighboring cells with greater then $2\sigma$ are continually added until no neighboring cell pass the $2\sigma$ threshold.  At this point, one final round of neighboring cells are added regardless of energy thresholds. \\
+\indent The reconstruction of $\met$ for the HLT also begins by identifying topo-clusters in the calorimeters, much like offline topo-clusters described in section \ref{sec:jet:reco}.  Seed cells that pass the $4\sigma$ signal over noise thresholds are first identified and neighboring cells that pass a $2\sigma$ signal over noise thresholds are added to the cluster.  Neighboring cells that pass $2\sigma$ signal over noise thresholds are continually added to the cluster until no cells neighboring the cluster can pass the $2\sigma$ signal over noise threshold.  At this point, one final round of neighboring cells are added regardless of their signal over noise thresholds. \\
 
-\indent Jet reconstruction and calibration are also similar to offline jet reconstruction described in section \ref{sec:jet:reco}.  Jets are reconstructed using the $\antikt$ algorithm from topo-clusters.  Jet calibration also follow the same basic offline procedure in section \ref{sec:jet:calib}. However, HLT jet calibration and offline calibration procedures do differ in many ways including different pile-up corrections, track-based correction and certain in-situ corrections.  Overall this leads to poorer jet resolutions at the HLT level.  Some of these corrections were added in 2016 to further improve the agreement between online and offline jet reconstruction.  Details can be found in \cite{Trigger2016}. \\
+\indent Jet reconstruction and calibration are also similar to offline jet reconstruction described in section \ref{sec:jet:reco}.  Jets are reconstructed using the $\antikt$ algorithm from topo-clusters.\cite{jetReco7TeV}  Jet calibration also follows the same basic offline procedure in section \ref{sec:jet:calib}. However, HLT jet calibration and offline calibration procedures do differ in many ways including different pile-up corrections, track-based corrections and certain in-situ corrections.  Overall this leads to poorer jet resolutions at the HLT level.  Some of these corrections were added in 2016 to further improve the agreement between online and offline jet reconstruction.  Details can be found in the reference [\cite{Trigger2016}]. \\
 
-\indent The $\met$ is calculated directly by calculating the vector sum of the negative transverse momentum of all reconstructed jets.  Only contributions from the calorimeter is taken into account in the $\met$ calculation and muon tracks are not included.  This method of calculating the $\met$ from calibrated jets is referred to as missing $H_T$ (MHT).  \\
+\indent The trigger $\met$ reconstruction algorithm, called the online $\met$ reconstruction algorithm, defines the $\met$ as the negative vector sum of the transverse momentum of all reconstructed jets.   Only contributions from the calorimeter are taken into account in the $\met$ calculation and muon tracks are not included.  This method of calculating the $\met$ from calibrated jets is referred to as missing $H_T$ (MHT).  \\
 
-\indent We apply a 70, 90, 100, or 110 $\gev$ threshold to our HLT $\met$ trigger depending on the data taking period.  Trigger threshold increases over time because the instantaneous luminosity increases. \\
+\indent We apply a 70, 90, 100, or 110 $\gev$ threshold to our HLT $\met$ trigger depending on the data taking period.  The trigger $\met$ threshold increases over time because the instantaneous luminosity also increases. \\
 
-\indent Trigger turn on curves as a function of offline $\met$ can be seen in figure \ref{fig:trigTurnON}.  The poorer online $\met$ resolution leads to a more gradual turn on curve. \\
+\indent Trigger turn on curves as a function of offline $\met$ can be seen in Figure \ref{fig:trigTurnON}.  If online $\met$ reconstruction has the same $\met$ resolution as the offline $\met$ resolution then the trigger turn on curve would approach a step function.  The poor online $\met$ resolution compared to the offline $\met$ resolution is the reason behind the gradual trigger turn on curve. \\
 
 \begin{figure}[h!]
   \begin{center}
     \includegraphics[width=0.65\textwidth]{figures/trigger/2016-05-16-UpdatedTurnOns.png}\hspace{0.05\textwidth}
 \end{center}
-\caption{ATLAS trigger turn on curves for MHT $\met$ triggers with several different thresholds. (Figure taken from \cite{Trigger2016})}
+\caption[ATLAS trigger turn on curves for $\met$ triggers with several different thresholds.]{ATLAS trigger turn on curves for $\met$ triggers with several different thresholds.\cite{Trigger2016} The $\met$ reconstruction algorithm used in triggering defines the $\met$ as the negative vector sum of the transverse momentum of all reconstructed jets. This method of calculating the $\met$ from calibrated jets is referred to as missing $H_T$ (MHT).  Three HLT $\met$ trigger thresholds of 80, 90, and 100 $\gev$ are shown, correspond to {\sc HLT\_xe80}, {\sc HLT\_xe90}, and the {\sc HLT\_xe100} triggers.  The turn on curve for the {\sc L1\_XE50} $\met$ trigger with a L1 $\met$ threshold of 50 $\gev$ is also shown.  All HLT triggers are seeded by the {\sc L1\_XE50} trigger and therefore reach $\sim100$\% trigger efficiency at a higher offline $\met$ than {\sc L1\_XE50}. The poorer online $\met$ resolution compared to the offline $\met$ resolution is the reason behind the gradual trigger turn on curve. }
 \label{fig:trigTurnON} 
 \end{figure}
 
 \section{Improvements to the $\met$ Trigger in Run 2}
 \label{sec:trig:improvements}
 
-\indent A significant improvement to pileup mitigation was made to the L1Calo trigger system for Run 2.\cite{Trigger2015}  The ATLAS Liquid Argon Calorimeter integrates its signal over a time window of $600$ ns.  This long time window corresponds to 24 bunch crossings.  Hence, energy deposition from collisions occurring in neighboring bunches (referred to as out-of-time pileup) will be registered as signal.  This results in a higher average signal amplitude (pedestal) in collisions at the beginning of a bunch train then those at the end of a bunch train.  \\
+\indent A significant improvement to pile-up mitigation was made to the L1Calo trigger system for Run 2.\cite{Trigger2015}  The ATLAS Liquid Argon Calorimeter integrates its signal over a time window of $600$ ns.  This long time window corresponds to 24 bunch crossings.  Hence, energy deposition from collisions occurring in neighboring bunches (referred to as out-of-time pile-up) will be registered as signal.  This results in a higher average signal amplitude, referred to as the pedestal, in collisions at the beginning of a bunch train than those at the end of a bunch train.  \\
 
-\indent The pedestal's dependence on bunch-crossing location was corrected offline but not at the trigger level in Run 1.  However in Run 2, a dynamic bunch-by-bunch pedestal correction was implemented at the trigger level.  This lead to a significant reduction in L1 $\met$ trigger rate as shown in figure \ref{fig:L1METImprove}. \\
+\indent The pedestal's dependence on bunch-crossing location was corrected offline but not at the trigger level in Run 1.  However in Run 2, a dynamic bunch-by-bunch pedestal correction was implemented at the trigger level.  This lead to a significant reduction in L1 $\met$ trigger rate as shown in Figure \ref{fig:L1METImprove}. \\
 
 \begin{figure}[h!]
   \begin{center}
     \includegraphics[width=0.65\textwidth]{figures/trigger/L1_XE50.png}\hspace{0.05\textwidth}
 \end{center}
-\caption{Improvement to the L1\_XE50 rate with new dynamic pedestal correction for out-of-time pileup.\cite{Trigger2015}}
-\label{fig:trigScheme} 
+\caption[Improvement to the {\sc L1\_XE50} rate with new dynamic pedestal correction for out-of-time pile-up]{Improvement to the {\sc L1\_XE50} rate with new dynamic pedestal correction for out-of-time pile-up.\cite{Trigger2015}  The L1 trigger rate with the liquid argon pedestal correction is significantly lower than the trigger rate without pedestal corrections at high instantaneous luminosities in 2015 data.  }
+\label{fig:L1METImprove} 
 \end{figure}
 
-\indent This improvement to the LAr energy calibration also improves the jet energy calibration at the HLT.  This not only improves HLT $\met$ trigger performance but also improves the performance of other HLT calorimeter triggers such as those on total $E_T$. \cite{Trigger2016} \\
+\indent The pedestal correction to the LAr energy calibration also improves the jet energy calibration at the HLT level.  This not only improves HLT $\met$ trigger performance but also improves the performance of other HLT calorimeter triggers such as those on total $E_T$. \cite{Trigger2016} \\

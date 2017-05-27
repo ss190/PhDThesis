@@ -7,6 +7,12 @@
   $\sqrt{s}=7$ TeV}}.
 \newblock Technical Report ATLAS-CONF-2010-053, CERN, Geneva.
 
+\bibitem[Hig, 2012]{HiggsATLAS}
+ (2012).
+\newblock Observation of a new particle in the search for the standard model
+  higgs boson with the \{ATLAS\} detector at the \{LHC\}.
+\newblock {\em Physics Letters B}, 716(1), 1 -- 29.
+
 \bibitem[pil, 2013]{pileupsub}
  (2013).
 \newblock {\em {Pile-up subtraction and suppression for jets in ATLAS}}.
@@ -54,7 +60,7 @@
   proton-proton collisions at sqrt(s) = 8 TeV}}.
 \newblock Technical Report ATLAS-CONF-2015-002, CERN, Geneva.
 
-\bibitem[Jet, 2015]{JetCalibartion13TeV}
+\bibitem[Jet, 2015]{JetCalibration13TeV}
  (2015).
 \newblock {\em {Monte Carlo Calibration and Combination of In-situ Measurements
   of Jet Energy Scale, Jet Energy Resolution and Jet Mass in ATLAS}}.
@@ -125,7 +131,7 @@
 \bibitem[SUS, 2017]{SUSYinclusive0L}
  (2017).
 \newblock {\em {Search for squarks and gluinos in final states with jets and
-  missing transverse momentum using 36 fb$^{?1}$ of $\sqrt{s} =13$ TeV pp
+  missing transverse momentum using 36 fb$^{-1}$ of $\sqrt{s} =13$ TeV pp
   collision data with the ATLAS detector}}.
 \newblock Technical Report ATLAS-CONF-2017-022, CERN, Geneva.
 
@@ -134,23 +140,11 @@
 \newblock {\em {Trigger Menu in 2016}}.
 \newblock Technical Report ATL-DAQ-PUB-2017-001, CERN, Geneva.
 
-\bibitem[Achenbach et~al., 2008]{L1Calo}
-Achenbach, R., Adragna, P., Andrei, V., Apostologlou, P., Åsman, B., Ay, C.,
-  Barnett, B.~M., Bauss, B., Bendel, M., Bohm, C., Booth, J. R.~A., Brawn,
-  I.~P., Thomas, P.~B., Charlton, D.~G., Collins, N.~J., Curtis, C.~J.,
-  Dahlhoff, A., Davis, A.~O., Eckweiler, S., Edwards, J.~P., Eisenhandler, E.,
-  Faulkner, P. J.~W., Fleckner, J., Föhlisch, F., Garvey, J., Gee, C. N.~P.,
-  Gillman, A.~R., Hanke, P., Hatley, R.~P., Hellman, S., Hidvégi, A., Hillier,
-  S.~J., Jakobs, K., Johansen, M., Kluge, E.~E., Landon, M., Lendermann, V.,
-  Lilley, J.~N., Mahboubi, K., Mahout, G., Mass, A., Meier, K., Moa, T., Moyse,
-  E., Müller, F., Neusiedl, A., Nöding, C., Oltmann, B., Pentney, J.~M.,
-  Perera, V. J.~O., Pfeiffer, U., Prieur, D. P.~F., Qian, W., Rees, D.~L.,
-  Rieke, S., Rühr, F., Sankey, D. P.~C., Schäfer, U., Schmitt, K.,
-  Schultz-Coulon, H.~C., Schumacher, C., Silverstein, S., Staley, R.~J.,
-  Stamen, R., Stockton, M.~C., Tapprogge, S., Thomas, J.~P., Trefzger, T.,
-  Watkins, P.~M., Watson, A., Weber, P., \& Woehrling, E.~E. (2008).
-\newblock The atlas level-1 calorimeter trigger.
-\newblock {\em Journal of Instrumentation}, 3(03), P03001.
+\bibitem[Adams, 2008]{SUSYTevatron}
+Adams, T. (2008).
+\newblock {SUSY Searches at the Tevatron}.
+\newblock In {\em {Hadron collider physics. Proceedings, 19th Symposium,
+  HCP2008, Galena, USA, May 27-31, 2008}}.
 
 \bibitem[Agostinelli et~al., 2003]{Geant}
 Agostinelli, S. et~al. (2003).
@@ -223,8 +217,13 @@ Borschensky, C., Kr{\"a}mer, M., Kulesza, A., Mangano, M., Padhi, S., Plehn,
   $\sqrt{s}$ = 13, 14, 33 and 100 tev.
 \newblock {\em Eur. Phys. J.}, C74(12), 3174.
 
-\bibitem[Cacciari et~al., 2008]{JetAreaGhostAssociate}
-Cacciari, M., Salam, G.~P., \& Soyez, G. (2008).
+\bibitem[Cacciari et~al., 2008a]{antikt}
+Cacciari, M., Salam, G.~P., \& Soyez, G. (2008a).
+\newblock The anti-kt jet clustering algorithm.
+\newblock {\em Journal of High Energy Physics}, 2008(04), 063.
+
+\bibitem[Cacciari et~al., 2008b]{JetAreaGhostAssociate}
+Cacciari, M., Salam, G.~P., \& Soyez, G. (2008b).
 \newblock The catchment area of jets.
 \newblock {\em Journal of High Energy Physics}, 2008(04), 005.
 
@@ -261,6 +260,12 @@ Collaboration, A. (2016b).
   auxiliary figures are available at
   http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/TRIG-2016-01/.
 
+\bibitem[Collaboration, 2012]{HiggsCMS}
+Collaboration, C. (2012).
+\newblock Observation of a new boson at a mass of 125 gev with the \{CMS\}
+  experiment at the \{LHC\}.
+\newblock {\em Physics Letters B}, 716(1), 30 -- 61.
+
 \bibitem[Collaboration, 2008]{ATLAS_JINST}
 Collaboration, T.~A. (2008).
 \newblock The atlas experiment at the cern large hadron collider.
@@ -280,6 +285,28 @@ Czakon, M. \& Mitov, A. (2014).
   at Hadron Colliders}.
 \newblock {\em Comput. Phys. Commun.}, 185, 2930.
 
+\bibitem[Djouadi, 2008]{EWSB}
+Djouadi, A. (2008).
+\newblock The anatomy of electroweak symmetry breaking: Tome i: The higgs boson
+  in the standard model.
+\newblock {\em Physics Reports}, 457(1–4), 1 -- 216.
+
+\bibitem[Donoghue et~al., 1992]{donoghue_golowich_holstein_1992}
+Donoghue, J.~F., Golowich, E., \& Holstein, B.~R. (1992).
+\newblock {\em Dynamics of the Standard Model}.
+\newblock Cambridge Monographs on Particle Physics, Nuclear Physics and
+  Cosmology. Cambridge University Press.
+
+\bibitem[Englert \& Brout, 1964]{Higgs2}
+Englert, F. \& Brout, R. (1964).
+\newblock Broken symmetry and the mass of gauge vector mesons.
+\newblock {\em Phys. Rev. Lett.}, 13, 321--323.
+
+\bibitem[et~al., 2008]{L1Calo}
+et~al., R.~A. (2008).
+\newblock The atlas level-1 calorimeter trigger.
+\newblock {\em Journal of Instrumentation}, 3(03), P03001.
+
 \bibitem[Evans \& Bryant, 2008]{LHC}
 Evans, L. \& Bryant, P. (2008).
 \newblock {LHC Machine}.
@@ -290,11 +317,27 @@ Fruhwirth, R., Waltenberger, W., \& Vanlaer, P. (2007).
 \newblock {Adaptive vertex fitting}.
 \newblock {\em J. Phys.}, G34, N343.
 
+\bibitem[Gianotti, 2002]{SUSYLep}
+Gianotti, F. (2002).
+\newblock Searches for supersymmetry at high-energy colliders: the past, the
+  present and the future.
+\newblock {\em New Journal of Physics}, 4(1), 63.
+
 \bibitem[Gleisberg et~al., 2009]{sherpa}
 Gleisberg, T., Hoeche, S., Krauss, F., Schonherr, M., Schumann, S., Siegert,
   F., \& Winter, J. (2009).
 \newblock {Event generation with SHERPA 1.1}.
 \newblock {\em JHEP}, 02, 007.
+
+\bibitem[Higgs, 1964]{Higgs1}
+Higgs, P.~W. (1964).
+\newblock Broken symmetries and the masses of gauge bosons.
+\newblock {\em Phys. Rev. Lett.}, 13, 508--509.
+
+\bibitem[Higgs, 1966]{Higgs3}
+Higgs, P.~W. (1966).
+\newblock Spontaneous symmetry breakdown without massless bosons.
+\newblock {\em Phys. Rev.}, 145, 1156--1163.
 
 \bibitem[{Hoecker} et~al., 2007]{TMVA}
 {Hoecker}, A., {Speckmayer}, P., {Stelzer}, J., {Therhaag}, J., {von Toerne},
@@ -351,6 +394,10 @@ Owen, S. (2012).
   searches with jets and missing transverse momentum at ATLAS using jet
   smearing}}.
 \newblock Technical Report ATL-PHYS-INT-2012-008, CERN, Geneva.
+
+\bibitem[Peskin \& Schroeder, 1995]{peskinQFT}
+Peskin, M.~E. \& Schroeder, D.~V. (1995).
+\newblock An introduction to quantum field theory.
 
 \bibitem[Pumplin et~al., 2002]{CTEQ6L1}
 Pumplin, J., Stump, D.~R., Huston, J., Lai, H.-L., Nadolsky, P., \& Tung, W.-K.

@@ -1,26 +1,33 @@
 \section{Vertex Reconstruction}
 \label{sec:reco:vtx}
 
-\indent On average around 25 proton-proton interactions occur in every beam crossing in Run 2.  These p-p interactions are spread out in the $Z$ coordinate due to the finite bunch length at the LHC.  We are able to reconstruct the original interaction vertex (primary vertex) by tracing back charged particle tracks to the beam line.  We are able to differentiate objects from the interesting hard scattering p-p interaction from other pileup interactions using reconstructed vertexes.  A summary of the primary vertex reconstruction algorithm is given in this section.  \\
+\indent On average around 25 proton-proton interactions occur in every beam crossing in Run 2.  These p-p interactions are spread out in the $Z$ coordinate due to the finite bunch length at the LHC.  We are able to reconstruct the original interaction vertex (primary vertex) by tracing back charged particle tracks to the beam line.  We are able to differentiate objects from the interesting hard scattering p-p interaction from other pile-up interactions by reconstructing vertices.  A brief summary of the primary vertex reconstruction algorithm is given in this section.  Greater detail can be found in references [\cite{VertexReco,adaptiveFitting}]. \\
 
-\indent A subset of reconstructed ID tracks are used to reconstruct the primary vertexes.  In Run 2 tracks must satisfy:
+\indent A subset of reconstructed ID tracks are used to reconstruct the primary vertices.  In Run 2 tracks must satisfy:
 
 \begin{itemize}
 \item[] $\pt > 400 \mev$
 \item[] $|\eta| < 2.5$
 \item[] number of silicon hits $ \ge 9$ if $|\eta| \le 1.65$ or $\ge 11$ if $|\eta| > 1.65$
 \item[] IBL hits + B Layer hits $\ge 1$
-\item[] maximum $1$ shared module ($1$ shared pixel hit or $2$ shared SCT hit)
-\item[] pixel holes $= 0$
+\item[] maximum $1$ shared module ($1$ shared pixel hit or $2$ shared SCT hits)
+\item[] pixel holes $= 0$ (holes exist when a hit is expected in a layer of sensors given the fitted trajectory of the track but none is found)
 \item[] SCT holes $\le 1$
 \end{itemize}
 
-\indent A vertex seed is found by searching for the global maximum in the $Z$ coordinate of reconstructed tracks.  The vertex position is fitted using an algorithm that is robust to additional noise and outlier tracks called the adaptive vertex fitting algorithm \cite{VertexReco,adaptiveFitting}.  \\
+\indent A vertex seed is found by searching for the global maximum in the $Z$ coordinate of reconstructed tracks.  The vertex position is fitted using an algorithm that is robust to additional noise and outlier tracks called the adaptive vertex fitting algorithm. \cite{VertexReco,adaptiveFitting}  \\
 
-\indent Adaptive fitting determines the vertex position using a least squared fitting method, but gives the outlier tracks lower weights in the fit.  The vertex position is repeatedly fitted until the fit position no longer changes. A new vertex center is found and new set of weights is calculated for each new fit.  The weighting function also changes from fit to fit according to a predeterminate way; giving more weight to a smaller sub-set of tracks each iteration, ultimately approaching a step function.  \\%The final set of tracks selected is fitted to determine the final position and uncertainty of the vertex. \\
+\indent Adaptive fitting determines the vertex position by fitting to ID tracks according to the least squares fitting method.  Tracks far from the vertex center, called outlier tracks, have lower weights in the fit than tracks close to the vertex center.  The simple least squares fitting method is sensitive to outliers tracks far from the vertex center.  Outlier tracks have a high probability of being noise tracks that don't actually originate from the vertex we are trying to reconstruct.  By weighting outlier tracks less in the fit, the adaptive fitting algorithm is able to decrease sensitivity to these noise tracks.  \\
 
-\indent This method of lowering the weight of outlier tracks in each fit and decreasing the weight in each iteration is called determinist annealing. \cite{adaptiveFitting}  The procedure is analogous to repeatedly heating and cooling metal in a forge to make the metal's crystal lattice more regular.  At each iteration, a more compact and regular set of tracks are selected eventually ending in a fix set of selected tracks.  \\
+\indent A-priori, we don't know the true position of the vertex center and which tracks are outliers.  Therefore, the vertex is fitted iteratively.  Initially, all tracks have high weights. This allows all tracks, including outlier tracks, to influence the position of the fitted vertex center.  The weight of the outlier tracks decreases with each fit iteration and more weight is given to a core set of tracks near the fitted vertex center.  In this way, the adaptive fitting algorithm determines both the vertex center and which tracks are outliers with increasing accuracy after each iteration.  This process is repeated until the fitted vertex center no longer changes. \\
 
-\indent  After determining the vertex position, all tracks within $7\sigma$ of the vertex is considered to be associated with the vertex.  A conservative $7\sigma$ acceptance is used to avoid one energetic vertex being split into two during reconstruction.  Tracks incompatible with the vertex from a new vertex seed.  This process is repeated until all tracks have been clustered into vertexes or no additional vertexes can be found.  Each vertex must have at least two associated tracks. \\
+%The vertex position is repeatedly fitted until the fit position no longer changes.  The weight of all outlier tracks decreases with each fit iteration. \\ %Ultimately, the algorithm only selects tracks within a fixed distance from the fitted vertex center of the vertex and all tracks outside this range have zero weight.  \\
 
-\indent The primary vertex with the highest total $\pt$ summed over all associated tracks is identified as the vertex of the hard scattering interaction.  All other primary vertexes are referred to as pileup vertexes.
+%\indent 
+%\indent This method of lowering the weight of outlier tracks in each fit and decreasing the weight in each iteration is called determinist annealing.\cite{adaptiveFitting}  The procedure is more robust to noise than a simple least squared fitting method.   %The procedure is analogous to repeatedly heating and cooling metal in a forge to make the metal's crystal lattice more regular.  At each iteration, a more compact and regular set of tracks are selected eventually ending in a fix set of selected tracks.  \\
+
+%\indent  After determining the vertex position, all tracks within $7\sigma$ of the fitted vertex center is considered to be associated with the vertex.  A conservative $7\sigma$ acceptance is used to avoid one energetic vertex being split into two during reconstruction.  
+
+\indent After a vertex is found, tracks incompatible with the vertex form a new vertex seed.  The vertex reconstruction process is repeated until all tracks have been clustered into vertices or no additional vertices can be found.\\ % Each vertex must have at least two associated tracks. \\
+
+\indent The primary vertex with the highest total $\pt$ summed over all associated tracks is identified as the vertex of the hard scattering interaction.  All other primary vertices are referred to as pile-up vertices.

@@ -56,12 +56,14 @@ T = \frac{N_{MC}^{SR}}{N_{MC}^{CR}}
 
 \indent $T_f^{\mathrm{\powheg\pythia}}$, $T_f^{\mathrm{\powheg\herwigpp}}$ and $T_f^{\mathrm{\sherpa}}$ correspond to the transfer factors derived by using the nominal $\powheg\pythia$ $\ttbar$ MC, the $\powheg\herwigpp$ $\ttbar$ MC and the $\sherpa$ $\ttbar$ MC.  $\Delta_{\mathrm{hard~scatter}}$ is the uncertainty on the hard scattering calculation and $\Delta_{\mathrm{PS}}$ is the uncertainty on the parton shower calculation. \\
 
-\indent The MC $\ttbar$ yields in the control region, validation region and signal region for the different $\ttbar$ samples and the $\ttbar$ theory uncertainties are given in Table \ref{tab:ttbar_unc_SRC}  \\
+\indent The MC $\ttbar$ yields in the control region, validation region and signal region for the different $\ttbar$ samples and the $\ttbar$ theory uncertainties are given in Table \ref{tab:ttbar_unc_SRC}.  \\
 
 \pagebreak
   
  \begin{table}[!h]
-    \begin{center} \footnotesize
+    \caption{MC yields and theory uncertainties for the $\ttbar$\ background for the control, validation and signal regions.  MC yields are quoted for before any fitting to the data in the control region. Uncertainties are derived using variations in the transfer factor according to equations \ref{eq:ttbar_ISRuncert}, \ref{eq:ttbar_ME_uncertainty} and \ref{eq:ttbar_PS_uncertainty}. The uncertainties are symmetrical and are quantified as percentage of total background yield. }
+    \label{tab:ttbar_unc_SRC}
+    \begin{center} %\footnotesize
     
         \begin{tabular}{|c|c|c|c|c|}
 	\noalign{\smallskip}\noalign{\smallskip}\hline
@@ -103,8 +105,6 @@ $\ttbar$ (Sherpa)&     $22\pm 5 $&     $7.4\pm 3.2 $&          $<0.01$\\
        
         
     \end{center}
-    \caption{MC yields and theory uncertainties for the $\ttbar$\ background for the control, validation and signal regions.  MC yields are quoted for before any fitting to the data in the control region. Uncertainties are derived using variations in the transfer factor according to equations \ref{eq:ttbar_ISRuncert}, \ref{eq:ttbar_ME_uncertainty} and \ref{eq:ttbar_PS_uncertainty}. The uncertainties are symmetrical and are quantified as percentage of total background yield. }
-    \label{tab:ttbar_unc_SRC}
   \end{table}
 
 \subsection{$\Wjets$ Theoretical Uncertainty}
@@ -114,11 +114,11 @@ $\ttbar$ (Sherpa)&     $22\pm 5 $&     $7.4\pm 3.2 $&          $<0.01$\\
 \indent The total theory uncertainty on $\Wjets$ in the signal region is given in Table \ref{tab:WThSyst}.  Values are given as percent uncertainties on $\Wjets$ yields in the signal region.  The uncertainties are symmetrical. \\
 
   \begin{table}[!h]
-    \begin{center} \footnotesize
-    \input{tables/syst/wSysts.tex}
-    \end{center}
     \caption{Summary of the theory uncertainties (in percent) on $W$ production obtained using variations on transfer factors. The uncertainties are symmetrical and are quantified as percentage of total background yield.}
     \label{tab:WThSyst}
+    \begin{center} %\footnotesize
+    \input{tables/syst/wSysts.tex}
+    \end{center}
   \end{table}        
 
 \subsection{Single-top Theoretical Uncertainty}
@@ -146,7 +146,11 @@ $\ttbar$ (Sherpa)&     $22\pm 5 $&     $7.4\pm 3.2 $&          $<0.01$\\
 \indent The single-top MC yields and theory uncertainties are given in Table \ref{tab:single_top_unc3}.  The MC yields corresponding to different single-top MC samples are given for control, validation and signal regions.  The single-top theory uncertainties are derived using transfer factors. \\
 
    \begin{table}[!h]
-    \begin{center} \footnotesize
+    \caption{Summary of the single-top (ST) theory uncertainties obtained in each of the signal regions. The uncertainties are computed according to the variation on the transfer factor defined in equation \ref{eq:theory_uncertainty}. The uncertainties are symmetrical and are quantified as percentage of total background yield. %The total uncertainty is the sum in quadrature of the uncertainties labeled ``Total    generator+PS+interference''. 
+}
+    \label{tab:single_top_unc3}
+    
+    \begin{center}% \footnotesize
 
        \begin{tabular}{|c|c|c|c|c|}
        \noalign{\smallskip}\noalign{\smallskip}\hline
@@ -184,9 +188,7 @@ ST  (DS)&       $6.8\pm 0.4$ &       $4.39\pm 0.31$ &   $0.12\pm 0.05$&         
         \end{tabular}
         
     \end{center}
-    \caption{Summary of the single-top (ST) theory uncertainties obtained in each of the signal regions. The uncertainties are computed according to the variation on the transfer factor defined in equation \ref{eq:theory_uncertainty}. The uncertainties are symmetrical and are quantified as percentage of total background yield. %The total uncertainty is the sum in quadrature of the uncertainties labeled ``Total    generator+PS+interference''. 
-}
-    \label{tab:single_top_unc3}
+
   \end{table}
 
 
@@ -194,23 +196,23 @@ ST  (DS)&       $6.8\pm 0.4$ &       $4.39\pm 0.31$ &   $0.12\pm 0.05$&         
 
 \indent The $\ttV$ theoretical uncertainty include scale variations and variations on the underlying event tuning.  An additional uncertainty on the difference between the $\ttbar\gamma$ and $\ttbar Z$ vector boson $\pt$ differential cross sections is added to the total $\ttV$ uncertainty due to the procedure of using $\ttbar+\gamma$ to estimate $\ttV$.  The $\sherpa$+OpenLoops program\cite{OpenLoops} is used to calculate $\ttbar \gamma$ and $\ttbar Z$ vector boson differential cross-sections to NLO accuracy.  The difference between $\sherpa$+OpenLoops and the nominal {\sc MadGraph5\_aMC\/@NLO} cross-sections is combined in quadrature with the variations on the scale and the underlying event tune to give the total $\ttV$ theoretical uncertainty. \\
 
-\indent The $\ttV$ theoretical uncertainty is given in Table \ref{ab:ttbarZ_unc1}.  The systematic uncertainty maybe large for $\ttV$ production in the signal region but $\ttV$ comprise about 1\% of our expected background. Therefore uncertainties on the $\ttV$  process do not contribute significantly to the total background uncertainty in the analysis. \\
+\indent The $\ttV$ theoretical uncertainty is given in Table \ref{tab:ttbarZ_unc1}.  The systematic uncertainty maybe large for $\ttV$ production in the signal region but $\ttV$ comprise about 1\% of our expected background. Therefore uncertainties on the $\ttV$  process do not contribute significantly to the total background uncertainty in the analysis. \\
 
   \begin{table}[!h]
-    \begin{center} \footnotesize
+      \caption{Summary of the theory uncertainties (in percent) on $\ttV$ production obtained on the transfer factor. The uncertainties are symmetrical and are quantified as percentage of total background yield.}
+    \label{tab:ttbarZ_unc1}
+    \begin{center} %\footnotesize
       \input{tables/syst/ttVSyst.tex}
     \end{center}
-    \caption{Summary of the theory uncertainties (in percent) on $\ttV$ production obtained on the transfer factor. The uncertainties are symmetrical and are quantified as percentage of total background yield.}
-    \label{tab:ttbarZ_unc1}
   \end{table}
 
 \subsection{Dibosons Theoretical Uncertainty}
 
-A 50\% uncertainty is used for the dibosons estimate because the diboson yield is predicted using MC alone.
+A 50\% theory uncertainty is applied to the dibosons MC estimate.
 
 \subsection{$Z$+jets Theoretical Uncertainty}
 
-A 50\% uncertainty is used for the $\Zjets$ estimate because the $\Zjets$ yield is predicted using MC alone.
+A 50\% theory uncertainty is applied to the $\Zjets$ MC estimate.
 
 %\subsection{Signal Theoretical Uncertainty}
 
